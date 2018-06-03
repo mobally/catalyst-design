@@ -932,7 +932,7 @@ class RTMedia {
 			return false;
 		}
 		if ( ! $global_album ) {
-			$global_album = $album->add_global( esc_html__( 'Wall Posts', 'buddypress-media' ) );
+			$global_album = $album->add_global( esc_html__( 'アルバム', 'buddypress-media' ) );
 		}
 
 		// fix multisite global album doesn't exist issue.
@@ -941,7 +941,7 @@ class RTMedia {
 			$global_albums = rtmedia_global_albums();
 			$album_objects = $model->get_media( array( 'id' => ( $global_albums ) ), false, false );
 			if ( empty( $album_objects ) ) {
-				$global_album = $album->add_global( esc_html__( 'Wall Posts', 'buddypress-media' ) );
+				$global_album = $album->add_global( esc_html__( 'アルバム', 'buddypress-media' ) );
 			}
 			rtmedia_update_site_option( 'rtmedia_fix_multisite_global_albums', true );
 		}
@@ -1058,17 +1058,17 @@ class RTMedia {
 		wp_localize_script( 'rtmedia-main', 'rtmedia_uploaded_msg', esc_html__( 'Uploaded', 'buddypress-media' ) );
 		wp_localize_script( 'rtmedia-main', 'rtmedia_uploading_msg', esc_html__( 'Uploading', 'buddypress-media' ) );
 		wp_localize_script( 'rtmedia-main', 'rtmedia_upload_failed_msg', esc_html__( 'Failed', 'buddypress-media' ) );
-		wp_localize_script( 'rtmedia-main', 'rtmedia_close', esc_html__( 'Close', 'buddypress-media' ) );
-		wp_localize_script( 'rtmedia-main', 'rtmedia_edit', esc_html__( 'Edit', 'buddypress-media' ) );
-		wp_localize_script( 'rtmedia-main', 'rtmedia_delete', esc_html__( 'Delete', 'buddypress-media' ) );
-		wp_localize_script( 'rtmedia-main', 'rtmedia_edit_media', esc_html__( 'Edit Media', 'buddypress-media' ) );
+		wp_localize_script( 'rtmedia-main', 'rtmedia_close', esc_html__( '閉じる', 'buddypress-media' ) );
+		wp_localize_script( 'rtmedia-main', 'rtmedia_edit', esc_html__( '編集', 'buddypress-media' ) );
+		wp_localize_script( 'rtmedia-main', 'rtmedia_delete', esc_html__( '削除', 'buddypress-media' ) );
+		wp_localize_script( 'rtmedia-main', 'rtmedia_edit_media', esc_html__( 'メディアを編集', 'buddypress-media' ) );
 		wp_localize_script( 'rtmedia-main', 'rtmedia_remove_from_queue', esc_html__( 'Remove from queue', 'buddypress-media' ) );
 		wp_localize_script( 'rtmedia-main', 'rtmedia_add_more_files_msg', esc_html__( 'Add more files', 'buddypress-media' ) );
 		wp_localize_script( 'rtmedia-main', 'rtmedia_file_extension_error_msg', esc_html__( 'File not supported', 'buddypress-media' ) );
-		wp_localize_script( 'rtmedia-main', 'rtmedia_more', esc_html__( 'more', 'buddypress-media' ) );
-		wp_localize_script( 'rtmedia-main', 'rtmedia_less', esc_html__( 'less', 'buddypress-media' ) );
-		wp_localize_script( 'rtmedia-main', 'rtmedia_read_more', esc_html__( 'Read more', 'buddypress-media' ) );
-		wp_localize_script( 'rtmedia-main', 'rtmedia__show_less', esc_html__( 'Show less', 'buddypress-media' ) );
+		wp_localize_script( 'rtmedia-main', 'rtmedia_more', esc_html__( '大', 'buddypress-media' ) );
+		wp_localize_script( 'rtmedia-main', 'rtmedia_less', esc_html__( '小', 'buddypress-media' ) );
+		wp_localize_script( 'rtmedia-main', 'rtmedia_read_more', esc_html__( 'もっと見る', 'buddypress-media' ) );
+		wp_localize_script( 'rtmedia-main', 'rtmedia__show_less', esc_html__( '小サイズ', 'buddypress-media' ) );
 		wp_localize_script( 'rtmedia-main', 'rtmedia_activity_text_with_attachment', apply_filters( 'rtmedia_required_activity_text_with_attachment', 'disable' ) );
 		wp_localize_script( 'rtmedia-main', 'rtmedia_delete_uploaded_media', esc_html__( 'This media is uploaded. Are you sure you want to delete this media?', 'buddypress-media' ) );
 		wp_localize_script( 'rtmedia-main', 'rtm_wp_version', get_bloginfo( 'version' ) );

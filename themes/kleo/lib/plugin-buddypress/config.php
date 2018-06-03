@@ -505,7 +505,7 @@ function kleo_bp_cover_html() {
     if ( bp_is_my_profile() || is_super_admin() ) {
 
         $output .= '<div class="profile-cover-action">';
-        $output .= '<a href="' . bp_displayed_user_domain() . $bp->profile->slug . '/change-cover-image/" class="button">' . __( "Change Cover", "kleo_framework" ) . '</a>';
+        $output .= '<a href="' . bp_displayed_user_domain() . $bp->profile->slug . '/change-cover-image/" class="button">' . __( "背景を変更する", "kleo_framework" ) . '</a>';
         $output .= '</div>';
     }
 
@@ -527,7 +527,7 @@ function kleo_bp_group_cover_html() {
 
         if (groups_is_user_mod($user_ID, $group_id) || groups_is_user_admin($user_ID, $group_id)) {
 
-            $message = __("Change Cover", 'bpcp');
+            $message = __("背景を変更する", 'bpcp');
 
             $group = groups_get_group( array( 'group_id' => $group_id ) );
             $group_permalink = trailingslashit(bp_get_root_domain() . '/' . bp_get_groups_root_slug() . '/' . $group->slug . '/');

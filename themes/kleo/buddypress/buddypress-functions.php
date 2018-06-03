@@ -1879,8 +1879,8 @@ add_action('bp_before_group_header','kleo_bp_expand_profile', 20 );
 function kleo_bp_expand_profile() {
 	?>
 	<span class="toggle-header">
-	<span class="bp-toggle-less"><?php _e("show less","kleo_framework");?></span>
-	<span class="bp-toggle-more"><?php _e("show more","kleo_framework");?></span>
+	<span class="bp-toggle-less"><?php _e("もっと小さく","kleo_framework");?></span>
+	<span class="bp-toggle-more"><?php _e("もっと大きく","kleo_framework");?></span>
 </span>
 	<?php
 }
