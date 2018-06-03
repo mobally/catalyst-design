@@ -1,0 +1,1513 @@
+# Translation of Plugins - WP Job Manager - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - WP Job Manager - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-09-17 06:59:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - WP Job Manager - Stable (latest release)\n"
+
+#: wp-job-manager-functions.php:640
+msgid "Other"
+msgstr "その他"
+
+#: wp-job-manager-functions.php:639
+msgid "Per Diem"
+msgstr "日雇い"
+
+#: wp-job-manager-functions.php:638
+msgid "Volunteer"
+msgstr "ボランティア"
+
+#: wp-job-manager-functions.php:637
+msgid "Intern"
+msgstr "インターン"
+
+#: wp-job-manager-functions.php:636
+msgid "Temporary"
+msgstr "派遣社員"
+
+#: wp-job-manager-functions.php:635
+msgid "Contractor"
+msgstr "契約社員"
+
+#: wp-job-manager-functions.php:634
+msgid "Part Time"
+msgstr "パートタイム"
+
+#: wp-job-manager-functions.php:633
+msgid "Full Time"
+msgstr "正社員"
+
+#: lib/wpjm_rest/controller/class-wp-job-manager-rest-controller-settings.php:35
+msgid "Settings not found"
+msgstr "設定が見つかりません"
+
+#: lib/wpjm_rest/controller/class-wp-job-manager-rest-controller-crud.php:48
+msgid "Model not found"
+msgstr "モデルが見つかりません"
+
+#. translators: %s is usually a field name.
+#: lib/wpjm_rest/class-wp-job-manager-rest-model.php:207
+msgid "%s cannot be empty"
+msgstr "%sは空にできません"
+
+#: includes/rest-api/class-wp-job-manager-models-settings.php:72
+msgid "Invalid page ID provided"
+msgstr "無効なページ ID が提供されました"
+
+#: includes/rest-api/class-wp-job-manager-controllers-status.php:52
+msgid "Not Found"
+msgstr "見つかりません"
+
+#: includes/admin/class-wp-job-manager-taxonomy-meta.php:78
+#: includes/admin/class-wp-job-manager-taxonomy-meta.php:100
+#: includes/admin/class-wp-job-manager-taxonomy-meta.php:118
+msgid "Employment Type"
+msgstr "雇用形態"
+
+#: includes/admin/class-wp-job-manager-settings.php:293
+msgid "Select the page where you've used the [jobs] shortcode. This lets the plugin know the location of the job listings page."
+msgstr "[jobs] ショートコードを使用したページを選択します。これにより、プラグインは求人情報ページの場所を知ることができます。"
+
+#: includes/admin/class-wp-job-manager-settings.php:286
+msgid "Select the page where you've used the [job_dashboard] shortcode. This lets the plugin know the location of the dashboard."
+msgstr "[job_dashboard] ショートコードを使用したページを選択します。これにより、プラグインはダッシュボードの位置を知ることができます。"
+
+#: includes/admin/class-wp-job-manager-settings.php:279
+msgid "Select the page where you've used the [submit_job_form] shortcode. This lets the plugin know the location of the form."
+msgstr "[submit_job_form] ショートコードを使用したページを選択します。これにより、プラグインはフォームの場所を知ることができます。"
+
+#: includes/admin/class-wp-job-manager-settings.php:262
+msgid "Choose the application method job listers will need to provide. Specify URL or email address only, or allow listers to choose which they prefer."
+msgstr "応募方法を選択します。 URL またはメールアドレスのみを指定するか、または応募者が好きなものを選択できるようにします。"
+
+#: includes/admin/class-wp-job-manager-settings.php:255
+msgid "Listings will display for the set number of days, then expire. Leave this field blank if you don't want listings to have an expiration date."
+msgstr "設定された日数のあいだ求人情報が表示され、日数が過ぎると期限切れになります。求人情報の有効期限を無効化する場合は、このフィールドを空白のままにします。"
+
+#: includes/admin/class-wp-job-manager-settings.php:247
+msgid "Users can continue to edit pending listings until they are approved by an admin."
+msgstr "ユーザーは、管理者が承認するまで、レビュー待ちの求人情報を編集できます。"
+
+#: includes/admin/class-wp-job-manager-settings.php:246
+msgid "Allow editing of pending listings"
+msgstr "承認待ちの求人の編集を許可する"
+
+#: includes/admin/class-wp-job-manager-settings.php:238
+msgid "Sets all new submissions to \"pending.\" They will not appear on your site until an admin approves them."
+msgstr "新しい投稿をすべて「レビュー待ち」に設定します。管理者が承認するまで、サイトには表示されません。"
+
+#: includes/admin/class-wp-job-manager-settings.php:237
+msgid "Require admin approval of all new listing submissions"
+msgstr "新規求人情報の投稿には管理者承認が必要"
+
+#: includes/admin/class-wp-job-manager-settings.php:220
+msgid "Email new users a link to set a password"
+msgstr "新規ユーザーにパスワードを設定するリンクを電子メールで送信する"
+
+#: includes/admin/class-wp-job-manager-settings.php:211
+msgid "Generate usernames from email addresses"
+msgstr "電子メールアドレスからユーザー名を作成する"
+
+#: includes/admin/class-wp-job-manager-settings.php:202
+msgid "Enable account creation during submission"
+msgstr "求人情報送信時にアカウントを作成にする"
+
+#: includes/admin/class-wp-job-manager-settings.php:194
+msgid "Limits job listing submissions to registered, logged-in users."
+msgstr "求人情報の作成を、登録済みのログインユーザーに制限します。"
+
+#: includes/admin/class-wp-job-manager-settings.php:193
+msgid "Require an account to submit listings"
+msgstr "求人情報の作成にはアカウントが必要"
+
+#: includes/admin/class-wp-job-manager-settings.php:152
+msgid "Enable listing types"
+msgstr "求人の種類分類を有効化"
+
+#: includes/admin/class-wp-job-manager-settings.php:132
+msgid "Default to category multiselect"
+msgstr "カテゴリー複数選択のデフォルト"
+
+#: includes/admin/class-wp-job-manager-settings.php:123
+msgid "Enable listing categories"
+msgstr "職種分類を有効化"
+
+#: includes/admin/class-wp-job-manager-settings.php:114
+msgid "Hide content in expired single job listings"
+msgstr "期限切れ求人情報の内容を非表示"
+
+#: includes/admin/class-wp-job-manager-settings.php:106
+msgid "Expired job listings will not be searchable."
+msgstr "期限切れの求人情報を検索対象から外す。"
+
+#: includes/admin/class-wp-job-manager-settings.php:97
+msgid "Filled positions will not display in your archives."
+msgstr "アーカイブに採用済みの役職を表示しない。"
+
+#: includes/admin/class-wp-job-manager-settings.php:89
+msgid "Number of job listings to display per page."
+msgstr "1ページに表示する求人情報の数。"
+
+#: wp-job-manager-template.php:633
+msgid "Verify Password"
+msgstr "パスワードの確認"
+
+#: wp-job-manager-template.php:623
+msgid "Password"
+msgstr "パスワード"
+
+#: wp-job-manager-functions.php:707
+msgid "Passwords must be at least 8 characters long."
+msgstr "パスワードは8文字以上でなければなりません。"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:486
+msgid "Password is not valid."
+msgstr "パスワードは無効です。"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:484
+msgid "Invalid Password: %s"
+msgstr "無効なパスワード : %s"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:479
+msgid "Passwords must match."
+msgstr "パスワードが一致する必要があります。"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:469
+msgid "Please enter a password."
+msgstr "パスワードを入力してください。"
+
+#: includes/admin/class-wp-job-manager-settings.php:219
+msgid "Account Password"
+msgstr "アカウントのパスワード"
+
+#: includes/admin/class-wp-job-manager-permalink-settings.php:69
+msgid "Job type base"
+msgstr "求人の種類ベース"
+
+#: includes/admin/class-wp-job-manager-permalink-settings.php:62
+msgid "Job category base"
+msgstr "職種ベース"
+
+#: includes/admin/class-wp-job-manager-permalink-settings.php:55
+msgid "Job base"
+msgstr "求人情報ベース"
+
+#: includes/admin/class-wp-job-manager-cpt.php:87
+msgid "%s marked as not filled"
+msgstr "%s を求人中としてマーク"
+
+#: includes/admin/class-wp-job-manager-cpt.php:86
+msgid "Mark %s Not Filled"
+msgstr "%s を求人中としてマーク"
+
+#: includes/admin/class-wp-job-manager-cpt.php:82
+msgid "%s marked as filled"
+msgstr "%s を採用済みとしてマーク"
+
+#: includes/admin/class-wp-job-manager-cpt.php:81
+msgid "Mark %s Filled"
+msgstr "%s を採用済みとしてマーク"
+
+#: includes/class-wp-job-manager-ajax.php:269
+msgid "You must be logged in to upload files using this method."
+msgstr "この方法を使ってファイルをアップロードするには、ログインする必要があります。"
+
+#: templates/job-submit.php:24
+msgid "Create A New Job"
+msgstr "新しいジョブを作成"
+
+#: templates/job-submit.php:24
+msgid "You are editing an existing job. %s"
+msgstr "既存のジョブを編集しています。%s"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:182
+msgid "Choose job type&hellip;"
+msgstr "ジョブ形式を選択&hellip;"
+
+#: includes/admin/class-wp-job-manager-settings.php:181
+msgid "Google requires an API key to retrieve location information for job listings. Acquire an API key from the <a href=\"%s\">Google Maps API developer site</a>."
+msgstr "求人情報の場所情報を取得するために Google の API キーが必要です。 <a href=\"%s\"> Google Maps API デベロッパーサイト</a>から API キーを取得します。"
+
+#: includes/admin/class-wp-job-manager-settings.php:180
+msgid "Google Maps API Key"
+msgstr "Google マップ API キー"
+
+#: includes/admin/class-wp-job-manager-settings.php:113
+msgid "Hide Expired Listings Content"
+msgstr "期限切れ求人の内容を隠す"
+
+#: includes/admin/class-wp-job-manager-settings.php:104
+msgid "Hide Expired Listings"
+msgstr "期限切れのリストを非表示にする"
+
+#: wp-job-manager-template.php:667
+msgid "Posted on "
+msgstr "投稿日:"
+
+#: includes/admin/class-wp-job-manager-settings.php:151
+msgid "Types"
+msgstr "形式"
+
+#: includes/admin/class-wp-job-manager-settings.php:173
+msgid "Relative to the current date (e.g., 1 day, 1 week, 1 month ago)"
+msgstr "経過時間で表示 (例: 1日前、1週間前、1か月前など)"
+
+#: includes/admin/class-wp-job-manager-settings.php:170
+msgid "Choose how you want the published date for jobs to be displayed on the front-end."
+msgstr "フロントエンドに表示する求人情報の公開日の表示方法を選択します。"
+
+#: includes/admin/class-wp-job-manager-settings.php:169
+msgid "Date Format"
+msgstr "日付形式"
+
+#: includes/class-wp-job-manager-ajax.php:170
+msgid "Search completed. Found %d matching record."
+msgid_plural "Search completed. Found %d matching records."
+msgstr[0] "検索完了。%d件見つかりました。"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:201
+msgid "Most Used"
+msgstr "よく使うもの"
+
+#: includes/admin/class-wp-job-manager-settings.php:160
+msgid "Multi-select Listing Types"
+msgstr "求人情報タイプを複数選択"
+
+#: includes/admin/class-wp-job-manager-settings.php:141
+msgid "Determines the logic used to display jobs when selecting multiple categories."
+msgstr "複数のカテゴリーを選択した際、求人情報を表示するために使用されるロジックを決定します。"
+
+#: templates/job-dashboard.php:58
+msgid "Duplicate"
+msgstr "複製"
+
+#: includes/class-wp-job-manager-shortcodes.php:133
+#: includes/class-wp-job-manager-shortcodes.php:146
+msgid "Missing submission page."
+msgstr "提出ページがありません。"
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr "Automattic"
+
+#: includes/class-wp-job-manager-post-types.php:234
+msgid "Use as company logo"
+msgstr "会社ロゴとして使用"
+
+#: includes/class-wp-job-manager-post-types.php:233
+msgid "Remove company logo"
+msgstr "会社ロゴを削除"
+
+#: includes/class-wp-job-manager-post-types.php:232
+msgid "Set company logo"
+msgstr "会社ロゴを設定"
+
+#. translators: date format placeholder, see https://secure.php.net/date
+#: includes/admin/class-wp-job-manager-writepanels.php:113
+msgctxt "Date format placeholder."
+msgid "yyyy-mm-dd"
+msgstr "yyyy-mm-dd"
+
+#. translators: jQuery date format, see
+#. http://api.jqueryui.com/datepicker/#utility-formatDate
+#: includes/admin/class-wp-job-manager-admin.php:99
+msgctxt "Date format for jQuery datepicker."
+msgid "yy-mm-dd"
+msgstr "yy-mm-dd"
+
+#: includes/class-wp-job-manager-shortcodes.php:220
+msgid "Listing Expires"
+msgstr "募集有効期限"
+
+#: includes/class-wp-job-manager-post-types.php:275
+msgid "Preview <span class=\"count\">(%s)</span>"
+msgid_plural "Preview <span class=\"count\">(%s)</span>"
+msgstr[0] "プレビュー <span class=\"count\">(%s)</span>"
+
+#. Description of the plugin/theme
+msgid "Manage job listings from the WordPress admin panel, and allow users to post jobs directly to your site."
+msgstr "WordPress の管理画面から求人一覧を管理し、ユーザーが直接サイトに求人情報を投稿できるようにします。"
+
+#. #-#-#-#-#  wp-job-manager-code.pot (WP Job Manager 1.28.0)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  wp-job-manager-code.pot (WP Job Manager 1.28.0)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://wpjobmanager.com/"
+msgstr "https://wpjobmanager.com/"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager"
+msgstr "WP Job Manager"
+
+#: wp-job-manager.php:274
+msgid "Are you sure you want to delete this listing?"
+msgstr "本当にこの求人情報を削除してもよいですか ?"
+
+#: wp-job-manager.php:212
+msgid "Load previous listings"
+msgstr "過去の求人を読み込む"
+
+#: wp-job-manager.php:263
+msgid "Invalid file type. Accepted types:"
+msgstr "無効なファイルタイプです。許可されたファイルタイプ:"
+
+#: wp-job-manager-template.php:712
+msgid "Anywhere"
+msgstr "どこでも"
+
+#: wp-job-manager-template.php:237
+msgid "Application via \"%s\" listing on %s"
+msgstr "「%s」求人情報 (%s) からの応募"
+
+#: wp-job-manager-template.php:146
+msgid "Inactive"
+msgstr "停止中"
+
+#: wp-job-manager-functions.php:1004
+msgid "Uploaded files need to be one of the following file types: %s"
+msgstr "アップロードファイルは、以下のファイルタイプのいずれかである必要があります: %s"
+
+#: wp-job-manager-functions.php:789
+msgid "Choose a category&hellip;"
+msgstr "カテゴリーを選択&hellip;"
+
+#: wp-job-manager-functions.php:472
+msgid "This email is already registered, please choose another one."
+msgstr "このメールアドレスは登録済です。他のアドレスを選択してください。"
+
+#: wp-job-manager-functions.php:468
+msgid "Your email address isn&#8217;t correct."
+msgstr "メールアドレスが正しくありません。"
+
+#: wp-job-manager-functions.php:460
+msgid "Invalid email address."
+msgstr "メールアドレスが無効です。"
+
+#: wp-job-manager-functions.php:365
+msgid "RSS"
+msgstr "RSS"
+
+#: wp-job-manager-functions.php:361
+msgid "Reset"
+msgstr "リセット"
+
+#: wp-job-manager-functions.php:260
+msgctxt "post status"
+msgid "Active"
+msgstr "有効"
+
+#: wp-job-manager-functions.php:259
+msgctxt "post status"
+msgid "Pending payment"
+msgstr "支払い待ち"
+
+#: wp-job-manager-functions.php:258
+msgctxt "post status"
+msgid "Pending approval"
+msgstr "レビュー待ち"
+
+#: includes/class-wp-job-manager-post-types.php:270
+#: wp-job-manager-functions.php:257
+msgctxt "post status"
+msgid "Preview"
+msgstr "プレビュー"
+
+#: wp-job-manager-functions.php:255
+msgctxt "post status"
+msgid "Draft"
+msgstr "下書き"
+
+#: templates/job-submitted.php:25
+msgid "%s submitted successfully. Your listing will be visible once approved."
+msgstr "%s を送信しました。求人情報は承認後に表示されます。"
+
+#: templates/job-submitted.php:22
+msgid "%s listed successfully. To view your listing <a href=\"%s\">click here</a>."
+msgstr "%sを追加しました。求人情報を表示するには<a href=\"%s\">ここをクリック</a>してください。"
+
+#: templates/job-submit.php:54
+msgid "Company Details"
+msgstr "会社情報"
+
+#: templates/job-filters.php:62
+msgid "Your browser does not support JavaScript, or it is disabled. JavaScript must be enabled in order to view listings."
+msgstr "お使いのブラウザーは JavaScript をサポートしていないか、無効になっています。 JavaScript を有効にして求人情報を表示する必要があります。"
+
+#: templates/job-filters.php:49
+msgid "Any category"
+msgstr "任意のカテゴリー"
+
+#: templates/job-filters.php:45
+msgid "Category"
+msgstr "カテゴリー"
+
+#: templates/job-filters.php:30 templates/job-filters.php:31
+msgid "Keywords"
+msgstr "キーワード"
+
+#: templates/job-dashboard.php:62
+msgid "Relist"
+msgstr "再掲載"
+
+#: templates/job-dashboard.php:55
+msgid "Mark filled"
+msgstr "採用済みとしてマーク"
+
+#: templates/job-dashboard.php:53
+msgid "Mark not filled"
+msgstr "採用中としてマーク"
+
+#: templates/job-dashboard.php:31
+msgid "You do not have any active listings."
+msgstr "掲載中の求人情報はありません。"
+
+#: templates/job-dashboard.php:19
+msgid "Your listings are shown in the table below."
+msgstr "あなたの求人情報は以下のテーブルに表示されています。"
+
+#: templates/job-dashboard-login.php:20
+msgid "You need to be signed in to manage your listings."
+msgstr "求人情報を管理するにはログインする必要があります。"
+
+#: templates/job-application.php:24
+msgid "Apply for job"
+msgstr "求人に応募"
+
+#: templates/job-application-url.php:18
+msgid "To apply for this job please visit the following URL:"
+msgstr "この求人に応募するには、以下の URL に移動してください:"
+
+#: templates/job-application-email.php:18
+msgid "To apply for this job <strong>email your details to</strong> <a class=\"job_application_email\" href=\"mailto:%1$s%2$s\">%1$s</a>"
+msgstr "この求人に応募するには、<a class=\"job_application_email\" href=\"mailto:%1$s%2$s\">%1$s</a>まで<strong>詳細をメール</strong>してください"
+
+#: templates/form-fields/uploaded-file-html.php:29
+#: templates/form-fields/uploaded-file-html.php:31
+msgid "remove"
+msgstr "削除"
+
+#: templates/form-fields/multiselect-field.php:20
+#: wp-job-manager-functions.php:791
+msgid "Select Some Options"
+msgstr "オプションを選択してください"
+
+#: templates/form-fields/multiselect-field.php:20
+#: wp-job-manager-functions.php:790
+msgid "No results match"
+msgstr "一致する結果がありません"
+
+#: templates/form-fields/file-field.php:45
+msgid "Maximum file size: %s."
+msgstr "最大ファイルサイズ: %s。"
+
+#: templates/content-single-job_listing.php:23
+msgid "This listing has expired."
+msgstr "この求人は期限切れです。"
+
+#: templates/content-single-job_listing-meta.php:44
+msgid "Applications have closed"
+msgstr "応募は終了しました"
+
+#: templates/content-single-job_listing-meta.php:42
+msgid "This position has been filled"
+msgstr "この役職は採用済みです"
+
+#: wp-job-manager-template.php:669 wp-job-manager-template.php:689
+msgid "Posted %s ago"
+msgstr "%s前に投稿"
+
+#: templates/content-no-jobs-found.php:22
+msgid "There are currently no vacancies."
+msgstr "現在空きはありません。"
+
+#: templates/content-no-jobs-found.php:20
+msgid "There are no listings matching your search."
+msgstr "検索に一致する求人情報がありません。"
+
+#: wp-job-manager-template.php:640
+msgid "Your email"
+msgstr "メールアドレス"
+
+#: templates/account-signin.php:59 templates/job-submit.php:43
+#: templates/job-submit.php:60
+msgid "(optional)"
+msgstr "(オプション)"
+
+#: wp-job-manager-template.php:615
+msgid "Username"
+msgstr "ユーザー名"
+
+#: templates/account-signin.php:48
+msgid "You must sign in to create a new listing."
+msgstr "求人情報の作成にはログインが必要です。"
+
+#: templates/account-signin.php:44
+msgid "optionally"
+msgstr "オプション"
+
+#: templates/account-signin.php:44
+msgid "If you don&rsquo;t have an account you can %screate one below by entering your email address/username. Your account details will be confirmed via email."
+msgstr "アカウントを持っていない場合、メールアドレス / ユーザー名を以下に入力することで、%sアカウントを作成できます。アカウントの詳細はメールで届きます。"
+
+#: templates/account-signin.php:40 templates/job-dashboard-login.php:20
+msgid "Sign in"
+msgstr "ログイン"
+
+#: templates/account-signin.php:38
+msgid "Have an account?"
+msgstr "アカウントをお持ちですか ?"
+
+#: templates/account-signin.php:28
+msgid "Sign out"
+msgstr "ログアウト"
+
+#: templates/account-signin.php:25
+msgid "You are currently signed in as <strong>%s</strong>."
+msgstr "現在 <strong>%s</strong> としてログイン中です。"
+
+#: templates/account-signin.php:21
+msgid "Your account"
+msgstr "アカウント"
+
+#: templates/job-preview.php:21
+msgid "Edit listing"
+msgstr "リストの編集"
+
+#: templates/job-preview.php:20
+msgid "Submit Listing"
+msgstr "リストの送信"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:507
+msgid "You must be signed in to post a new listing."
+msgstr "新しい求人情報を投稿するにはログインしてください。"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:473
+msgid "Please enter your email address."
+msgstr "メールアドレスを入力してください。"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:465
+msgid "Please enter a username."
+msgstr "ユーザー名を入力してください。"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:344
+msgid "Please enter a valid application email address or URL"
+msgstr "有効な応募メールアドレスまたは URL を入力してください"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:334
+msgid "Please enter a valid application URL"
+msgstr "有効な応募 URL を入力してください"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:325
+msgid "Please enter a valid application email address"
+msgstr "有効な応募メールアドレスを入力してください"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:310
+#: wp-job-manager-functions.php:1002
+msgid "\"%s\" (filetype %s) needs to be one of the following file types: %s"
+msgstr "\"%s\" (ファイルタイプ %s) は、以下のファイルタイプのいずれかである必要があります: %s"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:294
+msgid "%s is invalid"
+msgstr "%s は無効です"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:284
+msgid "%s is a required field"
+msgstr "%s は必須項目です"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:248
+msgid "Logo"
+msgstr "ロゴ"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:244
+msgid "@yourcompany"
+msgstr "@yourcompany"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:241
+msgid "Twitter username"
+msgstr "Twitter ユーザー名"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:237
+msgid "A link to a video about your company"
+msgstr "会社についての動画へのリンク"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:234
+msgid "Video"
+msgstr "動画"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:229
+msgid "Briefly describe your company"
+msgstr "会社について簡単に記述してください"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:226
+msgid "Tagline"
+msgstr "キャッチフレーズ"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:219
+#: templates/content-single-job_listing-company.php:30
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:215
+msgid "Enter the name of the company"
+msgstr "会社名を入力"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:212
+msgid "Company name"
+msgstr "会社名"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:197
+msgid "Description"
+msgstr "説明"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:172
+msgid "Leave this blank if the location is not important"
+msgstr "勤務地が重要でない場合は空欄にしてください"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:164
+msgid "Job Title"
+msgstr "役職名"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:152
+msgid "Enter an email address or website URL"
+msgstr "メールまたはサイト URL を入力してください"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:151
+msgid "Application email/URL"
+msgstr "応募メールアドレス/URL"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:148
+#: includes/forms/class-wp-job-manager-form-submit-job.php:222
+msgid "http://"
+msgstr "http://"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:147
+msgid "Application URL"
+msgstr "応募 URL"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:144
+#: wp-job-manager-template.php:641
+msgid "you@yourdomain.com"
+msgstr "you@yourdomain.com"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:143
+msgid "Application email"
+msgstr "応募メール"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:75
+msgid "Done"
+msgstr "終了"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:69
+#: includes/forms/class-wp-job-manager-form-submit-job.php:434
+#: templates/job-preview.php:22
+msgid "Preview"
+msgstr "プレビュー"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:63
+msgid "Submit Details"
+msgstr "詳細を送信"
+
+#: includes/forms/class-wp-job-manager-form-edit-job.php:135
+msgid "View &rarr;"
+msgstr "表示 &rarr;"
+
+#: includes/forms/class-wp-job-manager-form-edit-job.php:135
+#: includes/forms/class-wp-job-manager-form-edit-job.php:138
+msgid "Your changes have been saved."
+msgstr "変更を保存しました。"
+
+#: includes/forms/class-wp-job-manager-form-edit-job.php:106
+msgid "Save changes"
+msgstr "変更を保存"
+
+#: includes/forms/class-wp-job-manager-form-edit-job.php:67
+msgid "Invalid listing"
+msgstr "無効な求人情報"
+
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:23
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:27
+msgid "Featured %s"
+msgstr "注目の%s"
+
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:21
+msgid "Display a list of featured listings on your site."
+msgstr "注目の求人情報一覧をサイトに表示する。"
+
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:36
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:46
+msgid "Number of listings to show"
+msgstr "表示する求人情報の数"
+
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:33
+msgid "Keyword"
+msgstr "キーワード"
+
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:23
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:27
+msgid "Recent %s"
+msgstr "最近の%s"
+
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:21
+msgid "Display a list of recent listings on your site, optionally matching a keyword and location."
+msgstr "キーワードと地域が一致する最近の求人情報のリストを表示する。"
+
+#: includes/class-wp-job-manager-shortcodes.php:326
+#: includes/class-wp-job-manager-shortcodes.php:364
+msgid "Load more listings"
+msgstr "求人をさらに読み込む"
+
+#: includes/class-wp-job-manager-shortcodes.php:219
+msgid "Date Posted"
+msgstr "投稿日"
+
+#: includes/class-wp-job-manager-shortcodes.php:217
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:28
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:28
+msgid "Title"
+msgstr "タイトル"
+
+#: includes/class-wp-job-manager-shortcodes.php:128
+msgid "%s has been deleted"
+msgstr "%sを削除しました"
+
+#: includes/class-wp-job-manager-shortcodes.php:121
+msgid "%s has been marked as not filled"
+msgstr "%sを採用中としてマークしました"
+
+#: includes/class-wp-job-manager-shortcodes.php:114
+msgid "This position is not filled"
+msgstr "この役職は採用中です"
+
+#: includes/class-wp-job-manager-shortcodes.php:109
+msgid "%s has been filled"
+msgstr "%sは採用済みです"
+
+#: includes/class-wp-job-manager-shortcodes.php:103
+msgid "This position has already been filled"
+msgstr "この役職はすでに採用済みです"
+
+#: includes/class-wp-job-manager-shortcodes.php:96
+msgid "Invalid ID"
+msgstr "無効な ID"
+
+#: includes/class-wp-job-manager-post-types.php:267
+msgid "Expired <span class=\"count\">(%s)</span>"
+msgid_plural "Expired <span class=\"count\">(%s)</span>"
+msgstr[0] "期限切れ <span class=\"count\">(%s)</span>"
+
+#: includes/class-wp-job-manager-post-types.php:261
+#: wp-job-manager-functions.php:256
+msgctxt "post status"
+msgid "Expired"
+msgstr "期限切れ"
+
+#: includes/class-wp-job-manager-post-types.php:236
+msgid "This is where you can create and manage %s."
+msgstr "%sを作成して管理出来ます。"
+
+#: includes/class-wp-job-manager-post-types.php:229
+msgid "No %s found in trash"
+msgstr "%sがゴミ箱内に見つかりませんでした"
+
+#: includes/class-wp-job-manager-post-types.php:228
+msgid "No %s found"
+msgstr "%sが見つかりませんでした。"
+
+#: includes/class-wp-job-manager-post-types.php:225
+#: includes/class-wp-job-manager-post-types.php:226
+msgid "View %s"
+msgstr "%sを表示"
+
+#: includes/class-wp-job-manager-post-types.php:224
+msgid "New %s"
+msgstr "新規%s"
+
+#: includes/class-wp-job-manager-post-types.php:221
+msgid "Add %s"
+msgstr "%sを追加"
+
+#: includes/class-wp-job-manager-post-types.php:220
+msgid "Add New"
+msgstr "新規追加"
+
+#: includes/admin/class-wp-job-manager-permalink-settings.php:81
+#: includes/class-wp-job-manager-post-types.php:641
+msgctxt "Job permalink - resave permalinks after changing this"
+msgid "job"
+msgstr "job"
+
+#: includes/class-wp-job-manager-post-types.php:201
+msgctxt "Post type archive slug - resave permalinks after changing this"
+msgid "jobs"
+msgstr "jobs"
+
+#: includes/class-wp-job-manager-post-types.php:198
+msgid "Jobs"
+msgstr "求人"
+
+#: includes/class-wp-job-manager-post-types.php:197
+msgid "Job"
+msgstr "求人"
+
+#: includes/admin/class-wp-job-manager-permalink-settings.php:99
+#: includes/class-wp-job-manager-post-types.php:643
+msgctxt "Job type slug - resave permalinks after changing this"
+msgid "job-type"
+msgstr "job-type"
+
+#: includes/class-wp-job-manager-post-types.php:148
+msgid "Job types"
+msgstr "求人の種類"
+
+#: includes/class-wp-job-manager-post-types.php:147
+#: includes/forms/class-wp-job-manager-form-submit-job.php:179
+msgid "Job type"
+msgstr "求人の種類"
+
+#: includes/class-wp-job-manager-post-types.php:130
+#: includes/class-wp-job-manager-post-types.php:178
+msgid "New %s Name"
+msgstr "新規%s名"
+
+#: includes/class-wp-job-manager-post-types.php:129
+#: includes/class-wp-job-manager-post-types.php:177
+msgid "Add New %s"
+msgstr "新規%sを追加"
+
+#: includes/class-wp-job-manager-post-types.php:128
+#: includes/class-wp-job-manager-post-types.php:176
+msgid "Update %s"
+msgstr "%sの更新"
+
+#: includes/class-wp-job-manager-post-types.php:127
+#: includes/class-wp-job-manager-post-types.php:175
+#: includes/class-wp-job-manager-post-types.php:223
+msgid "Edit %s"
+msgstr "%sを編集"
+
+#: includes/class-wp-job-manager-post-types.php:126
+#: includes/class-wp-job-manager-post-types.php:174
+msgid "Parent %s:"
+msgstr "親%s"
+
+#: includes/class-wp-job-manager-post-types.php:125
+#: includes/class-wp-job-manager-post-types.php:173
+#: includes/class-wp-job-manager-post-types.php:230
+msgid "Parent %s"
+msgstr "親%s"
+
+#: includes/class-wp-job-manager-post-types.php:124
+#: includes/class-wp-job-manager-post-types.php:172
+#: includes/class-wp-job-manager-post-types.php:219
+msgid "All %s"
+msgstr "%s一覧"
+
+#: includes/class-wp-job-manager-post-types.php:123
+#: includes/class-wp-job-manager-post-types.php:171
+#: includes/class-wp-job-manager-post-types.php:227
+msgid "Search %s"
+msgstr "%sの検索"
+
+#: includes/admin/class-wp-job-manager-permalink-settings.php:90
+#: includes/class-wp-job-manager-post-types.php:642
+msgctxt "Job category slug - resave permalinks after changing this"
+msgid "job-category"
+msgstr "job-category"
+
+#: includes/class-wp-job-manager-post-types.php:99
+msgid "Job categories"
+msgstr "職種"
+
+#: includes/class-wp-job-manager-post-types.php:98
+#: includes/forms/class-wp-job-manager-form-submit-job.php:188
+msgid "Job category"
+msgstr "職種"
+
+#: includes/class-wp-job-manager-install.php:65
+msgid "Employer"
+msgstr "雇用主"
+
+#: includes/class-wp-job-manager-geocode.php:231
+#: includes/class-wp-job-manager-geocode.php:235
+#: includes/class-wp-job-manager-geocode.php:239
+msgid "Geocoding error"
+msgstr "Geocoding エラー"
+
+#: includes/class-wp-job-manager-geocode.php:225
+msgid "Query limit reached"
+msgstr "クエリの上限に達しました"
+
+#: includes/class-wp-job-manager-geocode.php:221
+msgid "No results found"
+msgstr "何も見つかりませんでした。"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:496
+msgid "Enter the ID of the user, or leave blank if submitted by a guest."
+msgstr "ユーザー ID を入力するか、ゲスト投稿の場合は空欄にしてください。"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:492
+msgid "Change"
+msgstr "変更"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:490
+msgid "Guest User"
+msgstr "ゲストユーザー"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:264
+msgid "Add file"
+msgstr "ファイルを追加"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:258
+#: includes/admin/class-wp-job-manager-writepanels.php:261
+#: includes/admin/class-wp-job-manager-writepanels.php:264
+msgid "Upload"
+msgstr "アップロード"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:258
+#: includes/admin/class-wp-job-manager-writepanels.php:261
+#: includes/admin/class-wp-job-manager-writepanels.php:264
+msgid "Use file"
+msgstr "ファイルを使用"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:161
+msgid "%s Data"
+msgstr "%sデータ"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:119
+msgid "Posted by"
+msgstr "投稿者"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:109
+msgid "Listing Expiry Date"
+msgstr "求人情報の有効期限"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:104
+msgid "Featured listings will be sticky during searches, and can be styled differently."
+msgstr "注目の求人情報は検索時に上部固定で表示され、異なるスタイルにすることができます。"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:102
+msgid "Featured Listing"
+msgstr "注目の求人情報"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:97
+msgid "Filled listings will no longer accept applications."
+msgstr "採用済みの求人情報は今後応募を受け付けない。"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:94
+msgid "Position Filled"
+msgstr "採用済み"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:89
+msgid "URL to the company video"
+msgstr "会社動画の URL"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:88
+msgid "Company Video"
+msgstr "会社動画"
+
+#: includes/class-wp-job-manager-post-types.php:231
+msgid "Company Logo"
+msgstr "会社ロゴ"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:83
+msgid "Company Twitter"
+msgstr "会社 Twitter"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:79
+msgid "Brief description about the company"
+msgstr "会社についての簡単な説明"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:78
+msgid "Company Tagline"
+msgstr "企業タグライン"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:73
+msgid "Company Website"
+msgstr "企業サイト"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:68
+msgid "Company Name"
+msgstr "会社名"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:63
+msgid "This field is required for the \"application\" area to appear beneath the listing."
+msgstr "このフィールドは求職者が応募時の連絡をするために必須です。求人情報の下部に表示されます。"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:62
+msgid "URL or email which applicants use to apply"
+msgstr "応募するための URL またはメールアドレス"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:61
+msgid "Application Email or URL"
+msgstr "応募メールアドレスまたは URL"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:57
+msgid "Leave this blank if the location is not important."
+msgstr "勤務地が重要でない場合は空欄にしてください。"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:56
+#: includes/forms/class-wp-job-manager-form-submit-job.php:175
+msgid "e.g. \"London\""
+msgstr "例: 東京"
+
+#: includes/admin/class-wp-job-manager-setup.php:265
+msgid "Help other users on the forums"
+msgstr "フォーラムで他のユーザーを助ける"
+
+#: includes/admin/class-wp-job-manager-setup.php:264
+msgid "Contribute code or report a bug"
+msgstr "コードやバグレポートで貢献する"
+
+#: includes/admin/class-wp-job-manager-setup.php:263
+msgid "Contribute a localization"
+msgstr "翻訳作業で貢献する"
+
+#: includes/admin/class-wp-job-manager-setup.php:262
+msgid "Leave a positive review"
+msgstr "肯定的なレビューを残す"
+
+#: includes/admin/class-wp-job-manager-setup.php:260
+msgid "There are many ways to support open-source projects such as WP Job Manager, for example code contribution, translation, or even telling your friends how awesome the plugin (hopefully) is. Thanks in advance for your support - it is much appreciated!"
+msgstr "WP Job Manager のオープンソースプロジェクトをサポートする方法はたくさんあります。例えば、コードの投稿や翻訳、このプラグインの素晴らしさをあなたの友達にぜひ教えてあげてください。あなたのサポートに感謝します。"
+
+#: includes/admin/class-wp-job-manager-setup.php:259
+msgid "Support the Ongoing Development of this Plugin"
+msgstr "このプラグインの継続的な開発をサポート"
+
+#: includes/admin/class-wp-job-manager-setup.php:256
+msgid "And don't forget, if you need any more help using <em>WP Job Manager</em> you can consult the %1$sdocumentation%2$s or %3$spost on the forums%2$s!"
+msgstr "<em>WP Job Manager</em> に関するヘルプが必要な場合は、%1$sドキュメンテーション%2$sを参照するか、%3$sフォーラムに投稿%2$sするのをお忘れなく。"
+
+#: includes/admin/class-wp-job-manager-setup.php:252
+msgid "Find out more about the front-end job dashboard"
+msgstr "フロントエンドの求人ダッシュボードの詳細"
+
+#: includes/admin/class-wp-job-manager-setup.php:250
+msgid "View the job dashboard"
+msgstr "求人ダッシュボードを表示する"
+
+#: includes/admin/class-wp-job-manager-setup.php:246
+msgid "Add the [jobs] shortcode to a page to list jobs"
+msgstr "求人情報を一覧表示するページにショートコード [jobs] を追加します。"
+
+#: includes/admin/class-wp-job-manager-setup.php:244
+msgid "View submitted job listings"
+msgstr "送信された求人情報を表示する"
+
+#: includes/admin/class-wp-job-manager-setup.php:240
+msgid "Find out more about the front-end job submission form"
+msgstr "フロントエンドの求人情報送信フォームの詳細"
+
+#: includes/admin/class-wp-job-manager-setup.php:238
+msgid "Add a job via the front-end"
+msgstr "フロントエンドから求人情報を追加する"
+
+#: includes/admin/class-wp-job-manager-setup.php:235
+msgid "Add a job via the back-end"
+msgstr "管理画面から求人情報を追加する"
+
+#: includes/admin/class-wp-job-manager-setup.php:234
+msgid "Tweak the plugin settings"
+msgstr "プラグインの設定を微調整する"
+
+#: includes/admin/class-wp-job-manager-setup.php:231
+msgid "Looks like you're all set to start using the plugin. In case you're wondering where to go next:"
+msgstr "プラグインを使う準備が完了しているようです。次に何をしていいかわからない場合は、以下をご覧ください。"
+
+#: includes/admin/class-wp-job-manager-setup.php:229
+msgid "All Done!"
+msgstr "すべて完了 !"
+
+#: includes/admin/class-wp-job-manager-setup.php:219
+msgid "Skip this step"
+msgstr "このステップをスキップ"
+
+#: includes/admin/class-wp-job-manager-setup.php:211
+msgid "This page allows users to browse, search, and filter job listings on the front-end of your site."
+msgstr "このページは、ユーザーがサイトのフロントエンドで求人情報を閲覧、検索、絞り込みできるようにします。"
+
+#: includes/admin/class-wp-job-manager-setup.php:210
+msgctxt "Default page title (wizard)"
+msgid "Jobs"
+msgstr "求人"
+
+#: includes/admin/class-wp-job-manager-setup.php:204
+msgid "If you plan on managing all listings from the admin dashboard you can skip creating this page."
+msgstr "管理ダッシュボードからすべての求人情報を管理する予定の場合は、このページの作成をスキップできます。"
+
+#: includes/admin/class-wp-job-manager-setup.php:202
+msgid "This page allows employers to manage and edit their own jobs from the front-end."
+msgstr "フロントエンドから自分の求人情報を管理、編集することができます。"
+
+#: includes/admin/class-wp-job-manager-setup.php:200
+msgctxt "Default page title (wizard)"
+msgid "Job Dashboard"
+msgstr "求人ダッシュボード"
+
+#: includes/admin/class-wp-job-manager-setup.php:194
+msgid "If you do not want to accept submissions from users in this way (for example you just want to post jobs from the admin dashboard) you can skip creating this page."
+msgstr "この方法でユーザーからの投稿を受け入れたくない場合 (たとえば、自分のみが管理ダッシュボードから求人情報を投稿したい場合) は、このページの作成をスキップできます。"
+
+#: includes/admin/class-wp-job-manager-setup.php:192
+msgid "This page allows employers to post jobs to your website from the front-end."
+msgstr "このページは、雇用主がサイトのフロントエンドから自分の求人を投稿できるようにします。"
+
+#: includes/admin/class-wp-job-manager-setup.php:190
+msgctxt "Default page title (wizard)"
+msgid "Post a Job"
+msgstr "求人を追加"
+
+#: includes/admin/class-wp-job-manager-setup.php:184
+msgid "Content Shortcode"
+msgstr "コンテンツ・ショートコード"
+
+#: includes/admin/class-wp-job-manager-setup.php:183
+msgid "Page Description"
+msgstr "ページ説明"
+
+#: includes/admin/class-wp-job-manager-setup.php:182
+msgid "Page Title"
+msgstr "ページタイトル"
+
+#: includes/admin/class-wp-job-manager-setup.php:174
+msgid "<em>WP Job Manager</em> includes %1$sshortcodes%2$s which can be used within your %3$spages%2$s to output content. These can be created for you below. For more information on the job shortcodes view the %4$sshortcode documentation%2$s."
+msgstr "<em>WP Job Manager</em>には、コンテンツを出力するために%3$sページ%2$s内で使用できる%1$sショートコード%2$sが含まれています。これらのページを以下で作成することができます。求人情報のショートコードの詳細については、%4$sショートコードのドキュメント%2$sを参照してください。"
+
+#: includes/admin/class-wp-job-manager-setup.php:172
+msgid "Page Setup"
+msgstr "ページのセットアップ"
+
+#: includes/admin/class-wp-job-manager-setup.php:166
+msgid "Skip setup. I will setup the plugin manually"
+msgstr "セットアップをスキップし、手動でプラグインを設定する"
+
+#: includes/admin/class-wp-job-manager-setup.php:165
+msgid "Continue to page setup"
+msgstr "ページセットアップを続ける"
+
+#: includes/admin/class-wp-job-manager-setup.php:162
+msgid "If you want to skip the wizard and setup the pages and shortcodes yourself manually, the process is still relatively simple. Refer to the %sdocumentation%s for help."
+msgstr "ウィザードをスキップし、ページとショートコードを手動で設定したい場合、プロセスは比較的簡単です。ヘルプが必要であれば%sドキュメンテーション%sを参照してください。"
+
+#: includes/admin/class-wp-job-manager-setup.php:161
+msgid "This setup wizard will help you get started by creating the pages for job submission, job management, and listing your jobs."
+msgstr "このセットアップウィザードは、求人情報送信・管理・一覧ページを作成することでスタートのお手伝いをします。"
+
+#: includes/admin/class-wp-job-manager-setup.php:160
+msgid "Thanks for installing <em>WP Job Manager</em>!"
+msgstr "<em>WP Job Manager</em> をインストールしていただき、ありがとうございます。"
+
+#: includes/admin/class-wp-job-manager-setup.php:158
+msgid "Setup Wizard Introduction"
+msgstr "セットアップウィザードの紹介"
+
+#: includes/admin/class-wp-job-manager-setup.php:153
+msgid "3. Done"
+msgstr "3. 完了"
+
+#: includes/admin/class-wp-job-manager-setup.php:152
+msgid "2. Page Setup"
+msgstr "2. ページセットアップ"
+
+#: includes/admin/class-wp-job-manager-setup.php:151
+msgid "1. Introduction"
+msgstr "1. はじめに"
+
+#: includes/admin/class-wp-job-manager-setup.php:148
+msgid "WP Job Manager Setup"
+msgstr "WP Job Manager セットアップ"
+
+#: includes/admin/class-wp-job-manager-setup.php:51
+msgid "Setup"
+msgstr "設定"
+
+#: includes/admin/class-wp-job-manager-settings.php:466
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: includes/admin/class-wp-job-manager-settings.php:420
+msgid "Select a page&hellip;"
+msgstr "ページを選択&hellip;"
+
+#: includes/admin/class-wp-job-manager-settings.php:415
+msgid "--no page--"
+msgstr "--ページなし--"
+
+#: includes/admin/class-wp-job-manager-settings.php:339
+msgid "Settings successfully saved"
+msgstr "設定を保存しました"
+
+#: includes/admin/class-wp-job-manager-settings.php:292
+msgid "Job Listings Page"
+msgstr "求人情報一覧"
+
+#: includes/admin/class-wp-job-manager-settings.php:285
+msgid "Job Dashboard Page"
+msgstr "求人ダッシュボード"
+
+#: includes/admin/class-wp-job-manager-settings.php:278
+msgid "Submit Job Form Page"
+msgstr "求人情報送信フォーム"
+
+#: includes/admin/class-wp-job-manager-settings.php:273
+msgid "Pages"
+msgstr "固定ページ"
+
+#: includes/admin/class-wp-job-manager-settings.php:267
+msgid "Website URLs only"
+msgstr "ウェブサイト URL のみ"
+
+#: includes/admin/class-wp-job-manager-settings.php:266
+msgid "Email addresses only"
+msgstr "メールアドレスのみ"
+
+#: includes/admin/class-wp-job-manager-settings.php:265
+msgid "Email address or website URL"
+msgstr "メールアドレスまたはウェブサイト URL"
+
+#: includes/admin/class-wp-job-manager-settings.php:261
+msgid "Application Method"
+msgstr "応募方法"
+
+#: includes/admin/class-wp-job-manager-settings.php:254
+msgid "Listing Duration"
+msgstr "掲載期間"
+
+#: includes/admin/class-wp-job-manager-settings.php:245
+msgid "Allow Pending Edits"
+msgstr "承認待ちの編集を許可"
+
+#: includes/admin/class-wp-job-manager-settings.php:236
+msgid "Moderate New Listings"
+msgstr "新規求人情報をモデレート"
+
+#: includes/admin/class-wp-job-manager-settings.php:228
+msgid "Account Role"
+msgstr "アカウント権限"
+
+#: includes/admin/class-wp-job-manager-settings.php:210
+msgid "Account Username"
+msgstr "アカウントユーザー名"
+
+#: includes/admin/class-wp-job-manager-settings.php:201
+msgid "Account Creation"
+msgstr "アカウント作成"
+
+#: includes/admin/class-wp-job-manager-settings.php:192
+msgid "Account Required"
+msgstr "アカウント必須"
+
+#: includes/admin/class-wp-job-manager-settings.php:187
+msgid "Job Submission"
+msgstr "求人情報の送信"
+
+#: includes/admin/class-wp-job-manager-settings.php:145
+msgid "Jobs will be shown if within ALL selected categories"
+msgstr "選択したすべてのカテゴリーを含む求人を表示する"
+
+#: includes/admin/class-wp-job-manager-settings.php:144
+msgid "Jobs will be shown if within ANY selected category"
+msgstr "選択したいずれかのカテゴリーを含む求人を表示する"
+
+#: includes/admin/class-wp-job-manager-settings.php:140
+msgid "Category Filter Type"
+msgstr "カテゴリーで絞り込み"
+
+#: includes/admin/class-wp-job-manager-settings.php:131
+msgid "Multi-select Categories"
+msgstr "複数選択カテゴリー"
+
+#: includes/admin/class-wp-job-manager-settings.php:96
+msgid "Hide filled positions"
+msgstr "採用済みの役職を非表示"
+
+#: includes/admin/class-wp-job-manager-settings.php:95
+msgid "Filled Positions"
+msgstr "採用済みの役職"
+
+#: includes/admin/class-wp-job-manager-settings.php:88
+msgid "Listings Per Page"
+msgstr "1ページあたりの求人数"
+
+#: includes/admin/class-wp-job-manager-settings.php:82
+#: includes/class-wp-job-manager-post-types.php:218
+#: includes/class-wp-job-manager-post-types.php:294
+msgid "Job Listings"
+msgstr "求人情報"
+
+#: includes/admin/class-wp-job-manager-cpt.php:501
+#: templates/job-dashboard.php:73
+msgid "Delete"
+msgstr "削除"
+
+#: includes/admin/class-wp-job-manager-cpt.php:494
+#: includes/class-wp-job-manager-post-types.php:222
+#: templates/job-dashboard.php:50 templates/job-dashboard.php:68
+msgid "Edit"
+msgstr "編集"
+
+#: includes/admin/class-wp-job-manager-cpt.php:487
+#: includes/admin/class-wp-job-manager-writepanels.php:258
+#: includes/admin/class-wp-job-manager-writepanels.php:261
+#: includes/admin/class-wp-job-manager-writepanels.php:264
+msgid "View"
+msgstr "表示"
+
+#: includes/admin/class-wp-job-manager-cpt.php:479
+msgid "Approve"
+msgstr "承認"
+
+#: includes/admin/class-wp-job-manager-cpt.php:461
+msgid "by %s"
+msgstr "作者: %s"
+
+#: includes/admin/class-wp-job-manager-cpt.php:461
+msgid "by a guest"
+msgstr "ゲスト投稿"
+
+#: includes/admin/class-wp-job-manager-cpt.php:460
+#: includes/admin/class-wp-job-manager-cpt.php:465
+msgid "M j, Y"
+msgstr "Y年n月j日"
+
+#: includes/admin/class-wp-job-manager-cpt.php:431
+msgid "ID: %d"
+msgstr "ID: %d"
+
+#: includes/admin/class-wp-job-manager-cpt.php:367
+msgid "Actions"
+msgstr "操作"
+
+#: includes/admin/class-wp-job-manager-cpt.php:366
+#: includes/class-wp-job-manager-shortcodes.php:218
+msgid "Filled?"
+msgstr "採用済み ?"
+
+#: includes/admin/class-wp-job-manager-cpt.php:365
+msgid "Featured?"
+msgstr "注目 ?"
+
+#: includes/admin/class-wp-job-manager-cpt.php:364
+#: includes/admin/class-wp-job-manager-settings.php:122
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: includes/admin/class-wp-job-manager-cpt.php:363
+msgid "Expires"
+msgstr "期限"
+
+#: includes/admin/class-wp-job-manager-cpt.php:362
+msgid "Posted"
+msgstr "掲載中"
+
+#: includes/admin/class-wp-job-manager-cpt.php:361
+msgid "Status"
+msgstr "状態"
+
+#: includes/admin/class-wp-job-manager-cpt.php:360
+#: includes/admin/class-wp-job-manager-writepanels.php:55
+#: includes/forms/class-wp-job-manager-form-submit-job.php:171
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:38
+#: templates/job-filters.php:35 templates/job-filters.php:36
+msgid "Location"
+msgstr "地域"
+
+#: includes/admin/class-wp-job-manager-cpt.php:359
+msgid "Type"
+msgstr "タイプ"
+
+#: includes/admin/class-wp-job-manager-cpt.php:339
+msgid "%s draft updated. <a target=\"_blank\" href=\"%s\">Preview</a>"
+msgstr "%s下書きを更新しました。 <a target=\"_blank\" href=\"%s\">プレビュー</a>"
+
+#: includes/admin/class-wp-job-manager-cpt.php:338
+msgid "M j, Y @ G:i"
+msgstr "Y年 M月 j日 @ G:i"
+
+#: includes/admin/class-wp-job-manager-cpt.php:337
+msgid "%s scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview</a>"
+msgstr "%s スケジュールを設定しました。: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">プレビュー</a>"
+
+#: includes/admin/class-wp-job-manager-cpt.php:336
+msgid "%s submitted. <a target=\"_blank\" href=\"%s\">Preview</a>"
+msgstr "%s を送信しました。 <a target=\"_blank\" href=\"%s\">プレビュー</a>"
+
+#: includes/admin/class-wp-job-manager-cpt.php:335
+msgid "%s saved."
+msgstr "%s を保存しました。"
+
+#: includes/admin/class-wp-job-manager-cpt.php:334
+msgid "%s published. <a href=\"%s\">View</a>"
+msgstr "%s を公開しました。<a href=\"%s\">表示</a>"
+
+#: includes/admin/class-wp-job-manager-cpt.php:333
+msgid "%s restored to revision from %s"
+msgstr "%s リビジョンを復元しました。 復元元リビジョン: %s"
+
+#: includes/admin/class-wp-job-manager-cpt.php:332
+msgid "%s updated."
+msgstr "%s を更新しました。"
+
+#: includes/admin/class-wp-job-manager-cpt.php:331
+msgid "Custom field deleted."
+msgstr "カスタムフィールドを削除しました。"
+
+#: includes/admin/class-wp-job-manager-cpt.php:330
+msgid "Custom field updated."
+msgstr "カスタムフィールドを更新しました。"
+
+#: includes/admin/class-wp-job-manager-cpt.php:329
+msgid "%s updated. <a href=\"%s\">View</a>"
+msgstr "%sを更新しました。<a href=\"%s\">表示</a>"
+
+#: includes/admin/class-wp-job-manager-cpt.php:314
+#: includes/admin/class-wp-job-manager-cpt.php:358
+msgid "Position"
+msgstr "役職"
+
+#: includes/admin/class-wp-job-manager-cpt.php:298
+msgid "Select category"
+msgstr "カテゴリーを選択"
+
+#: includes/admin/class-wp-job-manager-cpt.php:77
+msgid "%s expired"
+msgstr "%sが期限切れ"
+
+#: includes/admin/class-wp-job-manager-cpt.php:72
+msgid "%s approved"
+msgstr "%sを承認"
+
+#: includes/admin/class-wp-job-manager-cpt.php:76
+msgid "Expire %s"
+msgstr "期限切れ %s"
+
+#: includes/admin/class-wp-job-manager-cpt.php:71
+msgid "Approve %s"
+msgstr "承認 %s"
+
+#: includes/admin/class-wp-job-manager-admin.php:113
+msgid "Add-ons"
+msgstr "アドオン"
+
+#: includes/admin/class-wp-job-manager-admin.php:110
+msgid "Settings"
+msgstr "設定"
+
+#: includes/admin/class-wp-job-manager-addons.php:84
+msgid "Check out the core add-on bundle &rarr;"
+msgstr "コアアドオンをチェックしてみてください &rarr;"
+
+#: includes/admin/class-wp-job-manager-addons.php:84
+msgid "Do you need multiple add-ons?"
+msgstr "複数のアドオンが必要ですか ?"
+
+#: includes/admin/class-wp-job-manager-addons.php:82
+#: includes/admin/class-wp-job-manager-admin.php:113
+msgid "WP Job Manager Add-ons"
+msgstr "WP Job Manager アドオン"

@@ -1,0 +1,3458 @@
+# Copyright (C) 2017 rtCamp
+# This file is distributed under the same license as the rtMedia for WordPress, BuddyPress and bbPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: rtMedia for WordPress, BuddyPress and bbPress 4.3.1\n"
+"Report-Msgid-Bugs-To: http://community.rtcamp.com/c/rtmedia/\n"
+"POT-Creation-Date: 2017-02-23 06:18:32+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-05-24 22:22+0900\n"
+"Last-Translator: NorioAbe <abe@reativec.co.jp>\n"
+"Language-Team: rtMedia <rtmedia@rtcamp.com>\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: app/admin/RTMediaAdmin.php:147
+msgid ""
+"Install <a href=\"https://wordpress.org/plugins/transcoder/\" target=\"_blank"
+"\">Transcoder plugin</a> to convert audio/video files and thumbnails generation."
+msgstr ""
+
+#: app/admin/RTMediaAdmin.php:206
+msgid "View &#8220;%s&#8221;"
+msgstr "「%s」を表示"
+
+#: app/admin/RTMediaAdmin.php:206
+msgid "View"
+msgstr "表示"
+
+#: app/admin/RTMediaAdmin.php:272
+msgid "Check 30+ premium rtMedia add-ons on our <a href=\"%s\">store</a>."
+msgstr ""
+
+#: app/admin/RTMediaAdmin.php:275
+msgid "rtMedia: "
+msgstr ""
+
+#: app/admin/RTMediaAdmin.php:330
+msgid "Meet InspireBook"
+msgstr "InspireBookをご覧ください"
+
+#: app/admin/RTMediaAdmin.php:332
+msgid " - First official rtMedia premium theme."
+msgstr "-最初の公式 rtMedia のプレミアムのテーマ。"
+
+#: app/admin/RTMediaAdmin.php:416 app/admin/RTMediaAdmin.php:441
+msgid "rtMedia:"
+msgstr ""
+
+#: app/admin/RTMediaAdmin.php:416
+msgid " You must"
+msgstr "トピックを新規作成するにはログインが必要です。"
+
+#: app/admin/RTMediaAdmin.php:416
+msgid "update permalink structure"
+msgstr "パーマリンク構造を更新します。"
+
+#: app/admin/RTMediaAdmin.php:416
+msgid "to something other than the default for it to work."
+msgstr "機能させるためにはデフォルト以外のものに変更してください。"
+
+#: app/admin/RTMediaAdmin.php:442
+msgid "Please update all premium add-ons that you have purchased from"
+msgstr "購入したすべてのプレミアムアドオンを更新してください"
+
+#: app/admin/RTMediaAdmin.php:444
+msgid "your account"
+msgstr "あなたのアカウント"
+
+#: app/admin/RTMediaAdmin.php:446
+msgid "Dismiss"
+msgstr "非表示にする"
+
+#: app/admin/RTMediaAdmin.php:561
+msgid "rtMedia Pro is released"
+msgstr "rtMedia Proがリリースされました"
+
+#: app/admin/RTMediaAdmin.php:582
+msgid "Media Stats"
+msgstr "メディア統計"
+
+#: app/admin/RTMediaAdmin.php:612
+msgid "Usage Stats"
+msgstr "使用状況"
+
+#: app/admin/RTMediaAdmin.php:624
+msgid "Total "
+msgstr "合計"
+
+#: app/admin/RTMediaAdmin.php:635
+msgid "With Media"
+msgstr "メディア"
+
+#: app/admin/RTMediaAdmin.php:646
+msgid "Comments "
+msgstr "コメント"
+
+#: app/admin/RTMediaAdmin.php:657 app/main/controllers/media/RTMediaLike.php:21
+msgid "Likes"
+msgstr "いいね！"
+
+#: app/admin/RTMediaAdmin.php:667
+msgid "rtMedia Links:"
+msgstr "rtMedia リンク:"
+
+#: app/admin/RTMediaAdmin.php:668
+msgid "Homepage"
+msgstr "ホームページ"
+
+#: app/admin/RTMediaAdmin.php:670
+msgid "Free Support"
+msgstr "フリーサポート"
+
+#: app/admin/RTMediaAdmin.php:673
+msgid "Premium Addons"
+msgstr "プレミアム アドオン"
+
+#: app/admin/RTMediaAdmin.php:690
+msgid "Right Now in rtMedia"
+msgstr "今すぐrtMediaで"
+
+#: app/admin/RTMediaAdmin.php:725 app/admin/RTMediaAdmin.php:759
+#: app/admin/RTMediaAdmin.php:762 app/admin/RTMediaAdmin.php:939
+#: app/admin/RTMediaAdmin.php:1286
+msgid "Settings"
+msgstr "設定"
+
+#: app/admin/RTMediaAdmin.php:727 app/admin/RTMediaAdmin.php:783
+#: app/admin/RTMediaAdmin.php:786 app/admin/RTMediaAdmin.php:949
+#: app/admin/RTMediaAdmin.php:1312 app/helper/RTMediaSettings.php:247
+#: app/helper/RTMediaSupport.php:67 app/helper/RTMediaSupport.php:68
+msgid "Support"
+msgstr "サポート"
+
+#: app/admin/RTMediaAdmin.php:752 app/admin/RTMediaAdmin.php:1258
+#: app/admin/RTMediaAdmin.php:1259 app/importers/RTMediaActivityUpgrade.php:116
+#: app/importers/RTMediaMigration.php:68 app/main/RTMedia.php:954
+msgid "rtMedia"
+msgstr ""
+
+#: app/admin/RTMediaAdmin.php:771 app/admin/RTMediaAdmin.php:774
+#: app/admin/RTMediaAdmin.php:944 app/admin/RTMediaAdmin.php:1291
+msgid "Addons"
+msgstr "アドオン"
+
+#: app/admin/RTMediaAdmin.php:795 app/admin/RTMediaAdmin.php:798
+#: app/admin/RTMediaAdmin.php:955 app/admin/RTMediaAdmin.php:1299
+msgid "Themes"
+msgstr "テーマ"
+
+#: app/admin/RTMediaAdmin.php:808 app/admin/RTMediaAdmin.php:811
+#: app/admin/RTMediaAdmin.php:962 app/admin/RTMediaAdmin.php:1305
+msgid "Hire Us"
+msgstr "私達に有償で依頼する"
+
+#: app/admin/RTMediaAdmin.php:821 app/admin/RTMediaAdmin.php:824
+#: app/admin/RTMediaAdmin.php:969 app/admin/RTMediaAdmin.php:1319
+msgid "Licenses"
+msgstr "ライセンス"
+
+#: app/admin/RTMediaAdmin.php:875
+msgid "ON"
+msgstr ""
+
+#: app/admin/RTMediaAdmin.php:876
+msgid "OFF"
+msgstr ""
+
+#: app/admin/RTMediaAdmin.php:883
+msgid "Please do not refresh this page."
+msgstr "このページを更新しないでください。"
+
+#: app/admin/RTMediaAdmin.php:884
+msgid "Something went wrong. Please "
+msgstr "問題が発生しました。"
+
+#: app/admin/RTMediaAdmin.php:884
+msgid "refresh"
+msgstr "リフレッシュ"
+
+#: app/admin/RTMediaAdmin.php:884
+msgid " page."
+msgstr "ページ。"
+
+#: app/admin/RTMediaAdmin.php:885
+msgid "This will subscribe you to the free plan."
+msgstr "これは無料プランで講読できます。"
+
+#: app/admin/RTMediaAdmin.php:886
+msgid "Are you sure you want to disable the encoding service?"
+msgstr "エンコードサービスを無効にしてもよろしいですか？"
+
+#: app/admin/RTMediaAdmin.php:887
+msgid "Are you sure you want to enable the encoding service?"
+msgstr "エンコードサービスを有効にしてもよろしいですか？"
+
+#: app/admin/RTMediaAdmin.php:888
+msgid "Settings have changed, you should save them!"
+msgstr "設定が変更されました。保存してください！"
+
+#: app/admin/RTMediaAdmin.php:889
+msgid ""
+"Number of video thumbnails to be generated should be greater than 0 in media "
+"sizes settings. Setting it to default value 2."
+msgstr ""
+"生成されるビデオサムネイルの数は、メディアサイズ設定で0より大きくする必要がありま"
+"す。これをデフォルト値2に設定します。"
+
+#: app/admin/RTMediaAdmin.php:890
+msgid ""
+"Invalid value for number of video thumbnails in media sizes settings. Setting it "
+"to round value"
+msgstr "メディアサイズ設定のビデオサムネイル数の値が無効です。"
+
+#: app/admin/RTMediaAdmin.php:891
+msgid ""
+"Number of percentage in JPEG image quality should be greater than 0 in media "
+"sizes settings. Setting it to default value 90."
+msgstr ""
+"JPEG 画質のパーセンテージの数値は、メディアのサイズ設定で 0 より大きいはずです。既"
+"定値 90 に設定します。"
+
+#: app/admin/RTMediaAdmin.php:892
+msgid ""
+"Number of percentage in JPEG image quality should be less than 100 in media sizes "
+"settings. Setting it to 100."
+msgstr ""
+"JPEG 画質のパーセンテージの数値は、メディア サイズ設定で 100 未満にする必要があり"
+"ます。それを 100 に設定します。"
+
+#: app/admin/RTMediaAdmin.php:893
+msgid ""
+"Invalid value for percentage in JPEG image quality in media sizes settings. "
+"Setting it to round value"
+msgstr "メディア サイズ設定で JPEG 画質の割合の値が無効です。"
+
+#: app/admin/RTMediaAdmin.php:894
+msgid ""
+"Please enter positive integer value only. Setting number of media per page value "
+"to default value 10."
+msgstr ""
+"正の整数のみを入力してください。ページあたりのメディアの数を既定値 10 に設定しま"
+"す。"
+
+#: app/admin/RTMediaAdmin.php:895
+msgid ""
+"Please enter positive integer value only. Setting number of media per page value "
+"to round value"
+msgstr ""
+"正の整数のみを入力してください。ページあたりの値を四捨五入するメディアの数を設定"
+
+#: app/admin/RTMediaAdmin.php:896
+msgid "Request failed."
+msgstr "要求に失敗しました。"
+
+#: app/admin/RTMediaAdmin.php:897
+msgid "You can not use @import statement in custom css"
+msgstr "カスタム css で @import ステートメントを使用することができます。"
+
+#: app/admin/RTMediaAdmin.php:905
+msgid "Please enter WP Admin Login."
+msgstr "WP 管理者のログイン名を入力してください。"
+
+#: app/admin/RTMediaAdmin.php:906
+msgid "Please enter WP Admin password."
+msgstr "WP の管理者パスワードを入力してください。"
+
+#: app/admin/RTMediaAdmin.php:907
+msgid "Please enter SSH / FTP host."
+msgstr "SSH を入力してください/FTP ホスト。"
+
+#: app/admin/RTMediaAdmin.php:908
+msgid "Please enter SSH / FTP login."
+msgstr "SSH を入力してください/FTP ログイン。"
+
+#: app/admin/RTMediaAdmin.php:909
+msgid "Please enter SSH / FTP password."
+msgstr "SSH を入力してください/FTPパスワード。"
+
+#: app/admin/RTMediaAdmin.php:910
+msgid "Please fill all the fields."
+msgstr "すべての項目を入力してください"
+
+#: app/admin/RTMediaAdmin.php:1140
+msgid "Empowering The Web With WordPress"
+msgstr "WordPressのWebを強化する"
+
+#: app/admin/RTMediaAdmin.php:1161
+msgid "Settings saved successfully!"
+msgstr "設定が正常に保存されました！"
+
+#: app/admin/RTMediaAdmin.php:1167 app/admin/RTMediaAdmin.php:1196
+msgid "Save Settings"
+msgstr "設定を保存"
+
+#: app/admin/RTMediaAdmin.php:1393 app/admin/RTMediaAdmin.php:1394
+msgid "Display"
+msgstr "表示"
+
+#: app/admin/RTMediaAdmin.php:1402
+msgid "rtMedia BuddyPress"
+msgstr ""
+
+#: app/admin/RTMediaAdmin.php:1403
+msgid "BuddyPress"
+msgstr ""
+
+#: app/admin/RTMediaAdmin.php:1411
+msgid "rtMedia Types"
+msgstr "rtMedia タイプ"
+
+#: app/admin/RTMediaAdmin.php:1412
+msgid "Types"
+msgstr "タイプ"
+
+#: app/admin/RTMediaAdmin.php:1419
+msgid "rtMedia Sizes"
+msgstr "rtMedia サイズ"
+
+#: app/admin/RTMediaAdmin.php:1420
+msgid "Media Sizes"
+msgstr "メディア サイズ"
+
+#: app/admin/RTMediaAdmin.php:1427
+msgid "rtMedia Privacy"
+msgstr "rtMedia プライバシー"
+
+#: app/admin/RTMediaAdmin.php:1428
+#: app/main/controllers/privacy/RTMediaPrivacy.php:428
+msgid "Privacy"
+msgstr "プライバシー"
+
+#: app/admin/RTMediaAdmin.php:1434
+msgid "rtMedia Custom CSS"
+msgstr "rtMedia カスタム CSS"
+
+#: app/admin/RTMediaAdmin.php:1435
+msgid "Custom CSS"
+msgstr "カスタム CSS"
+
+#: app/admin/RTMediaAdmin.php:1444 app/admin/RTMediaAdmin.php:1445
+msgid "Other Settings"
+msgstr "その他の設定"
+
+#: app/admin/RTMediaAdmin.php:1492
+msgid "I use @rtMediaWP http://rt.cx/rtmedia on %s"
+msgstr ""
+
+#: app/admin/RTMediaAdmin.php:1494
+msgid "Post to Twitter Now"
+msgstr "Twitter に投稿する"
+
+#: app/admin/RTMediaAdmin.php:1494
+msgid "Post to Twitter"
+msgstr "Twitter に投稿する"
+
+#: app/admin/RTMediaAdmin.php:1495
+msgid "Share on Facebook Now"
+msgstr "Facebookでシェア"
+
+#: app/admin/RTMediaAdmin.php:1495
+msgid "Share on Facebook"
+msgstr "Facebookでシェア"
+
+#: app/admin/RTMediaAdmin.php:1496
+msgid "Rate rtMedia on Wordpress.org"
+msgstr ""
+
+#: app/admin/RTMediaAdmin.php:1496
+msgid "Rate on Wordpress.org"
+msgstr "WordPress.org で評価"
+
+#: app/admin/RTMediaAdmin.php:1497
+msgid "Subscribe to our Feeds"
+msgstr "ニュースフィードの購読"
+
+#: app/admin/RTMediaAdmin.php:1500
+msgid "Spread the Word"
+msgstr ""
+
+#: app/admin/RTMediaAdmin.php:1506 app/admin/RTMediaAdmin.php:1513
+msgid "Subscribe"
+msgstr ""
+
+#: app/admin/RTMediaAdmin.php:1544
+msgid "Thank you for your time."
+msgstr "貴重なお時間ありがとうございました。"
+
+#: app/admin/RTMediaAdmin.php:1557
+msgid "Premium Add-ons"
+msgstr "プレミアムアドオン"
+
+#: app/admin/RTMediaAdmin.php:1575
+msgid ""
+"You have images enabled on rtMedia but your network allowed filetypes do not "
+"permit uploading of %s. Click "
+msgstr ""
+"rtMediaで画像が有効になっていますが、ネットワークで許可されているファイルタイプで"
+"は%sのアップロードが許可されていません。クリック"
+
+#: app/admin/RTMediaAdmin.php:1576 app/admin/RTMediaAdmin.php:1594
+#: app/admin/RTMediaAdmin.php:1612 app/admin/RTMediaFormHandler.php:446
+#: app/admin/RTMediaFormHandler.php:457 app/helper/RTMediaSettings.php:323
+#: app/helper/RTMediaSupport.php:416 app/helper/RTMediaSupport.php:694
+msgid "here"
+msgstr "こちらから"
+
+#: app/admin/RTMediaAdmin.php:1577 app/admin/RTMediaAdmin.php:1595
+#: app/admin/RTMediaAdmin.php:1613
+msgid " to change your settings manually."
+msgstr "手動で設定を変更します。"
+
+#: app/admin/RTMediaAdmin.php:1579 app/admin/RTMediaAdmin.php:1597
+#: app/admin/RTMediaAdmin.php:1615
+msgid "Recommended:"
+msgstr "おすすめ"
+
+#: app/admin/RTMediaAdmin.php:1580 app/admin/RTMediaAdmin.php:1598
+#: app/admin/RTMediaAdmin.php:1616
+msgid "Update Network Settings Automatically"
+msgstr "ネットワーク設定を自動で更新する"
+
+#: app/admin/RTMediaAdmin.php:1593
+msgid ""
+"You have video enabled on BuddyPress Media but your network allowed filetypes do "
+"not permit uploading of mp4. Click "
+msgstr ""
+"BuddyPress Mediaでビデオが有効になっていますが、ネットワークで許可されているファイ"
+"ルタイプではmp4のアップロードが許可されていません。クリック"
+
+#: app/admin/RTMediaAdmin.php:1611
+msgid ""
+"You have audio enabled on BuddyPress Media but your network allowed filetypes do "
+"not permit uploading of mp3. Click "
+msgstr ""
+"BuddyPress Mediaで音声が有効になっていますが、ネットワークで許可されているファイル"
+"タイプでmp3のアップロードが許可されていません。クリック"
+
+#: app/admin/RTMediaAdmin.php:1632
+msgid "Network settings updated successfully."
+msgstr "ネットワーク設定が正常に更新されました。"
+
+#: app/admin/RTMediaAdmin.php:1685
+msgid ""
+"Please update rtMedia template files if you have overridden the default rtMedia "
+"templates in your theme. If not, you can ignore and hide this notice."
+msgstr ""
+"あなたのテーマにデフォルトのrtMediaテンプレートを上書きした場合は、rtMediaテンプ"
+"レートファイルを更新してください。そうでない場合は、この通知を無視して非表示にする"
+"ことができます。"
+
+#: app/admin/RTMediaAdmin.php:1685 app/importers/RTMediaMediaSizeImporter.php:73
+#: app/importers/RTMediaMigration.php:68
+msgid "Hide"
+msgstr "非表示"
+
+#: app/admin/RTMediaAdmin.php:1825
+msgid ""
+"Your license keys can be found on <a href=\"%s\">my-account</a> page. For more "
+"details, please refer to <a href=\"%s\">License documentation</a> page."
+msgstr ""
+"ライセンス キーは、[<a href=\"%s\">マイ アカウント</a>] ページで見つけることができ"
+"ます。詳細については、<a href=\"%s\">ライセンスのマニュアル</a>ページを参照してく"
+"ださい。"
+
+#: app/admin/RTMediaAdmin.php:1842
+msgid ""
+"We found an invalid or expired license key for an rtMedia add-on. Please go to "
+"the <a href=\"%s\">Licenses page</a> to fix this issue."
+msgstr ""
+"rtMediaアドオンの無効または期限切れのライセンスキーが見つかりました。この問題を解"
+"決するには、<a href=\"%s\">ライセンスページ</a>にアクセスしてください。"
+
+#: app/admin/RTMediaFormHandler.php:61 app/admin/RTMediaFormHandler.php:102
+#: app/admin/RTMediaFormHandler.php:195 app/admin/RTMediaFormHandler.php:230
+msgid "Please provide a \"value\" in the argument."
+msgstr "引数に「値」を指定してください。"
+
+#: app/admin/RTMediaFormHandler.php:143
+msgid "Need to specify atleast two radios, else use a checkbox instead"
+msgstr ""
+"少なくとも2つのラジオを指定する必要があります。そうでない場合は、代わりにチェック"
+"ボックスを使用します"
+
+#: app/admin/RTMediaFormHandler.php:278 templates/media/album-gallery.php:67
+#: templates/media/media-gallery.php:84
+msgid "Load More"
+msgstr "もっと読み込む"
+
+#: app/admin/RTMediaFormHandler.php:279
+msgid "Pagination"
+msgstr "ページネーション"
+
+#: app/admin/RTMediaFormHandler.php:291
+msgid "Allow user to comment on uploaded media"
+msgstr "ユーザーがアップロードしたメディアにコメントできるようにする"
+
+#: app/admin/RTMediaFormHandler.php:296
+msgid ""
+"This will display the comment form and comment listing on single media pages as "
+"well as inside lightbox (if lightbox is enabled)."
+msgstr ""
+"これにより、単一のメディアページとライトボックス内のコメントフォームとコメントリス"
+"トが表示されます（ライトボックスが有効な場合）"
+
+#: app/admin/RTMediaFormHandler.php:301
+msgid "Enable likes for media"
+msgstr "好きなメディアを有効にする"
+
+#: app/admin/RTMediaFormHandler.php:306
+msgid "Enabling this setting will add like feature for media."
+msgstr "この設定を有効にすると、メディアのような機能が追加されます。"
+
+#: app/admin/RTMediaFormHandler.php:311
+msgid "Use lightbox to display media"
+msgstr "ライトボックスを使ってメディアを表示する"
+
+#: app/admin/RTMediaFormHandler.php:316
+msgid "View single media in facebook style lightbox."
+msgstr "単一のメディアをFacebookスタイルのライトボックスで表示します。"
+
+#: app/admin/RTMediaFormHandler.php:321
+msgid "Number of media per page"
+msgstr "ページあたりのメディア数"
+
+#: app/admin/RTMediaFormHandler.php:327
+msgid "Number of media items you want to show per page on front end."
+msgstr "フロントエンドで1ページに表示するメディアアイテムの数"
+
+#: app/admin/RTMediaFormHandler.php:333
+msgid "Media display pagination option"
+msgstr "メディア表示ページの区切りオプション"
+
+#: app/admin/RTMediaFormHandler.php:339
+msgid "Choose whether you want the load more button or pagination buttons."
+msgstr ""
+"より多くのボタンをロードするか、ページ区切りボタンをロードするかを選択します。"
+
+#: app/admin/RTMediaFormHandler.php:345
+msgid "Enable"
+msgstr "有効化"
+
+#: app/admin/RTMediaFormHandler.php:345
+msgid "Cascading grid layout"
+msgstr "カスケードのグリッド レイアウト"
+
+#: app/admin/RTMediaFormHandler.php:350
+msgid "If you enable masonry view, it is advisable to"
+msgstr "メイソンビュー（タイルのような）を有効にする場合はお勧め"
+
+#: app/admin/RTMediaFormHandler.php:350
+msgid "for masonry view."
+msgstr "タイル状に表示"
+
+#: app/admin/RTMediaFormHandler.php:354
+msgid "You might need to"
+msgstr "必要です。"
+
+#: app/admin/RTMediaFormHandler.php:354
+msgid "change thumbnail size"
+msgstr "サムネイルサイズを変更する"
+
+#: app/admin/RTMediaFormHandler.php:354
+msgid "and uncheck the crop box for thumbnails."
+msgstr "サムネイルのクロップボックスをオフにします。"
+
+#: app/admin/RTMediaFormHandler.php:354
+msgid ""
+"To set gallery for fixed width, set image height to 0 and width as per your "
+"requirement and vice-versa."
+msgstr ""
+"固定幅のギャラリーを設定するには、画像の高さを0に、幅を要件に合わせて設定します。"
+"逆も同様です。"
+
+#: app/admin/RTMediaFormHandler.php:357
+msgid "Enable Direct Upload"
+msgstr "ダイレクトアップロードを有効にする"
+
+#: app/admin/RTMediaFormHandler.php:362
+msgid "Uploading media directly as soon as it gets selected."
+msgstr "メディアが選択されるとすぐにアップロードします。"
+
+#: app/admin/RTMediaFormHandler.php:386
+msgid "Single Media View"
+msgstr "シングルメディアビュー"
+
+#: app/admin/RTMediaFormHandler.php:387 app/helper/RTMediaAddon.php:348
+msgid "Media Likes"
+msgstr "メディアのいいね！"
+
+#: app/admin/RTMediaFormHandler.php:388
+msgid "List Media View"
+msgstr "メディアビューを一覧表示する"
+
+#: app/admin/RTMediaFormHandler.php:389
+msgid "Masonry View"
+msgstr "タイル状に表示"
+
+#: app/admin/RTMediaFormHandler.php:390
+msgid "Direct Upload"
+msgstr "直接アップロード"
+
+#: app/admin/RTMediaFormHandler.php:408
+msgid "Allow usage data tracking"
+msgstr "使用状況データの追跡を許可する"
+
+#: app/admin/RTMediaFormHandler.php:413
+msgid ""
+"To make rtMedia better compatible with your sites, you can help the rtMedia team "
+"learn what themes and plugins you are using. No private information about your "
+"setup will be sent during tracking."
+msgstr ""
+"rtMediaのサイトとの互換性を高めるために、rtMediaチームがあなたが使っているテーマや"
+"プラグインを知るのを助けることができます。トラッキング中にあなたの設定に関する個人"
+"情報は送信されません。"
+
+#: app/admin/RTMediaFormHandler.php:417
+msgid "Admin bar menu integration"
+msgstr "管理バーメニューの統合"
+
+#: app/admin/RTMediaFormHandler.php:422
+msgid ""
+"Add rtMedia menu to WordPress admin bar for easy access to settings and "
+"moderation page (if enabled)."
+msgstr ""
+"rtMediaメニューをWordPress管理者バーに追加して、設定と管理ページ（有効になっている"
+"場合）に簡単にアクセスできます。"
+
+#: app/admin/RTMediaFormHandler.php:427
+msgid "Add a link to rtMedia in footer"
+msgstr "フッターにrtMediaへのリンクを追加する"
+
+#: app/admin/RTMediaFormHandler.php:432
+msgid "Help us promote rtMedia."
+msgstr "rtMediaのプロモーションにご協力ください。"
+
+#: app/admin/RTMediaFormHandler.php:437
+msgid "Also add my affiliate-id to rtMedia footer link"
+msgstr "また、私のアフィリエイトIDをrtMediaのフッターリンクに追加する"
+
+#: app/admin/RTMediaFormHandler.php:442
+msgid ""
+"Add your affiliate-id along with footer link and get rewarded by our affiliation "
+"program."
+msgstr ""
+"あなたのアフィリエイトIDをフッタリンクと一緒に追加して、私たちの提携プログラムに"
+"よって報酬を得る。"
+
+#: app/admin/RTMediaFormHandler.php:446
+msgid "Signup for"
+msgstr "サインアップ"
+
+#: app/admin/RTMediaFormHandler.php:446
+msgid "affiliate program"
+msgstr "アフィリエイトプログラム"
+
+#: app/admin/RTMediaFormHandler.php:449
+msgid "Enable JSON API"
+msgstr "JSON API を有効にします。"
+
+#: app/admin/RTMediaFormHandler.php:454
+msgid ""
+"This will allow handling API requests for rtMedia sent through any mobile app."
+msgstr ""
+"任意のモバイル アプリケーションを介して送信される rtMedia の API 要求を処理できる"
+"ようになります。"
+
+#: app/admin/RTMediaFormHandler.php:457
+msgid "You can refer to the API document from"
+msgstr "API ドキュメントを参照することができます。"
+
+#: app/admin/RTMediaFormHandler.php:477
+msgid "Admin Settings"
+msgstr "管理者の設定"
+
+#: app/admin/RTMediaFormHandler.php:478
+msgid "API Settings"
+msgstr "API設定"
+
+#: app/admin/RTMediaFormHandler.php:479
+msgid "Miscellaneous"
+msgstr "その他"
+
+#: app/admin/RTMediaFormHandler.php:480
+msgid "Footer Link"
+msgstr "フッター リンク"
+
+#: app/admin/RTMediaFormHandler.php:560
+msgid "Media Types Settings"
+msgstr "メディアの種類の設定"
+
+#: app/admin/RTMediaFormHandler.php:568 app/helper/RTMediaSettings.php:345
+msgid "Media Type"
+msgstr "メディアの種類"
+
+#: app/admin/RTMediaFormHandler.php:573
+msgid "Allow Upload"
+msgstr "アップロードを許可 :"
+
+#: app/admin/RTMediaFormHandler.php:575
+msgid "Allows you to upload a particular media type on your post."
+msgstr "あなたの投稿に特定のメディアタイプをアップロードすることができます。"
+
+#: app/admin/RTMediaFormHandler.php:583
+msgid "Set Featured"
+msgstr "おすすめとして設定"
+
+#: app/admin/RTMediaFormHandler.php:585
+msgid "Place a specific media as a featured content on the post."
+msgstr "特定のメディアをおすすめコンテンツとして投稿に配置します。"
+
+#: app/admin/RTMediaFormHandler.php:633
+msgid "File Extensions"
+msgstr "ファイル拡張子"
+
+#: app/admin/RTMediaFormHandler.php:764
+msgid "Media Size Settings"
+msgstr "メディア サイズの設定"
+
+#: app/admin/RTMediaFormHandler.php:769
+msgid "Category"
+msgstr "カテゴリー"
+
+#: app/admin/RTMediaFormHandler.php:770
+msgid "Entity"
+msgstr "実体"
+
+#: app/admin/RTMediaFormHandler.php:771
+msgid "Width"
+msgstr "横幅"
+
+#: app/admin/RTMediaFormHandler.php:772
+msgid "Height"
+msgstr "縦幅"
+
+#: app/admin/RTMediaFormHandler.php:773
+msgid "Crop"
+msgstr "作物"
+
+#: app/admin/RTMediaFormHandler.php:823
+msgid "JPEG/JPG image quality (1-100)"
+msgstr "JPEG/JPG 画像品質 (1-100)"
+
+#: app/admin/RTMediaFormHandler.php:829
+msgid "Enter JPEG/JPG Image Quality. Minimum value is 1. 100 is original quality."
+msgstr "JPEG/JPG 画質を入力します。最小値は 1 です。100 は、オリジナルの品質です。"
+
+#: app/admin/RTMediaFormHandler.php:837
+msgid "Image Quality"
+msgstr "画像の品質"
+
+#: app/admin/RTMediaFormHandler.php:859
+msgid "Custom CSS settings"
+msgstr "カスタムCSS設定"
+
+#: app/admin/RTMediaFormHandler.php:876
+msgid "rtMedia default styles"
+msgstr "rtMedia 既定のスタイル"
+
+#: app/admin/RTMediaFormHandler.php:882
+msgid ""
+"Load default rtMedia styles. You need to write your own style for rtMedia if you "
+"disable it."
+msgstr ""
+"既定の rtMedia スタイルをロードします。それを無効にした場合、rtMedia の独自のスタ"
+"イルを記述する必要があります。"
+
+#: app/admin/RTMediaFormHandler.php:887
+msgid "Paste your CSS code"
+msgstr "CSS コードをここにペーストしてください。"
+
+#: app/admin/RTMediaFormHandler.php:893
+msgid "Custom rtMedia CSS container"
+msgstr "カスタム rtMedia CSS のコンテナー"
+
+#: app/admin/RTMediaFormHandler.php:916
+msgid "Enable privacy"
+msgstr "プライバシーを有効にします。"
+
+#: app/admin/RTMediaFormHandler.php:922
+msgid "Enable privacy in rtMedia"
+msgstr "RtMedia のプライバシーを有効にします。"
+
+#: app/admin/RTMediaFormHandler.php:927
+msgid "Default privacy"
+msgstr "デフォルトの公開設定"
+
+#: app/admin/RTMediaFormHandler.php:933
+msgid "Set default privacy for media"
+msgstr "メディアのデフォルトプライバシーを設定する"
+
+#: app/admin/RTMediaFormHandler.php:939
+msgid "Allow users to set privacy for their content"
+msgstr "ユーザーがコンテンツのプライバシーを設定できるようにする"
+
+#: app/admin/RTMediaFormHandler.php:944
+msgid ""
+"If you choose this, users will be able to change privacy of their own uploads."
+msgstr ""
+"これを選択すると、ユーザーは自分のアップロードのプライバシーを変更することができま"
+"す。"
+
+#: app/admin/RTMediaFormHandler.php:948
+msgid "For group uploads, BuddyPress groups privacy is used."
+msgstr "グループアップロードの場合、BuddyPressグループプライバシーが使用されます。"
+
+#: app/admin/RTMediaFormHandler.php:990
+msgid "Enable media in profile"
+msgstr "プロファイルでメディアを有効にする"
+
+#: app/admin/RTMediaFormHandler.php:995
+msgid "Enable Media on BuddyPress Profile"
+msgstr "BuddyPressプロファイルでメディアを有効にする"
+
+#: app/admin/RTMediaFormHandler.php:1000
+msgid "Enable media in group"
+msgstr "グループ内のメディアを有効にします。"
+
+#: app/admin/RTMediaFormHandler.php:1005
+msgid "Enable Media on BuddyPress Groups"
+msgstr "BuddyPressグループでメディアを有効にする"
+
+#: app/admin/RTMediaFormHandler.php:1010
+msgid "Allow upload from activity stream"
+msgstr "アクティビティ ストリームからのアップロードを許可します。"
+
+#: app/admin/RTMediaFormHandler.php:1015
+msgid "Allow upload using status update box present on activity stream page"
+msgstr ""
+"アクティビティストリームページにあるステータス更新ボックスを使用してアップロードを"
+"許可する"
+
+#: app/admin/RTMediaFormHandler.php:1021
+msgid "Enable media in comment"
+msgstr "コメントでメディアを有効にします。"
+
+#: app/admin/RTMediaFormHandler.php:1026
+msgid ""
+"This will allow users to upload media in comment section for originally uploaded "
+"media up to 1 level."
+msgstr ""
+"これにより、最初にアップロードされたメディアのコメントセクションに最大1レベルのメ"
+"ディアをアップロードできます。"
+
+#: app/admin/RTMediaFormHandler.php:1031 app/admin/RTMediaFormHandler.php:1036
+msgid "Disable upload in comment media"
+msgstr "コメント メディアのアップロードを無効にします。"
+
+#: app/admin/RTMediaFormHandler.php:1042
+msgid "Number of media items to show in activity stream"
+msgstr "アクティビティストリームに表示するメディアアイテムの数"
+
+#: app/admin/RTMediaFormHandler.php:1047
+msgid ""
+"With bulk uploads activity, the stream may get flooded. You can control the "
+"maximum number of media items or files per activity. This limit will not affect "
+"the actual number of uploads. This is only for display. \"0\" means unlimited."
+msgstr ""
+"一括アップロードアクティビティでは、ストリームが氾濫する可能性があります。アクティ"
+"ビティあたりのメディアアイテムまたはファイルの最大数を制御できます。この制限は、実"
+"際のアップロード数には影響しません。これは表示専用です。 「0」は無制限を意味しま"
+"す。"
+
+#: app/admin/RTMediaFormHandler.php:1054
+msgid "Enable media notification"
+msgstr "メディア通知を有効にします。"
+
+#: app/admin/RTMediaFormHandler.php:1059
+msgid ""
+"This will enable notifications to media authors for media likes and comments."
+msgstr ""
+"これにより、メディアの作者にメディアの好き嫌いやコメントを通知することができます。"
+
+#: app/admin/RTMediaFormHandler.php:1065
+msgid "Create activity for media likes"
+msgstr "メディア好きのためのアクティビティを作成する"
+
+#: app/admin/RTMediaFormHandler.php:1070
+msgid "Enabling this setting will create BuddyPress activity for media likes."
+msgstr ""
+"この設定を有効にすると、好きなメディアに対してBuddyPressアクティビティが作成されま"
+"す。"
+
+#: app/admin/RTMediaFormHandler.php:1076
+msgid "Create activity for media comments"
+msgstr "メディアにコメントするためのアクティビティを作成します。"
+
+#: app/admin/RTMediaFormHandler.php:1081
+msgid "Enabling this setting will create BuddyPress activity for media comments."
+msgstr ""
+"この設定を有効にすると、メディアコメント用のBuddyPressアクティビティが作成されま"
+"す。"
+
+#: app/admin/RTMediaFormHandler.php:1087
+msgid "Organize media into albums"
+msgstr "アルバムにメディアを整理します。"
+
+#: app/admin/RTMediaFormHandler.php:1093
+msgid ""
+"This will add 'album' tab to BuddyPress profile and group depending on the "
+"^above^ settings."
+msgstr ""
+"これは、上記の設定に応じてBuddyPressのプロフィールとグループに「アルバム」タブを追"
+"加します。"
+
+#: app/admin/RTMediaFormHandler.php:1098
+msgid "Show album description"
+msgstr "アルバムの説明を表示します。"
+
+#: app/admin/RTMediaFormHandler.php:1104
+msgid "This will show description of an album under album gallery page."
+msgstr "アルバムギャラリーページの下にあるアルバムの説明が表示されます。"
+
+#: app/admin/templates/tmpl-rtm-album-favourites-importer.php:4
+msgid "User's Favorites:"
+msgstr "ユーザーのお気に入り:"
+
+#: app/helper/RTMediaAddon.php:81 app/helper/RTMediaAddon.php:82
+msgid "Plugins"
+msgstr "プラグイン"
+
+#: app/helper/RTMediaAddon.php:106
+msgid "SEO"
+msgstr "SEO"
+
+#: app/helper/RTMediaAddon.php:109
+msgid ""
+"Generate an XML sitemap for all the public media files uploaded via rtMedia "
+"plugin. These sitemaps can be useful to index search engine to improve website "
+"SEO."
+msgstr ""
+"rtMediaプラグインを介してアップロードされたすべてのパブリックメディアファイルのXML"
+"サイトマップを生成します。これらのサイトマップは、ウェブサイトのSEOを向上させるた"
+"めに検索エンジンのインデックスを作成するのに便利です。"
+
+#: app/helper/RTMediaAddon.php:117
+msgid "Moderation"
+msgstr "Moderation"
+
+#: app/helper/RTMediaAddon.php:120
+msgid ""
+"Report media if they find offensive. Set number of reports to automatically take "
+"down media from site."
+msgstr ""
+"彼らに不快感を感じたらメディアを報告してください。サイトから自動的にメディアを削除"
+"するレポートの数を設定します。"
+
+#: app/helper/RTMediaAddon.php:128
+msgid "Custom Attributes"
+msgstr "Custom Attributes"
+
+#: app/helper/RTMediaAddon.php:131
+msgid ""
+"Categories media based on attributes. Site owner need to create attributes. When "
+"user upload a media, can select in which attribute that media can add."
+msgstr ""
+"属性に基づいてメディアを分類します。サイト所有者は属性を作成する必要があります。"
+"ユーザーがメディアをアップロードするときに、メディアが追加できる属性を選択できま"
+"す。"
+
+#: app/helper/RTMediaAddon.php:139
+msgid "Docs and Other files"
+msgstr "Docs and Other files"
+
+#: app/helper/RTMediaAddon.php:142
+msgid ""
+"Allow users to upload documents and other file type using rtMedia upload box. "
+"This addon support all the file extensions which WordPress allows."
+msgstr ""
+"ユーザーがrtMediaアップロードボックスを使用してドキュメントやその他のファイルタイ"
+"プをアップロードできるようにします。このアドオンは、WordPressが許可するすべての"
+"ファイル拡張子をサポートします。"
+
+#: app/helper/RTMediaAddon.php:150
+msgid "Default Albums"
+msgstr "Default Albums"
+
+#: app/helper/RTMediaAddon.php:153
+msgid ""
+"This plugin allows the creation of multiple default albums for rtMedia uploads. "
+"One of these albums can be set as the default global album."
+msgstr ""
+"このプラグインを使用すると、rtMediaのアップロード用に複数のデフォルトアルバムを作"
+"成できます。これらのアルバムの1つをデフォルトのグローバルアルバムとして設定するこ"
+"とができます。"
+
+#: app/helper/RTMediaAddon.php:161
+msgid "Podcast (RSS and Atom feeds)"
+msgstr "Podcast (RSS や Atom フィード)"
+
+#: app/helper/RTMediaAddon.php:164
+msgid ""
+"Read rtMedia uploads from iTunes as well as any RSS feed-reader/podcasting "
+"software."
+msgstr ""
+"Read rtMedia は、任意の RSS フィード リーダー/ポッド キャスト ソフトウェアと同様"
+"に、iTunes からアップロードします。"
+
+#: app/helper/RTMediaAddon.php:172
+msgid "Playlists"
+msgstr "Playlists"
+
+#: app/helper/RTMediaAddon.php:175
+msgid ""
+"Audio can be grouped into playlists. Once the user upload any audio file, can "
+"create a playlist or use existing one to manage audio files."
+msgstr ""
+"オーディオは、プレイリストに分類できます。ユーザーは、任意のオーディオ ファイルを"
+"アップロード後は、プレイリストを作成または既存の 1 つを使用して、オーディオ ファイ"
+"ルを管理できます。"
+
+#: app/helper/RTMediaAddon.php:183
+msgid "Favorites"
+msgstr "Favorites"
+
+#: app/helper/RTMediaAddon.php:186
+msgid ""
+"Users can create their list of favorite media in which they can add media "
+"previously uploaded by any user."
+msgstr ""
+"ユーザーはお気に入りのメディアのリストを作成して、他のユーザーがアップロードしたメ"
+"ディアを追加できます。"
+
+#: app/helper/RTMediaAddon.php:194
+msgid "Restrictions"
+msgstr "Restrictions"
+
+#: app/helper/RTMediaAddon.php:197
+msgid ""
+"Site admin can set an upload limit on the basis of time span, file size (MB) and "
+"number of files user can upload."
+msgstr ""
+"サイト管理者は、ユーザーがアップロードできる期間、ファイルサイズ（MB）およびファイ"
+"ル数に基づいてアップロード制限を設定できます。"
+
+#: app/helper/RTMediaAddon.php:205
+msgid "bbPress Attachments"
+msgstr "bbPress Attachments"
+
+#: app/helper/RTMediaAddon.php:208
+msgid "Attach media files to bbPress forum topics and replies."
+msgstr "メディアファイルをbbPressフォーラムのトピックと返信に添付します。"
+
+#: app/helper/RTMediaAddon.php:216
+msgid "WordPress Sitewide Gallery"
+msgstr "WordPress Sitewide Gallery"
+
+#: app/helper/RTMediaAddon.php:219
+msgid ""
+"Site admin can create and upload media into WordPress album. Create album without "
+"being dependent on BuddyPress."
+msgstr ""
+"サイト管理者はメディアを作成してWordPressアルバムにアップロードできます。 "
+"BuddyPressに依存せずにアルバムを作成する。"
+
+#: app/helper/RTMediaAddon.php:227
+msgid "WordPress Comment Attachments"
+msgstr "WordPress Comment Attachments"
+
+#: app/helper/RTMediaAddon.php:230
+msgid ""
+"Allow users to upload a media file in WordPress comment attachment box. It will "
+"display a thumbnail of attached file."
+msgstr ""
+"ユーザーがWordPressコメント添付ファイルボックスにメディアファイルをアップロードで"
+"きるようにする。添付ファイルのサムネイルが表示されます。"
+
+#: app/helper/RTMediaAddon.php:238
+msgid "Social Sharing"
+msgstr "Social Sharing"
+
+#: app/helper/RTMediaAddon.php:241
+msgid ""
+"Share uploaded media on social network sites like Facebook, twitter, linkedin, "
+"Google +. This addon integrate with rtSocial plugin."
+msgstr ""
+"Facebook、twitter、linkedin、Google +などのSNSにアップロードされたメディアを共有す"
+"る。このアドオンはrtSocialプラグインと統合されています。"
+
+#: app/helper/RTMediaAddon.php:249
+msgid "Sidebar Widgets"
+msgstr "Sidebar Widgets"
+
+#: app/helper/RTMediaAddon.php:252
+msgid ""
+"This addon provide widgets to upload media and display gallery for rtMedia plugin."
+msgstr ""
+"このアドオンは、メディアをアップロードするウィジェットと、rtMediaプラグインのギャ"
+"ラリーを表示します。"
+
+#: app/helper/RTMediaAddon.php:260
+msgid "5 Star Ratings"
+msgstr "5 Star Ratings"
+
+#: app/helper/RTMediaAddon.php:263
+msgid ""
+"Display 5 star rating for all the uploaded media. User can rate the media files "
+"from 1 to 5 star."
+msgstr ""
+"アップロードされたすべてのメディアの5つ星評価を表示します。ユーザーは1から5星まで"
+"メディアファイルを評価できます。"
+
+#: app/helper/RTMediaAddon.php:271
+msgid "Edit Mp3 Info (ID3 Tags)"
+msgstr "Edit Mp3 Info (ID3 Tags)"
+
+#: app/helper/RTMediaAddon.php:274
+msgid "Allow user to edit MP3 FIle Audio tags (ID 3 tags)."
+msgstr "ユーザーがMP3ファイルのオーディオタグ（ID 3タグ）を編集できるようにする。"
+
+#: app/helper/RTMediaAddon.php:282
+msgid "Media Sorting"
+msgstr "メディアの並べ替え"
+
+#: app/helper/RTMediaAddon.php:285
+msgid ""
+"Sort uploaded media based on file size, ascending/descending title, upload date "
+"of media."
+msgstr ""
+"ファイルサイズ、昇順/降順、メディアのアップロード日に基づいて、アップロードしたメ"
+"ディアを並べ替えます。"
+
+#: app/helper/RTMediaAddon.php:293
+msgid "Bulk Edit"
+msgstr "Bulk Edit"
+
+#: app/helper/RTMediaAddon.php:296
+msgid ""
+"Bulk edit option will allow user to quickly select media files and do required "
+"actions like move files from one album to another, change attributes, change "
+"privacy, delete files."
+msgstr ""
+"一括編集オプションを使用すると、メディアファイルをすばやく選択したり、あるアルバム"
+"から別のアルバムにファイルを移動したり、属性を変更したり、プライバシーを変更した"
+"り、ファイルを削除するなどの必要な操作を行うことができます。"
+
+#: app/helper/RTMediaAddon.php:304
+msgid "BuddyPress Profile Picture"
+msgstr "BuddyPress Profile Picture"
+
+#: app/helper/RTMediaAddon.php:307
+msgid "User can easily set his/her profile picture from media uploaded via rtMedia."
+msgstr ""
+"ユーザーは、rtMedia経由でアップロードしたメディアから簡単にプロフィール画像を設定"
+"できます。"
+
+#: app/helper/RTMediaAddon.php:315
+msgid "Album Cover Art"
+msgstr "Album Cover Art"
+
+#: app/helper/RTMediaAddon.php:318
+msgid "User can easily set any of the image of the album as album cover photo"
+msgstr ""
+"ユーザーは簡単にアルバム カバー写真としてアルバムのイメージのいずれかを設定できま"
+"す。"
+
+#: app/helper/RTMediaAddon.php:326
+msgid "Direct Download Link"
+msgstr "Direct Download Link"
+
+#: app/helper/RTMediaAddon.php:329
+msgid ""
+"User can download media from website. Site owner can restrict which media type "
+"can be allowed to download."
+msgstr ""
+"ユーザーはウェブサイトからメディアをダウンロードできます。サイトの所有者は、ダウン"
+"ロードを許可できるメディアの種類を制限できます。"
+
+#: app/helper/RTMediaAddon.php:337
+msgid "Upload by URL"
+msgstr "Upload by URL"
+
+#: app/helper/RTMediaAddon.php:340
+msgid ""
+"Users do not need to download media files from a URL and then upload it with "
+"rtMedia. Just provide the absolute URL for the media and it will upload on site."
+msgstr ""
+"ユーザーはURLからメディアファイルをダウンロードしてからrtMediaでアップロードする必"
+"要はありません。メディアの絶対URLを入力するだけで、サイトにアップロードされます。"
+
+#: app/helper/RTMediaAddon.php:351
+msgid ""
+"This add-on let you know who liked the media. User can also see which media they "
+"liked under their profile."
+msgstr ""
+"このアドオンにより、誰がメディア好きだったかを知ることができます。ユーザーは、自分"
+"の好きなメディアを自分のプロフィールで見ることもできます。"
+
+#: app/helper/RTMediaAddon.php:359
+msgid "Activity URL Preview"
+msgstr "Activity URL Preview"
+
+#: app/helper/RTMediaAddon.php:362
+msgid ""
+"This addon provides a preview of the URL that is shared in BuddyPress activity. "
+"Just enter the URL you want to share on your site and see a preview of it before "
+"it is shared."
+msgstr ""
+"このアドオンは、BuddyPressのアクティビティで共有されるURLのプレビューを提供しま"
+"す。あなたのサイトで共有したいURLを入力し、共有する前にそのプレビューで確認してく"
+"ださい。"
+
+#: app/helper/RTMediaAddon.php:370
+msgid "View Counter"
+msgstr "View Counter"
+
+#: app/helper/RTMediaAddon.php:373
+msgid ""
+"Enable view count for all the uploaded media. Whenever user open that media file "
+"in lightbox or in single media view, that view count will be calculated and "
+"display next to media file."
+msgstr ""
+"アップロードされたすべてのメディア閲覧数を有効にします。ライトボックスまたは単一の"
+"メディアビューでそのメディアファイルを開くと、その閲覧数が計算され、メディアファイ"
+"ルの横に表示されます。"
+
+#: app/helper/RTMediaAddon.php:381
+msgid "Shortcode Generator"
+msgstr "Shortcode Generator"
+
+#: app/helper/RTMediaAddon.php:384
+msgid ""
+"This add-on will add shortcode generator button in WordPress post and page editor "
+"for all the rtMedia shortcodes."
+msgstr ""
+"このアドオンは、すべてのrtMediaショートコードのWordPressポストおよびページエディタ"
+"にショートコードジェネレータボタンを追加します。"
+
+#: app/helper/RTMediaAddon.php:392
+msgid "Album Privacy"
+msgstr "Album Privacy"
+
+#: app/helper/RTMediaAddon.php:395
+msgid ""
+"Set album privacy when user create an album or change album privacy when editing "
+"existing albums. The privacy levels are Public, Logged in user, Friends and "
+"Private."
+msgstr ""
+"既存のアルバムを編集するときに、ユーザーがアルバムを作成したりアルバムのプライバ"
+"シーを変更したりすると、アルバムのプライバシーが設定されます。プライバシーレベル"
+"は、パブリック、ログインユーザー、フレンドおよびプライベートです。"
+
+#: app/helper/RTMediaAddon.php:403
+msgid "BuddyPress Group Media Control"
+msgstr "BuddyPress Group Media Control"
+
+#: app/helper/RTMediaAddon.php:406
+msgid "This add-on allows group owner to manage media upload feature group wise."
+msgstr ""
+"このアドオンにより、グループ管理者はメディアアップロード機能を管理できます。"
+
+#: app/helper/RTMediaAddon.php:414
+msgid "Set Custom Thumbnail for Audio/Video"
+msgstr "Set Custom Thumbnail for Audio/Video"
+
+#: app/helper/RTMediaAddon.php:417
+msgid ""
+"Allow media owner to change the thumbnail of uploaded audio/video files. The File "
+"Upload box will be provided to change media thumbnail."
+msgstr ""
+"メディア所有者がアップロードされたオーディオ/ビデオファイルのサムネイルを変更でき"
+"るようにする。メディアサムネイルを変更するための[ファイルアップロード]ボックスが表"
+"示されます。"
+
+#: app/helper/RTMediaAddon.php:425
+msgid "myCRED"
+msgstr "myCRED"
+
+#: app/helper/RTMediaAddon.php:428
+msgid ""
+"This plugin integrates rtMedia and myCRED plugin, users can be can award virtual "
+"points for various rtMedia activities, like media upload, likes, deleted etc."
+msgstr ""
+"このプラグインはrtMediaとmyCREDのプラグインを統合しており、ユーザーはメディアの"
+"アップロード、好きなもの、削除されたものなど、さまざまなrtMediaのアクティビティの"
+"仮想ポイントを獲得できます"
+
+#: app/helper/RTMediaAddon.php:436
+msgid "Upload Terms"
+msgstr "Upload Terms"
+
+#: app/helper/RTMediaAddon.php:439
+msgid ""
+"User must have to check the terms and conditions checkbox before uploading the "
+"media."
+msgstr ""
+"ユーザーは、メディアをアップロードする前に利用規約のチェック ボックスをチェックす"
+"る必要があります。"
+
+#: app/helper/RTMediaAddon.php:447
+msgid "CubePoints"
+msgstr "CubePoints"
+
+#: app/helper/RTMediaAddon.php:450
+msgid ""
+"If you are using CubePoints plugin on your website than rtMedia CubePoint add-on "
+"can be integrate with that plugin to setup point management system for rtMedia "
+"related activities."
+msgstr ""
+"ウェブサイト上でCubePointsプラグインを使用している場合は、rtMedia CubePointアドオ"
+"ンをrtMedia関連アクティビティ用のポイント管理システムにプラグインと統合することが"
+"できます。"
+
+#: app/helper/RTMediaAddon.php:458
+msgid "Social Sync"
+msgstr "Social Sync"
+
+#: app/helper/RTMediaAddon.php:461
+msgid "rtMedia Social Sync allows you to import media from your Facebook account."
+msgstr ""
+"rtMedia Social Syncでは、あなたのFacebookアカウントからメディアをインポートするこ"
+"とができます。"
+
+#: app/helper/RTMediaAddon.php:469
+msgid "Photo Watermark"
+msgstr "Photo Watermark"
+
+#: app/helper/RTMediaAddon.php:472
+msgid ""
+"rtMedia Photo Watermark let you add watermark on your images uploaded using "
+"rtMedia."
+msgstr ""
+"rtMedia Photo Watermarkでは、rtMediaを使用してアップロードした画像にウォーターマー"
+"クを追加できます。"
+
+#: app/helper/RTMediaAddon.php:480
+msgid "Photo Tagging"
+msgstr "Photo Tagging"
+
+#: app/helper/RTMediaAddon.php:483
+msgid ""
+"rtMedia Photo Tagging enable users to tag their friends on photos uploaded using "
+"rtMedia."
+msgstr ""
+"rtMedia Photo Taggingを使うと、ユーザーはrtMediaを使ってアップロードした写真に友達"
+"をタグ付けすることができます。"
+
+#: app/helper/RTMediaAddon.php:491
+msgid "Photo Filters"
+msgstr "Photo Filters"
+
+#: app/helper/RTMediaAddon.php:494
+msgid ""
+"rtMedia Photo Filters adds Instagram like filters to images uploaded with rtMedia."
+msgstr ""
+"rtMedia Photo Filtersは、rtMediaでアップロードした画像にInstagramのようなフィルタ"
+"を追加します。"
+
+#: app/helper/RTMediaAddon.php:502
+msgid "Kaltura Add-on"
+msgstr "Kaltura Add-on"
+
+#: app/helper/RTMediaAddon.php:505
+msgid ""
+"Add support for more video formats using Kaltura video solution. It works with "
+"Kaltura.com, self-hosted Kaltura-CE and Kaltura-on-premise."
+msgstr ""
+"Kalturaビデオソリューションを使用して、より多くのビデオフォーマットをサポートしま"
+"す。それはKaltura.com、 self-hosted Kaltura-CE、Kaltura-on-premiseで動作します。"
+
+#: app/helper/RTMediaAddon.php:513
+msgid "FFMPEG Add-on"
+msgstr "FFMPEG Add-on"
+
+#: app/helper/RTMediaAddon.php:516
+msgid ""
+"Add supports for more audio & video formats using open-source media-node. Media "
+"node comes with automated setup script for Ubuntu/Debian."
+msgstr ""
+"オープンソースメディアノードを使用して、より多くのオーディオおよびビデオフォーマッ"
+"トのサポートを追加します。メディアノードには、Ubuntu / Debian用の自動セットアップ"
+"スクリプトが付属しています。"
+
+#: app/helper/RTMediaAddon.php:524
+msgid "Membership Add-on"
+msgstr "Membership Add-on"
+
+#: app/helper/RTMediaAddon.php:527
+msgid ""
+"rtMedia Membership add-on provides membership functionality in your site in terms "
+"of media upload."
+msgstr ""
+"rtMedia Membership add-onは、メディアアップロードの点でサイトのメンバーシップ機能"
+"を提供します。"
+
+#: app/helper/RTMediaAddon.php:554
+msgid "Coming Soon !!"
+msgstr "近日公開予定"
+
+#: app/helper/RTMediaAddon.php:587
+msgid "Purchased"
+msgstr "購入済"
+
+#: app/helper/RTMediaAddon.php:589 app/helper/RTMediaThemes.php:157
+#: app/helper/RTMediaThemes.php:201 app/helper/RTMediaThemes.php:310
+#: app/helper/RTMediaThemes.php:354 app/importers/BPMediaAlbumimporter.php:177
+msgid "Buy Now"
+msgstr "今すぐ購入"
+
+#: app/helper/RTMediaAddon.php:621 app/helper/RTMediaThemes.php:155
+#: app/helper/RTMediaThemes.php:199 app/helper/RTMediaThemes.php:308
+#: app/helper/RTMediaThemes.php:352 app/importers/BPMediaAlbumimporter.php:178
+msgid "Live Demo"
+msgstr "ライブデモ"
+
+#: app/helper/RTMediaAdminWidget.php:32
+msgid "Argument missing. id is required."
+msgstr "引数がありません。id が必要です。"
+
+#: app/helper/RTMediaCommentNotification.php:62
+msgid "commented on your"
+msgstr "投稿にコメントしました"
+
+#: app/helper/RTMediaCommentNotification.php:64
+msgid "new comments on your"
+msgstr "あなたの新しいコメント"
+
+#: app/helper/RTMediaFeed.php:48
+msgid "No items"
+msgstr "項目なし"
+
+#: app/helper/RTMediaFeed.php:55
+msgid "Posted "
+msgstr "投稿日"
+
+#: app/helper/RTMediaLicense.php:53
+msgid "You may be interested in"
+msgstr "こちらの商品も…"
+
+#: app/helper/RTMediaLicense.php:53
+msgid "rtMedia Addons"
+msgstr "rtMedia アドオン"
+
+#: app/helper/RTMediaLicense.php:83
+msgid "Deactivate License"
+msgstr "ライセンスを無効化"
+
+#: app/helper/RTMediaLicense.php:86
+msgid "Activate License"
+msgstr "ライセンスを有効化"
+
+#: app/helper/RTMediaLicense.php:126
+msgid "Your license key expired on %1$s. Please renew your license key."
+msgstr ""
+"あなたのライセンスキーは%1$sで期限切れです。ライセンスキーを更新してください。"
+
+#: app/helper/RTMediaLicense.php:137
+msgid ""
+"Your license key has been disabled. Please contact support for more information."
+msgstr ""
+"ライセンスキーが無効になっています。詳細については、サポートにお問い合わせくださ"
+"い。"
+
+#: app/helper/RTMediaLicense.php:147
+msgid ""
+"Invalid license. Please <a href=\"%s\" target=\"_blank\">visit your account page</"
+"a> and verify it."
+msgstr ""
+"ライセンスが無効です。 <a href=\"%s\" target=\"_blank\">アカウントページにアクセス"
+"</a>して確認してください。"
+
+#: app/helper/RTMediaLicense.php:159
+msgid ""
+"Your %1$s is not active for this URL. Please <a href=\"%2$s\" target=\"_blank"
+"\">visit your account page</a> to manage your license key URLs."
+msgstr ""
+"あなたの%1$sはこのURLに対して有効ではありません。ライセンスキーのURLを管理するに"
+"は、<a href=\"%2$s\" target=\"_blank\">アカウントページにアクセス</a>してくださ"
+"い。"
+
+#: app/helper/RTMediaLicense.php:171
+msgid "This appears to be an invalid license key for %s."
+msgstr "これは、%sの無効なライセンスキーのようです。"
+
+#: app/helper/RTMediaLicense.php:180
+msgid ""
+"Your license key has reached its activation limit. <a href=\"%s\">View possible "
+"upgrades</a> now."
+msgstr ""
+"ライセンスキーがアクティベーション制限に達しました。 <a href=\"%s\">可能なアップグ"
+"レードを確認</a>してください。"
+
+#: app/helper/RTMediaLicense.php:189
+msgid ""
+"Your license is not activable, please visit <a href=\"%s\">your account page</a>."
+msgstr ""
+"ライセンスは有効ではありません。<a href=\"%s\">アカウントページ</a>にアクセスして"
+"ください。"
+
+#: app/helper/RTMediaLicense.php:198 app/helper/RTMediaLicense.php:252
+msgid "To receive updates, please enter your valid license key."
+msgstr "アップデートを受け取るには、有効なライセンスキーを入力してください。"
+
+#: app/helper/RTMediaLicense.php:217
+msgid "License key never expires."
+msgstr "ライセンスキーが期限切れになることはありません。"
+
+#: app/helper/RTMediaLicense.php:226
+msgid "Your license key expires soon! It expires on %1$s. Renew your license key."
+msgstr ""
+"すぐにライセンスキーが失効します。 ライセンス期限は%1$sです。ライセンスキーを更新"
+"します。"
+
+#: app/helper/RTMediaLicense.php:237
+msgid "Your license key expires on %s."
+msgstr "ライセンスキーは、%sに期限が切れます。"
+
+#: app/helper/RTMediaLikeNotification.php:93
+msgid "liked your"
+msgstr "いいね! 済み"
+
+#: app/helper/RTMediaLikeNotification.php:95
+msgid "and one more friend liked your"
+msgstr "あなたの写真に「いいね!」しました。"
+
+#: app/helper/RTMediaLikeNotification.php:98
+msgid "and"
+msgstr "と"
+
+#: app/helper/RTMediaLikeNotification.php:98
+msgid "other friends liked your"
+msgstr "他のお友達がいいね！"
+
+#: app/helper/RTMediaSettings.php:242
+msgid "BuddyPress Media Addons for Photos"
+msgstr "BuddyPress Media Addons for Photos"
+
+#: app/helper/RTMediaSettings.php:252
+msgid "rtMedia Themes"
+msgstr "rtMedia のテーマ"
+
+#: app/helper/RTMediaSettings.php:322
+msgid ""
+"Currently your network allows uploading of the following file types. You can "
+"change the settings %s"
+msgstr ""
+"現在のところ、ネットワークでは次の種類のファイルをアップロードできます。設定を変更"
+"することができます%s"
+
+#: app/helper/RTMediaSettings.php:343 app/helper/RTMediaSettings.php:345
+msgid "Atleast one Media Type Must be selected"
+msgstr "少なくとも1つのメディアタイプを選択する必要があります"
+
+#: app/helper/RTMediaSettings.php:354 app/helper/RTMediaSettings.php:356
+msgid "\"Number of media\" count value should be numeric and greater than 0."
+msgstr "「メディア数」のカウント値は数値で0より大きくする必要があります。"
+
+#: app/helper/RTMediaSettings.php:356
+msgid "Default Count"
+msgstr "既定の回数"
+
+#: app/helper/RTMediaSettings.php:361
+msgid "Settings saved."
+msgstr "設定を保存しました"
+
+#: app/helper/RTMediaSettings.php:385
+msgid "If you make changes to width, height or crop settings, you must use "
+msgstr "幅、高さ、またはクロップの設定に変更を加えた場合に使用します。"
+
+#: app/helper/RTMediaSettings.php:386
+msgid "Regenerate Thumbnail Plugin"
+msgstr "サムネイルプラグインを再生成します。"
+
+#: app/helper/RTMediaSettings.php:387
+msgid " to regenerate old images."
+msgstr "古い画像を再生成します。"
+
+#: app/helper/RTMediaSettings.php:410
+msgid "BuddyPress Media 2.6 requires a database upgrade. "
+msgstr "BuddyPress Media 2.6は、データベースをアップグレードする必要があります。"
+
+#: app/helper/RTMediaSettings.php:411
+msgid "Update Database"
+msgstr "データベースを更新する"
+
+#: app/helper/RTMediaSettings.php:425
+msgid ""
+"If your site has some issues due to rtMedia and you want one on one support then "
+"you can create a support topic on the "
+msgstr ""
+"あなたのサイトにrtMediaに起因するいくつかの問題があり、1 つ 1 つのサポートをしたい"
+"場合のサポート トピックを作成することができます、"
+
+#: app/helper/RTMediaSettings.php:426
+msgid "rtMedia Support Forum"
+msgstr "rtMedia サポート フォーラム"
+
+#: app/helper/RTMediaSettings.php:428
+msgid ""
+"If you have any suggestions, enhancements or bug reports, then you can open a new "
+"issue on "
+msgstr "提案、拡張、バグレポートがある場合は、新しい問題を開くことができます。"
+
+#: app/helper/RTMediaSettings.php:429 app/helper/RTMediaSupport.php:467
+msgid "GitHub"
+msgstr "GitHub"
+
+#: app/helper/RTMediaSupport.php:43 app/helper/RTMediaSupport.php:577
+msgid "Cheatin' uh?"
+msgstr "間違えましたか ?"
+
+#: app/helper/RTMediaSupport.php:44 app/helper/RTMediaSupport.php:578
+msgid "Can not verify request source."
+msgstr "要求元を確認できません。"
+
+#: app/helper/RTMediaSupport.php:74 app/helper/RTMediaSupport.php:75
+#: app/helper/RTMediaSupport.php:351
+msgid "Debug Info"
+msgstr "デバッグ情報"
+
+#: app/helper/RTMediaSupport.php:84 app/helper/RTMediaSupport.php:85
+#: app/importers/RTMediaMigration.php:87
+msgid "Migration"
+msgstr "移動"
+
+#: app/helper/RTMediaSupport.php:157
+msgid "Service"
+msgstr "サービス"
+
+#: app/helper/RTMediaSupport.php:164
+msgid "Premium Support"
+msgstr "プレミアムサポート"
+
+#: app/helper/RTMediaSupport.php:170
+msgid "Bug Report"
+msgstr "バグレポート"
+
+#: app/helper/RTMediaSupport.php:176
+msgid "New Feature"
+msgstr "新機能"
+
+#: app/helper/RTMediaSupport.php:178
+msgid "Submit"
+msgstr "送信"
+
+#: app/helper/RTMediaSupport.php:225
+msgid "by"
+msgstr "by"
+
+#: app/helper/RTMediaSupport.php:225
+msgid "version"
+msgstr "バージョン"
+
+#: app/helper/RTMediaSupport.php:371
+msgid "Download Debug Info"
+msgstr "デバッグ情報をダウンロードします。"
+
+#: app/helper/RTMediaSupport.php:410
+msgid "There is no media found to migrate."
+msgstr "移行するメディアが見つかりません。"
+
+#: app/helper/RTMediaSupport.php:416
+#: app/main/controllers/media/RTMediaLoginPopup.php:56
+msgid "Click"
+msgstr "クリック"
+
+#: app/helper/RTMediaSupport.php:416
+msgid "here to migrate media from rtMedia 2.x to rtMedia 3.0+."
+msgstr "ここでrtMedia 2.xからrtMedia 3.0+にメディアを移行します。"
+
+#: app/helper/RTMediaSupport.php:444
+msgid "Submit a Bug Report"
+msgstr "バグレポートを送信する"
+
+#: app/helper/RTMediaSupport.php:447
+msgid "Submit a New Feature Request"
+msgstr "新しい機能要求を送信する"
+
+#: app/helper/RTMediaSupport.php:450
+msgid "Submit Support Request"
+msgstr "サポートリクエストを送信"
+
+#: app/helper/RTMediaSupport.php:459
+msgid ""
+"If your site has some issues due to rtMedia and you want support, feel free to "
+"create a support topic on %s"
+msgstr ""
+"サイトにrtMediaの問題があり、サポートが必要な場合は、%sのサポートトピックを作成し"
+"てください"
+
+#: app/helper/RTMediaSupport.php:460
+msgid "Community Forum"
+msgstr "コミュニティフォーラム"
+
+#: app/helper/RTMediaSupport.php:466
+msgid ""
+"If you have any suggestions, enhancements or bug reports, then you can open a new "
+"issue on %s"
+msgstr ""
+"提案、拡張、バグレポートがある場合は、%sに関する新しい問題を開くことができます"
+
+#: app/helper/RTMediaSupport.php:486
+msgid "Name"
+msgstr "名前"
+
+#: app/helper/RTMediaSupport.php:491
+msgid "Use actual user name which used during purchased."
+msgstr "購入時に使用した実際のユーザー名を使用します。"
+
+#: app/helper/RTMediaSupport.php:498
+msgid "Email"
+msgstr "メールアドレス"
+
+#: app/helper/RTMediaSupport.php:503
+msgid "Use email id which used during purchased"
+msgstr "購入時に使用したメールIDを使用する"
+
+#: app/helper/RTMediaSupport.php:510
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: app/helper/RTMediaSupport.php:518
+msgid "Subject"
+msgstr "件名"
+
+#: app/helper/RTMediaSupport.php:526 templates/media/album-single-edit.php:20
+#: templates/media/media-single-edit.php:17
+msgid "Details"
+msgstr "詳細"
+
+#: app/helper/RTMediaSupport.php:542
+msgid "Attachement"
+msgstr "添付ファイル"
+
+#: app/helper/RTMediaSupport.php:547
+msgid "Allowed file types are : images, documents and texts."
+msgstr "許可されるファイルの種類は、画像、文書、テキストです。"
+
+#: app/helper/RTMediaSupport.php:593
+msgid "rtMedia Premium Support Request from"
+msgstr "rtMediaプレミアムサポートのリクエスト"
+
+#: app/helper/RTMediaSupport.php:596
+msgid "rtMedia New Feature Request from"
+msgstr "rtMediaからの新機能をリクエスト"
+
+#: app/helper/RTMediaSupport.php:599
+msgid "rtMedia Bug Report from"
+msgstr "rtMediaからのバグレポート"
+
+#: app/helper/RTMediaSupport.php:602
+msgid "rtMedia Contact from"
+msgstr "rtMedia お問い合わせフォーム"
+
+#: app/helper/RTMediaSupport.php:681
+msgid "Thank you for your Feedback/Suggestion."
+msgstr "ご意見/ご提案ありがとうございます。"
+
+#: app/helper/RTMediaSupport.php:683
+msgid "Thank you for posting your support request."
+msgstr "サポート リクエストを投稿いただきありがとうございます。"
+
+#: app/helper/RTMediaSupport.php:684
+msgid "We will get back to you shortly."
+msgstr "あらためてご連絡いたします。"
+
+#: app/helper/RTMediaSupport.php:689
+msgid "Your server failed to send an email."
+msgstr "メールを送信できませんでした。"
+
+#: app/helper/RTMediaSupport.php:690
+msgid "Kindly contact your server support to fix this."
+msgstr "この問題を解決するにはサーバーのサポートまでお問い合わせください。"
+
+#: app/helper/RTMediaSupport.php:693
+msgid "You can alternatively create a support request %s"
+msgstr "代わりに、サポートリクエスト%sを作成することもできます"
+
+#: app/helper/RTMediaThemes.php:60 app/helper/RTMediaThemes.php:61
+msgid "Themes By rtCamp"
+msgstr "Themes By rtCamp"
+
+#: app/helper/RTMediaThemes.php:67 app/helper/RTMediaThemes.php:68
+msgid "3rd Party Themes"
+msgstr "第三者のテーマ"
+
+#: app/helper/RTMediaThemes.php:105
+msgid "rtDating"
+msgstr "rtDating"
+
+#. Author of the plugin/theme
+msgid "rtCamp"
+msgstr "rtCamp"
+
+#: app/helper/RTMediaThemes.php:111
+msgid ""
+"rtDating is a unique, clean and modern theme only for WordPress. This theme is "
+"mostly useful for dating sites and community websites. It can also be use for any "
+"other WordPress based website."
+msgstr ""
+"rtDatingはWordPressのためのユニークでクリーンでモダンなテーマです。このテーマは、"
+"サイトとコミュニティのデートサイトに役立ちます。他のWordPressベースのウェブサイト"
+"でも使用できます。"
+
+#: app/helper/RTMediaThemes.php:115
+msgid "InspireBook"
+msgstr "InspireBook"
+
+#: app/helper/RTMediaThemes.php:121
+msgid ""
+"InspireBook is a premium WordPress theme, designed especially for BuddyPress and "
+"rtMedia powered social-networks."
+msgstr ""
+"InspireBookは、特にBuddyPressとrtMediaで動くソーシャルネットワーク用に設計されたプ"
+"レミアムWordPressテーマです。"
+
+#: app/helper/RTMediaThemes.php:125
+msgid "Foodmania"
+msgstr "Foodmania"
+
+#: app/helper/RTMediaThemes.php:131
+msgid ""
+"Its premium WordPress theme, designed especially for Food, recipe and photography "
+"community sites."
+msgstr ""
+"プレミアムワードプレステーマは、特に食品、レシピ、写真コミュニティのサイト向けに設"
+"計されています。"
+
+#: app/helper/RTMediaThemes.php:149 app/helper/RTMediaThemes.php:302
+msgid "Theme Details"
+msgstr "テーマの詳細"
+
+#: app/helper/RTMediaThemes.php:164 app/helper/RTMediaThemes.php:317
+msgid "Show previous theme"
+msgstr "以前のテーマを表示します。"
+
+#: app/helper/RTMediaThemes.php:167 app/helper/RTMediaThemes.php:320
+msgid "Show next theme"
+msgstr "次のテーマを表示"
+
+#: app/helper/RTMediaThemes.php:170 app/helper/RTMediaThemes.php:323
+msgid "Close overlay"
+msgstr "オーバーレイを閉じる"
+
+#: app/helper/RTMediaThemes.php:189 app/helper/RTMediaThemes.php:342
+msgid "Read More"
+msgstr "続きを読む"
+
+#: app/helper/RTMediaThemes.php:192 app/helper/RTMediaThemes.php:345
+msgid "Tags:"
+msgstr "タグ:"
+
+#: app/helper/RTMediaThemes.php:227
+msgid "Woffice - Intranet/Extranet WordPress Theme"
+msgstr "Woffice - イントラネット/エクストラネットのワードプレスのテーマ"
+
+#: app/helper/RTMediaThemes.php:230
+msgid "Alkaweb"
+msgstr "Alkaweb"
+
+#: app/helper/RTMediaThemes.php:233
+msgid ""
+"Woffice is a feature rich, powerful Multipurpose Intranet/Extranet Wordpress "
+"theme."
+msgstr ""
+"Woffice は、機能豊富な強力な多目的イントラネット/エクストラネットのワードプレスの"
+"テーマです。"
+
+#: app/helper/RTMediaThemes.php:237
+msgid "Thrive - Intranet & Community WordPress Theme"
+msgstr "Thrive - イントラネットとコミュニティのWordPressテーマ"
+
+#: app/helper/RTMediaThemes.php:240 app/helper/RTMediaThemes.php:260
+msgid "dunhakdis"
+msgstr "dunhakdis"
+
+#: app/helper/RTMediaThemes.php:243
+msgid ""
+"Thrive is an innovative WordPress Theme designed to cater company portals, "
+"organisational websites, company intranet and extranets."
+msgstr ""
+"Thriveは、企業ポータル、組織ウェブサイト、企業イントラネット、エクストラネットに対"
+"応するために設計された革新的なWordPressテーマです。"
+
+#: app/helper/RTMediaThemes.php:247
+msgid "(M) SOCIAL NETWORK BUDDYPRESS THEME"
+msgstr "（M）ソーシャルネットワークBUDDYPRESSテーマ"
+
+#: app/helper/RTMediaThemes.php:250
+msgid "gavick"
+msgstr "gavick"
+
+#: app/helper/RTMediaThemes.php:253
+msgid ""
+"(M)Social is a sophisticated, vibrant community theme that offers incredible grid "
+"layouts, with full BuddyPress support so your users can interact with each other, "
+"create their own pages, and share their thoughts and images with the community."
+msgstr ""
+"あなたのユーザーが相互にやり取りしたり、自分のページを作成したり、自分の考えやイ"
+"メージをコミュニティと共有できるように、完全なBuddyPressサポートを備えた、驚異的な"
+"グリッドレイアウトを提供する洗練された、活気のあるコミュニティテーマです。"
+
+#: app/helper/RTMediaThemes.php:257
+msgid "Klein"
+msgstr "Klein"
+
+#: app/helper/RTMediaThemes.php:263
+msgid ""
+"Klein is an innovative WordPress theme built to support BuddyPress, bbPress, and "
+"WooCommerce out of the box. Perfect for websites that interacts with many users."
+msgstr ""
+"Kleinは、BuddyPress、bbPress、およびWooCommerceをサポートするために構築された革新"
+"的なWordPressのテーマです。多くのユーザーと対話するウェブサイトに最適です。"
+
+#: app/helper/RTMediaThemes.php:267
+msgid "SweetDate"
+msgstr "SweetDate"
+
+#: app/helper/RTMediaThemes.php:270 app/helper/RTMediaThemes.php:280
+msgid "SeventhQueen"
+msgstr "SeventhQueen"
+
+#: app/helper/RTMediaThemes.php:273
+msgid ""
+"SweetDate is a unique, clean and modern Premium Wordpress theme. It is perfect "
+"for a dating or community website but can be used as well for any other domain. "
+"They added all the things you need to create a perfect community system."
+msgstr ""
+"SweetDateはユニークでクリーンでモダンなプレミアムワードプレステーマです。 デートや"
+"コミュニティのウェブサイトには適していますが、他のドメインでも使用できます。 彼ら"
+"はあなたが完璧なコミュニティシステムを作るために必要なものすべてを加えました。"
+
+#: app/helper/RTMediaThemes.php:277
+msgid "KLEO"
+msgstr "KLEO"
+
+#: app/helper/RTMediaThemes.php:283
+msgid ""
+"You no longer need to be a professional developer or designer to create an "
+"awesome website. Let your imagination run wild and create the site of your "
+"dreams. KLEO has all the tools to get you started."
+msgstr ""
+"すばらしいウェブサイトを作成するために、プロの開発者またはデザイナーになる必要はな"
+"くなりました。 あなたの想像力を広げ、あなたの夢のサイトを作りましょう。 KLEOには、"
+"あなたを始めるためのすべてのツールがあります。"
+
+#: app/helper/RTMediaThemes.php:365
+msgid ""
+"These are the third party themes. For any issues or queries regarding these "
+"themes please contact theme developers."
+msgstr ""
+"これらは第三者のテーマです。 これらのテーマに関する質問や問合せについては、テーマ"
+"開発者にお問い合わせください。"
+
+#: app/helper/RTMediaThemes.php:368
+msgid "Are you a developer?"
+msgstr "あなたは開発者ですか？"
+
+#: app/helper/RTMediaThemes.php:371
+msgid ""
+"If you have developed a rtMedia compatible theme and would like it to list here, "
+"please email us at"
+msgstr "rtMediaと互換性のあるテーマを作成しているなら、ここにリストしましょう！"
+
+#: app/helper/RTMediaThemes.php:372
+msgid "rtmedia@rtcamp.com"
+msgstr ""
+
+#: app/helper/RTMediaUploadException.php:41
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the "
+"HTML form"
+msgstr ""
+"アップロードされたファイルが、HTMLフォームで指定されたMAX_FILE_SIZE指令を超えてい"
+"ます"
+
+#: app/helper/RTMediaUploadException.php:44
+msgid "No file was uploaded"
+msgstr "ファイルはアップロードされていません。"
+
+#: app/helper/RTMediaUploadException.php:49
+msgid "Uploade failed due to internal server error."
+msgstr "内部サーバー エラーのためアップロードに失敗しました。"
+
+#: app/helper/RTMediaUploadException.php:52
+msgid "File type not allowed."
+msgstr "このファイルタイプは許可されていません"
+
+#: app/helper/RTMediaUploadException.php:56
+msgid "Invalid Context for upload."
+msgstr "アップロードのためのコンテキストが無効です。"
+
+#: app/helper/RTMediaUploadException.php:59
+msgid "Unknown file upload error."
+msgstr "不明なファイルのアップロードエラーです。"
+
+#: app/helper/rtFormInvalidArgumentsException.php:21
+msgid "Error on line %s in %s : "
+msgstr "%s の %s 行目のエラー:"
+
+#: app/helper/rtFormInvalidArgumentsException.php:22
+msgid "The method expects an array in arguments for %s provided."
+msgstr "メソッドは、提供された %s の引数に配列を想定します。"
+
+#: app/helper/rtUploadAttachment.php:36
+msgid "You can not upload more than 2 MB."
+msgstr "2MB 以上のアップロードはできません。"
+
+#: app/helper/rtUploadAttachment.php:42
+msgid "There was an error uploading your files"
+msgstr "ファイルをアップロード中にエラーが発生しました"
+
+#: app/helper/rtUploadAttachment.php:45
+msgid "Form was submitted"
+msgstr "フォームが送信されました。"
+
+#: app/importers/BPMediaAlbumimporter.php:64
+msgid "Warning!"
+msgstr "警告！"
+
+#: app/importers/BPMediaAlbumimporter.php:65
+msgid ""
+"This import process is irreversible. Although everything is tested, please take a "
+msgstr "すべてがテストされていますが、このインポートプロセスは不可逆的です。 "
+
+#: app/importers/BPMediaAlbumimporter.php:66
+msgid "backup of your database and files"
+msgstr "データベースとファイルのバックアップ"
+
+#: app/importers/BPMediaAlbumimporter.php:67
+msgid ""
+", before proceeding. If you don't know your way around databases and files, "
+"consider "
+msgstr ""
+"、続行する前に。データベースとファイルの周りのあなたの方法がわからない場合を考慮し"
+"ます。"
+
+#: app/importers/BPMediaAlbumimporter.php:68
+msgid "hiring us"
+msgstr "有償で依頼する"
+
+#: app/importers/BPMediaAlbumimporter.php:69
+msgid ", or another professional."
+msgstr "、または別の専門家。"
+
+#: app/importers/BPMediaAlbumimporter.php:71
+msgid ""
+"If you have set \"WP_DEBUG\" in you wp-config.php file, please make sure it is "
+"set to \"false\", so that it doesn't conflict with the import process."
+msgstr ""
+"あなたの wp-config.php ファイルの\"WP_DEBUG\"を設定した場合を確認してください"
+"\"false\"に設定されてインポート プロセスと競合しないようにします。"
+
+#: app/importers/BPMediaAlbumimporter.php:72
+msgid "I have taken a backup of the database and files of this site."
+msgstr "私はこのサイトのデータベースとファイルのバックアップをとりました。"
+
+#: app/importers/BPMediaAlbumimporter.php:74
+msgid "Start Import"
+msgstr "インポートの開始"
+
+#: app/importers/BPMediaAlbumimporter.php:79
+msgid "Users"
+msgstr "ユーザー"
+
+#: app/importers/BPMediaAlbumimporter.php:89 app/main/RTMedia.php:639
+msgid "Media"
+msgstr "メディア"
+
+#: app/importers/BPMediaAlbumimporter.php:109
+msgid "Comments"
+msgstr "コメント"
+
+#: app/importers/BPMediaAlbumimporter.php:115
+msgid "Comments: 0/0 (No comments to import)"
+msgstr "コメント数: 0/0 (インポートするコメントはありません)"
+
+#: app/importers/BPMediaAlbumimporter.php:122
+msgid "User's Favorites"
+msgstr "ユーザーのいいね！"
+
+#: app/importers/BPMediaAlbumimporter.php:131
+msgid "BP-Album is active on your site and will cause problems with the import."
+msgstr ""
+"BP-Albumはあなたのサイトでアクティブになっており、インポートに問題が発生します。"
+
+#: app/importers/BPMediaAlbumimporter.php:132
+msgid "Click here to deactivate BP-Album and continue importing"
+msgstr "BP-Albumを無効にしてインポートを続行するには、ここをクリックしてください"
+
+#: app/importers/BPMediaAlbumimporter.php:138
+msgid "Some of the media failed to import. The file might be corrupt or deleted."
+msgstr ""
+"一部のメディアのインポートに失敗しました。 ファイルが破損しているか、削除されてい"
+"る可能性があります。"
+
+#: app/importers/BPMediaAlbumimporter.php:139
+msgid "The following %d BP Album Media id's could not be imported"
+msgstr "次の%d BP AlbumのメディアIDをインポートできませんでした"
+
+#: app/importers/BPMediaAlbumimporter.php:148
+msgid "I just imported bp-album to @rtMediaWP http://rt.cx/rtmedia on %s"
+msgstr "私は%sのbp-albumを@rtMediaWP http://rt.cx/rtmediaにインポートしました。"
+
+#: app/importers/BPMediaAlbumimporter.php:149
+msgid "Congratulations!"
+msgstr "おめでとうございます！"
+
+#: app/importers/BPMediaAlbumimporter.php:149
+msgid "All media from BP Album has been imported."
+msgstr "BP Albumのすべてのメディアがインポートされました。"
+
+#: app/importers/BPMediaAlbumimporter.php:150
+msgid "Tweet this"
+msgstr "ツイート"
+
+#: app/importers/BPMediaAlbumimporter.php:154
+msgid ""
+"However, a lot of unnecessary files and a database table are still eating up your "
+"resources. If everything seems fine, you can clean this data up."
+msgstr ""
+"しかし、多くの不必要なファイルとデータベーステーブルが依然としてあなたのリソースを"
+"浪費しています。 すべてがうまくいけば、このデータを整理することができます。"
+
+#: app/importers/BPMediaAlbumimporter.php:157
+msgid "Clean up Now"
+msgstr "今すぐ整理する"
+
+#: app/importers/BPMediaAlbumimporter.php:160
+msgid "Clean up Later"
+msgstr "後で整理する"
+
+#: app/importers/BPMediaAlbumimporter.php:165
+msgid "Why don't you try adding some instagram like effects to your images?"
+msgstr ""
+"あなたの画像にいくつかのインスタントグラムのような効果を加えてみてはいかがですか？"
+
+#: app/importers/BPMediaAlbumimporter.php:172
+msgid ""
+"rtMedia Photo Filters adds Instagram like filters to images uploaded with "
+"BuddyPress Media."
+msgstr ""
+"rtMedia Photo Filtersは、BuddyPress Mediaでアップロードされた画像にInstagramのよう"
+"なフィルタを追加します。"
+
+#: app/importers/BPMediaAlbumimporter.php:173
+msgid "Important"
+msgstr "重要"
+
+#: app/importers/BPMediaAlbumimporter.php:173
+msgid ""
+"You need to have ImageMagick installed on your server for this addon to work."
+msgstr ""
+"このアドオンを動作させるには、ImageMagickをサーバにインストールする必要がありま"
+"す。"
+
+#: app/importers/BPMediaAlbumimporter.php:183
+msgid ""
+"Looks like you don't use BP Album. Is there any other BuddyPress Plugin you want "
+"an importer for?"
+msgstr ""
+"あなたはBPアルバムを使用しないように見えます。 あなたがインストール希望の他の"
+"BuddyPressプラグインはありますか？"
+
+#: app/importers/BPMediaAlbumimporter.php:184
+msgid "Create an issue"
+msgstr "問題を作成する"
+
+#: app/importers/BPMediaAlbumimporter.php:185
+msgid " on GitHub requesting the same."
+msgstr "GitHub 上で同じを要求します。"
+
+#: app/importers/RTMediaActivityUpgrade.php:20
+msgid "Media activity upgrade"
+msgstr "メディア アクティビティのアップグレード"
+
+#: app/importers/RTMediaActivityUpgrade.php:117
+#: app/importers/RTMediaMediaSizeImporter.php:73
+msgid ": Database table structure for rtMedia has been updated. Please "
+msgstr ": RtMedia データベース テーブル構造を更新しました。どうぞ"
+
+#: app/importers/RTMediaActivityUpgrade.php:118
+#: app/importers/RTMediaMediaSizeImporter.php:73
+#: app/importers/RTMediaMigration.php:68
+msgid "Click Here"
+msgstr "クリック"
+
+#: app/importers/RTMediaActivityUpgrade.php:119
+msgid " to upgrade rtMedia activities."
+msgstr "rtMediaのアクティビティくをアップグレードします。"
+
+#: app/importers/RTMediaActivityUpgrade.php:176
+msgid "rtMedia: Upgrade rtMedia activity"
+msgstr "rtMedia：rtMediaアクティビティのアップグレード"
+
+#: app/importers/RTMediaActivityUpgrade.php:179
+#: app/importers/RTMediaMediaSizeImporter.php:109
+msgid "%s (estimated)"
+msgstr "%s (推定)"
+
+#: app/importers/RTMediaMediaSizeImporter.php:28
+msgid "Media Size Import"
+msgstr "メディア サイズ インポート"
+
+#: app/importers/RTMediaMediaSizeImporter.php:73
+msgid " to import media sizes. "
+msgstr "メディア サイズをインポートします。"
+
+#: app/importers/RTMediaMediaSizeImporter.php:106
+msgid "rtMedia: Import Media Size"
+msgstr "rtMedia: インポート メディア サイズ"
+
+#: app/importers/RTMediaMigration.php:68
+msgid "Please Migrate your Database"
+msgstr "データベースを移行してください"
+
+#: app/importers/RTMediaMigration.php:381
+msgid "Please Backup your "
+msgstr "バックアップしてください、"
+
+#: app/importers/RTMediaMigration.php:382
+msgid "DATABASE"
+msgstr "データベース"
+
+#: app/importers/RTMediaMigration.php:383
+msgid " and "
+msgstr "と"
+
+#: app/importers/RTMediaMigration.php:384
+msgid "UPLOAD"
+msgstr "アップロードする"
+
+#: app/importers/RTMediaMigration.php:385
+msgid " folder before Migration."
+msgstr "フォルダに移動します。"
+
+#: app/importers/RTMediaMigration.php:394
+msgid "rtMedia Migration"
+msgstr "rtMedia 移行"
+
+#: app/importers/RTMediaMigration.php:396
+msgid "It will migrate following things"
+msgstr "それは次のものを移行する"
+
+#: app/importers/RTMediaMigration.php:397
+msgid "User Albums : "
+msgstr "ユーザー アルバム:"
+
+#: app/importers/RTMediaMigration.php:400
+msgid "Groups Albums : "
+msgstr "グループのアルバム:"
+
+#: app/importers/RTMediaMigration.php:403
+msgid "Media : "
+msgstr "メディア:"
+
+#: app/importers/RTMediaMigration.php:407
+msgid "Comments : "
+msgstr "コメント : "
+
+#: app/importers/RTMediaMigration.php:468
+msgid "Error During Migration, Please Refresh Page then try again"
+msgstr "移行中にエラーが発生しました。ページを更新してからもう一度お試しください"
+
+#: app/importers/RTMediaMigration.php:488
+msgid "Start"
+msgstr "開始"
+
+#: app/importers/RTMediaMigration.php:1042
+msgid " day"
+msgstr "日"
+
+#: app/importers/RTMediaMigration.php:1046
+msgid " hour"
+msgstr "時間"
+
+#: app/importers/RTMediaMigration.php:1050
+msgid " minute"
+msgstr "分"
+
+#: app/importers/RTMediaMigration.php:1054
+msgid " second"
+msgstr "秒"
+
+#: app/importers/RTMediaMigration.php:1060
+msgid "No time remaining."
+msgstr "残り時間"
+
+#: app/main/RTMedia.php:368
+msgid "Photo"
+msgstr "写真"
+
+#: app/main/RTMedia.php:369
+msgid "Photos"
+msgstr "写真"
+
+#: app/main/RTMedia.php:377
+msgid "Video"
+msgstr "動画"
+
+#: app/main/RTMedia.php:378
+msgid "Videos"
+msgstr "ビデオ"
+
+#: app/main/RTMedia.php:386 app/main/RTMedia.php:387
+msgid "Music"
+msgstr "音楽"
+
+#: app/main/RTMedia.php:478
+msgid "Private - Visible only to the user"
+msgstr "非公開 - ユーザーにのみ表示されます"
+
+#: app/main/RTMedia.php:479
+msgid "Friends - Visible to user's friends"
+msgstr "ユーザーの友達の友達"
+
+#: app/main/RTMedia.php:480
+msgid "Logged in Users - Visible to registered users"
+msgstr "ログインユーザ - 登録ユーザに表示"
+
+#: app/main/RTMedia.php:481
+msgid "Public - Visible to the world"
+msgstr "パブリック - 世界に表示"
+
+#: app/main/RTMedia.php:647 app/main/controllers/template/RTMediaNav.php:222
+#: app/main/controllers/template/rtmedia-functions.php:136
+msgid "All"
+msgstr "すべて"
+
+#: app/main/RTMedia.php:659 app/main/controllers/media/RTMediaAlbum.php:54
+#: app/main/controllers/template/rtmedia-actions.php:123
+#: app/main/controllers/upload/RTMediaUploadView.php:51
+#: app/main/controllers/upload/RTMediaUploadView.php:54
+msgid "Album"
+msgstr "アルバム"
+
+#: app/main/RTMedia.php:663 app/main/RTMedia.php:1066
+#: app/main/controllers/media/RTMediaAlbum.php:53
+#: app/main/controllers/media/RTMediaAlbum.php:65
+msgid "Albums"
+msgstr "アルバム"
+
+#: app/main/RTMedia.php:673 app/main/controllers/media/RTMediaLoginPopup.php:38
+#: app/main/controllers/template/rtmedia-actions.php:313
+#: app/main/controllers/template/rtmedia-actions.php:316
+#: app/main/controllers/template/rtmedia-actions.php:320
+msgid "Upload"
+msgstr "アップロード"
+
+#: app/main/RTMedia.php:678
+msgid "Wall Post"
+msgstr "掲示板投稿"
+
+#: app/main/RTMedia.php:901 app/main/RTMedia.php:910
+msgid "Wall Posts"
+msgstr "掲示板投稿"
+
+#: app/main/RTMedia.php:954
+msgid ": Can't Create Database table. Please check create table permission."
+msgstr ""
+"：データベース·テーブルを作成することはできません。テーブル作成の権限をご確認くだ"
+"さい。"
+
+#: app/main/RTMedia.php:1009
+msgid "Loading media"
+msgstr "メディアの読み込み"
+
+#: app/main/RTMedia.php:1010
+msgid "Please enter some content to post."
+msgstr "投稿には何か内容を入れてください"
+
+#: app/main/RTMedia.php:1011
+msgid "Empty Comment is not allowed."
+msgstr "コメントを何か入れてください"
+
+#: app/main/RTMedia.php:1012
+msgid "Are you sure you want to delete this media?"
+msgstr "本当にこのメディアを削除してもよろしいですか？"
+
+#: app/main/RTMedia.php:1013
+msgid "Are you sure you want to delete this comment?"
+msgstr "このコメントを削除してもよろしいですか？"
+
+#: app/main/RTMedia.php:1014
+msgid "Are you sure you want to delete this Album?"
+msgstr "本当にこのアルバムを削除してもよろしいですか？"
+
+#: app/main/RTMedia.php:1015
+msgid "Drop files here"
+msgstr "ここにファイルをドロップします。"
+
+#: app/main/RTMedia.php:1016
+msgid "album created successfully."
+msgstr "アルバムを作成しました。"
+
+#: app/main/RTMedia.php:1017
+msgid "Something went wrong. Please try again."
+msgstr "原因不明のエラー発生。もう一度お試し下さい。"
+
+#: app/main/RTMedia.php:1018
+msgid "Enter an album name."
+msgstr "アルバム名を入力します。"
+
+#: app/main/RTMedia.php:1019
+msgid "Max file Size Limit : "
+msgstr "最大ファイルサイズ制限："
+
+#: app/main/RTMedia.php:1020
+msgid "Allowed File Formats"
+msgstr "許可されるファイル形式"
+
+#: app/main/RTMedia.php:1021 templates/media/album-single-edit.php:73
+msgid "Select All Visible"
+msgstr "表示中のアイテムを選択"
+
+#: app/main/RTMedia.php:1022
+msgid "Unselect All Visible"
+msgstr "すべて非表示にする"
+
+#: app/main/RTMedia.php:1023
+msgid "Please select some media."
+msgstr "メディアを選択してください。"
+
+#: app/main/RTMedia.php:1024
+msgid "Are you sure you want to delete the selected media?"
+msgstr "選択した項目を削除してよろしいですか。"
+
+#: app/main/RTMedia.php:1025
+msgid "Are you sure you want to move the selected media?"
+msgstr "選択したメディアを移動してもよろしいですか？"
+
+#: app/main/RTMedia.php:1026
+msgid "Waiting"
+msgstr "待機中"
+
+#: app/main/RTMedia.php:1027
+msgid "Uploaded"
+msgstr "アップロード済み"
+
+#: app/main/RTMedia.php:1028
+msgid "Uploading"
+msgstr "アップロード中"
+
+#: app/main/RTMedia.php:1029
+msgid "Failed"
+msgstr "失敗"
+
+#: app/main/RTMedia.php:1030
+msgid "Close"
+msgstr "閉じる"
+
+#: app/main/RTMedia.php:1031
+#: app/main/controllers/media/RTMediaGalleryItemAction.php:63
+#: app/main/controllers/media/RTMediaGalleryItemAction.php:80
+#: app/main/controllers/template/rtmedia-functions.php:1137
+#: app/main/controllers/template/rtmedia-functions.php:1156
+msgid "Edit"
+msgstr "編集"
+
+#: app/main/RTMedia.php:1032
+#: app/main/controllers/media/RTMediaGalleryItemAction.php:67
+#: app/main/controllers/media/RTMediaGalleryItemAction.php:80
+#: app/main/controllers/template/rtmedia-functions.php:2047
+#: app/main/controllers/template/rtmedia-functions.php:2056
+#: templates/media/album-single-edit.php:78
+msgid "Delete"
+msgstr "削除"
+
+#: app/main/RTMedia.php:1033 templates/media/media-single-edit.php:8
+msgid "Edit Media"
+msgstr "メディアを編集"
+
+#: app/main/RTMedia.php:1034
+msgid "Remove from queue"
+msgstr "キューから削除"
+
+#: app/main/RTMedia.php:1035
+msgid "Add more files"
+msgstr "ファイルを更に追加する"
+
+#: app/main/RTMedia.php:1036
+msgid "File not supported"
+msgstr "このファイルはサポートされていません"
+
+#: app/main/RTMedia.php:1037
+msgid "more"
+msgstr "もっと"
+
+#: app/main/RTMedia.php:1038
+msgid "less"
+msgstr "より少ない"
+
+#: app/main/RTMedia.php:1039
+msgid "Read more"
+msgstr "詳細を見る"
+
+#: app/main/RTMedia.php:1040
+msgid "Show less"
+msgstr "表示を隠す"
+
+#: app/main/RTMedia.php:1042
+msgid "This media is uploaded. Are you sure you want to delete this media?"
+msgstr "このメディアはアップロードされました。削除してもよろしいていますか？"
+
+#: app/main/RTMedia.php:1050
+msgid "Featured media set successfully."
+msgstr "おすすめメディアが正常に設定されました。"
+
+#: app/main/RTMedia.php:1051
+msgid "Featured media removed successfully."
+msgstr "おすすめのメディアが正常に削除されました。"
+
+#: app/main/RTMedia.php:1053
+msgid "Title:"
+msgstr "タイトル:"
+
+#: app/main/RTMedia.php:1054
+msgid "Description:"
+msgstr "説明:"
+
+#: app/main/RTMedia.php:1059
+msgid "Edit File Name"
+msgstr "ファイル名の編集"
+
+#: app/main/RTMedia.php:1067
+msgid "Privacy updated successfully."
+msgstr "プライバシーが正常に更新されました。"
+
+#: app/main/RTMedia.php:1068
+msgid "Couldn't change privacy, please try again."
+msgstr "プライバシーを変更できませんでした。もう一度お試しください。"
+
+#: app/main/RTMedia.php:1069
+msgid "file deleted successfully."
+msgstr "ファイルが正常に削除されました。"
+
+#: app/main/RTMedia.php:1101
+msgid "There are some uploads in progress. Do you want to cancel them?"
+msgstr "進行中のアップロードがいくつかあります。 それらをキャンセルしますか？"
+
+#: app/main/RTMedia.php:1211
+msgid "Adding media in Comments is not allowed"
+msgstr "コメントにメディアを追加することはできません"
+
+#: app/main/controllers/activity/RTMediaBuddyPressActivity.php:297
+msgid "Media Files"
+msgstr "メディア ファイル"
+
+#: app/main/controllers/activity/RTMediaBuddyPressActivity.php:336
+#: app/main/controllers/media/RTMediaComment.php:172
+#: app/main/controllers/shortcodes/RTMediaUploadShortcode.php:100
+#: app/main/controllers/template/rtmedia-functions.php:2086
+msgid "You are not allowed to upload/attach media."
+msgstr "メディアをアップロード/添付することはできません。"
+
+#: app/main/controllers/activity/RTMediaBuddyPressActivity.php:474
+msgid "%s added a %s"
+msgstr "%sは%sを追加しました"
+
+#: app/main/controllers/activity/RTMediaBuddyPressActivity.php:481
+#: app/main/controllers/activity/RTMediaBuddyPressActivity.php:483
+#: app/main/controllers/upload/RTMediaUploadEndpoint.php:220
+msgid "%s added %d %s"
+msgstr "%sは%d個の%sを追加"
+
+#: app/main/controllers/activity/RTMediaBuddyPressActivity.php:536
+msgid "%1$s liked a %2$s in the group %3$s"
+msgstr "%1$のグループ %3$s で %2$s のいいね！"
+
+#: app/main/controllers/activity/RTMediaBuddyPressActivity.php:539
+msgid "%1$s liked their %2$s"
+msgstr "%1$sは%2$sをいいね！"
+
+#: app/main/controllers/activity/RTMediaBuddyPressActivity.php:543
+msgid "%1$s liked %2$s's %3$s"
+msgstr "%1$sさんは%2$sさんの%3$sをいいね！"
+
+#: app/main/controllers/activity/RTMediaBuddyPressActivity.php:633
+msgid "%1$s commented on a %2$s in the group %3$s"
+msgstr "%1$sはグループ%3$sの%2$sにコメントしました"
+
+#: app/main/controllers/activity/RTMediaBuddyPressActivity.php:636
+msgid "%1$s commented on their %2$s"
+msgstr "%1$sは%2$sにコメントしました"
+
+#: app/main/controllers/activity/RTMediaBuddyPressActivity.php:640
+msgid "%1$s commented on %2$s's %3$s"
+msgstr "%1$s は%2$sの%3$sにコメントしました"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:168
+msgid "username/password empty"
+msgstr "ユーザー名/パスワードが空"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:171
+msgid "incorrect username"
+msgstr "ユーザー名が違います"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:174
+msgid "incorrect password"
+msgstr "パスワードが違います"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:177
+msgid "login success"
+msgstr "ログイン成功"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:223
+msgid "fields empty"
+msgstr "空のフィールド"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:226
+msgid "invalid email"
+msgstr "無効なメールアドレス"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:229
+msgid "password do not match"
+msgstr "パスワードが一致しません"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:232
+msgid "username already registered"
+msgstr "ユーザー名は既に登録されています"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:235
+msgid "email already exists"
+msgstr "このEメールはすでに存在します..."
+
+#: app/main/controllers/api/RTMediaJsonApi.php:238
+msgid "new user created"
+msgstr "ユーザーが作成されました。"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:299
+msgid "email empty"
+msgstr "メールアドレスが入力されていません！"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:302
+msgid "username/email not registered"
+msgstr "ユーザー名/メールアドレスが登録されていません"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:305
+msgid "reset link sent"
+msgstr "再設定用リンク"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:338
+msgid "Someone has asked to reset the password for the following site and username."
+msgstr "誰かがユーザーネームとパスワードのリセットを求めています。"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:340
+msgid "Username: %s"
+msgstr "ユーザー名: %s"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:341
+msgid ""
+"To reset your password visit the following address, otherwise just ignore this "
+"email and nothing will happen."
+msgstr ""
+"パスワードのリセットは次のアドレスにアクセスをお願いいたします。心当たりの無い場合"
+"は無視してください。"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:344
+msgid "[%s] Password Reset"
+msgstr "[%s] パスワードリセット"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:359
+msgid "bp activities"
+msgstr "bp アクティビティ"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:362
+msgid "user activities"
+msgstr "ユーザーアクティビティ"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:371
+msgid "no updates"
+msgstr "アップデートはありません。"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:393
+msgid "comment content missing"
+msgstr "コメントのコンテンツがありません"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:396
+msgid "comment posted"
+msgstr "コメントが投稿されました"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:442
+msgid "unliked media"
+msgstr "好きじゃないメディア"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:445
+msgid "liked media"
+msgstr "好きなメディア"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:526
+msgid "no comments"
+msgstr "コメントなし"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:529
+msgid "media comments"
+msgstr "メディアのコメント"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:532
+msgid "my comments"
+msgstr "私のコメント"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:579
+msgid "no likes"
+msgstr "いいね！はありません"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:582
+msgid "media likes"
+msgstr "media likes"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:632
+msgid "invalid comment/media id"
+msgstr "無効なコメント/メディア id"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:635
+msgid "no comment id"
+msgstr "コメントなし"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:638
+msgid "comment deleted"
+msgstr "コメントの削除"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:678
+msgid "no profile found"
+msgstr "プロファイルが見つかりませんでした"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:681
+msgid "profile fields"
+msgstr "プロフィールフィールド"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:775
+msgid "follow user id missing"
+msgstr "次のユーザーidがありません。"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:778
+msgid "started following"
+msgstr "フォローしました"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:781
+msgid "already following"
+msgstr "すでにフォロー中"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:809
+msgid "unfollow id missing"
+msgstr "ユーザーidが見つかりません"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:812
+msgid "stopped following"
+msgstr "フォローを解除"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:815
+msgid "not following"
+msgstr "フォローしていません"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:843
+msgid "name/location empty"
+msgstr "名前/場所がありません"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:846
+msgid "profile updated"
+msgstr "プロフィールを更新"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:872
+#: app/main/controllers/api/RTMediaJsonApi.php:895
+msgid "no file"
+msgstr "ファイルがありません。"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:875
+#: app/main/controllers/api/RTMediaJsonApi.php:907
+msgid "upload failed, check size and file type"
+msgstr "アップロードに失敗しました。サイズとファイルの種類を確認してください"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:878
+msgid "avatar updated"
+msgstr "アバターの更新"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:898
+msgid "invalid file string"
+msgstr "無効なファイルの文字列"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:901
+msgid "image type missing"
+msgstr "イメージの種類がありません。"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:904
+msgid "no title"
+msgstr "タイトルなし"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:910
+msgid "media updated"
+msgstr "メディア更新"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:1051
+msgid "media list"
+msgstr "メディアリスト"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:1054
+msgid "no media found for requested media type"
+msgstr "要求されたメディアタイプのメディアが見つかりません"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:1057
+msgid "media_type not allowed"
+msgstr "このファイルタイプは許可されていません"
+
+#: app/main/controllers/api/RTMediaJsonApi.php:1159
+msgid "single media"
+msgstr "1 つのメディア"
+
+#: app/main/controllers/group/RTMediaGroupExtension.php:30
+#: app/main/controllers/group/RTMediaGroupExtension.php:109
+msgid "Album Creation Control"
+msgstr "アルバム作成コントロール"
+
+#: app/main/controllers/group/RTMediaGroupExtension.php:31
+#: app/main/controllers/group/RTMediaGroupExtension.php:110
+msgid "Who can create Albums in this group?"
+msgstr "このグループにアルバムを作成できる人は ?"
+
+#: app/main/controllers/group/RTMediaGroupExtension.php:35
+#: app/main/controllers/group/RTMediaGroupExtension.php:114
+msgid "All Group Members"
+msgstr "すべてのグループメンバー"
+
+#: app/main/controllers/group/RTMediaGroupExtension.php:39
+#: app/main/controllers/group/RTMediaGroupExtension.php:118
+msgid "Group Admins and Mods only"
+msgstr "グループ管理者と世話役のみ"
+
+#: app/main/controllers/group/RTMediaGroupExtension.php:43
+#: app/main/controllers/group/RTMediaGroupExtension.php:122
+msgid "Group Admin only"
+msgstr "グループ管理者のみ"
+
+#: app/main/controllers/group/RTMediaGroupExtension.php:130
+#: app/main/controllers/privacy/RTMediaPrivacy.php:420
+#: templates/media/album-single-edit.php:55
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: app/main/controllers/group/RTMediaGroupExtension.php:182
+msgid "There was an error saving, please try again"
+msgstr "保存時にエラーが発生しました。もう一度お試しください"
+
+#: app/main/controllers/group/RTMediaGroupExtension.php:184
+msgid "Settings saved successfully"
+msgstr "設定が正常に保存されました"
+
+#: app/main/controllers/group/RTMediaGroupExtension.php:205
+msgid ""
+"You could display a small snippet of information from your group extension here. "
+"It will show on the group home screen."
+msgstr ""
+"あなたのグループ拡張を断片的に表示することができます。 グループのホーム画面に表示"
+"されます。"
+
+#: app/main/controllers/media/RTMediaAlbum.php:36
+msgid "Hidden (%s)"
+msgid_plural "Hidden (%s)"
+msgstr[0] "非表示 (%s)"
+
+#: app/main/controllers/media/RTMediaAlbum.php:55
+msgid "Create"
+msgstr "作成"
+
+#: app/main/controllers/media/RTMediaAlbum.php:56
+#: app/main/controllers/template/rtmedia-actions.php:202
+msgid "Create Album"
+msgstr "アルバムを作成する"
+
+#: app/main/controllers/media/RTMediaAlbum.php:57
+#: app/main/controllers/template/rtmedia-filters.php:82
+msgid "Edit Album"
+msgstr "アルバムを編集"
+
+#: app/main/controllers/media/RTMediaAlbum.php:58
+msgid "New Album"
+msgstr "新しいアルバム"
+
+#: app/main/controllers/media/RTMediaAlbum.php:59
+msgid "All Albums"
+msgstr "すべてのアルバム"
+
+#: app/main/controllers/media/RTMediaAlbum.php:60
+msgid "View Album"
+msgstr "アルバムを表示"
+
+#: app/main/controllers/media/RTMediaAlbum.php:61
+msgid "Search Albums"
+msgstr "アルバムを検索"
+
+#: app/main/controllers/media/RTMediaAlbum.php:62
+msgid "No album found"
+msgstr "アルバムが見つかりません"
+
+#: app/main/controllers/media/RTMediaAlbum.php:63
+msgid "No album found in Trash"
+msgstr "ゴミ箱にアルバムが見つかりません"
+
+#: app/main/controllers/media/RTMediaAlbum.php:64
+msgid "Parent"
+msgstr "親"
+
+#: app/main/controllers/media/RTMediaAlbum.php:159
+msgid "Untitled Album"
+msgstr "無題のアルバム"
+
+#: app/main/controllers/media/RTMediaComment.php:160
+#: app/main/controllers/shortcodes/RTMediaUploadShortcode.php:88
+msgid "The web browser on your device cannot be used to upload files."
+msgstr ""
+"お使いのデバイスのウェブブラウザではファイルのアップロードは利用できません。"
+
+#: app/main/controllers/media/RTMediaFeatured.php:25
+#: app/main/controllers/media/RTMediaGroupFeatured.php:17
+msgid "Set as Featured"
+msgstr "おすすめとして設定"
+
+#: app/main/controllers/media/RTMediaFeatured.php:27
+#: app/main/controllers/media/RTMediaGroupFeatured.php:19
+msgid "Remove Featured"
+msgstr "おすすめを削除する"
+
+#: app/main/controllers/media/RTMediaFeatured.php:193
+#: app/main/controllers/media/RTMediaGroupFeatured.php:195
+msgid "Media type is not allowed"
+msgstr "このファイルタイプは許可されていません"
+
+#: app/main/controllers/media/RTMediaGalleryItemAction.php:62
+#: app/main/controllers/media/RTMediaGalleryItemAction.php:80
+msgid "Edit this media"
+msgstr "このメディアを編集します。"
+
+#: app/main/controllers/media/RTMediaGalleryItemAction.php:66
+#: app/main/controllers/media/RTMediaGalleryItemAction.php:80
+msgid "Delete this media"
+msgstr "このメディアを削除します。"
+
+#: app/main/controllers/media/RTMediaLike.php:18
+msgid "person likes this"
+msgstr "この人いいね！"
+
+#: app/main/controllers/media/RTMediaLike.php:19
+msgid "people like this"
+msgstr "このような人々"
+
+#: app/main/controllers/media/RTMediaLike.php:20
+msgid "Like"
+msgstr "いいね！"
+
+#: app/main/controllers/media/RTMediaLike.php:22
+msgid "Unlike"
+msgstr "よくない"
+
+#: app/main/controllers/media/RTMediaLoginPopup.php:38
+#: app/main/controllers/template/rtmedia-actions.php:316
+#: app/main/controllers/template/rtmedia-actions.php:320
+msgid "Upload Media"
+msgstr "アップロードメディア"
+
+#: app/main/controllers/media/RTMediaLoginPopup.php:51
+msgid "Please login"
+msgstr "ログイン ID が入力されていません"
+
+#: app/main/controllers/media/RTMediaLoginPopup.php:53
+msgid "You need to be logged in to upload Media or to create Album."
+msgstr ""
+"メディアをアップロードしたりアルバムを作成するには、ログインする必要があります。"
+
+#: app/main/controllers/media/RTMediaLoginPopup.php:56
+msgid "Login"
+msgstr "ログイン"
+
+#: app/main/controllers/media/RTMediaLoginPopup.php:56
+msgid "HERE"
+msgstr "ここ"
+
+#: app/main/controllers/media/RTMediaLoginPopup.php:56
+msgid " to login."
+msgstr "ログインします。"
+
+#: app/main/controllers/media/RTMediaMedia.php:610
+msgid "Error creating attachment for the media file, please try again"
+msgstr ""
+"メディアファイルの添付ファイルを作成中にエラーが発生しました。もう一度お試しくださ"
+"い"
+
+#: app/main/controllers/media/RTMediaMedia.php:725
+msgid "%1$s added a %2$s"
+msgstr "%1$sに%2$sが追加されました"
+
+#: app/main/controllers/media/RTMediaMedia.php:725
+msgid "%1$s added %4$d %3$s"
+msgstr "%1$sが%4$d %3$s追加されました"
+
+#: app/main/controllers/privacy/RTMediaPrivacy.php:382
+msgid "No changes were made to your account."
+msgstr "アカウントは変更されませんでした。"
+
+#: app/main/controllers/privacy/RTMediaPrivacy.php:385
+msgid "Your default privacy settings saved successfully."
+msgstr "デフォルトのプライバシー設定が正常に保存されました。"
+
+#: app/main/controllers/privacy/RTMediaPrivacy.php:409
+msgid "Default Privacy"
+msgstr "デフォルトの公開設定"
+
+#: app/main/controllers/shortcodes/RTMediaGalleryShortcode.php:256
+msgid "You do not have sufficient privileges to view this gallery"
+msgstr "このギャラリーを表示する権限がありません"
+
+#: app/main/controllers/template/RTMediaAJAX.php:35
+msgid "You can not create album in this group."
+msgstr "このグループにアルバムを作成することはできません。"
+
+#: app/main/controllers/template/RTMediaAJAX.php:41
+msgid "You can not create album."
+msgstr "アルバムを作成することはできません。"
+
+#: app/main/controllers/template/RTMediaAJAX.php:46
+msgid "You can not create more albums, you exceed your album limit."
+msgstr "アルバムをさらに作成することはできません。アルバムの上限を超えています。"
+
+#: app/main/controllers/template/RTMediaAJAX.php:96
+msgid "Data mismatch, Please insert data properly."
+msgstr "データの不一致、データを正しく挿入してください。"
+
+#: app/main/controllers/template/RTMediaTemplate.php:113
+#: app/main/controllers/template/RTMediaTemplate.php:168
+msgid "Invalid attribute passed for rtmedia_gallery shortcode."
+msgstr "rtmedia_galleryショートコードに無効な属性が渡されました。"
+
+#: app/main/controllers/template/RTMediaTemplate.php:375
+#: app/main/controllers/template/RTMediaTemplate.php:468
+#: app/main/controllers/template/RTMediaTemplate.php:566
+#: app/main/controllers/template/RTMediaTemplate.php:767
+msgid "Ooops !!! Invalid access. No nonce was found !!"
+msgstr "おっと!アクセスが無効です。一言も見つかりませんでした!"
+
+#: app/main/controllers/template/RTMediaTemplate.php:382
+msgid "Media updated Sucessfully"
+msgstr "メディアが正常に更新されました"
+
+#: app/main/controllers/template/RTMediaTemplate.php:388
+msgid "Error in updating Media"
+msgstr "メディアの更新エラー"
+
+#: app/main/controllers/template/rtmedia-actions.php:17
+#: app/main/controllers/template/rtmedia-actions.php:153
+msgid "Options"
+msgstr "設定"
+
+#: app/main/controllers/template/rtmedia-actions.php:54
+msgid "Image"
+msgstr "画像"
+
+#: app/main/controllers/template/rtmedia-actions.php:80
+msgid "Modify Image"
+msgstr "画像の変更"
+
+#: app/main/controllers/template/rtmedia-actions.php:192
+msgid "Create an Album"
+msgstr "アルバムを作成します。"
+
+#: app/main/controllers/template/rtmedia-actions.php:194
+msgid "Album Title : "
+msgstr "アルバムタイトル : "
+
+#: app/main/controllers/template/rtmedia-actions.php:242
+#: app/main/controllers/template/rtmedia-actions.php:249
+#: app/main/controllers/template/rtmedia-filters.php:92
+msgid "Merge Album"
+msgstr "アルバムを結合します。"
+
+#: app/main/controllers/template/rtmedia-actions.php:245
+msgid "Select Album to merge with : "
+msgstr "結合するアルバムを選択します : "
+
+#: app/main/controllers/template/rtmedia-actions.php:295
+msgid "Merge"
+msgstr "結合"
+
+#: app/main/controllers/template/rtmedia-actions.php:364
+msgid "Empowering your community with "
+msgstr "使用してコミュニティに権限を与える"
+
+#: app/main/controllers/template/rtmedia-actions.php:365
+msgid "The only complete media solution for WordPress, BuddyPress and bbPress"
+msgstr "WordPress、BuddyPress、bbPressの唯一の完全なメディアソリューション"
+
+#: app/main/controllers/template/rtmedia-actions.php:384
+msgid "Close (Esc)"
+msgstr "閉じる（Esc）"
+
+#: app/main/controllers/template/rtmedia-actions.php:529
+msgid "You can consider rtMedia Team for following :"
+msgstr "あなたはrtMedia Teamを次のように考えることができます："
+
+#: app/main/controllers/template/rtmedia-actions.php:531
+msgid "rtMedia Customization ( in Upgrade Safe manner )"
+msgstr "rtMediaのカスタマイズ（アップグレードの安全な方法）"
+
+#: app/main/controllers/template/rtmedia-actions.php:532
+msgid "WordPress/BuddyPress Theme Design and Development"
+msgstr "WordPress / BuddyPressテーマデザインと開発"
+
+#: app/main/controllers/template/rtmedia-actions.php:533
+msgid "WordPress/BuddyPress Plugin Development"
+msgstr "WordPress / BuddyPressプラグインの開発"
+
+#: app/main/controllers/template/rtmedia-actions.php:536
+msgid "Contact Us"
+msgstr "お問い合わせ"
+
+#: app/main/controllers/template/rtmedia-actions.php:623
+#: app/main/controllers/template/rtmedia-actions.php:624
+msgid "Previous"
+msgstr "前へ"
+
+#: app/main/controllers/template/rtmedia-actions.php:625
+#: app/main/controllers/template/rtmedia-actions.php:626
+#: templates/media/album-single-edit.php:121
+msgid "Next"
+msgstr "次のレポート"
+
+#: app/main/controllers/template/rtmedia-actions.php:823
+msgid "Settings has been saved successfully."
+msgstr "設定が正常に保存されました。"
+
+#: app/main/controllers/template/rtmedia-actions.php:827
+msgid "Refresh the page in case if license data is not showing correct."
+msgstr "ライセンスデータが正しく表示されない場合は、ページを更新してください。"
+
+#: app/main/controllers/template/rtmedia-actions.php:845
+msgid "Posted a status update"
+msgstr "近況を投稿しました"
+
+#: app/main/controllers/template/rtmedia-actions.php:847
+msgid "rtMedia Updates"
+msgstr "rtMedia 更新"
+
+#: app/main/controllers/template/rtmedia-ajax-actions.php:88
+#: app/main/controllers/template/rtmedia-functions.php:1986
+msgid "Comment"
+msgstr "コメント"
+
+#: app/main/controllers/template/rtmedia-filters.php:50
+msgid "Create New Album"
+msgstr "新しいアルバムを作成する"
+
+#: app/main/controllers/template/rtmedia-filters.php:50
+msgid "Add Album"
+msgstr "アルバムを追加"
+
+#: app/main/controllers/template/rtmedia-filters.php:83
+msgid "Delete Album"
+msgstr "アルバムを削除する"
+
+#: app/main/controllers/template/rtmedia-functions.php:1219
+msgid "There are no comments on this media yet."
+msgstr "このメディアにはまだコメントはありません。"
+
+#: app/main/controllers/template/rtmedia-functions.php:1251
+msgid "Show all %s comments"
+msgstr "すべての%s件のコメントを表示"
+
+#: app/main/controllers/template/rtmedia-functions.php:1284
+msgid "Delete Comment"
+msgstr "コメントを削除"
+
+#: app/main/controllers/template/rtmedia-functions.php:1618
+msgid "Go to page no : "
+msgstr "ページ番号："
+
+#: app/main/controllers/template/rtmedia-functions.php:1623
+msgid "Go"
+msgstr "Go"
+
+#: app/main/controllers/template/rtmedia-functions.php:1984
+msgid "Type Comment..."
+msgstr "タイプコメント..."
+
+#: app/main/controllers/template/rtmedia-functions.php:2047
+#: app/main/controllers/template/rtmedia-functions.php:2056
+msgid "Delete Media"
+msgstr "メディアを削除します。"
+
+#: app/main/controllers/template/rtmedia-functions.php:2304
+msgid "Profile Albums"
+msgstr "プロフィール アルバム"
+
+#: app/main/controllers/template/rtmedia-functions.php:2308
+#: app/main/controllers/template/rtmedia-functions.php:2353
+msgid "Group Albums"
+msgstr "グループのアルバム"
+
+#: app/main/controllers/template/rtmedia-functions.php:2529
+msgid "Privacy : "
+msgstr "プライバシー："
+
+#: app/main/controllers/template/rtmedia-functions.php:2880
+msgid "You like this"
+msgstr "あなたは「いいね！」と言っている"
+
+#: app/main/controllers/template/rtmedia-functions.php:2890
+msgid "You and "
+msgstr "あなたと"
+
+#: app/main/controllers/template/rtmedia-functions.php:2909
+msgid " person likes this"
+msgid_plural " people like this"
+msgstr[0] "この人いいね！"
+
+#: app/main/controllers/template/rtmedia-functions.php:3014
+msgid "Public"
+msgstr "公開"
+
+#: app/main/controllers/template/rtmedia-functions.php:3019
+msgid "All members"
+msgstr "すべてのメンバー"
+
+#: app/main/controllers/template/rtmedia-functions.php:3024
+msgid "Your friends"
+msgstr "あなたのお友達"
+
+#: app/main/controllers/template/rtmedia-functions.php:3029
+msgid "Only you"
+msgstr "オンリー・ユー"
+
+#: app/main/controllers/template/rtmedia-functions.php:3034
+msgid "Blocked temporarily"
+msgstr "一時的にブロックされています。"
+
+#: app/main/controllers/template/rtmedia-functions.php:3087
+msgid "%s ago "
+msgstr "%s 以前"
+
+#: app/main/controllers/template/rtmedia-functions.php:3101
+msgid "1 second"
+msgid_plural "%s seconds"
+msgstr[0] "1 秒"
+
+#: app/main/controllers/template/rtmedia-functions.php:3105
+msgid "1 minute"
+msgid_plural "%s minutes"
+msgstr[0] "1 分"
+
+#: app/main/controllers/template/rtmedia-functions.php:3109
+msgid "1 hour"
+msgid_plural "%s hours"
+msgstr[0] "1時間"
+
+#. translators: date format, see http:php.net/date
+#: app/main/controllers/template/rtmedia-functions.php:3709
+msgid "View Conversation"
+msgstr "会話を表示"
+
+#: app/main/controllers/upload/RTMediaUploadView.php:78
+msgid "Privacy:"
+msgstr "プライバシー:"
+
+#: app/main/controllers/upload/RTMediaUploadView.php:85
+#: app/main/controllers/upload/RTMediaUploadView.php:142
+#: app/main/controllers/upload/RTMediaUploadView.php:159
+#: app/main/controllers/upload/RTMediaUploadView.php:180
+msgid "File Upload"
+msgstr "ファイルアップロード"
+
+#: app/main/controllers/upload/RTMediaUploadView.php:89
+msgid "Select your files"
+msgstr "あなたのファイルを選択してください"
+
+#: app/main/controllers/upload/RTMediaUploadView.php:90
+msgid "or"
+msgstr "または"
+
+#: app/main/controllers/upload/RTMediaUploadView.php:90
+msgid "Drop your files here"
+msgstr "ここにファイルをドロップする"
+
+#: app/main/controllers/upload/RTMediaUploadView.php:138
+msgid "Start upload"
+msgstr "アップロードを開始"
+
+#: app/main/controllers/upload/RTMediaUploadView.php:166
+#: app/main/controllers/upload/RTMediaUploadView.php:187
+msgid "Attach Media"
+msgstr "メディアを添付します。"
+
+#: app/main/controllers/upload/RTMediaUploadView.php:202
+msgid "Insert from URL"
+msgstr "URL から挿入"
+
+#: app/main/controllers/upload/processors/RTMediaUploadFile.php:61
+msgid "Error Uploading File"
+msgstr "ファイルのアップロード エラー"
+
+#: app/main/controllers/upload/processors/RTMediaUploadFile.php:233
+msgid "MP4 file you have uploaded is corrupt."
+msgstr "アップロードした MP4ファイルは壊れています。"
+
+#: app/main/controllers/upload/processors/RTMediaUploadFile.php:240
+#: app/main/controllers/upload/processors/RTMediaUploadFile.php:245
+msgid ""
+"The MP4 file you have uploaded is using an unsupported video codec. Supported "
+"video codec is H.264."
+msgstr ""
+"アップロードしている MP4ファイルは、サポートされていないビデオコーデックを使用して"
+"います。サポートされているビデオコーデックは H.264 です。"
+
+#: app/main/controllers/upload/processors/RTMediaUploadFile.php:250
+msgid "The MP4 file you have uploaded is not a video file."
+msgstr "アップロードした MP4ファイルは動画ファイルではありません。"
+
+#: app/main/controllers/upload/processors/RTMediaUploadFile.php:263
+msgid "MP3 file you have uploaded is currupt."
+msgstr "アップロードしたMP3ファイルは壊れています。"
+
+#: app/main/controllers/upload/processors/RTMediaUploadFile.php:270
+#: app/main/controllers/upload/processors/RTMediaUploadFile.php:275
+msgid ""
+"The MP3 file you have uploaded is using an unsupported audio format. Supported "
+"audio format is MP3."
+msgstr ""
+"アップロードした MP3ファイルは、サポートされているオーディオ形式を使用しています。"
+"サポートされているオーディオ形式は MP3 です。"
+
+#: app/main/controllers/upload/processors/RTMediaUploadFile.php:280
+msgid "The MP3 file you have uploaded is not an audio file."
+msgstr "アップロードした MP3ファイルは、オーディオファイルではありません。"
+
+#: app/main/controllers/upload/processors/RTMediaUploadFile.php:288
+msgid ""
+"Media File you have tried to upload is not supported. Supported media files are ."
+"jpg, .png, .gif, .mp3, .mov and .mp4."
+msgstr ""
+"アップロードしようとしているメディアファイルはサポートされていません。サポートされ"
+"ているメディアファイルは、.jpg、.png、.gif、.mp3、.mov、.mp4 です。"
+
+#: app/main/deprecated/RTMediaDeprecated.php:27
+msgid "Deprecated %s. Please use %s."
+msgstr "廃止された %s。%s を使用してください。"
+
+#: templates/media/album-gallery.php:21
+msgid "Album List"
+msgstr "アルバム一覧"
+
+#: templates/media/album-gallery.php:75 templates/media/media-single-edit.php:63
+#: templates/media/media-single.php:165
+msgid "Sorry !! There's no media found for the request !!"
+msgstr "リクエストされたメディアはありません。"
+
+#: templates/media/album-single-edit.php:14
+msgid "Edit Album : "
+msgstr "アルバム編集："
+
+#: templates/media/album-single-edit.php:24
+msgid "Manage Media"
+msgstr "メディア管理"
+
+#: templates/media/album-single-edit.php:39 templates/media/media-single-edit.php:27
+msgid "Title : "
+msgstr "タイトル"
+
+#: templates/media/album-single-edit.php:44 templates/media/media-single-edit.php:33
+msgid "Description: "
+msgstr "説明:"
+
+#: templates/media/album-single-edit.php:57 templates/media/media-single-edit.php:50
+msgid "Back"
+msgstr "戻る"
+
+#: templates/media/album-single-edit.php:75
+msgid "Move Selected media to another album."
+msgstr "選択したメディアを別のアルバムに移動します。"
+
+#: templates/media/album-single-edit.php:75
+msgid "Move"
+msgstr "移動"
+
+#: templates/media/album-single-edit.php:78
+msgid "Delete Selected media from the album."
+msgstr "削除アルバムから選択したメディアを削除します。"
+
+#: templates/media/album-single-edit.php:83
+msgid "Move selected media to the album : "
+msgstr "選択したメディアをアルバムへ移動："
+
+#: templates/media/album-single-edit.php:86
+msgid "Move Selected"
+msgstr "選択したものを移動"
+
+#: templates/media/album-single-edit.php:110
+msgid "Prev"
+msgstr "前へ"
+
+#: templates/media/album-single-edit.php:124
+msgid "The album is empty."
+msgstr "アルバムは空です。"
+
+#: templates/media/album-single-edit.php:134
+msgid "Sorry !! You can not edit this album."
+msgstr "あなたはこのアルバムを編集することはできません。"
+
+#: templates/media/media-gallery.php:17 templates/media/media-gallery.php:37
+msgid "Media Gallery"
+msgstr "メディア ギャラリー"
+
+#: templates/media/media-gallery.php:92
+msgid "Oops !! There's no media found for the request !!"
+msgstr "リクエストされたメディアはありません！"
+
+#: templates/media/media-single-edit.php:48
+msgid "Save"
+msgstr "保存"
+
+#: templates/media/media-single-edit.php:57
+msgid "Sorry !! You do not have rights to edit this media"
+msgstr "申し訳ありません!このメディアファイルを編集する権限がありません。"
+
+#: templates/media/media-single.php:47
+msgid "under"
+msgstr "以下"
+
+#. Plugin Name of the plugin/theme
+msgid "rtMedia for WordPress, BuddyPress and bbPress"
+msgstr "Buddypress Media"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://rtmedia.io/?"
+"utm_source=dashboard&utm_medium=plugin&utm_campaign=buddypress-media"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin adds missing media rich features like photos, videos and audio "
+"uploading to BuddyPress which are essential if you are building social network, "
+"seriously!"
+msgstr ""
+"This plugin adds missing media rich features like photos, videos and audio "
+"uploading to BuddyPress which are essential if you are building social network, "
+"seriously!"
+
+#. Author URI of the plugin/theme
+msgid ""
+"http://rtcamp.com/?utm_source=dashboard&utm_medium=plugin&utm_campaign=buddypress-"
+"media"
+msgstr ""
+"http://rtcamp.com/?utm_source=dashboard&utm_medium=plugin&utm_campaign=buddypress-"
+"media"
+
+#: app/main/controllers/media/RTMediaAlbum.php:35
+msgctxt "Status General Name"
+msgid "hidden"
+msgstr "非表示"
+
+#: app/main/controllers/template/RTMediaNav.php:41
+msgctxt "My Account Privacy sub nav"
+msgid "Privacy"
+msgstr "プライバシー"
