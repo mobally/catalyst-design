@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-05-24 22:22+0900\n"
+"PO-Revision-Date: 2018-06-03 21:01+0900\n"
 "Last-Translator: NorioAbe <abe@reativec.co.jp>\n"
 "Language-Team: rtMedia <rtmedia@rtcamp.com>\n"
 "X-Generator: Poedit 2.0.7\n"
@@ -3134,7 +3134,7 @@ msgstr "近況を投稿しました"
 
 #: app/main/controllers/template/rtmedia-actions.php:847
 msgid "rtMedia Updates"
-msgstr "rtMedia 更新"
+msgstr "メディアの更新"
 
 #: app/main/controllers/template/rtmedia-ajax-actions.php:88
 #: app/main/controllers/template/rtmedia-functions.php:1986

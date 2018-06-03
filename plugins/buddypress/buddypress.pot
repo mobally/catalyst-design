@@ -6929,11 +6929,11 @@ msgid "You are alone in this conversation."
 msgstr ""
 
 #: bp-templates/bp-legacy/buddypress/members/single/messages/single.php:35
-msgid "Conversation between %s recipients."
+msgid "%s と受信者とのやりとり"
 msgstr ""
 
 #: bp-templates/bp-legacy/buddypress/members/single/messages/single.php:39
-msgid "Conversation between %s."
+msgid "%s とのやりとり"
 msgstr ""
 
 #: bp-templates/bp-legacy/buddypress/members/single/messages/single.php:102
