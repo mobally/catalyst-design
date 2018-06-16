@@ -1406,7 +1406,7 @@ if ( ! function_exists( 'kleo_get_fb_button' ) ) :
 		?>
 		<div class="kleo-fb-wrapper text-center">
 			<a href="#" class="kleo-facebook-connect btn btn-default "><i class="icon-facebook"></i>
-				&nbsp;<?php _e( "Log in with Facebook", 'kleo_framework' ); ?></a>
+				&nbsp;<?php _e( "Facebookアカウントでログイン", 'kleo_framework' ); ?></a>
 		</div>
 		<div class="gap-20"></div>
 		<div class="hr-title hr-full"><abbr> <?php echo __( "or", "kleo_framework" ); ?> </abbr></div>
@@ -1429,7 +1429,7 @@ if ( ! function_exists( 'kleo_get_fb_button_regpage' ) ) :
 		?>
 		<div class="kleo-fb-wrapper text-center">
 			<a href="#" class="kleo-facebook-connect btn btn-default "><i class="icon-facebook"></i>
-				&nbsp;<?php _e( "Log in with Facebook", 'kleo_framework' ); ?></a>
+				&nbsp;<?php _e( "Facebookでログインする", 'kleo_framework' ); ?></a>
 		</div>
 		<div class="gap-30"></div>
 		<div class="hr-title hr-full"><abbr> <?php echo __( "or", "kleo_framework" ); ?> </abbr></div>

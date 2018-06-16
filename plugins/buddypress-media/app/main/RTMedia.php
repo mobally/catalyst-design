@@ -709,7 +709,7 @@ class RTMedia {
 
 		/* Global Album/Wall Post */
 		if ( ! defined( 'RTMEDIA_GLOBAL_ALBUM_LABEL' ) ) {
-			define( 'RTMEDIA_GLOBAL_ALBUM_LABEL', esc_html__( 'Wall Post', 'buddypress-media' ) );
+			define( 'RTMEDIA_GLOBAL_ALBUM_LABEL', esc_html__( 'アルバム', 'buddypress-media' ) );
 		}
 
 		$this->define_type_constants();

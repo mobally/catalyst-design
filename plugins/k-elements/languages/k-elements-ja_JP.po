@@ -1,0 +1,2463 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-21 15:01+0000\n"
+"PO-Revision-Date: 2018-06-10 15:07+0900\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"Last-Translator: \n"
+"Language: ja_JP\n"
+
+#: shortcodes/shortcodes.php:1473
+msgid "You need to install bbPress plugin to enable this shortcode!"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:140
+#: compat/plugin-js-composer/config.php:1769
+#: compat/plugin-js-composer/config.php:2496
+#: compat/plugin-js-composer/config.php:6002
+msgid "Animation"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:154
+#: compat/plugin-js-composer/config.php:3399
+#, fuzzy
+msgid "Animation type"
+msgstr "タイプ"
+
+#: compat/plugin-js-composer/config.php:175
+#: compat/plugin-js-composer/config.php:191
+#, fuzzy
+msgid "Responsive Visibility"
+msgstr "表示範囲"
+
+#: compat/plugin-js-composer/config.php:176
+#: compat/plugin-js-composer/config.php:2902
+msgid "Hide/Show content by screen size."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:196
+msgid "Letter spacing"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:197
+#, fuzzy
+msgid "Set a custom letter spacing."
+msgstr "Set Custom Thumbnail for Audio/Video"
+
+#: compat/plugin-js-composer/config.php:213
+#: compat/plugin-js-composer/config.php:223
+msgid "Vertical separator"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:214
+msgid "Set a fancy vertical line separator to the left side."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:229
+#: compat/plugin-js-composer/config.php:1445
+#: compat/plugin-js-composer/config.php:2729
+#: compat/plugin-js-composer/config.php:5539
+#: compat/plugin-js-composer/config.php:5555
+#: compat/plugin-js-composer/config.php:5570
+#: compat/plugin-js-composer/config.php:5585
+#: compat/plugin-js-composer/config.php:5600
+#: compat/plugin-js-composer/config.php:5614
+#: compat/plugin-js-composer/config.php:5629
+#, fuzzy
+msgid "Icon"
+msgstr "%s のサイトアイコン"
+
+#: compat/plugin-js-composer/config.php:238
+#: compat/plugin-js-composer/config.php:1457
+#: compat/plugin-js-composer/config.php:1566
+#: compat/plugin-js-composer/config.php:1579
+#: compat/plugin-js-composer/config.php:2289
+#: compat/plugin-js-composer/config.php:2301
+#: compat/plugin-js-composer/config.php:5551
+#: compat/plugin-js-composer/config.php:5566
+#: compat/plugin-js-composer/config.php:5581
+#: compat/plugin-js-composer/config.php:5596
+#: compat/plugin-js-composer/config.php:5625
+#: compat/plugin-js-composer/config.php:5640
+msgid "Select icon from library."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:245
+#: compat/plugin-js-composer/config.php:3071
+#, fuzzy
+msgid "Icon size"
+msgstr "%s のサイトアイコン"
+
+#: compat/plugin-js-composer/config.php:260
+#, fuzzy
+msgid "Extra class name"
+msgstr "サイト名:"
+
+#: compat/plugin-js-composer/config.php:263
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:270
+#, fuzzy
+msgid "Show Tooltip/Popover"
+msgstr "すべて表示"
+
+#: compat/plugin-js-composer/config.php:283
+msgid "Tip position"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:301
+#, fuzzy
+msgid "Tip/Popover Title"
+msgstr "(タイトルなし)"
+
+#: compat/plugin-js-composer/config.php:313
+#, fuzzy
+msgid "Popover text"
+msgstr "フッタテキスト"
+
+#: compat/plugin-js-composer/config.php:325
+#, fuzzy
+msgid "Tip/Popover action"
+msgstr "操作"
+
+#: compat/plugin-js-composer/config.php:344
+#: compat/plugin-js-composer/config.php:3894
+#, fuzzy
+msgid "Title"
+msgstr "タイトル:"
+
+#: compat/plugin-js-composer/config.php:345
+#, fuzzy
+msgid "Text on the button"
+msgstr "プレーンテキストメール本文"
+
+#: compat/plugin-js-composer/config.php:353
+#, fuzzy
+msgid "URL(Link)"
+msgstr "URL"
+
+#: compat/plugin-js-composer/config.php:361
+#, fuzzy
+msgid "Target"
+msgstr ""
+"あなたの%1$sはこのURLに対して有効ではありません。ライセンスキーのURLを管理す"
+"るには、<a href=\"%2$s\" target=\"_blank\">アカウントページにアクセス</a>して"
+"ください。"
+
+#: compat/plugin-js-composer/config.php:374
+#: compat/plugin-js-composer/config.php:1805
+#: compat/plugin-js-composer/config.php:2132
+#: compat/plugin-js-composer/config.php:2150
+#: compat/plugin-js-composer/config.php:2446
+#: compat/plugin-js-composer/config.php:4070
+#: compat/plugin-js-composer/config.php:4399
+#, fuzzy
+msgid "Style"
+msgstr ""
+"グループフォーラムを使えば、トピックにフォーカスした掲示板スタイルの会話がで"
+"きます。"
+
+#: compat/plugin-js-composer/config.php:388
+#: compat/plugin-js-composer/config.php:929
+msgid "Background color"
+msgstr "背景色"
+
+#: compat/plugin-js-composer/config.php:390
+#: compat/plugin-js-composer/config.php:488
+#, fuzzy
+msgid "Select custom background color."
+msgstr "メール背景色"
+
+#: compat/plugin-js-composer/config.php:392
+#: compat/plugin-js-composer/config.php:404
+#: compat/plugin-js-composer/config.php:416
+#: compat/plugin-js-composer/config.php:428
+#: compat/plugin-js-composer/config.php:440
+#: compat/plugin-js-composer/config.php:452
+#: compat/plugin-js-composer/config.php:478
+#: compat/plugin-js-composer/config.php:490
+#: compat/plugin-js-composer/config.php:502
+#, fuzzy
+msgid "Custom button"
+msgstr "カスタム:"
+
+#: compat/plugin-js-composer/config.php:400
+#, fuzzy
+msgid "Hover Background color"
+msgstr "背景色"
+
+#: compat/plugin-js-composer/config.php:402
+msgid "Select custom background color on hover."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:412
+#: compat/plugin-js-composer/config.php:882
+#: compat/plugin-js-composer/config.php:1488
+msgid "Text color"
+msgstr "テキストカラー"
+
+#: compat/plugin-js-composer/config.php:414
+#: compat/plugin-js-composer/config.php:500
+#, fuzzy
+msgid "Select custom text color."
+msgstr "テキストカラー"
+
+#: compat/plugin-js-composer/config.php:424
+#, fuzzy
+msgid "Hover Text color"
+msgstr "テキストカラー"
+
+#: compat/plugin-js-composer/config.php:426
+msgid "Select custom text color on hover."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:436
+#, fuzzy
+msgid "Border color"
+msgstr "テキストカラー"
+
+#: compat/plugin-js-composer/config.php:438
+msgid "Select custom border color."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:448
+#, fuzzy
+msgid "Hover border color"
+msgstr "背景色"
+
+#: compat/plugin-js-composer/config.php:450
+msgid "Select custom border color on hover."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:463
+#, fuzzy
+msgid "Border width"
+msgstr "横幅"
+
+#: compat/plugin-js-composer/config.php:486
+msgid "Boxed Icon Type - Icon Background"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:498
+msgid "Boxed Icon Type - Icon Text color"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:513
+#: compat/plugin-js-composer/config.php:3052
+msgid "Position"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:527
+#: compat/plugin-js-composer/config.php:2973
+#, fuzzy
+msgid "Size"
+msgstr "サムネイルサイズを変更する"
+
+#: compat/plugin-js-composer/config.php:543
+#: compat/plugin-js-composer/config.php:1755
+#: compat/plugin-js-composer/config.php:1961
+#: compat/plugin-js-composer/config.php:2120
+#: compat/plugin-js-composer/config.php:2573
+#: compat/plugin-js-composer/config.php:2717
+#: compat/plugin-js-composer/config.php:3026
+#: compat/plugin-js-composer/config.php:4684
+#: compat/plugin-js-composer/config.php:4798
+#: compat/plugin-js-composer/config.php:4888
+msgid "Type"
+msgstr "タイプ"
+
+#: compat/plugin-js-composer/config.php:560
+#, fuzzy
+msgid "Second title"
+msgstr "秒"
+
+#: compat/plugin-js-composer/config.php:574
+msgid "Rounded button"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:588
+#: compat/plugin-js-composer/config.php:1255
+msgid "Border"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:607
+msgid "Font size. Use px|em|pt"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:618
+#: compat/plugin-js-composer/config.php:1520
+msgid "Font weight"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:634
+#, fuzzy
+msgid "Make text uppercase"
+msgstr "プレーンテキストメール本文"
+
+#: compat/plugin-js-composer/config.php:650
+#, fuzzy
+msgid "Shadow color"
+msgstr "テキストカラー"
+
+#: compat/plugin-js-composer/config.php:653
+#: compat/plugin-js-composer/config.php:664
+#: compat/plugin-js-composer/config.php:675
+#: compat/plugin-js-composer/config.php:686
+#: compat/plugin-js-composer/config.php:697
+#, fuzzy
+msgid "Box shadow"
+msgstr "テキストボックス"
+
+#: compat/plugin-js-composer/config.php:659
+msgid "Horizontal Length"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:670
+msgid "Vertical Length"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:681
+msgid "Blur Radius"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:692
+msgid "Spread Radius"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:707
+msgid "Query offset"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:717
+msgid "Enable responsive font size settings"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:728
+#, fuzzy
+msgid "Font size - Mobile"
+msgstr "文字サイズ"
+
+#: compat/plugin-js-composer/config.php:733
+#: compat/plugin-js-composer/config.php:749
+#: compat/plugin-js-composer/config.php:765
+#: compat/plugin-js-composer/config.php:781
+#: compat/plugin-js-composer/config.php:797
+#: compat/plugin-js-composer/config.php:813
+msgid "Responsive Font"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:744
+#, fuzzy
+msgid "Line Height - Mobile"
+msgstr "縦幅"
+
+#: compat/plugin-js-composer/config.php:760
+#, fuzzy
+msgid "Font size - Tablet"
+msgstr "サムネイルサイズを変更する"
+
+#: compat/plugin-js-composer/config.php:776
+#, fuzzy
+msgid "Line Height - Tablet"
+msgstr "縦幅"
+
+#: compat/plugin-js-composer/config.php:792
+#, fuzzy
+msgid "Font size - Desktop"
+msgstr "サムネイルサイズを変更する"
+
+#: compat/plugin-js-composer/config.php:808
+#, fuzzy
+msgid "Line Height - Desktop"
+msgstr "縦幅"
+
+#: compat/plugin-js-composer/config.php:839
+msgid "Status"
+msgstr "ステータス"
+
+#: compat/plugin-js-composer/config.php:840
+msgid ""
+"Select front-end visibility status. If set to Draft it will not show on your "
+"page."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:852
+#: compat/plugin-js-composer/config.php:1315
+#, fuzzy
+msgid "Inner Container"
+msgstr "カスタム rtMedia CSS のコンテナー"
+
+#: compat/plugin-js-composer/config.php:853
+#: compat/plugin-js-composer/config.php:1316
+msgid ""
+"Select whether to insert a container to the section. This will keep the "
+"content from going full with."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:865
+#, fuzzy
+msgid "Text align"
+msgstr "テキストカラー"
+
+#: compat/plugin-js-composer/config.php:866
+msgid "Align whole row content."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:886
+#: compat/plugin-js-composer/config.php:904
+#: compat/plugin-js-composer/config.php:921
+#: compat/plugin-js-composer/config.php:937
+#: compat/plugin-js-composer/config.php:950
+#: compat/plugin-js-composer/config.php:966
+#: compat/plugin-js-composer/config.php:986
+#: compat/plugin-js-composer/config.php:1005
+#: compat/plugin-js-composer/config.php:1025
+#: compat/plugin-js-composer/config.php:1043
+#: compat/plugin-js-composer/config.php:1060
+#: compat/plugin-js-composer/config.php:1076
+#: compat/plugin-js-composer/config.php:1089
+#: compat/plugin-js-composer/config.php:1103
+#: compat/plugin-js-composer/config.php:1116
+#: compat/plugin-js-composer/config.php:1129
+#: compat/plugin-js-composer/config.php:1142
+#: compat/plugin-js-composer/config.php:5116
+#: compat/plugin-js-composer/config.php:5122
+#: compat/plugin-js-composer/config.php:5128
+#: compat/plugin-js-composer/config.php:5134
+#, fuzzy
+msgid "Text & Background"
+msgstr "背景色"
+
+#: compat/plugin-js-composer/config.php:893
+msgid "Section style"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:911
+#, fuzzy
+msgid "Background style"
+msgstr "背景色"
+
+#: compat/plugin-js-composer/config.php:943
+#, fuzzy
+msgid "Background image"
+msgstr "背景色"
+
+#: compat/plugin-js-composer/config.php:956
+#: compat/plugin-js-composer/config.php:1385
+#: compat/plugin-js-composer/config.php:1406
+#: compat/plugin-js-composer/config.php:1419
+#, fuzzy
+msgid "Enable dark gradient"
+msgstr "有効化"
+
+#: compat/plugin-js-composer/config.php:973
+msgid "BG vertical position"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:992
+msgid "BG horizontal position"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:1011
+#, fuzzy
+msgid "Background repeat"
+msgstr "背景色"
+
+#: compat/plugin-js-composer/config.php:1031
+#, fuzzy
+msgid "Full-width background"
+msgstr "横幅"
+
+#: compat/plugin-js-composer/config.php:1049
+#, fuzzy
+msgid "Fixed background"
+msgstr "背景色"
+
+#: compat/plugin-js-composer/config.php:1067
+#, fuzzy
+msgid "Enable parallax"
+msgstr "有効化"
+
+#: compat/plugin-js-composer/config.php:1082
+msgid "Parallax speed"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:1096
+msgid "Video background (mp4)"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:1109
+#, fuzzy
+msgid "Video background (ogv)"
+msgstr "背景色"
+
+#: compat/plugin-js-composer/config.php:1122
+#, fuzzy
+msgid "Video background (webm)"
+msgstr "背景色"
+
+#: compat/plugin-js-composer/config.php:1135
+#, fuzzy
+msgid "Image cover"
+msgstr "カバー画像"
+
+#: compat/plugin-js-composer/config.php:1149
+#, fuzzy
+msgid "Vertical Aligned Content"
+msgstr "内容:"
+
+#: compat/plugin-js-composer/config.php:1161
+#, fuzzy
+msgid "Between Columns Gap"
+msgstr "%s さんとの間の会話。"
+
+#: compat/plugin-js-composer/config.php:1174
+msgid "Top padding"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:1184
+msgid "Bottom padding"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:1194
+#, fuzzy
+msgid "Left padding"
+msgstr "コミュニティを脱退しました"
+
+#: compat/plugin-js-composer/config.php:1204
+#, fuzzy
+msgid "Right padding"
+msgstr "今"
+
+#: compat/plugin-js-composer/config.php:1216
+msgid "Top margin"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:1226
+msgid "Bottom margin"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:1236
+#, fuzzy
+msgid "Minim height"
+msgstr "縦幅"
+
+#: compat/plugin-js-composer/config.php:1246
+#: compat/plugin-js-composer/config.php:1341
+#, fuzzy
+msgid "Fixed height"
+msgstr "縦幅"
+
+#: compat/plugin-js-composer/config.php:1256
+msgid "Select whether or not to display a border on this section."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:1277
+#, fuzzy
+msgid "Overflow hidden"
+msgstr "非表示"
+
+#: compat/plugin-js-composer/config.php:1279
+msgid "Check if you want to hide section overflow"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:1294
+#: compat/plugin-js-composer/config.php:3000
+#: compat/plugin-js-composer/config.php:3110
+#, fuzzy
+msgid "Custom inline style"
+msgstr "カスタム:"
+
+#: compat/plugin-js-composer/config.php:1305
+#, fuzzy
+msgid "Element ID"
+msgstr "投稿者 ID"
+
+#: compat/plugin-js-composer/config.php:1330
+#: compat/plugin-js-composer/config.php:4234
+#, fuzzy
+msgid "Min. height"
+msgstr "縦幅"
+
+#: compat/plugin-js-composer/config.php:1351
+#: compat/plugin-js-composer/config.php:4336
+#, fuzzy
+msgid "Background horizontal position"
+msgstr "メール背景色"
+
+#: compat/plugin-js-composer/config.php:1361
+#: compat/plugin-js-composer/config.php:1378
+#: compat/plugin-js-composer/config.php:1391
+#: compat/plugin-js-composer/config.php:1412
+#: compat/plugin-js-composer/config.php:1425
+#: compat/plugin-js-composer/config.php:4330
+#: compat/plugin-js-composer/config.php:4346
+#: compat/plugin-js-composer/config.php:4363
+#, fuzzy
+msgid "Design Options"
+msgstr "設定"
+
+#: compat/plugin-js-composer/config.php:1368
+#: compat/plugin-js-composer/config.php:4353
+#, fuzzy
+msgid "Background vertical position"
+msgstr "メール背景色"
+
+#: compat/plugin-js-composer/config.php:1475
+#, fuzzy
+msgid "Lead Content"
+msgstr "プロジェクトリード"
+
+#: compat/plugin-js-composer/config.php:1498
+#: compat/plugin-js-composer/config.php:2376
+#, fuzzy
+msgid "Font size"
+msgstr "文字サイズ"
+
+#: compat/plugin-js-composer/config.php:1508
+#, fuzzy
+msgid "Line Height"
+msgstr "縦幅"
+
+#: compat/plugin-js-composer/config.php:1627
+#, fuzzy
+msgid "Image effects"
+msgstr "画像"
+
+#: compat/plugin-js-composer/config.php:1664
+#, fuzzy
+msgid "Enable Fading animation"
+msgstr "有効化"
+
+#: compat/plugin-js-composer/config.php:1676
+#, fuzzy
+msgid "Thumbnail over image"
+msgstr "サムネイル"
+
+#: compat/plugin-js-composer/config.php:1743
+#, fuzzy
+msgid "Feature Items Grid"
+msgstr "カスケードのグリッド レイアウト"
+
+#: compat/plugin-js-composer/config.php:1748
+msgid "Easily include elements into a Grid container"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:1756
+msgid "Select how many items you want per row."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:1770
+msgid "Animate elements inside the grid one by one"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:1781
+msgid "Colored icons"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:1782
+msgid ""
+"Show colored icons. Color will be taken from the Highlight color from Theme "
+"options"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:1793
+msgid "Bordered icons"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:1794
+#, fuzzy
+msgid "Show bordered icons"
+msgstr "すべて表示"
+
+#: compat/plugin-js-composer/config.php:1806
+#, fuzzy
+msgid "Choose a different style"
+msgstr "投稿は見つかりませんでした。新しい検索を試してみませんか ?"
+
+#: compat/plugin-js-composer/config.php:1817
+#, fuzzy
+msgid "Divided Items"
+msgstr "項目なし"
+
+#: compat/plugin-js-composer/config.php:1818
+msgid "Apply border between items"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:1829
+#, fuzzy
+msgid "Title only"
+msgstr "(タイトルなし)"
+
+#: compat/plugin-js-composer/config.php:1830
+msgid "Just the Title visible by default. Content is visible on item hover"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:1850
+#, fuzzy
+msgid "Enable box shadow."
+msgstr "有効化"
+
+#: compat/plugin-js-composer/config.php:1871
+#, fuzzy
+msgid "Feature Item"
+msgstr "新機能"
+
+#: compat/plugin-js-composer/config.php:1876
+msgid "Include a feature item in your block grid"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:1949
+#, fuzzy
+msgid "Fancy List"
+msgstr "メールリスト"
+
+#: compat/plugin-js-composer/config.php:1962
+#, fuzzy
+msgid "Select the list type."
+msgstr "タイムラインのタイプを選択"
+
+#: compat/plugin-js-composer/config.php:1976
+#: compat/plugin-js-composer/config.php:2327
+#, fuzzy
+msgid "Icon color"
+msgstr "ハイライトカラー"
+
+#: compat/plugin-js-composer/config.php:1992
+#, fuzzy
+msgid "Icon shadow"
+msgstr "%s のサイトアイコン"
+
+#: compat/plugin-js-composer/config.php:2008
+#, fuzzy
+msgid "Large icon"
+msgstr "%s のサイトアイコン"
+
+#: compat/plugin-js-composer/config.php:2024
+#, fuzzy
+msgid "Inline"
+msgstr ""
+"%1$s には引数を指定できなくなりました。詳しくは %2$s のインラインドキュメン"
+"テーションを参照してください。"
+
+#: compat/plugin-js-composer/config.php:2041
+msgid "Divider"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2054
+#: compat/plugin-js-composer/config.php:2176
+msgid "Align"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2055
+#, fuzzy
+msgid "Align the list"
+msgstr "タイムライン"
+
+#: compat/plugin-js-composer/config.php:2079
+#, fuzzy
+msgid "List Item"
+msgstr "タイムライン"
+
+#: compat/plugin-js-composer/config.php:2107
+#: compat/plugin-js-composer/config.php:2222
+#: compat/plugin-js-composer/config.php:2246
+#: compat/plugin-js-composer/config.php:2319
+#: compat/plugin-js-composer/config.php:2479
+#: compat/plugin-js-composer/config.php:2567
+#: compat/plugin-js-composer/config.php:2712
+#: compat/plugin-js-composer/config.php:2797
+#: compat/plugin-js-composer/config.php:2818
+#: compat/plugin-js-composer/config.php:2968
+#: compat/plugin-js-composer/config.php:3019
+#: compat/plugin-js-composer/config.php:3122
+#: compat/plugin-js-composer/config.php:3481
+#: compat/plugin-js-composer/config.php:3648
+#: compat/plugin-js-composer/config.php:3760
+#: compat/plugin-js-composer/config.php:3783
+msgid "Content"
+msgstr "内容"
+
+#: compat/plugin-js-composer/config.php:2232
+msgid "Tabs Position"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2281
+msgid "Icon when accordion item is opened"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2293
+msgid "Icon when accordion item is closed"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2320
+msgid "Insert an icon into your content"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2329
+msgid "Select custom icon color."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2352
+#, fuzzy
+msgid "Add a text to the icon"
+msgstr "%s のサイトアイコン"
+
+#: compat/plugin-js-composer/config.php:2360
+#, fuzzy
+msgid "Text position"
+msgstr "フッタテキスト"
+
+#: compat/plugin-js-composer/config.php:2389
+#, fuzzy
+msgid "Add a link"
+msgstr "フッターにrtMediaへのリンクを追加する"
+
+#: compat/plugin-js-composer/config.php:2390
+#, fuzzy
+msgid "Type a http:// address"
+msgstr "HTTP エラー。"
+
+#: compat/plugin-js-composer/config.php:2398
+msgid "Target window"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2414
+msgid "Enable smooth scroll to page section."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2447
+#, fuzzy
+msgid "Choose the bar appearance"
+msgstr "管理バーメニューの統合"
+
+#: compat/plugin-js-composer/config.php:2480
+msgid "Showcase clients logos"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2484
+msgid "Animated"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2485
+msgid "Animate the icons when you first view them"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2512
+#, fuzzy
+msgid "Number of logos"
+msgstr "数字"
+
+#: compat/plugin-js-composer/config.php:2521
+msgid "Open links in new window"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2533
+#: compat/plugin-js-composer/config.php:2638
+#, fuzzy
+msgid "Filter by Tags"
+msgstr "タグ: "
+
+#: compat/plugin-js-composer/config.php:2568
+msgid "Showcase client testimonials"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2586
+#, fuzzy
+msgid "By IDs"
+msgstr ""
+"タイムライン投稿を作成したオブジェクトを識別するのに使われます。例えばフィー"
+"ルドはサイトとコメント ID のペアを参照することもあります。"
+
+#: compat/plugin-js-composer/config.php:2598
+#, fuzzy
+msgid "Testimonials IDs to show."
+msgstr "すべて表示"
+
+#: compat/plugin-js-composer/config.php:2599
+#, fuzzy
+msgid "Comma separated list of ids to display. "
+msgstr "ユーザーログインの一覧を半角カンマ区切りで入力してください。"
+
+#: compat/plugin-js-composer/config.php:2611
+#, fuzzy
+msgid "Number of testimonials"
+msgstr "数字"
+
+#: compat/plugin-js-composer/config.php:2624
+msgid "Testimonials offset"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2653
+#: compat/plugin-js-composer/config.php:3346
+#: compat/plugin-js-composer/config.php:3418
+#, fuzzy
+msgid "Minimum items to show"
+msgstr "項目なし"
+
+#: compat/plugin-js-composer/config.php:2666
+#: compat/plugin-js-composer/config.php:3355
+#: compat/plugin-js-composer/config.php:3427
+#, fuzzy
+msgid "Maximum items to show"
+msgstr "項目なし"
+
+#: compat/plugin-js-composer/config.php:2679
+#, fuzzy
+msgid "Speed between slides"
+msgstr "%s さんとの間の会話。"
+
+#: compat/plugin-js-composer/config.php:2692
+#: compat/plugin-js-composer/config.php:3364
+#, fuzzy
+msgid "Elements height"
+msgstr "縦幅"
+
+#: compat/plugin-js-composer/config.php:2713
+#, fuzzy
+msgid "Add pins with info"
+msgstr "デバッグ情報をダウンロードします。"
+
+#: compat/plugin-js-composer/config.php:2718
+#, fuzzy
+msgid "Type of pin"
+msgstr "タイプ"
+
+#: compat/plugin-js-composer/config.php:2738
+#, fuzzy
+msgid "Choose the icon to display"
+msgstr "%s のサイトアイコン"
+
+#: compat/plugin-js-composer/config.php:2746
+msgid "Top position"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2754
+#, fuzzy
+msgid "Left position"
+msgstr "コミュニティを脱退しました"
+
+#: compat/plugin-js-composer/config.php:2762
+#, fuzzy
+msgid "Right position"
+msgstr "今すぐrtMediaで"
+
+#: compat/plugin-js-composer/config.php:2770
+msgid "Bottom position"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2798
+msgid "Insert a button in your content"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2819
+#, fuzzy
+msgid "Insert an animated number"
+msgstr "数字"
+
+#: compat/plugin-js-composer/config.php:2824
+#: compat/plugin-js-composer/config.php:5033
+msgid "Number"
+msgstr "数字"
+
+#: compat/plugin-js-composer/config.php:2832
+msgid "Timer"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2841
+msgid "HTML Element"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2842
+msgid "What type of HTML tag to render. Default if span"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2867
+msgid "Font Weight"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2889
+msgid "Visibility"
+msgstr "表示範囲"
+
+#: compat/plugin-js-composer/config.php:2894
+msgid "Alter content based on screen size"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2901
+#, fuzzy
+msgid "Visibility Type"
+msgstr "表示範囲"
+
+#: compat/plugin-js-composer/config.php:2929
+#, fuzzy
+msgid "Content by user type"
+msgstr "タイプ"
+
+#: compat/plugin-js-composer/config.php:2934
+msgid "Restrict content based on user type"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2942
+#, fuzzy
+msgid "User Type"
+msgstr "ユーザー"
+
+#: compat/plugin-js-composer/config.php:2943
+msgid "Show content for user type."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2969
+msgid "Insert a vertical gap in your content"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2974
+msgid ""
+"Enter in the size of your gap. Pixels, ems, and percentages are all valid "
+"units of measurement."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2984
+#: compat/plugin-js-composer/config.php:3101
+#: compat/plugin-js-composer/config.php:4773
+#: compat/plugin-js-composer/config.php:4986
+#: compat/plugin-js-composer/config.php:5774
+#: compat/plugin-js-composer/config.php:5883
+#: compat/plugin-js-composer/config.php:6015
+#, fuzzy
+msgid "Class"
+msgstr "グループ<span class=\"%s\">%s</span>個"
+
+#: compat/plugin-js-composer/config.php:2986
+#: compat/plugin-js-composer/config.php:3103
+#: compat/plugin-js-composer/config.php:4776
+#: compat/plugin-js-composer/config.php:4864
+#: compat/plugin-js-composer/config.php:4989
+#: compat/plugin-js-composer/config.php:5777
+#: compat/plugin-js-composer/config.php:5886
+#: compat/plugin-js-composer/config.php:6018
+msgid "A class to add to the element for CSS referrences."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:2990
+#: compat/plugin-js-composer/config.php:3091
+#, fuzzy
+msgid "Id"
+msgstr "ID"
+
+#: compat/plugin-js-composer/config.php:2991
+#: compat/plugin-js-composer/config.php:3092
+msgid "Unique id to add to the element for CSS referrences"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3020
+msgid "Insert a vertical divider in your content"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3034
+#, fuzzy
+msgid "The type of the divider."
+msgstr "このタイプのメンバーはいません。"
+
+#: compat/plugin-js-composer/config.php:3040
+msgid "Double border"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3046
+msgid "Have the divider double lined."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3084
+#, fuzzy
+msgid "Text"
+msgstr "プレーンテキストメール本文"
+
+#: compat/plugin-js-composer/config.php:3143
+#: compat/plugin-js-composer/config.php:3334
+#, fuzzy
+msgid "Layout"
+msgstr "カスケードのグリッド レイアウト"
+
+#: compat/plugin-js-composer/config.php:3157
+#: compat/plugin-js-composer/config.php:3517
+#, fuzzy
+msgid "Number of items per row"
+msgstr "ページあたりのメディア数"
+
+#: compat/plugin-js-composer/config.php:3159
+#: compat/plugin-js-composer/config.php:3519
+msgid "A number between 2 and 6"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3172
+#, fuzzy
+msgid "Show Layout Switcher"
+msgstr "カスケードのグリッド レイアウト"
+
+#: compat/plugin-js-composer/config.php:3178
+msgid "This allows the visitor to change posts layout."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3185
+msgid "Switcher Layouts"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3189
+msgid "What layouts are available for the user to switch."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3201
+#, fuzzy
+msgid "Show Thumbnail image"
+msgstr "サムネイル"
+
+#: compat/plugin-js-composer/config.php:3221
+#, fuzzy
+msgid "Show post meta"
+msgstr "メッセージのメタ情報"
+
+#: compat/plugin-js-composer/config.php:3234
+#, fuzzy
+msgid "Inline post meta"
+msgstr "メッセージのメタ情報"
+
+#: compat/plugin-js-composer/config.php:3251
+#, fuzzy
+msgid "Show post excerpt"
+msgstr "投稿"
+
+#: compat/plugin-js-composer/config.php:3264
+#, fuzzy
+msgid "Show post footer"
+msgstr "フッター"
+
+#: compat/plugin-js-composer/config.php:3275
+#, fuzzy
+msgid "Enable Load More"
+msgstr "もっと読み込む"
+
+#: compat/plugin-js-composer/config.php:3276
+msgid "Enable Load more posts via AJAX."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3367
+msgid ""
+"Force a height on all elements. Expressed in pixels, eq: 300 will represent "
+"300px"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3386
+msgid "Scroll effect"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3421
+#, fuzzy
+msgid "Default value: 1"
+msgstr "デフォルト値"
+
+#: compat/plugin-js-composer/config.php:3430
+#, fuzzy
+msgid "Default value: 1."
+msgstr "デフォルト値"
+
+#: compat/plugin-js-composer/config.php:3436
+msgid "Custom width for the carousel items"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3439
+msgid ""
+"Set a custom width for the items. It is optional since they are "
+"automatically calculated. Expressed in pixels. Example: If you want to have "
+"one item per row on mobile you need to set a 360 value."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3453
+#, fuzzy
+msgid "Context"
+msgstr "アップロードのためのコンテキストが無効です。"
+
+#: compat/plugin-js-composer/config.php:3482
+#, fuzzy
+msgid "Insert portfolio items"
+msgstr "URL から挿入"
+
+#: compat/plugin-js-composer/config.php:3488
+#, fuzzy
+msgid "Display type"
+msgstr "表示"
+
+#: compat/plugin-js-composer/config.php:3500
+#, fuzzy
+msgid "Title style"
+msgstr "(タイトルなし)"
+
+#: compat/plugin-js-composer/config.php:3526
+#, fuzzy
+msgid "Items to show"
+msgstr "アクティビティストリームに表示するメディアアイテムの数"
+
+#: compat/plugin-js-composer/config.php:3528
+msgid "Leave blank for default value as in Settings - Reading"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3535
+msgid "Display pagination. Only if is the case it will be shown"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3547
+msgid "Show filter on top with categories"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3556
+msgid "Enable AJAX on filter or pagination."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3557
+msgid ""
+"When clicking filters will send an AJAX request to get specific category "
+"items.Same goes for pagination"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3570
+msgid "Display Subtitle for each item"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3582
+#, fuzzy
+msgid "Images size"
+msgstr "文字サイズ"
+
+#: compat/plugin-js-composer/config.php:3584
+msgid ""
+"Leave blank to use default value 480x270. Expressed in pixels. Insert like: "
+"400x400"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3591
+#, fuzzy
+msgid "Show from Category"
+msgstr "カテゴリー"
+
+#: compat/plugin-js-composer/config.php:3593
+msgid "It will get also any subcategories"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3600
+msgid "Exclude categories"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3649
+#, fuzzy
+msgid "Insert search form"
+msgstr "URL から挿入"
+
+#: compat/plugin-js-composer/config.php:3656
+#, fuzzy
+msgid "Form Style"
+msgstr "フォームが送信されました。"
+
+#: compat/plugin-js-composer/config.php:3661
+msgid ""
+"This affects the look of the form. Default has a border and works for white "
+"backgrounds."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3668
+#, fuzzy
+msgid "Form Type"
+msgstr "タイプ"
+
+#: compat/plugin-js-composer/config.php:3674
+msgid "Here you can disable Form Submit or AJAX results."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3681
+#, fuzzy
+msgid "Search context"
+msgstr "アップロードのためのコンテキストが無効です。"
+
+#: compat/plugin-js-composer/config.php:3684
+msgid ""
+"Leave unchecked to search in all content. What content do you want to search "
+"for. For example if you select just Members then the form submit will go to "
+"members directory. Same applies for Forums and Products."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3690
+#: compat/plugin-js-composer/config.php:3725
+msgid "Placeholder"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3693
+#: compat/plugin-js-composer/config.php:3728
+msgid "Placeholder to show when the input is empty"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3716
+#, fuzzy
+msgid "Forum ID"
+msgstr "ID"
+
+#: compat/plugin-js-composer/config.php:3719
+msgid ""
+"Enter a Forum ID to search just in that forum. Leave blank to search in all "
+"forums"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3734
+#, fuzzy
+msgid "Button text color"
+msgstr "テキストカラー"
+
+#: compat/plugin-js-composer/config.php:3743
+#, fuzzy
+msgid "Button background color"
+msgstr "背景色"
+
+#: compat/plugin-js-composer/config.php:3757
+#, fuzzy
+msgid "Count Posts"
+msgstr "既定の回数"
+
+#: compat/plugin-js-composer/config.php:3767
+#, fuzzy
+msgid "Post type"
+msgstr "投稿"
+
+#: compat/plugin-js-composer/config.php:3770
+msgid ""
+"Enter a post type to count for. This should be something like: post, page or "
+"portfolio "
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3780
+msgid "Let it Snow"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3790
+msgid "Where the snowing effect should happen"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3796
+msgid ""
+"Add beautiful snow effect. Let it snow only in the container column element "
+"or activate it for the whole site. "
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3807
+msgid "Pricing Table"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3812
+msgid "Easy to add pricing tables"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3830
+msgid "Number of pricing table columns."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3842
+#, fuzzy
+msgid "Choose a different style."
+msgstr "投稿は見つかりませんでした。新しい検索を試してみませんか ?"
+
+#: compat/plugin-js-composer/config.php:3849
+#, fuzzy
+msgid "Custom Heading background"
+msgstr "背景色"
+
+#: compat/plugin-js-composer/config.php:3858
+#, fuzzy
+msgid "Custom Price background"
+msgstr "背景色"
+
+#: compat/plugin-js-composer/config.php:3867
+#, fuzzy
+msgid "Custom Text color"
+msgstr "テキストカラー"
+
+#: compat/plugin-js-composer/config.php:3903
+msgid "Price"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3912
+#, fuzzy
+msgid "Popular column?"
+msgstr "人気"
+
+#: compat/plugin-js-composer/config.php:3918
+msgid "Shows this column with a different style"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3933
+#, fuzzy
+msgid "Features list"
+msgstr "機能"
+
+#: compat/plugin-js-composer/config.php:3941
+msgid "Button label"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:3947
+#, fuzzy
+msgid "URL (Link)"
+msgstr "URL"
+
+#: compat/plugin-js-composer/config.php:3949
+#, fuzzy
+msgid "Add link to button"
+msgstr "フッターにrtMediaへのリンクを追加する"
+
+#: compat/plugin-js-composer/config.php:3972
+#, fuzzy
+msgid "Particles number"
+msgstr "数字"
+
+#: compat/plugin-js-composer/config.php:3981
+#, fuzzy
+msgid "Particles size"
+msgstr "サムネイルサイズを変更する"
+
+#: compat/plugin-js-composer/config.php:3990
+#, fuzzy
+msgid "Particles color"
+msgstr "ハイライトカラー"
+
+#: compat/plugin-js-composer/config.php:4006
+msgid "Login / Lost Password Forms (Hidden from logged in users.)"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4012
+#, fuzzy
+msgid "Show"
+msgstr "表示:"
+
+#: compat/plugin-js-composer/config.php:4018
+#, fuzzy
+msgid "Initial form to show."
+msgstr "表示:"
+
+#: compat/plugin-js-composer/config.php:4024
+#, fuzzy
+msgid "Login Title"
+msgstr "ログインします。"
+
+#: compat/plugin-js-composer/config.php:4027
+#: compat/plugin-js-composer/config.php:4036
+#, fuzzy
+msgid "Enter the login title."
+msgstr "WP 管理者のログイン名を入力してください。"
+
+#: compat/plugin-js-composer/config.php:4033
+#, fuzzy
+msgid "Lost Password Title"
+msgstr "パスワードをお忘れですか ?"
+
+#: compat/plugin-js-composer/config.php:4042
+#, fuzzy
+msgid "Login Link"
+msgstr "ログインします。"
+
+#: compat/plugin-js-composer/config.php:4045
+#: compat/plugin-js-composer/config.php:4054
+msgid ""
+"Use # or custom url. Using # will allow inline switching between login and "
+"lost password boxes."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4051
+#, fuzzy
+msgid "Lost Password Link"
+msgstr "パスワードをお忘れですか ?"
+
+#: compat/plugin-js-composer/config.php:4060
+#, fuzzy
+msgid "Register Link"
+msgstr "登録"
+
+#: compat/plugin-js-composer/config.php:4063
+msgid ""
+"Leave empty for WordPress or BuddyPress default url. Use 'hide' or custom "
+"url. Using 'hide will allow you to hide any registration information."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4077
+#: compat/plugin-js-composer/config.php:4406
+msgid ""
+"Form style. If you don't use this form with a background behind then you "
+"should set the form style to 'Theme Default'"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4083
+#: compat/plugin-js-composer/config.php:4412
+#, fuzzy
+msgid "Input Size"
+msgstr "文字サイズ"
+
+#: compat/plugin-js-composer/config.php:4096
+#: compat/plugin-js-composer/config.php:4425
+#, fuzzy
+msgid "Show for logged in users too"
+msgstr "ログインしていないユーザーにツールバーを表示"
+
+#: compat/plugin-js-composer/config.php:4110
+#, fuzzy
+msgid "Autofocus to the input field"
+msgstr "これは記入必須欄です"
+
+#: compat/plugin-js-composer/config.php:4116
+msgid ""
+"Will focus to the input to type directly and if the form isn't on page view "
+"will scroll direcly where the form it's placed. "
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4126
+#, fuzzy
+msgid "Kleo Social Sharing"
+msgstr "Social Sharing"
+
+#: compat/plugin-js-composer/config.php:4131
+msgid "Adds Kleo Likes and social sharing.)"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4141
+#, fuzzy
+msgid "Kleo Magic Container"
+msgstr "KLEO"
+
+#: compat/plugin-js-composer/config.php:4146
+msgid "Very customizable container element"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4155
+#, fuzzy
+msgid "CSS Position"
+msgstr "カスタム CSS"
+
+#: compat/plugin-js-composer/config.php:4163
+#: compat/plugin-js-composer/config.php:4177
+#, fuzzy
+msgid "Set the content position."
+msgstr "ユーザーがコンテンツのプライバシーを設定できるようにする"
+
+#: compat/plugin-js-composer/config.php:4170
+#, fuzzy
+msgid "CSS Float"
+msgstr "カスタム CSS"
+
+#: compat/plugin-js-composer/config.php:4184
+#, fuzzy
+msgid "CSS Top"
+msgstr "カスタム CSS"
+
+#: compat/plugin-js-composer/config.php:4187
+msgid "Css Top value. Use px|em|%|pt|cm"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4197
+msgid "Css RIGHT value. Use px|em|%|pt|cm"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4204
+#, fuzzy
+msgid "CSS Bottom"
+msgstr "カスタム CSS"
+
+#: compat/plugin-js-composer/config.php:4207
+msgid "Css BOTTOM value. Use px|em|%|pt|cm"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4214
+#, fuzzy
+msgid "CSS Left"
+msgstr "カスタム CSS"
+
+#: compat/plugin-js-composer/config.php:4224
+#, fuzzy
+msgid "Min. width"
+msgstr "横幅"
+
+#: compat/plugin-js-composer/config.php:4227
+msgid "Force a minimum width. Use px|em|%|pt|cm"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4237
+msgid "Force a minimum height. Use px|em|%|pt|cm"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4244
+#, fuzzy
+msgid "Fixed width"
+msgstr ""
+"固定幅のギャラリーを設定するには、画像の高さを0に、幅を要件に合わせて設定しま"
+"す。逆も同様です。"
+
+#: compat/plugin-js-composer/config.php:4247
+msgid "Force a fixed width. Use px|em|%|pt|cm"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4257
+msgid "Force a fixed height. Use px|em|%|pt|cm"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4264
+msgid "Content vertical position in container"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4271
+msgid ""
+"Set the content position related to the container. Works when you set a "
+"custom container height."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4278
+#, fuzzy
+msgid "Center text horizontally"
+msgstr "プレーンテキストメール本文"
+
+#: compat/plugin-js-composer/config.php:4283
+msgid "Enabling this option will center any text inside the container"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4290
+msgid "Center the container box horizontally"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4295
+msgid "Works when you set a custom container width."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4301
+#, fuzzy
+msgid "Full height content"
+msgstr "縦幅"
+
+#: compat/plugin-js-composer/config.php:4306
+msgid ""
+"Stretch the content to the container height. Works when you set a custom "
+"container height."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4312
+msgid "Border Radius"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4315
+msgid "Set container border radius. Use px|em|%|pt|cm"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4321
+msgid "Z-index"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4324
+msgid "Stack order for overlapping elements. Use integer value."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4328
+#, fuzzy
+msgid "Css"
+msgstr "rtMedia カスタム CSS"
+
+#: compat/plugin-js-composer/config.php:4389
+#, fuzzy
+msgid "Register Title"
+msgstr "登録"
+
+#: compat/plugin-js-composer/config.php:4392
+#, fuzzy
+msgid "Enter the register title."
+msgstr "登録"
+
+#: compat/plugin-js-composer/config.php:4439
+msgid "Allow BuddyPress plugin hook before submit"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4445
+msgid ""
+"Allow plugins to hook into the form using "
+"bp_before_registration_submit_buttons"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4458
+#, fuzzy
+msgid "NEWS Focus"
+msgstr "ニュース"
+
+#: compat/plugin-js-composer/config.php:4463
+msgid "News Posts with big left image"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4469
+#, fuzzy
+msgid "Section name"
+msgstr "名前"
+
+#: compat/plugin-js-composer/config.php:4472
+#, fuzzy
+msgid "Enter a section name."
+msgstr "アルバム名を入力します。"
+
+#: compat/plugin-js-composer/config.php:4478
+msgid "Featured posts on left side"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4481
+msgid "Enter the number of post to highlight and show big on the left column."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4485
+#: compat/plugin-js-composer/config.php:4522
+#: compat/plugin-js-composer/config.php:4550
+#: compat/plugin-js-composer/config.php:4579
+#, fuzzy
+msgid "Build your query"
+msgstr "投稿にコメントしました"
+
+#: compat/plugin-js-composer/config.php:4491
+msgid ""
+"If you refine your posts by category then they will show as tabbed content "
+"in the shortcode"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4509
+msgid "News Posts with first post big image"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4515
+#, fuzzy
+msgid "Featured posts to show big"
+msgstr "表示する最大投稿数:"
+
+#: compat/plugin-js-composer/config.php:4518
+msgid "Enter the number of post to highlight and show with bigger thumb."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4528
+msgid ""
+"If you refine your posts by category then the first category will show as a "
+"label on first post image"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4541
+#, fuzzy
+msgid "NEWS Ticker"
+msgstr "ニュース"
+
+#: compat/plugin-js-composer/config.php:4556
+msgid "Refine your posts by specific filters"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4585
+msgid ""
+"Refine your posts by specific filters. This will get only image and gallery "
+"post formats"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4592
+#, fuzzy
+msgid "Posts per Row"
+msgstr "ページあたりのメディア数"
+
+#: compat/plugin-js-composer/config.php:4600
+msgid "How many posts to show on one line."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4612
+#, fuzzy
+msgid "Members Count"
+msgstr "メンバー総数を修復。"
+
+#: compat/plugin-js-composer/config.php:4617
+#, fuzzy
+msgid "Show the total member count."
+msgstr "メンバー総数を修復。"
+
+#: compat/plugin-js-composer/config.php:4628
+#, fuzzy
+msgid "Members Statistics"
+msgstr "メンバー数"
+
+#: compat/plugin-js-composer/config.php:4631
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: compat/plugin-js-composer/config.php:4638
+msgid "Field Name"
+msgstr "フィールド名"
+
+#: compat/plugin-js-composer/config.php:4641
+#, fuzzy
+msgid "Profile field name."
+msgstr "フィールドコミュニティ名 (必須)"
+
+#: compat/plugin-js-composer/config.php:4650
+#, fuzzy
+msgid "Profile field value."
+msgstr "プロフィールのフィールドコミュニティ"
+
+#: compat/plugin-js-composer/config.php:4656
+#, fuzzy
+msgid "Online?"
+msgstr "オンラインのメンバー %1$s - %2$s を表示中 (全%3$s人中)"
+
+#: compat/plugin-js-composer/config.php:4661
+msgid "Only include online members."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4664
+msgid "Show the member count by profile field value."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4695
+#: compat/plugin-js-composer/config.php:4809
+#, fuzzy
+msgid "The type of groups to display."
+msgstr "表示できるコミュニティはありません。"
+
+#: compat/plugin-js-composer/config.php:4701
+#: compat/plugin-js-composer/config.php:4815
+#, fuzzy
+msgid "Number of groups"
+msgstr "各ユーザーのコミュニティの数を計算しています… %s"
+
+#: compat/plugin-js-composer/config.php:4704
+#: compat/plugin-js-composer/config.php:4818
+msgid "How many groups to get."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4710
+#: compat/plugin-js-composer/config.php:5699
+#, fuzzy
+msgid "Minimum Items"
+msgstr "項目なし"
+
+#: compat/plugin-js-composer/config.php:4713
+#: compat/plugin-js-composer/config.php:5702
+#, fuzzy
+msgid "Minimum number of items to show on the screen"
+msgstr "アクティビティストリームに表示するメディアアイテムの数"
+
+#: compat/plugin-js-composer/config.php:4719
+#: compat/plugin-js-composer/config.php:5708
+#, fuzzy
+msgid "Maximum Items"
+msgstr "項目なし"
+
+#: compat/plugin-js-composer/config.php:4722
+#: compat/plugin-js-composer/config.php:5711
+#, fuzzy
+msgid "Maximum number of items to show on the screen"
+msgstr "アクティビティストリームに表示するメディアアイテムの数"
+
+#: compat/plugin-js-composer/config.php:4728
+#: compat/plugin-js-composer/config.php:5717
+#, fuzzy
+msgid "Image Type"
+msgstr "イメージの種類がありません。"
+
+#: compat/plugin-js-composer/config.php:4734
+#: compat/plugin-js-composer/config.php:5723
+msgid "The size to get from buddypress"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4740
+#: compat/plugin-js-composer/config.php:5750
+#, fuzzy
+msgid "Auto play"
+msgstr "タイムライン投稿の自動読み込み"
+
+#: compat/plugin-js-composer/config.php:4746
+#: compat/plugin-js-composer/config.php:5756
+msgid "If the carousel should play automatically"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4752
+#: compat/plugin-js-composer/config.php:4824
+#: compat/plugin-js-composer/config.php:4936
+#: compat/plugin-js-composer/config.php:5729
+#: compat/plugin-js-composer/config.php:5834
+#: compat/plugin-js-composer/config.php:5965
+#, fuzzy
+msgid "Avatar type"
+msgstr "アバターを切り抜き"
+
+#: compat/plugin-js-composer/config.php:4758
+#: compat/plugin-js-composer/config.php:4830
+#: compat/plugin-js-composer/config.php:4942
+#: compat/plugin-js-composer/config.php:5735
+#: compat/plugin-js-composer/config.php:5840
+#: compat/plugin-js-composer/config.php:5971
+#, fuzzy
+msgid "Rounded or square avatar"
+msgstr "アバターの更新"
+
+#: compat/plugin-js-composer/config.php:4764
+#, fuzzy
+msgid "Image Width"
+msgstr "横幅"
+
+#: compat/plugin-js-composer/config.php:4767
+#, fuzzy
+msgid "The size of the group image"
+msgstr "フルサイズ画像へのリンク"
+
+#: compat/plugin-js-composer/config.php:4836
+#: compat/plugin-js-composer/config.php:4948
+#: compat/plugin-js-composer/config.php:5846
+#: compat/plugin-js-composer/config.php:5977
+#, fuzzy
+msgid "Avatar size"
+msgstr "アバターを切り抜き"
+
+#: compat/plugin-js-composer/config.php:4842
+#: compat/plugin-js-composer/config.php:4954
+#: compat/plugin-js-composer/config.php:5852
+#: compat/plugin-js-composer/config.php:5983
+#, fuzzy
+msgid "Small or large avatar"
+msgstr "アバターの更新"
+
+#: compat/plugin-js-composer/config.php:4848
+#: compat/plugin-js-composer/config.php:4960
+#: compat/plugin-js-composer/config.php:5858
+#: compat/plugin-js-composer/config.php:5989
+#, fuzzy
+msgid "Width & Height"
+msgstr "幅、高さ、またはクロップの設定に変更を加えた場合に使用します。"
+
+#: compat/plugin-js-composer/config.php:4855
+#: compat/plugin-js-composer/config.php:4967
+#: compat/plugin-js-composer/config.php:5865
+#: compat/plugin-js-composer/config.php:5996
+#, fuzzy
+msgid "Example: 200x200"
+msgstr "例:"
+
+#: compat/plugin-js-composer/config.php:4878
+#, fuzzy
+msgid "Groups Grid"
+msgstr "カスケードのグリッド レイアウト"
+
+#: compat/plugin-js-composer/config.php:4905
+#: compat/plugin-js-composer/config.php:5934
+#, fuzzy
+msgid "Maximum members"
+msgstr "メンバー数"
+
+#: compat/plugin-js-composer/config.php:4908
+msgid "How many groups you want to display."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4914
+#, fuzzy
+msgid "Groups per line"
+msgstr "ページあたりのメディア数"
+
+#: compat/plugin-js-composer/config.php:4930
+msgid "How many groups to show per line"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4973
+msgid "Animatione"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:4980
+#: compat/plugin-js-composer/config.php:6009
+#, fuzzy
+msgid "Elements will appear animated"
+msgstr "* このコミュニティの入力欄は登録ページに表示されます。"
+
+#: compat/plugin-js-composer/config.php:4998
+#, fuzzy
+msgid "Activity Stream"
+msgstr "アクティビティ ストリームからのアップロードを許可します。"
+
+#: compat/plugin-js-composer/config.php:5008
+msgid "Display"
+msgstr "表示"
+
+#: compat/plugin-js-composer/config.php:5018
+msgid ""
+"The type of activity to show. It adds the 'object' parameter as in https://"
+"codex.buddypress.org/developer/loops-reference/the-activity-stream-loop/"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5024
+#, fuzzy
+msgid "Filter action"
+msgstr "絞り込み検索"
+
+#: compat/plugin-js-composer/config.php:5027
+msgid ""
+"Example: activity_update<br> See action parameter from the filters section "
+"from https://codex.buddypress.org/developer/loops-reference/the-activity-"
+"stream-loop/"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5036
+msgid "How many activity streams to show"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5042
+#, fuzzy
+msgid "Show post update form"
+msgstr "タイムラインを投稿する"
+
+#: compat/plugin-js-composer/config.php:5048
+msgid "Shows the form to post a new update"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5054
+msgid "Bottom button"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5060
+msgid "Show a button with link to the activity page"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5066
+msgid "Activity Button Label"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5079
+#, fuzzy
+msgid "Activity Button Link"
+msgstr "リンク"
+
+#: compat/plugin-js-composer/config.php:5086
+msgid "Put here the link to your activity page"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5095
+#, fuzzy
+msgid "Activity Page"
+msgstr ""
+"アクティビティストリームページにあるステータス更新ボックスを使用してアップ"
+"ロードを許可する"
+
+#: compat/plugin-js-composer/config.php:5420
+#: compat/plugin-js-composer/config.php:5526
+#, fuzzy
+msgid "Fontello(theme default)"
+msgstr "テーマの詳細"
+
+#: compat/plugin-js-composer/config.php:5476
+msgid "Alert"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5477
+#, fuzzy
+msgid "Info"
+msgstr "デバッグ情報をダウンロードします。"
+
+#: compat/plugin-js-composer/config.php:5478
+msgid "Tick"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5479
+msgid "Explanation"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5480
+#, fuzzy
+msgid "Address book"
+msgstr "メールアドレス"
+
+#: compat/plugin-js-composer/config.php:5481
+msgid "Alarm clock"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5482
+msgid "Anchor"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5483
+#, fuzzy
+msgid "Application Image"
+msgstr "画像"
+
+#: compat/plugin-js-composer/config.php:5484
+msgid "Arrow"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5485
+msgid "Asterisk"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5486
+msgid "Hammer"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5487
+msgid "Balloon"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5488
+msgid "Balloon Buzz"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5489
+#, fuzzy
+msgid "Balloon Facebook"
+msgstr "Facebookでシェア"
+
+#: compat/plugin-js-composer/config.php:5490
+#, fuzzy
+msgid "Balloon Twitter"
+msgstr "Twitter:"
+
+#: compat/plugin-js-composer/config.php:5491
+msgid "Battery"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5492
+msgid "Binocular"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5493
+msgid "Document Excel"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5494
+#, fuzzy
+msgid "Document Image"
+msgstr "画像"
+
+#: compat/plugin-js-composer/config.php:5495
+#, fuzzy
+msgid "Document Music"
+msgstr "音楽"
+
+#: compat/plugin-js-composer/config.php:5496
+msgid "Document Office"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5497
+msgid "Document PDF"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5498
+msgid "Document Powerpoint"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5499
+msgid "Document Word"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5500
+msgid "Bookmark"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5501
+msgid "Camcorder"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5502
+#, fuzzy
+msgid "Camera"
+msgstr ""
+"カメラを読み込みました。写真を撮るには「キャプチャ」ボタンをクリックしてくだ"
+"さい。"
+
+#: compat/plugin-js-composer/config.php:5503
+msgid "Chart"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5504
+msgid "Chart pie"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5505
+msgid "Clock"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5506
+msgid "Fire"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5507
+#, fuzzy
+msgid "Heart"
+msgstr ""
+"以下のフォームに入力することで<strong>アカウントにサイトを追加</strong>できま"
+"す。作成できるサイトの数に上限はありませんのでお好きなだけ作っていただいて構"
+"いませんが、責任を持って運営してください。"
+
+#: compat/plugin-js-composer/config.php:5508
+msgid "Mail"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5509
+msgid "Play"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5510
+msgid "Shield"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5511
+msgid "Video"
+msgstr "動画"
+
+#: compat/plugin-js-composer/config.php:5524
+#, fuzzy
+msgid "Icon library"
+msgstr "%s のサイトアイコン"
+
+#: compat/plugin-js-composer/config.php:5527
+msgid "Font Awesome"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5528
+#, fuzzy
+msgid "Open Iconic"
+msgstr "トピックを開始"
+
+#: compat/plugin-js-composer/config.php:5529
+msgid "Typicons"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5530
+msgid "Entypo"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5531
+msgid "Linecons"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5532
+msgid "Pixel"
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5535
+#, fuzzy
+msgid "Select icon library."
+msgstr "%s のサイトアイコン"
+
+#: compat/plugin-js-composer/config.php:5655
+#, fuzzy
+msgid "Members Carousel"
+msgstr "メンバー数"
+
+#: compat/plugin-js-composer/config.php:5665
+#: compat/plugin-js-composer/config.php:5800
+#: compat/plugin-js-composer/config.php:5909
+msgid "Member Type"
+msgstr "メンバーのタイプ"
+
+#: compat/plugin-js-composer/config.php:5674
+#: compat/plugin-js-composer/config.php:5809
+#: compat/plugin-js-composer/config.php:5918
+msgid "Filter"
+msgstr "絞り込み検索"
+
+#: compat/plugin-js-composer/config.php:5684
+#: compat/plugin-js-composer/config.php:5819
+#: compat/plugin-js-composer/config.php:5928
+#, fuzzy
+msgid "Filter the members by."
+msgstr "絞り込み検索"
+
+#: compat/plugin-js-composer/config.php:5690
+#: compat/plugin-js-composer/config.php:5825
+#, fuzzy
+msgid "Number of members"
+msgstr ""
+"ユーザー同士が直接、非公開で話すことができるようになります。一対一の話し合い"
+"だけではなく、メッセージは複数メンバー間でも送信できます。"
+
+#: compat/plugin-js-composer/config.php:5693
+#: compat/plugin-js-composer/config.php:5828
+msgid "How many members to get."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5744
+#, fuzzy
+msgid "The size of the member image"
+msgstr "フルサイズ画像へのリンク"
+
+#: compat/plugin-js-composer/config.php:5762
+#: compat/plugin-js-composer/config.php:5871
+#, fuzzy
+msgid "Online status"
+msgstr "オンライン"
+
+#: compat/plugin-js-composer/config.php:5768
+#: compat/plugin-js-composer/config.php:5877
+#, fuzzy
+msgid "Show online status"
+msgstr "表示:"
+
+#: compat/plugin-js-composer/config.php:5803
+#: compat/plugin-js-composer/config.php:5912
+#, fuzzy
+msgid "The type of members to display."
+msgstr "このタイプのメンバーはいません。"
+
+#: compat/plugin-js-composer/config.php:5899
+#, fuzzy
+msgid "Members Grid"
+msgstr "カスケードのグリッド レイアウト"
+
+#: compat/plugin-js-composer/config.php:5937
+msgid "How many members you want to display."
+msgstr ""
+
+#: compat/plugin-js-composer/config.php:5943
+#, fuzzy
+msgid "Members per line"
+msgstr "ページあたりのメディア数"
+
+#: compat/plugin-js-composer/config.php:5959
+msgid "How many members to show per line"
+msgstr ""
+
+#: shortcodes/templates/kleo_login.php:16
+#, fuzzy
+msgid "Log in with your credentials"
+msgstr "ログアウト"
+
+#: shortcodes/templates/kleo_login.php:17
+#, fuzzy
+msgid "Forgot your details?"
+msgstr "説明"
+
+#: shortcodes/templates/kleo_login.php:74
+msgid "or"
+msgstr ""
+
+#: shortcodes/templates/kleo_login.php:76
+#, fuzzy
+msgid "Create an account"
+msgstr "アカウント作成"
+
+#: shortcodes/templates/kleo_login.php:83
+#: shortcodes/templates/kleo_register.php:65
+#: shortcodes/templates/kleo_register.php:91
+msgid "Username"
+msgstr "ユーザー名"
+
+#: shortcodes/templates/kleo_login.php:84
+msgid "Password"
+msgstr "パスワード"
+
+#: shortcodes/templates/kleo_login.php:86
+#, fuzzy
+msgid "Sign in"
+msgstr "アカウント登録"
+
+#: shortcodes/templates/kleo_login.php:88
+#, fuzzy
+msgid "Remember me"
+msgstr "ログイン状態を保存する"
+
+#: shortcodes/templates/kleo_login.php:105
+#, fuzzy
+msgid "Username or Email"
+msgstr ""
+"検索フォームを使うことで、承認待ちのアカウントをより簡単に見つけることができ"
+"ます。検索にはユーザー名とメールアドレス欄が含まれます。"
+
+#: shortcodes/templates/kleo_login.php:107
+#, fuzzy
+msgid "Reset Password"
+msgstr ""
+"パスワードのリセットは次のアドレスにアクセスをお願いいたします。心当たりの無"
+"い場合は無視してください。"
+
+#: shortcodes/templates/kleo_login.php:108
+msgid "I remember my details"
+msgstr ""
+
+#: shortcodes/templates/kleo_news_puzzle.php:13
+#: shortcodes/templates/kleo_news_ticker.php:13
+msgid "Visual composer must be installed"
+msgstr ""
+
+#: shortcodes/templates/kleo_register.php:15
+#, fuzzy
+msgid "Create Account"
+msgstr "アカウント作成"
+
+#: shortcodes/templates/kleo_register.php:69
+#, fuzzy
+msgid "Your full name"
+msgstr "名前"
+
+#: shortcodes/templates/kleo_register.php:74
+#: shortcodes/templates/kleo_register.php:95
+#, fuzzy
+msgid "Your email"
+msgstr "アカウントを有効化するにはメールをチェックしてください。"
+
+#: shortcodes/templates/kleo_register.php:79
+#, fuzzy
+msgid "Desired password"
+msgstr "パスワード"
+
+#: shortcodes/templates/kleo_register.php:84
+#, fuzzy
+msgid "Confirm password"
+msgstr "パスワード確認"
+
+#: shortcodes/templates/kleo_register.php:107
+msgid "Register"
+msgstr "登録"
+
+#: shortcodes/templates/buddypress/kleo_bp_activity_page.php:37
+#: shortcodes/templates/buddypress/kleo_bp_activity_stream.php:124
+msgid ""
+"This shortcode must have Buddypress installed and activity component "
+"activated."
+msgstr ""
+
+#: shortcodes/templates/buddypress/kleo_bp_activity_stream.php:111
+#, fuzzy
+msgid "Right now there is no activity to show"
+msgstr "今すぐrtMediaで"
+
+#: shortcodes/templates/buddypress/kleo_bp_groups_carousel.php:72
+#: shortcodes/templates/buddypress/kleo_bp_groups_masonry.php:106
+#, fuzzy
+msgid "There are no groups to display. Please try again soon."
+msgstr "コミュニティには名前と説明が必要です。もう一度お試しください。"
+
+#: shortcodes/templates/buddypress/kleo_bp_groups_carousel.php:78
+#: shortcodes/templates/buddypress/kleo_bp_groups_grid.php:86
+#: shortcodes/templates/buddypress/kleo_bp_groups_masonry.php:112
+#: shortcodes/templates/buddypress/kleo_bp_members_carousel.php:79
+#: shortcodes/templates/buddypress/kleo_bp_members_grid.php:84
+#: shortcodes/templates/buddypress/kleo_bp_members_masonry.php:102
+msgid "This shortcode must have Buddypress installed to work."
+msgstr ""
+
+#: shortcodes/templates/buddypress/kleo_bp_groups_grid.php:81
+msgid "No groups were found at the moment. Please come back later."
+msgstr ""
+
+#. Name of the plugin
+msgid "K Elements"
+msgstr ""
+
+#. Description of the plugin
+msgid "WordPress elements using easy to add shortcodes"
+msgstr ""
+
+#. Author of the plugin
+msgid "SeventhQueen"
+msgstr "SeventhQueen"
+
+#. Author URI of the plugin
+#, fuzzy
+msgid "http://seventhqueen.com/"
+msgstr "http://buddypress.org"

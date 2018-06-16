@@ -1,0 +1,661 @@
+/*!
+Theme Name:     Kleo Child
+Theme URI:
+Description:    Child theme for Kleo
+Author:         SeventhQueen
+Author URI:     http://seventhqueen.com
+Template:       kleo
+Tags:  one-column, two-columns, right-sidebar, fluid-layout, custom-menu, featured-images, post-formats, sticky-post, translation-ready
+License: GNU General Public License
+License URI: license.txt
+*/
+
+/*!
+* Please add your custom styles below
+*/
+
+
+
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif !default;
+$font-family-base:$font-family-sans-serif !default;
+
+$body-color:#333333;
+$white:#ffffff;
+$green:#01bfbd;
+$info:#0060ff;
+$info-light:#ebf2ff;
+$info-dark:#004dce;
+$gray:#bbbbbb;
+$gray-light:#f7f7f7;
+$gray-dark-light:#3b3f43;
+$gray-dark:#1E2022;
+
+$text-gray:$gray;
+
+$text-link:$info;
+$text-link-hover:$info-dark;
+
+$font-weight-bold:bold;
+
+$border-color:#ececec;
+$border-color-light:#ececec;
+
+
+$primary-gradient:linear-gradient(30deg, #1d36c4 0%, #4cc3e5 100%);
+
+
+$lg: 1200px; 
+$md: 991px;
+$sm: 768px;
+
+@mixin lg {
+    @media (max-width: ($lg)) {
+        @content;
+    }
+}
+@mixin md {
+    @media (max-width: ($md)) {
+        @content;
+    }
+}
+@mixin sm {
+    @media (max-width: ($sm)) {
+        @content;
+    }
+}
+
+body {
+    font-family: $font-family-base;
+    font-size: 1.4rem;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: $font-family-base;
+}
+
+.bbp-submit-wrapper button.button {
+    transition: .1s;
+}
+#main a {transition: .1s;}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+header
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#header {
+    .navbar {
+        .sticky-wrapper {
+            .kleo-main-header {
+                .container {
+                    .navbar-header {
+                        .logo {
+                            a {
+                                
+                            }
+                        }
+                    }
+                    .primary-menu {
+                        .navbar-nav {
+                            .menu-item {
+                                a {
+                                    margin: 0 20px;
+                                    font-size: 1.3rem;
+                                    transition: .1s;
+                                    @include md {
+                                        margin: 0;
+                                    padding: 20px 0;
+                                    border-top: 1px solid $border-color;
+                                    }
+                                    & [class^="icon-"], {
+                                        font-size: 120%;
+                                        margin-right: 3px;
+                                    }
+                                    &.btn-see-through {
+                                     margin-right: 0;  
+                                        margin-top: 10px;
+                                        margin-bottom: 10px;
+                                        padding-top: 16px;
+                                        padding-bottom: 16px;
+                                        @include md {
+                                            margin-bottom: 0;
+                                        }
+                                    }
+                                    &.btn-see-through {
+                                        color: $info;
+                                        border: 1px solid $info;
+                                        background-color: $white;
+                                        &:hover {
+                                            background-color: $info;
+                                            color: $white;
+                                        }
+                                        @include md {
+                                            border-color: $info;
+                                        }
+                                    }
+                                    &.btn-highlight {
+                                        margin-top: 10px;
+                                        margin-bottom: 10px;
+                                        &:hover {
+                                            background-color: $info-dark !important;
+                                        }
+                                        @include md {
+                                            margin-top: 0;
+                                            margin-bottom: 20px;
+                                        }
+                                    }
+                                }
+                                .dropdown-menu {
+                                    li {
+                                        @include md {
+                                            border: none;
+                                            display: inline;
+                                        }
+                                        a {
+                                            margin: 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.kleo-navbar-fixed.navbar-transparent #header {
+    .navbar .sticky-wrapper .kleo-main-header .container .primary-menu .navbar-nav .menu-item a.btn-see-through {
+        color: $white;
+        border: 1px solid $white;
+        background-color: rgba(255,255,255,.2);
+        &:hover {
+            background-color: $white;
+            color: $info;
+        }
+    }
+    &.btn-highlight {
+        &:hover {
+            background-color: rgba(0,96,255, 0.7) !important;
+        }
+        @include md {
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+buddypress
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#buddypress button:not(.multiselect), .buddypress a.button, #buddypress a.button, #buddypress input[type=submit], #buddypress input[type=button], #buddypress input[type=reset], #buddypress ul.button-nav li a, #buddypress div.generic-button a, .buddypress div.generic-button a, #buddypress .comment-reply-link {
+    line-height: inherit;
+}
+#buddypress a.button.unfav, #buddypress #profile-edit-form ul.button-nav li.current a, .read-notifications td.notify-text a:hover, .unread-notifications td.notify-text a:hover {color: $info;}
+#buddypress {
+    #whats-new-options > div {
+        padding-top: 0;
+    }
+    form#whats-new-form {
+        #aw-whats-new-submit {
+            background:$info;
+            border-color: $info;
+            color: $white;
+            transition: .1s;
+            &:hover {
+                background: $info-dark;
+                border-color: $info-dark;
+            }
+        }
+    }
+    div.activity-meta {
+        margin-right: 0;
+        &::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        a.button {
+            transition: .1s;
+        }
+    }
+    a.button.delete-activity {
+        float: right;
+        color: $text-link;
+        transition: .1s;
+        &:hover {
+            color: $text-link-hover;
+        }
+    }
+    #whats-new-form {
+        .rtmedia-container {
+            height: auto;
+            visibility: visible;
+        }
+    }
+    div.item-list-tabs {
+        ul {
+            li {
+                a {
+                    span {
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+    div.item-list-tabs#subnav {
+        ul {
+            li#notifications-personal-li {
+                display: none;
+            }
+        }
+    }
+    div.activity-comments {
+        form {
+            input {
+                margin-top: 0;
+                padding-left: 4rem;
+                padding-right: 4rem;
+                transition: .1s;
+            }
+            .ac-reply-cancel {
+                float: right;
+            }
+        }
+    }
+    #groups-list {
+        a.group-button {
+            padding: 4px 10px;
+            transition: .1s;
+            &:hover {
+                color: $info;
+            }
+        }
+    }
+    #item-body .standard-form label[for="group-notify-members"] {display: none;}
+    #friend-list div.action .generic-button a, 
+    #member-list div.action .generic-button a, 
+    #members-list div.action .generic-button a {
+        padding: 5px 10px;
+        transition: .1s;
+    }
+    .comment-reply-link,
+    a.button, 
+    button:not(.multiselect), 
+    div.generic-button a, 
+    input[type=button], 
+    input[type=reset], 
+    input[type=submit],
+    ul.button-nav li a {
+        padding: 4px 10px;
+        transition: .1s;
+    }
+    #whats-new-options>div {
+        #whats-new-post-in {
+            @include sm {display: none;}   
+        }
+    }
+    div.item-list-tabs#subnav > ul,
+    a.button.fav,
+    a.button.unfav {
+        @include sm {display: none;}  
+    }
+    #activity-stream {
+        p {
+            a {
+                .avatar-20 {
+                    @include sm {display: none;} 
+                }
+            }
+        }
+    }
+    .field-visibility-settings-toggle {
+        font-style: normal;
+        font-size: 1rem;
+        margin: 10px 0 30px;
+        padding: 0;
+    }
+    .datebox-selects {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        @include sm {
+            align-items: baseline;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;   
+        }
+        .xprofile-field-label {
+            margin: 0 4px 0;
+            @include sm {
+             margin: 0 0 10px;   
+            }
+        }
+        select {
+            margin-right: 10px;
+            &:last-child {margin-right: 0;}
+        }
+    }
+    .standard-form#signup_form div.submit {
+        float: none;
+        input {
+            margin-right: 15px;
+            margin-right: 15px;
+            font-size: 1.6rem;
+            font-weight: bold;
+            padding: 10px 30px;
+            height: inherit;
+            background-color: $info;
+            border-color: $info;
+            color: $white;
+            transition: .1s;
+            &:hover {
+                background-color: $info-dark;
+                border-color: $info-dark;
+            }
+        }
+    }
+}
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+forum
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#bbpress-forums {
+    .bbp-search-form {
+     display: none;   
+    }
+    div.bbp-reply-header {
+        margin-left: 0;
+        text-align: right;
+        @include sm {
+            padding: 16px 0 0;   
+        }
+        .bbp-reply-post-date {
+            font-size: 1.2rem;
+            margin-right: 3rem;
+        }
+        .bbp-admin-links {
+            color: transparent;
+            font-size: 0;
+            .bbp-topic-close-link,
+            .bbp-topic-sticky-link,
+            .bbp-topic-super-sticky-link,
+            .bbp-topic-merge-link,
+            .bbp-topic-spam-link,
+            .bbp-reply-move-link,
+            .bbp-topic-split-link {
+                display: none;
+            }
+            .bbp-topic-edit-link,
+            .bbp-topic-trash-link,
+            .bbp-topic-reply-link {
+                color: $text-gray;
+                font-size: 1.2rem;
+                padding: 0 .6rem;
+                &:hover {
+                    text-decoration: underline;
+                    color: $text-link-hover;
+                }
+            }
+            
+            .bbp-reply-edit-link,
+            .bbp-reply-trash-link,
+            .bbp-reply-spam-link,
+            .bbp-reply-to-link {
+                margin-left: .3rem;
+                margin-right: .3rem;
+            }
+        }
+    }
+    div.bbp-reply-author {
+        .bbp-author-role {
+            font-style: normal;
+            color: $text-gray;
+        }
+    }
+    .hentry.topic-author {
+        @include sm {padding: 10px;}
+    }
+    .hentry {
+        div.bbp-reply-content,
+        div.bbp-topic-content {
+            @include sm {padding: 10px;}
+            p {
+                font-size: 1.6rem;
+                line-height: 1.6;
+                @include sm {font-size: 1.4rem;}
+            }    
+        }
+    }
+    .bbp-form {
+        legend {
+            font-size: 1.6rem;
+            margin: 0;
+            padding: 5rem 0 2rem;
+        }
+    }
+        .bbp-template-notice {
+            display: none;
+            &.error {
+                display: inline-block;
+                color: #f44336;
+            }
+            p {margin: 0;}
+        }
+    #bbp_topic_tags {
+        @include sm {width: 100%;}
+    }
+    form#new-post {
+        border: none;
+        border-top: 1px solid $border-color-light;
+        padding: 0;
+    }
+    div.bbp-submit-wrapper {
+        margin: 0;
+        @include sm {
+            width: 100%;
+        }
+        button.button {
+            font-size: 1.6rem;
+            padding: 1rem 6rem;
+            @include sm {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+    div.bbp-the-content-wrapper {
+        textarea.bbp-the-content {
+            max-height: 160px;    
+        }
+    }
+    li.bbp-topic-title {
+        .bbp-topic-permalink {
+            font-size: 1.6rem;
+            line-height: 1.6;
+            color: $body-color;
+            transition: .1s;
+            &:hover {
+                color: $info-dark;
+            }
+        }
+    }
+    div.reply {
+        background-color: $gray-light;
+        div.bbp-reply-content, 
+        div.bbp-topic-content {
+            background-color: $white;
+        }
+    }
+    li.bbp-body  {
+        li.bbp-topic-freshness {
+            @include sm {width: 32px;}
+        }   
+    }
+    li.bbp-header {
+        @include sm {padding-top: 10px;}
+    }
+    fieldset.bbp-form {
+        padding: 0;
+    }
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+comunty
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#buddypress {
+    div#groups-dir-search {
+        display: none;
+    }
+    div.item-list-tabs#subnav {
+        @include sm {display: none;}
+    }
+    #groups-list {
+        .item-desc {
+            @include sm {margin:10px 6px;}
+        }
+    }
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+sidebar
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#main .widget {
+    &.widget_bp_groups_widget {
+        div.item {
+            margin-left: 40px;
+            .item-title {
+                font-weight: inherit;
+                font-size: 14px !important;
+                line-height: 16px !important;
+            }
+        }   
+    }
+    &.widget_display_topics {
+        ul {
+            li {
+                color: $text-gray;
+                margin-bottom: 1.2rem;
+                .bbp-forum-title {
+                    display: block;
+                    color: $body-color;
+                    &:hover {
+                        color: $text-link-hover;
+                    }
+                }
+                .topic-author {
+                    .bbp-author-avatar {
+                        overflow: hidden;
+                        border-radius: 100%;
+                        width: 18px;
+                        height: 18px;
+                        display: inline-block;
+                        line-height: 0;
+                        vertical-align: sub;
+                        img {
+                            width: 100%;
+                            height: auto;
+                            font-size: inherit;
+                            line-height: inherit;
+                        }
+                    }
+                    .bbp-author-name {
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+top page
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.home {
+    #header .navbar-nav .dropdown-menu li a {
+        @include sm {color: $white;}
+    }
+    #header .navbar-nav li .caret:after {
+        top: 10px;
+        color: rgba(255, 255, 255, 0.6) !important;
+    }
+    .status-publish {
+        .vc_custom_heading {
+            @include sm {
+                font-size: 2.5rem !important;
+            }
+        }   
+        .lead {
+            @include sm {
+                font-size: 1.4rem;
+            }
+        }
+    }
+    .article-content .vc_row-has-fill .wpb_wrapper .btn {
+        padding-left: 60px;
+        padding-right: 60px;
+        @include sm {
+         width: 100%;
+            margin: 6px auto;
+        }
+    &.btn-see-through {
+        background-color: rgba(255, 255, 255, 0.1);
+        font-size: 14px !important;
+        line-height: 1;
+        &:hover {
+            border-color: $white;
+            background-color:$white;
+            color:$info;
+        }
+    }
+    }
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+modal
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.kleo-form-modal {
+    .kleo-facebook-connect.btn.btn-default {
+        @include sm {
+            font-size: 1.2rem;   
+        }
+    }
+}
+#kleo-lostpass-modal {
+    .kleo-pop-title {
+        @include sm {font-size: 1.8rem;}
+    }
+}
+
+.alternate-color, .alternate-color .kleo-main-header, .alternate-color .btn-default:hover, .alternate-color .nav-tabs > li.active > a, .alternate-color .panel, .alternate-color .dropdown-menu, .alternate-color .pagination > li > a, .alternate-color .pagination > li > span, .alternate-color .post-item, .alternate-color .comment-wrap .comment-avatar, .alternate-color #respond .form-submit input#submit:hover, .alternate-color .form-control, .alternate-color .pricing-table li.list-group-item, .alternate-color .btn-see-through:hover, .alternate-color #ajax_search_container, .alternate-color #ajax_search_container:before, .alternate-color .kleo-toggle-menu .kleo-toggle-submenu:before, .alternate-color .box-style .feature-item.default-icons-size .feature-icon, .alternate-color .box-style .feature-item.big-icons-size .feature-icon, .alternate-color #wp-calendar caption, .alternate-color .bbp-pagination-links a, .alternate-color .bbp-pagination-links span, .alternate-color .bbp-submit-wrapper button.button:hover, .alternate-color #bbpress-forums .bbp-form input[type="text"], .alternate-color .wp-editor-area, .alternate-color .submenu-languages, .alternate-color .kleo-toggle-menu .kleo-toggle-submenu, .alternate-color .kleo-toggle-menu .minicart-buttons .btn-default {
+    color: $white;
+}

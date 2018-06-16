@@ -490,7 +490,7 @@ if ( ! function_exists( 'kleo_custom_comments' ) ) {
 					}
 					?>
 					<?php if ( get_the_author_meta( 'email' ) == $comment->comment_author_email ) { ?>
-						<span class="tooltip"><?php _e( 'Author', 'kleo_framework' ); ?><span class="arrow"></span></span>
+						<span class="tooltip"><?php _e( '投稿者', 'kleo_framework' ); ?><span class="arrow"></span></span>
 					<?php } ?>
 				</div>
 				<div class="comment-content">
@@ -498,13 +498,13 @@ if ( ! function_exists( 'kleo_custom_comments' ) ) {
 						<?php
 						printf( '<span class="comment-author">%1$s</span> <span class="comment-date">%2$s</span>',
 							get_comment_author_link(),
-							human_time_diff( get_comment_time( 'U' ), current_time( 'timestamp' ) ) . ' ' . __( 'ago', 'kleo_framework' )
+							human_time_diff( get_comment_time( 'U' ), current_time( 'timestamp' ) ) . ' ' . __( '以前', 'kleo_framework' )
 						);
 						?>
 					</div>
 					<?php
 					if ( '0' == $comment->comment_approved ) {
-						_e( "<span class='unapproved'>Your comment is awaiting moderation.</span>\n", 'kleo_framework' );
+						_e( "<span class='unapproved'>あなたのコメントは承認待ちです。</span>\n", 'kleo_framework' );
 					}
 					?>
 					<div class="comment-body">
@@ -512,12 +512,12 @@ if ( ! function_exists( 'kleo_custom_comments' ) ) {
 					</div>
 					<div class="comment-meta-actions">
 						<?php
-						edit_comment_link( __( 'Edit', 'kleo_framework' ), '<span class="edit-link">', '</span><span class="meta-sep"> |</span>' );
+						edit_comment_link( __( '編集', 'kleo_framework' ), '<span class="edit-link">', '</span><span class="meta-sep"> |</span>' );
 						?>
 						<?php if ( 'all' == $args['type'] || 'comment' == get_comment_type() ) :
 							comment_reply_link( array_merge( $args, array(
-								'reply_text' => __( 'Reply', 'kleo_framework' ),
-								'login_text' => __( 'Log in to reply.', 'kleo_framework' ),
+								'reply_text' => __( '返信', 'kleo_framework' ),
+								'login_text' => __( '返信するにはログインしてください', 'kleo_framework' ),
 								'depth'      => $depth,
 								'before'     => '<span class="comment-reply">',
 								'after'      => '</span>',
@@ -565,9 +565,9 @@ if ( ! function_exists( 'kleo_comment_form' ) ) :
 				$req       = get_option( 'require_name_email' );
 				$aria_req  = ( $req ? " aria-required='true'" : '' );
 				$fields    = array(
-					'author' => '<div class="row"><p class="comment-form-author col-sm-4"><label for="author">' . __( 'Name', 'kleo_framework' ) . '</label> ' . ( $req ? '<span class="required">*</span>' : '' ) . '<input id="author" name="author" type="text" class="form-control" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' /></p>',
-					'email'  => '<p class="comment-form-email col-sm-4"><label for="email">' . __( 'Email', 'kleo_framework' ) . '</label> ' . ( $req ? '<span class="required">*</span>' : '' ) . '<input id="email" name="email" type="text" class="form-control" value="' . esc_attr( $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . ' /></p>',
-					'url'    => '<p class="comment-form-url col-sm-4"><label for="url">' . __( 'Website', 'kleo_framework' ) . '</label><input id="url" name="url" type="text" class="form-control" value="' . esc_attr( $commenter['comment_author_url'] ) . '" size="30" /></p></div>',
+					'author' => '<div class="row"><p class="comment-form-author col-sm-4"><label for="author">' . __( 'お名前', 'kleo_framework' ) . '</label> ' . ( $req ? '<span class="required">*</span>' : '' ) . '<input id="author" name="author" type="text" class="form-control" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' /></p>',
+					'email'  => '<p class="comment-form-email col-sm-4"><label for="email">' . __( 'メール', 'kleo_framework' ) . '</label> ' . ( $req ? '<span class="required">*</span>' : '' ) . '<input id="email" name="email" type="text" class="form-control" value="' . esc_attr( $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . ' /></p>',
+					'url'    => '<p class="comment-form-url col-sm-4"><label for="url">' . __( 'WEBサイト', 'kleo_framework' ) . '</label><input id="url" name="url" type="text" class="form-control" value="' . esc_attr( $commenter['comment_author_url'] ) . '" size="30" /></p></div>',
 				);
 
 				if ( function_exists( 'bp_is_active' ) ) {
@@ -578,13 +578,13 @@ if ( ! function_exists( 'kleo_comment_form' ) ) :
 
 				$comments_args = array(
 					'fields'            => apply_filters( 'comment_form_default_fields', $fields ),
-					'logged_in_as'      => '<p class="logged-in-as">' . sprintf( __( 'Logged in as <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Log out?</a>', 'kleo_framework' ), $profile_link, $user_identity, wp_logout_url( apply_filters( 'the_permalink', get_permalink() ) ) ) . '</p>',
-					'title_reply'       => __( 'Leave a reply', 'kleo_framework' ),
-					'title_reply_to'    => __( 'Leave a reply to %s', 'kleo_framework' ),
-					'cancel_reply_link' => __( 'Click here to cancel the reply', 'kleo_framework' ),
-					'label_submit'      => __( 'Post comment', 'kleo_framework' ),
-					'comment_field'     => '<p class="comment-form-comment"><label for="comment">' . __( 'Comment', 'kleo_framework' ) . '</label><textarea class="form-control" id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>',
-					'must_log_in'       => '<p class="must-log-in">' . sprintf( __( 'You must be <a href="%s">logged in</a> to post a comment.', 'kleo_framework' ), wp_login_url( apply_filters( 'the_permalink', get_permalink() ) ) ) . '</p>',
+					'logged_in_as'      => '<p class="logged-in-as">' . sprintf( __( 'ログイン：<a href="%1$s">%2$s</a> <a href="%3$s" title="Log out of this account">このアカウントをログアウトしますか？</a>', 'kleo_framework' ), $profile_link, $user_identity, wp_logout_url( apply_filters( 'the_permalink', get_permalink() ) ) ) . '</p>',
+					'title_reply'       => __( '返信', 'kleo_framework' ),
+					'title_reply_to'    => __( '%sに返信する', 'kleo_framework' ),
+					'cancel_reply_link' => __( '返信をキャンセルする', 'kleo_framework' ),
+					'label_submit'      => __( 'コメントを投稿する', 'kleo_framework' ),
+					'comment_field'     => '<p class="comment-form-comment"><label for="comment">' . __( 'コメント', 'kleo_framework' ) . '</label><textarea class="form-control" id="comment" name="comment" cols="45" rows="4" aria-required="true"></textarea></p>',
+					'must_log_in'       => '<p class="must-log-in">' . sprintf( __( 'コメントの際に <a href="%s">ログイン</a>する必要はありません。', 'kleo_framework' ), wp_login_url( apply_filters( 'the_permalink', get_permalink() ) ) ) . '</p>',
 				);
 
 				comment_form( $comments_args );
@@ -1237,10 +1237,10 @@ if ( ! function_exists( 'kleo_frontend_files' ) ) :
 			'headerTwoRowHeight'         => $header_two_height,
 			'headerTwoRowHeightScrolled' => $header_two_height_scrolled,
 			'headerResizeOffset'         => $header_resize_offset,
-			'loadingmessage'             => '<i class="icon icon-spin5 animate-spin"></i> ' . __( 'Sending info, please wait...', 'kleo_framework' ),
+			'loadingmessage'             => '<i class="icon icon-spin5 animate-spin"></i> ' . __( '少々お待ちください', 'kleo_framework' ),
 			'DisableMagnificGallery'     => sq_option( 'magnific_disable_gallery', '0' ),
 			'flexMenuEnabled'            => sq_option( 'header_flexmenu', 0 ),
-            'errorOcurred'               => __('Sorry, an error occurred','kleo_framework'),
+            'errorOcurred'               => __('エラーが発生しました','kleo_framework'),
 		);
 		$obj_array = apply_filters( 'kleo_localize_app', $obj_array );
 
@@ -1508,7 +1508,7 @@ if ( ! function_exists( 'kleo_ajax_login' ) ) {
 			$link = 'javascript:window.location.reload();return false;';
 			echo wp_json_encode( array(
 				'loggedin' => false,
-				'message'  => '<i class="icon icon-info-circled"></i> ' . sprintf( __( 'You are already logged in. Please <a href="#" onclick="%s">refresh</a> page', 'kleo_framework' ), $link ),
+				'message'  => '<i class="icon icon-info-circled"></i> ' . sprintf( __( 'あなたはすでにログインしています：<a href="#" onclick="%s">再読込</a> page', 'kleo_framework' ), $link ),
 			) );
 			die();
 		}
@@ -1570,7 +1570,7 @@ if ( ! function_exists( 'kleo_ajax_login' ) ) {
 			echo wp_json_encode( array(
 				'loggedin'    => true,
 				'redirecturl' => $redirecturl,
-				'message'     => '<span class="good-response"><i class="icon icon-ok-circled"></i> ' . __( 'Login successful, redirecting...', 'kleo_framework' ) . '</span>',
+				'message'     => '<span class="good-response"><i class="icon icon-ok-circled"></i> ' . __( 'ログインします', 'kleo_framework' ) . '</span>',
 			) );
 		}
 
@@ -1589,11 +1589,11 @@ if ( ! function_exists( 'kleo_lost_password_ajax' ) ) {
 		if ( isset( $_POST ) ) {
 
 			if ( empty( $_POST['user_login'] ) ) {
-				$errors->add( 'empty_username', __( '<strong>ERROR</strong>: Enter a username or e-mail address.' ) );
+				$errors->add( 'empty_username', __( '<strong>エラー</strong>:メールアドレスを入力してください' ) );
 			} elseif ( strpos( $_POST['user_login'], '@' ) ) {
-				$user_data = get_user_by( 'email', trim( $_POST['user_login'] ) );
+				$user_data = get_user_by( 'メールアドレス', trim( $_POST['user_login'] ) );
 				if ( empty( $user_data ) ) {
-					$errors->add( 'invalid_email', __( '<strong>ERROR</strong>: There is no user registered with that email address.' ) );
+					$errors->add( 'invalid_email', __( '<strong>エラー</strong>:このメールアドレスは登録されていません' ) );
 				}
 			} else {
 				$login     = trim( $_POST['user_login'] );
@@ -1612,13 +1612,13 @@ if ( ! function_exists( 'kleo_lost_password_ajax' ) ) {
 			do_action( 'lostpassword_post', $errors );
 
 			if ( $errors->get_error_code() ) {
-				echo '<span class="wrong-response">' . $errors->get_error_message() . '</span>';
+				echo '<span class="記載内容に誤りがあります">' . $errors->get_error_message() . '</span>';
 				die();
 			}
 
 			if ( ! $user_data ) {
 				$errors->add(
-					'invalidcombo', wp_kses_data( __( '<strong>ERROR</strong>: Invalid username or e-mail.', 'default' ) )
+					'invalidcombo', wp_kses_data( __( '<strong>エラー</strong>:このメールアドレスは登録されていません', 'default' ) )
 				);
 				echo '<span class="wrong-response">' . $errors->get_error_message() . '</span>';
 				die();
@@ -1634,11 +1634,11 @@ if ( ! function_exists( 'kleo_lost_password_ajax' ) ) {
 				die();
 			}
 
-			$message = __( 'Someone requested that the password be reset for the following account:', 'kleo_framework' ) . "\r\n\r\n";
+			$message = __( 'Catalyst-Designがパスワードの再申請を受け付けました：', 'kleo_framework' ) . "\r\n\r\n";
 			$message .= network_home_url( '/' ) . "\r\n\r\n";
 			$message .= sprintf( __( 'Username: %s' ), $user_login ) . "\r\n\r\n";
-			$message .= __( 'If this was a mistake, just ignore this email and nothing will happen.', 'kleo_framework'  ) . "\r\n\r\n";
-			$message .= __( 'To reset your password, visit the following address:', 'kleo_framework'  ) . "\r\n\r\n";
+            $message .= __( 'このメールが間違いだった場合は、このメールを無視してください。', 'kleo_framework'  ) . "\r\n\r\n";
+			$message .= __( 'パスワードをリセットするには、次のアドレスにアクセスしてください：', 'kleo_framework'  ) . "\r\n\r\n";
 			$message .= '<' . network_site_url( "wp-login.php?action=rp&key=$key&login=" . rawurlencode( $user_login ), 'login' ) . ">\r\n";
 
 			if ( is_multisite() ) {
@@ -1679,12 +1679,12 @@ if ( ! function_exists( 'kleo_lost_password_ajax' ) ) {
 
 
 			if ( $message && ! wp_mail( $user_email, wp_specialchars_decode( $title ), $message ) ) {
-				echo '<span class="wrong-response">' . __( 'Failure!', 'kleo_framework' );
+				echo '<span class="wrong-response">' . __( '失敗しました', 'kleo_framework' );
 				echo __( 'The e-mail could not be sent.' );
 				echo '</span>';
 				die();
 			} else {
-				echo '<span class="good-response">' . __( 'Email successfully sent!', 'kleo_framework' ) . '</span>';
+				echo '<span class="good-response">' . __( '再登録用のメールを送信しました', 'kleo_framework' ) . '</span>';
 				die();
 			}
 		}

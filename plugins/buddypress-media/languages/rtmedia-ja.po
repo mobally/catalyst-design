@@ -1,0 +1,903 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-10-20 10:08:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: rtMedia\n"
+
+msgid "\"Number of media\" count value should be numeric and greater than 0."
+msgstr "\"Number of media\" カウント値は０位上の数値でなければいけません。"
+
+msgid "$9/month"
+msgstr "$9/月"
+
+msgid "$99/month"
+msgstr "$99/月"
+
+msgid "$999/month"
+msgstr "$999/月"
+
+msgid "<a href=\"%s\">Create an issue</a> on GitHub requesting the same."
+msgstr "<a href=\"%s\">イシュー</a> をGIitHubに作成して同じリクエストを行う。"
+
+msgid ""
+"<p><a href=\"%s\">Media</a> was successfully encoded but there was an error "
+"while downloading:</p>\n"
+"                        <p><code>%s</code></p>\n"
+"                        <p>You can <a href=\"%s\">retry the download</a>.</p>"
+msgstr ""
+"<p><a href=\"%s\">メディア</a> は正常にエンコードされましたがダウンロード中に"
+"エラーが起きました：</p>\n"
+"                        <p><code>%s</code></p>\n"
+"                        <p>次のリンクから <a href=\"%s\">再ダウンロード</a>."
+"できます</p>"
+
+msgid ""
+"<p>You are nearing the quota limit for your rtMedia encoding service.</"
+"p><p>Following are the details:</p><p><strong>Used:</strong> %s</"
+"p><p><strong>Remaining</strong>: %s</p><p><strong>Total:</strong> %s</p>"
+msgstr ""
+"<p>rtMedia encoding サービスの使用可能上限に近づいています。</p><p>詳細:</"
+"p><p><strong>使用量:</strong> %s</p><p><strong>残り</strong>: %s</"
+"p><p><strong>トータル</strong> %s</p>"
+
+msgid ""
+"<p>Your usage quota is over. Upgrade your plan</p><p>Following are the "
+"details:</p><p><strong>Used:</strong> %s</p><p><strong>Remaining</strong>: "
+"%s</p><p><strong>Total:</strong> %s</p>"
+msgstr ""
+"<p>使用量の上限に達しました。ご利用プランをアップグレードしてください</p><p>"
+"詳細:</p><p><strong>使用済み:</strong> %s</p><p><strong>残り</strong>: %s</"
+"p><p><strong>トータル:</strong> %s</p>"
+
+msgid "<strong>Friends</strong> - Visible to user's friends"
+msgstr "<strong>友達</strong> - ユーザーの友達に表示"
+
+msgid "<strong>Private</strong> - Visible only to the user"
+msgstr "<strong>プライベート</strong> - ユーザーのみに表示"
+
+msgid "<strong>Public</strong> - Visible to the world"
+msgstr "<strong>公開</strong> - 全ての人に表示"
+
+msgid "Add link to footer"
+msgstr "フッターにリンクを追加"
+
+msgid "Add support for more video formats using Kaltura video solution."
+msgstr ""
+"Kalturaビデオ・」ソリューションを使ったより多くのビデオフォーマットのサポート"
+"を追加"
+
+msgid ""
+"Add supports for more audio & video formats using open-source media-node."
+msgstr ""
+"オープンソースのmedia-nodeを使用して他のオーディオ及びビデオフォーマットのサ"
+"ポートを追加"
+
+msgid "Additional Information"
+msgstr "付加情報"
+
+msgid "Addons"
+msgstr "アドオン"
+
+msgid "Album"
+msgstr "アルバム"
+
+msgid "Album Creation Control"
+msgstr "アルバム作成制御"
+
+msgid "Albums"
+msgstr "アルバム"
+
+msgid "All"
+msgstr "全て"
+
+msgid "All Albums"
+msgstr "全てのアルバム"
+
+msgid "All Group Members"
+msgstr "グループの全メンバー"
+
+msgid "All media from BP Album has been imported."
+msgstr "BP Albumの全メディアがインポートされました。"
+
+msgid "Allow Upload"
+msgstr "アップロードを許可"
+
+msgid "Allows you to upload a particular media type on your post."
+msgstr "あなたが自分の投稿中に特定タイプのメディアをアップロードすることを許可"
+
+msgid "Amazon S3 Support"
+msgstr "Amazon S3 サポート"
+
+msgid "Are you a developer?"
+msgstr "あなたは開発者ですか？"
+
+msgid "Are you sure you want to delete the selected media?"
+msgstr "本当に選択中のメディアを消去してもよろしいですか？"
+
+msgid "Argument missing. id is required."
+msgstr "引数がありません。idが必要です。"
+
+msgid "Atleast one Media Type Must be selected"
+msgstr "ひとつ以上のメディア形式が選択されている必要があります"
+
+msgid "Audio/Video  Encoding"
+msgstr "オーディオ／ビデオ　エンコーディング"
+
+msgid ""
+"BP-Album is active on your site and will cause problems with the import."
+msgstr ""
+"BP-Albumがアクティブになっています。これはインポートに問題を生じさせます。"
+
+msgid "Back"
+msgstr "戻る"
+
+msgid "Bandwidth (monthly)"
+msgstr "転送量（月間）"
+
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+msgid "BuddyPress Media 2.6 requires a database upgrade. "
+msgstr "BuddyPress Media 2.6 はデータベースの更新が必要です。"
+
+msgid "BuddyPress Media Addons for Photos"
+msgstr "BuddyPress Media 写真アドオン"
+
+msgid ""
+"BuddyPress Media Instagram adds Instagram like filters to images uploaded "
+"with BuddyPress Media."
+msgstr ""
+"BuddyPress Media Instagram はインスタグラムの様なフィルターをBuddyPress Media"
+"にアップロードされたイメージに追加します。"
+
+msgid "Bug Report"
+msgstr "バグ・レポート"
+
+msgid "Buy Now"
+msgstr "今すぐ購入"
+
+msgid "Category"
+msgstr "カテゴリー"
+
+msgid "Clean up Later"
+msgstr "後でクリンアップ"
+
+msgid "Clean up Now"
+msgstr "今すぐクリーンアップ"
+
+msgid "Click here to deactivate BP-Album and continue importing"
+msgstr "ここをクリックして BP-Album を無効化し、インポートを続行します"
+
+msgid "Coming Soon"
+msgstr "近日公開"
+
+msgid "Comment"
+msgstr "コメント"
+
+msgid "Comments"
+msgstr "コメント"
+
+msgid "Comments "
+msgstr "コメント"
+
+msgid "Comments: 0/0 (No comments to import)"
+msgstr "コメント: 0/0 (インポートするコメントはありません)"
+
+msgid "Congratulations!"
+msgstr "おめでとう！"
+
+msgid "Could not read file."
+msgstr "ファイルを読み込めませんでした。"
+
+msgid "Create"
+msgstr "作成"
+
+msgid "Create Album"
+msgstr "アルバム作成"
+
+msgid "Create New Album"
+msgstr "新規アルバム作成"
+
+msgid "Crop"
+msgstr "トリミング"
+
+msgid "Current Plan"
+msgstr "購読中のプラン"
+
+msgid ""
+"Currently your network allows uploading of the following file types. You can "
+"change the settings <a href=\"%s\">here</a>.<br /><code>%s</code></span>"
+msgstr ""
+"現在あなたのネットワークは以下のファイル形式のアップロードを許可しています。 "
+"<a href=\"%s\">ここで設定を変更できます</a>.<br /><code>%s</code></span>"
+
+msgid "Debug Info"
+msgstr "デバッグ情報"
+
+msgid "Default Count"
+msgstr "デフォルトのカウント"
+
+msgid "Default Privacy"
+msgstr "デフォルのプライバシー"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Delete Album"
+msgstr "アルバムを消去"
+
+msgid "Delete Media"
+msgstr "メディアを消去"
+
+msgid "Deprecated %s. Please use %s."
+msgstr " %s は非互換です。 %s を使ってください。"
+
+msgid "Details"
+msgstr "詳細"
+
+msgid "Done"
+msgstr "終了"
+
+msgid "Drop files here"
+msgstr "ここにファイルをドロップ"
+
+msgid "Edit"
+msgstr "編集"
+
+msgid "Edit Album"
+msgstr "アルバム編集"
+
+msgid "Edit Media"
+msgstr "メディアを編集"
+
+msgid "Email"
+msgstr "Eメール"
+
+msgid "Empowering The Web With WordPress"
+msgstr "Empowering The Web With WordPress"
+
+msgid "Enable Media on BuddyPress Groups"
+msgstr "BuddyPressグループ上でメディアを有効化"
+
+msgid "Enable Media on BuddyPress Profile"
+msgstr "BuddyPressプロフィール上でメディアを有効化"
+
+msgid "Encoding Usage"
+msgstr "エンコーディング使用量"
+
+msgid "Encoding disabled successfully."
+msgstr "エンコーディング無効化完了。"
+
+msgid "Enter API KEY"
+msgstr "APIキーを入力"
+
+msgid "Entity"
+msgstr "エンティティ"
+
+msgid "Error Uploading File"
+msgstr "ファイルアップロードのエラー"
+
+msgid "Error creating attachment for the media file, please try again"
+msgstr "メディアファイルへの添付作成エラーです、やり直して下さい。"
+
+msgid "Feature\\Plan"
+msgstr "機能／プラン"
+
+msgid "File Extensions"
+msgstr "ファイル拡張子"
+
+msgid "File Size Limit"
+msgstr "ファイルサイズ上限"
+
+msgid "File Upload"
+msgstr "ファイルアップロード"
+
+msgid "File type not allowed."
+msgstr "許可されていないファイル形式です"
+
+msgid "Free"
+msgstr "無料"
+
+msgid "Gold"
+msgstr "ゴールド"
+
+msgid "Group Admin only"
+msgstr "グループのアドミンのみ"
+
+msgid "Group Admins and Mods only"
+msgstr "グループのアドミンとモデレーターのみ"
+
+msgid "HD Profile"
+msgstr "HDプロフィール"
+
+msgid "Height"
+msgstr "高さ"
+
+msgid "Hide"
+msgstr "非表示"
+
+msgid ""
+"However, a lot of unnecessary files and a database table are still eating up "
+"your resources. If everything seems fine, you can clean this data up."
+msgstr ""
+"しかしながら、多くの不要ファイルとデータベーステーブルがリソースを消費してい"
+"ます。他に問題がないのであればデータをクリーンアップ出来ます。"
+
+msgid "I have taken a backup of the database and files of this site."
+msgstr "私はこのサイトのデータベースとファイルをバックアップ済です。"
+
+msgid ""
+"If you have any suggestions, enhancements or bug reports, then you can open "
+"a new issue on <a target=\"_blank\" href=\"https://github.com/rtCamp/"
+"buddypress-media/issues/new\">GitHub</a>."
+msgstr ""
+"もしご提言、機能追加あるいはバグ報告等がある場合は <a target=\"_blank\" href="
+"\"https://github.com/rtCamp/buddypress-media/issues/new\">GitHub</a> に新しい"
+"issueをオープンしてください。"
+
+msgid ""
+"If you have set \"WP_DEBUG\" in you wp-config.php file, please make sure it "
+"is set to \"false\", so that it doesn't conflict with the import process."
+msgstr ""
+"もしあなたがwp-config.phpファイル中で \\\"WP_DEBUG\\\" をセットしている場合"
+"は、インポート処理都のコンフリクトを避けるため \\\"false\\\" にセットしてくだ"
+"さい。"
+
+msgid ""
+"If you make changes to width, height or crop settings, you must use \"<a "
+"href=\"%s\">Regenerate Thumbnail Plugin</a>\" to regenerate old images.\""
+msgstr ""
+"幅、高さ或いはトリミングの設定を変更した場合、 \"<a href=\"%s\">Regenerate "
+"Thumbnail Plugin</a>\" を使用した旧イメージの再生成が必要です。\""
+
+msgid ""
+"If your site has some issues due to BuddyPress Media and you want one on one "
+"support then you can create a support topic on the <a target=\"_blank\" href="
+"\"http://rtcamp.com/groups/buddypress-media/forum/?"
+"utm_source=dashboard&utm_medium=plugin&utm_campaign=buddypress-media"
+"\">rtCamp Support Forum</a>."
+msgstr ""
+"もしあなたのサイトにBuddyPress Mediaに起因する問題があり、１対１のサポートを"
+"ご要望の場合は <a target=\"_blank\" href=\"http://rtcamp.com/groups/"
+"buddypress-media/forum/?"
+"utm_source=dashboard&utm_medium=plugin&utm_campaign=buddypress-media"
+"\">rtCamp Support Forum</a> にサポート トピックを作成してください。"
+
+msgid "Important"
+msgstr "重要"
+
+msgid "Insert from URL"
+msgstr "URLから入力"
+
+msgid "Invalid Context for upload."
+msgstr "不正なコンテクストのためアップロードできません"
+
+msgid "Invalid attribute passed for rtmedia_gallery shortcode."
+msgstr "rtmedia_gallery ショートコードへの不正なアトリビュートです。"
+
+msgid "It will migrate following things"
+msgstr "以下をマイグレーションします"
+
+msgid "Kindly contact your server support to fix this."
+msgstr "この問題を解決するためにサーバーのサポートにご連絡下さい。"
+
+msgid "Likes"
+msgstr "いいね"
+
+msgid "Live Demo"
+msgstr "ライブデモ"
+
+msgid ""
+"Looks like you don't use BP Album. Is there any other BuddyPress Plugin you "
+"want an importer for?"
+msgstr ""
+"あなたはBP Albumを使用していないようです。他にインポートしたいBuddyPressプラ"
+"グインがありますか？"
+
+msgid "MP3 file you have uploaded is currupt."
+msgstr "あなたがアップロードしたMP3ファイルは破損しています。"
+
+msgid "MP4 file you have uploaded is corrupt."
+msgstr "アップロードされたMP4ファイルは破損しています。"
+
+msgid "Media"
+msgstr "メディア"
+
+msgid ""
+"Media File you have tried to upload is not supported. Supported media files "
+"are .jpg, .png, .gif, .mp3, .mov and .mp4."
+msgstr ""
+"アップロードしようとしているメディアファイルはサポートされていません。　サ"
+"ポートされているメディアファイルの形式は .jpg, .png, .gif, .mp3, .mov およ"
+"び .mp4　です。"
+
+msgid "Media Gallery"
+msgstr "メディアギャラリー"
+
+msgid "Media Stats"
+msgstr "メディア統計"
+
+msgid "Media Type"
+msgstr "メディア形式"
+
+msgid "Media node comes with automated setup script for Ubuntu/Debian."
+msgstr ""
+"メディアノードは、Ubuntu / Debian用自動セットアップスクリプトが付属しています"
+
+msgid "Merge"
+msgstr "統合"
+
+msgid "Merge Album"
+msgstr "アルバムを統合する"
+
+msgid "Migration"
+msgstr "マイグレーション"
+
+msgid "Move"
+msgstr "移動"
+
+msgid "Music"
+msgstr "ミュージック"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Network settings updated successfully."
+msgstr "ネットワーク設定は正常に更新されました。"
+
+msgid "New Album"
+msgstr "新規アルバム"
+
+msgid "Next"
+msgstr "次へ"
+
+msgid "No album found"
+msgstr "アルバムは見つかりませんでした"
+
+msgid "No album found in Trash"
+msgstr "ゴミ箱にアルバムはありません"
+
+msgid "No file was uploaded"
+msgstr "アップロードされたファイルはありません"
+
+msgid "No items"
+msgstr "アイテム無し"
+
+msgid "Not Available"
+msgstr "利用できません"
+
+msgid "OFF"
+msgstr "OFF"
+
+msgid "ON"
+msgstr "ON"
+
+msgid "Ooops !!! Invalid access. No nonce was found !!"
+msgstr "不正なアクセスです!!"
+
+msgid "Oops !! There's no media found for the request !!"
+msgstr "リクエストされたメディアはありませんでした。"
+
+msgid "Other Settings"
+msgstr "その他の設定"
+
+msgid "Overage Bandwidth"
+msgstr "超過転送量"
+
+msgid "Phone"
+msgstr "電話番号"
+
+msgid "Photo"
+msgstr "写真"
+
+msgid "Photos"
+msgstr "写真"
+
+msgid "Platinum"
+msgstr "プラチナ"
+
+msgid "Please do not refresh this page."
+msgstr "このページをリフレッシュしないでください。"
+
+msgid "Please enter the api key."
+msgstr "APIキーを入力してください。"
+
+msgid "Plugins"
+msgstr "プラグイン"
+
+msgid "Posted "
+msgstr "投稿"
+
+msgid "Premium Addons"
+msgstr "プレミアム・アドオン"
+
+msgid "Premium Support"
+msgstr "プレミア・サポート"
+
+msgid "Prev"
+msgstr "前へ"
+
+msgid "Pricing"
+msgstr "価格"
+
+msgid "Privacy"
+msgstr "プライバシー"
+
+msgid "Recommended"
+msgstr "推奨"
+
+msgid "Recount Fail"
+msgstr "再集計失敗"
+
+msgid "Recount Success"
+msgstr "再集計成功"
+
+msgid "Recounting Failed"
+msgstr "再集計失敗"
+
+msgid "Recounting of media files done successfully"
+msgstr "メディアファイルの再集計は正常に終了しました"
+
+msgid "Remaining"
+msgstr "残り"
+
+msgid "Right Now in rtMedia"
+msgstr "今すぐrtMediaで"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Save Changes"
+msgstr "変更を保存"
+
+msgid "Save Settings"
+msgstr "設定を保存"
+
+msgid "Search Albums"
+msgstr "アルバム検索"
+
+msgid "Select All Visible"
+msgstr "すべての表示を選択"
+
+msgid "Set Featured"
+msgstr "おすすめにする"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Settings saved successfully"
+msgstr "設定は正常に保存されました"
+
+msgid "Settings saved."
+msgstr "設定は保存されました"
+
+msgid "Silver"
+msgstr "シルバー"
+
+msgid ""
+"Some of the media failed to import. The file might be corrupt or deleted."
+msgstr ""
+"メディアの幾つかのインポートが失敗しました。ファイルは破損或いは削除されてい"
+"ます。"
+
+msgid "Something went wrong please try again."
+msgstr "問題が発生しましたので再度実行してください。"
+
+msgid "Something went wrong. Please try again."
+msgstr "何らかのエラーが発生しました。もう一度試してください。"
+
+msgid ""
+"Something went wrong. The required attachment id does not exists. It must "
+"have been deleted."
+msgstr ""
+"問題が発生しました。要求されたアタッチメントIDは存在しません。削除されたもの"
+"と思われます。"
+
+msgid "Spread the Word"
+msgstr "皆に知らせよう"
+
+msgid "Start Import"
+msgstr "インポート開始"
+
+msgid "Subject"
+msgstr "タイトル"
+
+msgid "Submit"
+msgstr "送信"
+
+msgid "Submit a Bug Report"
+msgstr "バグを報告"
+
+msgid "Submit a New Feature Request"
+msgstr "新機能をリクエストする"
+
+msgid "Submit a Premium Support Request"
+msgstr "プレミア サポートをリクエストする"
+
+msgid "Subscribe"
+msgstr "購読"
+
+msgid "Subscribe to our feeds"
+msgstr "私達のフィードを購読"
+
+msgid "Support"
+msgstr "サポート"
+
+msgid "Thank you for posting your support request."
+msgstr "サポートリクエストごご投稿ありがとうございました。"
+
+msgid "Thank you for your Feedback/Suggestion."
+msgstr "フィードバック／ご提案をありがとうございました。"
+
+msgid "The MP3 file you have uploaded is not an audio file."
+msgstr "アップロードされたMP3ファイルはオーディオファイルではありません。"
+
+msgid ""
+"The MP3 file you have uploaded is using an unsupported audio format. "
+"Supported audio format is MP3."
+msgstr ""
+"あなたがアップロードしたMP3ファイルは未サポートのオーディオ形式です。サポート"
+"されている形式はMP3です。"
+
+msgid "The MP4 file you have uploaded is not a video file."
+msgstr "あなたがアップロードしたMP4ファイルはビデオファイルではありません。"
+
+msgid ""
+"The MP4 file you have uploaded is using an unsupported video codec. "
+"Supported video codec is H.264."
+msgstr ""
+"あなたがアップロードしたMP4ファイルは未サポートのビデオ・コーディックを使用し"
+"ています。サポートされているコーディックはH.264です。"
+
+msgid "The album is empty."
+msgstr "アルバムは空です。"
+
+msgid "The following %d BP Album Media id's could not be imported"
+msgstr "以下の %d BP Album Media id　はインポートできませんでした"
+
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr ""
+"アップロードされたファイルはHTMLフォームで指定された MAX_FILE_SIZEを超えてい"
+"ます"
+
+msgid "There was an error saving, please try again"
+msgstr "保存時にエラーが有りました、もう一度やってみて下さい。"
+
+msgid ""
+"This import process is irreversible. Although everything is tested, please "
+"take a <a target=\"_blank\" href=\"http://codex.wordpress.org/"
+"WordPress_Backups\">backup of your database and files</a>, before "
+"proceeding. If you don't know your way around databases and files, consider "
+"<a target=\"_blank\" href=\"%s\">hiring us</a>, or another professional."
+msgstr ""
+"このインポート処理は取り消しできません。すべてのテストは行われていますが  <a "
+"target=\"_blank\" href=\"http://codex.wordpress.org/WordPress_Backups\">>デー"
+"タベースとファイルのバックアップ</a>, を事前にとっておいてください。もしデー"
+"タベースとファイル関連で不安なことがある場合は  <a target=\"_blank\" href="
+"\"%s\">hiring us</a>, か他の専門家に相談してください。"
+
+msgid "This will subscribe you to the free plan."
+msgstr "無料プランに応募"
+
+msgid "Total"
+msgstr "トータル"
+
+msgid "Total "
+msgstr "トータル"
+
+msgid "Total Videos"
+msgstr "ビデオ総数"
+
+msgid "Try Now"
+msgstr "今すぐ試用開始"
+
+msgid "Tweet this"
+msgstr "これをツイート"
+
+msgid "Type Comment..."
+msgstr "コメントを入力..."
+
+msgid "Types"
+msgstr "形式"
+
+msgid "Unknown file upload error."
+msgstr "未知のファイルアップロードエラー"
+
+msgid "Unselect All Visible"
+msgstr "すべての非表示を選択"
+
+msgid "Unsubscribe"
+msgstr "購読解除"
+
+msgid "Unsubscribed"
+msgstr "購読解除済"
+
+msgid "Update Database"
+msgstr "データベース更新"
+
+msgid "Update Network Settings Automatically"
+msgstr "ネットワーク設定を自動更新"
+
+msgid "Upload"
+msgstr "アップロード"
+
+msgid "Upload Media"
+msgstr "メディアをアップロード"
+
+msgid "Uploade failed due to internal server error."
+msgstr "サーバーの内部エラーのためアップロードは失敗しました"
+
+msgid "Usage Stats"
+msgstr "使用状況"
+
+msgid "Used"
+msgstr "使用量"
+
+msgid "User's Favorites"
+msgstr "ユーザーのお気に入り"
+
+msgid "Users"
+msgstr "ユーザー"
+
+msgid "Video"
+msgstr "ビデオ"
+
+msgid "Videos"
+msgstr "ビデオ"
+
+msgid "View Album"
+msgstr "アルバム表示"
+
+msgid "Wall Post"
+msgstr "ウォール投稿"
+
+msgid "Wall Posts"
+msgstr "ウォール投稿"
+
+msgid "Warning!"
+msgstr "警告！"
+
+msgid "We will get back to you shortly."
+msgstr "暫くお待ち下さい。"
+
+msgid "Webcam Recording"
+msgstr "ウェブカム録画"
+
+msgid "Website"
+msgstr "ウェブサイト"
+
+msgid "Who can create Albums in this group?"
+msgstr "このグループ内でアルバムを作成できる人は？"
+
+msgid "Why don't you try adding some instagram like effects to your images?"
+msgstr "あなたのイメージにインスタグラムのようなイフェクトを加えてみませんか？"
+
+msgid "Width"
+msgstr "幅"
+
+msgid "With Media"
+msgstr "メディアで"
+
+msgid "Works with Kaltura.com, self-hosted Kaltura-CE and Kaltura-on-premise."
+msgstr "Kaltura.com と連携 ,  Kaltura-on-premise , Kaltura-CE セルフホスト  "
+
+msgid "You can alternatively create a support request <a href=\"%s\">here</a>"
+msgstr ""
+"あるいは <a href=\"%s\">ここで</a> サポート・リクエストを作成して下さい"
+
+msgid ""
+"You could display a small snippet of information from your group extension "
+"here. It will show on the group\n"
+"\t                home screen."
+msgstr ""
+"あなたはこのグループ拡張情報の小さなスニペットを表示出来ます。それはグループ"
+"の\n"
+"→\t                ホームスクリーンに表示されます。"
+
+msgid "You have successfully subscribed for the <strong>%s</strong> plan"
+msgstr "<strong>%s</strong> プランの購読に成功しました。"
+
+msgid ""
+"You need to have ImageMagick installed on your server for this addon to work."
+msgstr ""
+"このアドオンを動作させるにはあなたのサーバーにImageMagickがインストールされて"
+"いる必要があります。"
+
+msgid "Your API key is not valid or is expired."
+msgstr "あなたのAPIキーは正しくないか期限切れです。"
+
+msgid "Your SSH / FTP host:"
+msgstr "あなたのSSH/FTP ホスト："
+
+msgid "Your SSH / FTP login:"
+msgstr "あなたのSSH/FTP ログイン："
+
+msgid "Your SSH / FTP password:"
+msgstr "あなたのSSH/FTP パスワード："
+
+msgid "Your WP Admin Login:"
+msgstr "あなたのWPアドミン ログイン："
+
+msgid "Your WP Admin password:"
+msgstr "あなたのWPアドミン パスワード："
+
+msgid "Your server failed to send an email."
+msgstr "あなたのサーバーはメール送信に失敗しました。"
+
+msgid "Your subscription was cancelled successfully"
+msgstr "あなたのサブスクリプションは正常にキャンセルされました"
+
+msgid "Your usage limit has been reached. Upgrade your plan."
+msgstr "使用量の上限に達しました。プランのアップグレードをおすすめします。"
+
+msgid "rtMedia"
+msgstr "rtMedia"
+
+msgid "rtMedia Addons for Audio/Video"
+msgstr "rtMedia オーディオ／ビデオ　アドオン"
+
+msgid "rtMedia Addons for Photos"
+msgstr "rtMedia 写真　アドオン"
+
+msgid "rtMedia BuddyPress"
+msgstr "rtMedia BuddyPress"
+
+msgid "rtMedia Bug Report from"
+msgstr "rtMedia バグ報告フォーム"
+
+msgid "rtMedia Contact from"
+msgstr "rtMedia コンタクトフォーム"
+
+msgid "rtMedia Encoding: Download Failed"
+msgstr "rtMedia Encoding: ダウンロード失敗"
+
+msgid "rtMedia Encoding: Nearing quota limit."
+msgstr "rtMedia Encoding: エンコーディングの上限に近づいています。"
+
+msgid "rtMedia Encoding: Usage quota over."
+msgstr "rtMedia Encoding: 使用可能量をオーバーしました。"
+
+msgid "rtMedia FFMPEG Add-on"
+msgstr "rtMedia FFMPEG アドオン"
+
+msgid "rtMedia Instagram"
+msgstr "rtMedia Instagram"
+
+msgid ""
+"rtMedia Instagram adds Instagram like filters to images uploaded with "
+"rtMedia."
+msgstr ""
+"rtMedia Instagram は rtMediaでアップロードされたイメージにInstagramの様なフィ"
+"ルターを追加します"
+
+msgid "rtMedia Kaltura Add-on"
+msgstr "rtMedia Kaltura アドオン"
+
+msgid "rtMedia New Feature Request from"
+msgstr "rtMedia 新機能リクエストフォーム"
+
+msgid "rtMedia Photo Tagging"
+msgstr "rtMedia 写真タグ"
+
+msgid "rtMedia Premium Support Request from"
+msgstr "rtMedia プレミア・サポート　リクエストフォーム"
+
+msgid "rtMedia Privacy"
+msgstr "rtMedia プライバシー"
+
+msgid "rtMedia Sizes"
+msgstr "rtMedia サイズ"
+
+msgid "rtMedia Types"
+msgstr "rtMedia形式"
+
+msgid "rtMedia team has started offering an audio/video encoding service."
+msgstr ""
+"ｒｔMediaチームはオーディオ/ビデオのエンコーディングサービスの供給を始めまし"
+"た。"

@@ -6,18 +6,17 @@
 			<?php do_action( 'kleo_before_login_form' ); ?>
 
             <div class="kleo-pop-title-wrap main-color">
-                <h3 class="kleo-pop-title"><?php esc_html_e( "Log in with your credentials", "kleo_framework" ); ?></h3>
+                <h3 class="kleo-pop-title"><?php esc_html_e( "ログインします", "kleo_framework" ); ?></h3>
 
 				<?php if ( get_option( 'users_can_register' ) ) : ?>
 
                     <p>
-                        <em><?php esc_html_e( "or", 'kleo_framework' ); ?></em>&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="<?php if ( function_exists( 'bp_is_active' ) ) {
 							bp_signup_page();
 						} else {
 							echo wp_registration_url();
 						} ?>" class="new-account">
-							<?php esc_html_e( "Create an account", "kleo_framework" ); ?>
+							<?php esc_html_e( "新規登録はこちらから", "kleo_framework" ); ?>
                         </a>
                     </p>
 
@@ -38,15 +37,15 @@
                   class="kleo-form-signin">
 				<?php wp_nonce_field( 'kleo-ajax-login-nonce', 'security' ); ?>
                 <input type="text" id="username" required name="log" class="form-control" value=""
-                       placeholder="<?php esc_html_e( "Username", 'kleo_framework' ); ?>">
+                       placeholder="<?php esc_html_e( "ユーザーネーム", 'kleo_framework' ); ?>">
                 <input type="password" id="password" required spellcheck="false" autocomplete="off" value="" name="pwd" class="form-control"
-                       placeholder="<?php esc_html_e( "Password", 'kleo_framework' ); ?>">
+                       placeholder="<?php esc_html_e( "パスワード", 'kleo_framework' ); ?>">
                 <div id="kleo-login-result"></div>
                 <button class="btn btn-lg btn-default btn-block"
-                        type="submit"><?php esc_html_e( "Sign in", "kleo_framework" ); ?></button>
+                        type="submit"><?php esc_html_e( "ログイン", "kleo_framework" ); ?></button>
                 <label class="checkbox pull-left">
                     <input id="rememberme" name="rememberme" type="checkbox"
-                           value="forever"> <?php esc_html_e( "Remember me", "kleo_framework" ); ?>
+                           value="forever"> <?php esc_html_e( "ログイン情報を記憶", "kleo_framework" ); ?>
                 </label>
                 <a href="#kleo-lostpass-modal"
                    class="kleo-show-lostpass kleo-other-action pull-right"><?php esc_html_e( 'Lost your password?' ); ?></a>
@@ -73,7 +72,7 @@
     <div class="row">
         <div class="col-sm-12 text-center">
             <div class="kleo-pop-title-wrap alternate-color">
-                <h3 class="kleo-pop-title"><?php esc_html_e( "Forgot your details?", "kleo_framework" ); ?></h3>
+                <h3 class="kleo-pop-title"><?php esc_html_e( "パスワードをリセットします", "kleo_framework" ); ?></h3>
             </div>
 
 			<?php do_action( 'kleo_before_lostpass_form' ); ?>
@@ -81,12 +80,12 @@
             <form id="forgot_form" name="forgot_form" action="" method="post" class="kleo-form-signin">
 				<?php wp_nonce_field( 'kleo-ajax-login-nonce', 'security-pass' ); ?>
                 <input type="text" id="forgot-email" required name="user_login" class="form-control"
-                       placeholder="<?php esc_html_e( "Username or Email", 'kleo_framework' ); ?>">
+                       placeholder="<?php esc_html_e( "登録時のメールアドレスを入力", 'kleo_framework' ); ?>">
                 <div id="kleo-lost-result"></div>
                 <button class="btn btn-lg btn-default btn-block"
-                        type="submit"><?php esc_html_e( "Reset Password", "kleo_framework" ); ?></button>
+                        type="submit"><?php esc_html_e( "パスワードを再設定します", "kleo_framework" ); ?></button>
                 <a href="#kleo-login-modal"
-                   class="kleo-show-login kleo-other-action pull-right"><?php esc_html_e( 'I remember my details', "kleo_framework" ); ?></a>
+                   class="kleo-show-login kleo-other-action pull-right"><?php esc_html_e( 'ログインに戻ります', "kleo_framework" ); ?></a>
                 <span class="clearfix"></span>
             </form>
 
@@ -117,7 +116,7 @@
 						<?php if ( function_exists( 'bp_is_active' ) ) { ?>
                             <div class="col-sm-6">
                                 <input type="text" id="reg-username" name="signup_username" class="form-control"
-                                       required placeholder="<?php _e( "Username", 'kleo_framework' ); ?>">
+                                       required placeholder="<?php _e( "ユーザーネーム", 'kleo_framework' ); ?>">
                             </div>
                             <div class="col-sm-6">
                                 <input type="text" id="fullname" name="field_1" class="form-control" required
@@ -144,7 +143,7 @@
 						<?php } else { ?>
                             <div class="col-sm-12">
                                 <input type="text" id="reg-username" name="user_login" class="form-control" required
-                                       placeholder="<?php _e( "Username", 'kleo_framework' ); ?>">
+                                       placeholder="<?php _e( "ユーザーネーム", 'kleo_framework' ); ?>">
                             </div>
                             <div class="col-sm-12">
                                 <input type="text" id="reg-email" name="user_email" class="form-control" required

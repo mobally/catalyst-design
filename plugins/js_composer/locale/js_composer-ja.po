@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPBakery Page Builder\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 14:29+0300\n"
-"PO-Revision-Date: 2017-10-10 14:32+0300\n"
+"PO-Revision-Date: 2018-06-10 22:12+0900\n"
 "Last-Translator: Michael M <hello@wpbakery.com>\n"
 "Language-Team: evange <info@evange.co.jp>\n"
 "Language: ja\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: __;_e;esc_attr__\n"
 "X-Poedit-Basepath: ..\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.7\n"
 "X-Poedit-SearchPath-0: ./config/.\n"
 "X-Poedit-SearchPath-1: ./include/.\n"
 
@@ -68,8 +68,9 @@ msgstr "URL (リンク)"
 
 #: config/./buttons/shortcode-vc-btn.php:48
 #: config/./deprecated/shortcode-vc-button2.php:21
+#, fuzzy
 msgid "Add link to button."
-msgstr ""
+msgstr "フッターにrtMediaへのリンクを追加する"
 
 #: config/./buttons/shortcode-vc-btn.php:53
 #: config/./buttons/shortcode-vc-cta.php:132
@@ -97,8 +98,9 @@ msgstr ""
 #: config/./tta/shortcode-vc-tta-accordion.php:29
 #: config/./tta/shortcode-vc-tta-tabs.php:29
 #: config/./tta/shortcode-vc-tta-tour.php:29
+#, fuzzy
 msgid "Modern"
-msgstr ""
+msgstr "rtDatingはWordPressのためのユニークでクリーンでモダンなテーマです。このテーマは、サイトとコミュニティのデートサイトに役立ちます。他のWordPressベースのウェブサイトでも使用できます。"
 
 #: config/./buttons/shortcode-vc-btn.php:59
 #: config/./buttons/shortcode-vc-cta.php:135
@@ -154,21 +156,24 @@ msgid "Custom"
 msgstr "カスタム"
 
 #: config/./buttons/shortcode-vc-btn.php:64
+#, fuzzy
 msgid "Outline custom"
-msgstr ""
+msgstr "カスタム:"
 
 #: config/./buttons/shortcode-vc-btn.php:65
 msgid "Gradient"
 msgstr ""
 
 #: config/./buttons/shortcode-vc-btn.php:66
+#, fuzzy
 msgid "Gradient Custom"
-msgstr ""
+msgstr "カスタム:"
 
 #: config/./buttons/shortcode-vc-btn.php:71
 #: config/./buttons/shortcode-vc-btn.php:100
+#, fuzzy
 msgid "Gradient Color 1"
-msgstr ""
+msgstr "背景色"
 
 #: config/./buttons/shortcode-vc-btn.php:73
 #: config/./buttons/shortcode-vc-btn.php:102
@@ -177,8 +182,9 @@ msgstr ""
 
 #: config/./buttons/shortcode-vc-btn.php:85
 #: config/./buttons/shortcode-vc-btn.php:113
+#, fuzzy
 msgid "Gradient Color 2"
-msgstr ""
+msgstr "背景色"
 
 #: config/./buttons/shortcode-vc-btn.php:87
 #: config/./buttons/shortcode-vc-btn.php:115
@@ -186,12 +192,14 @@ msgid "Select second color for gradient."
 msgstr ""
 
 #: config/./buttons/shortcode-vc-btn.php:126
+#, fuzzy
 msgid "Button Text Color"
-msgstr ""
+msgstr "テキストカラー"
 
 #: config/./buttons/shortcode-vc-btn.php:128
+#, fuzzy
 msgid "Select button text color."
-msgstr ""
+msgstr "テキストカラー"
 
 #: config/./buttons/shortcode-vc-btn.php:140
 #: include/./params/css_editor/css_editor.php:99
@@ -207,16 +215,18 @@ msgid "Select custom text color for your element."
 msgstr ""
 
 #: config/./buttons/shortcode-vc-btn.php:164
+#, fuzzy
 msgid "Outline and Text"
-msgstr ""
+msgstr "フッタテキスト"
 
 #: config/./buttons/shortcode-vc-btn.php:166
 msgid "Select outline and text color for your element."
 msgstr ""
 
 #: config/./buttons/shortcode-vc-btn.php:176
+#, fuzzy
 msgid "Hover background"
-msgstr ""
+msgstr "背景色"
 
 #: config/./buttons/shortcode-vc-btn.php:178
 msgid "Select hover background color for your element."
@@ -224,8 +234,9 @@ msgstr ""
 
 #: config/./buttons/shortcode-vc-btn.php:188
 #: config/./content/shortcode-vc-hoverbox.php:137
+#, fuzzy
 msgid "Hover text"
-msgstr ""
+msgstr "テキストカラー"
 
 #: config/./buttons/shortcode-vc-btn.php:190
 msgid "Select hover text color for your element."
@@ -245,8 +256,9 @@ msgid "Shape"
 msgstr "形状"
 
 #: config/./buttons/shortcode-vc-btn.php:201
+#, fuzzy
 msgid "Select button shape."
-msgstr ""
+msgstr "選択"
 
 #: config/./buttons/shortcode-vc-btn.php:205
 #: config/./buttons/shortcode-vc-cta.php:125
@@ -486,12 +498,14 @@ msgstr ""
 #: config/./buttons/shortcode-vc-cta.php:220
 #: config/./content/shortcode-vc-text-separator.php:53
 #: config/./tta/shortcode-vc-tta-section.php:15
+#, fuzzy
 msgid "Add icon?"
-msgstr ""
+msgstr "メニューに追加"
 
 #: config/./buttons/shortcode-vc-btn.php:280
+#, fuzzy
 msgid "Icon Alignment"
-msgstr ""
+msgstr "%s のサイトアイコン"
 
 #: config/./buttons/shortcode-vc-btn.php:281
 #: config/./content/vc-icon-element.php:234
@@ -589,8 +603,9 @@ msgstr "ライブラリからアイコンを選択"
 #: config/./wp/shortcode-vc-wp-search.php:23
 #: config/./wp/shortcode-vc-wp-tagcloud.php:46
 #: config/./wp/shortcode-vc-wp-text.php:29
+#, fuzzy
 msgid "Element ID"
-msgstr ""
+msgstr "投稿者 ID"
 
 #: config/./buttons/shortcode-vc-btn.php:317
 #: config/./buttons/shortcode-vc-cta.php:257
@@ -643,9 +658,7 @@ msgstr ""
 #: config/./wp/shortcode-vc-wp-tagcloud.php:48
 #: config/./wp/shortcode-vc-wp-text.php:31
 #, php-format
-msgid ""
-"Enter element ID (Note: make sure it is unique and valid according to <a "
-"href=\"%s\" target=\"_blank\">w3c specification</a>)."
+msgid "Enter element ID (Note: make sure it is unique and valid according to <a href=\"%s\" target=\"_blank\">w3c specification</a>)."
 msgstr ""
 
 #: config/./buttons/shortcode-vc-btn.php:321
@@ -812,22 +825,22 @@ msgstr "特別なclass名"
 #: include/./params/vc_grid_item/shortcodes.php:628
 #: include/./params/vc_grid_item/shortcodes.php:670
 #: include/./params/vc_grid_item/shortcodes.php:803
-msgid ""
-"Style particular content element differently - add a class name and refer to "
-"it in custom CSS."
+msgid "Style particular content element differently - add a class name and refer to it in custom CSS."
 msgstr ""
 
 #: config/./buttons/shortcode-vc-btn.php:327
+#, fuzzy
 msgid "Advanced on click action"
-msgstr ""
+msgstr "操作"
 
 #: config/./buttons/shortcode-vc-btn.php:329
 msgid "Insert inline onclick javascript action."
 msgstr ""
 
 #: config/./buttons/shortcode-vc-btn.php:333
+#, fuzzy
 msgid "On click code"
-msgstr ""
+msgstr "クリック"
 
 #: config/./buttons/shortcode-vc-btn.php:335
 msgid "Enter onclick action code."
@@ -881,8 +894,9 @@ msgstr ""
 #: include/./params/vc_grid_item/shortcodes.php:534
 #: include/./params/vc_grid_item/shortcodes.php:610
 #: include/./params/vc_grid_item/shortcodes.php:807
+#, fuzzy
 msgid "CSS box"
-msgstr ""
+msgstr "カスタム CSS"
 
 #: config/./buttons/shortcode-vc-btn.php:345
 #: config/./buttons/shortcode-vc-cta.php:269
@@ -1030,16 +1044,18 @@ msgstr "ヘイ！私が最初の見出し行を気軽に変更することがで
 #: config/./buttons/shortcode-vc-cta.php:82
 #: config/./content/shortcode-vc-hoverbox.php:90
 #: config/./deprecated/shortcode-vc-cta-button2.php:21
+#, fuzzy
 msgid "Enter text for heading line."
-msgstr ""
+msgstr "複数行テキストエリア"
 
 #: config/./buttons/shortcode-vc-cta.php:87
 #: config/./buttons/shortcode-vc-cta.php:104
 #: config/./content/shortcode-vc-hoverbox.php:95
 #: config/./content/shortcode-vc-hoverbox.php:120
 #: config/./content/shortcode-vc-toggle.php:32
+#, fuzzy
 msgid "Use custom font?"
-msgstr ""
+msgstr "カスタム:"
 
 #: config/./buttons/shortcode-vc-cta.php:89
 #: config/./content/shortcode-vc-hoverbox.php:97
@@ -1050,8 +1066,9 @@ msgstr "Googleのフォントを有効にする"
 
 #: config/./buttons/shortcode-vc-cta.php:99
 #: config/./deprecated/shortcode-vc-cta-button2.php:28
+#, fuzzy
 msgid "Enter text for subheading line."
-msgstr ""
+msgstr "複数行テキストエリア"
 
 #: config/./buttons/shortcode-vc-cta.php:106
 #: config/./content/shortcode-vc-hoverbox.php:122
@@ -1060,8 +1077,9 @@ msgstr ""
 
 #: config/./buttons/shortcode-vc-cta.php:112
 #: config/./deprecated/shortcode-vc-cta-button2.php:46
+#, fuzzy
 msgid "Text alignment"
-msgstr ""
+msgstr "フッタテキスト"
 
 #: config/./buttons/shortcode-vc-cta.php:116
 #: config/./deprecated/shortcode-vc-cta-button2.php:49
@@ -1069,8 +1087,9 @@ msgid "Select text alignment in \"Call to Action\" block."
 msgstr ""
 
 #: config/./buttons/shortcode-vc-cta.php:128
+#, fuzzy
 msgid "Select call to action shape."
-msgstr ""
+msgstr "一括操作を選択"
 
 #: config/./buttons/shortcode-vc-cta.php:142
 msgid "Select call to action display style."
@@ -1081,12 +1100,13 @@ msgstr ""
 #: config/./content/vc-icon-element.php:196
 #: config/./deprecated/shortcode-vc-cta-button2.php:53
 msgid "Background color"
-msgstr ""
+msgstr "背景色"
 
 #: config/./buttons/shortcode-vc-cta.php:148
 #: config/./content/shortcode-vc-hoverbox.php:170
+#, fuzzy
 msgid "Select custom background color."
-msgstr ""
+msgstr "メール背景色"
 
 #: config/./buttons/shortcode-vc-cta.php:157
 #: include/./params/font_container/font_container.php:121
@@ -1094,23 +1114,20 @@ msgid "Text color"
 msgstr "テキストカラー"
 
 #: config/./buttons/shortcode-vc-cta.php:159
+#, fuzzy
 msgid "Select custom text color."
-msgstr ""
+msgstr "テキストカラー"
 
 #: config/./buttons/shortcode-vc-cta.php:172
 #: config/./content/shortcode-vc-hoverbox.php:161
+#, fuzzy
 msgid "Select color schema."
-msgstr ""
+msgstr "選択"
 
 #: config/./buttons/shortcode-vc-cta.php:183
 #: config/./deprecated/shortcode-vc-cta-button2.php:61
-msgid ""
-"I am promo text. Click edit button to change this text. Lorem ipsum dolor "
-"sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec "
-"ullamcorper mattis, pulvinar dapibus leo."
-msgstr ""
-"これはプロモーションテキストです。このテキストを変更するには、編集ボタンをク"
-"リックします。"
+msgid "I am promo text. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr "これはプロモーションテキストです。このテキストを変更するには、編集ボタンをクリックします。"
 
 #: config/./buttons/shortcode-vc-cta.php:187
 #: config/./containers/shortcode-vc-column-inner.php:42
@@ -1129,8 +1146,9 @@ msgstr ""
 
 #: config/./buttons/shortcode-vc-cta.php:201
 #: config/./content/shortcode-vc-hoverbox.php:210
+#, fuzzy
 msgid "Add button"
-msgstr ""
+msgstr "メニューに追加"
 
 #: config/./buttons/shortcode-vc-cta.php:202
 #: config/./content/shortcode-vc-hoverbox.php:211
@@ -1174,16 +1192,18 @@ msgid "Add icon for call to action."
 msgstr ""
 
 #: config/./buttons/shortcode-vc-cta.php:234
+#, fuzzy
 msgid "Place icon on border?"
-msgstr ""
+msgstr "%s のサイトアイコン"
 
 #: config/./buttons/shortcode-vc-cta.php:235
 msgid "Display icon on call to action element border."
 msgstr ""
 
 #: config/./buttons/shortcode-vc-cta.php:274
+#, fuzzy
 msgid "Call to Action"
-msgstr ""
+msgstr "操作"
 
 #: config/./buttons/shortcode-vc-cta.php:278
 #: config/./deprecated/shortcode-vc-cta-button.php:16
@@ -1287,8 +1307,9 @@ msgstr "12カラム Fullwidth"
 #: config/./containers/shortcode-vc-column-inner.php:66
 #: config/./containers/shortcode-vc-column.php:135
 #: config/./containers/shortcode-vc-column.php:143
+#, fuzzy
 msgid "Responsive Options"
-msgstr ""
+msgstr "設定"
 
 #: config/./containers/shortcode-vc-column-inner.php:59
 #: config/./containers/shortcode-vc-column.php:136
@@ -1303,9 +1324,7 @@ msgstr "レスポンシブ"
 
 #: config/./containers/shortcode-vc-column-inner.php:67
 #: config/./containers/shortcode-vc-column.php:144
-msgid ""
-"Adjust column for different screen sizes. Control width, offset and "
-"visibility settings."
+msgid "Adjust column for different screen sizes. Control width, offset and visibility settings."
 msgstr "異なる画面サイズの列を調整します。制御幅、オフセットおよび表示設定。"
 
 #: config/./containers/shortcode-vc-column.php:10
@@ -1321,8 +1340,9 @@ msgstr ""
 #: config/./containers/shortcode-vc-column.php:18
 #: config/./containers/shortcode-vc-row.php:92
 #: config/./containers/shortcode-vc-section.php:53
+#, fuzzy
 msgid "Use video background?"
-msgstr ""
+msgstr "背景色"
 
 #: config/./containers/shortcode-vc-column.php:20
 #: config/./containers/shortcode-vc-row.php:94
@@ -1386,14 +1406,16 @@ msgstr "はい"
 #: config/./containers/shortcode-vc-column.php:25
 #: config/./containers/shortcode-vc-row.php:99
 #: config/./containers/shortcode-vc-section.php:60
+#, fuzzy
 msgid "YouTube link"
-msgstr ""
+msgstr "リンク"
 
 #: config/./containers/shortcode-vc-column.php:29
 #: config/./containers/shortcode-vc-row.php:103
 #: config/./containers/shortcode-vc-section.php:64
+#, fuzzy
 msgid "Add YouTube link."
-msgstr ""
+msgstr "フッターにrtMediaへのリンクを追加する"
 
 #: config/./containers/shortcode-vc-column.php:37
 #: config/./containers/shortcode-vc-column.php:52
@@ -1471,9 +1493,7 @@ msgstr ""
 
 #: config/./containers/shortcode-vc-column.php:59
 #: config/./containers/shortcode-vc-row.php:133
-msgid ""
-"Add parallax type background for row (Note: If no image is specified, "
-"parallax will use background image from Design Options)."
+msgid "Add parallax type background for row (Note: If no image is specified, parallax will use background image from Design Options)."
 msgstr ""
 
 #: config/./containers/shortcode-vc-column.php:67
@@ -1523,27 +1543,28 @@ msgstr ""
 
 #: config/./containers/shortcode-vc-row-inner.php:18
 #: config/./containers/shortcode-vc-row.php:175
+#, fuzzy
 msgid "Row ID"
-msgstr ""
+msgstr "ID"
 
 #: config/./containers/shortcode-vc-row-inner.php:20
 #: config/./deprecated/shortcode-vc-accordion-tab.php:25
 #, php-format
-msgid ""
-"Enter optional row ID. Make sure it is unique, and it is valid as w3c "
-"specification: %s (Must not have spaces)"
+msgid "Enter optional row ID. Make sure it is unique, and it is valid as w3c specification: %s (Must not have spaces)"
 msgstr ""
 
 #: config/./containers/shortcode-vc-row-inner.php:20
 #: config/./content/shortcode-vc-toggle.php:84
 #: config/./deprecated/shortcode-vc-accordion-tab.php:25
+#, fuzzy
 msgid "link"
-msgstr ""
+msgstr "リンク"
 
 #: config/./containers/shortcode-vc-row-inner.php:24
 #: config/./containers/shortcode-vc-row.php:73
+#, fuzzy
 msgid "Equal height"
-msgstr ""
+msgstr "縦幅"
 
 #: config/./containers/shortcode-vc-row-inner.php:26
 #: config/./containers/shortcode-vc-row.php:75
@@ -1553,8 +1574,9 @@ msgstr ""
 #: config/./containers/shortcode-vc-row-inner.php:31
 #: config/./containers/shortcode-vc-row.php:80
 #: config/./containers/shortcode-vc-section.php:41
+#, fuzzy
 msgid "Content position"
-msgstr ""
+msgstr "内容:"
 
 #: config/./containers/shortcode-vc-row-inner.php:34
 #: config/./containers/shortcode-vc-row.php:20
@@ -1593,14 +1615,13 @@ msgstr ""
 
 #: config/./containers/shortcode-vc-row-inner.php:64
 #: config/./containers/shortcode-vc-row.php:181
+#, fuzzy
 msgid "Disable row"
-msgstr ""
+msgstr "コメント メディアのアップロードを無効にします。"
 
 #: config/./containers/shortcode-vc-row-inner.php:67
 #: config/./containers/shortcode-vc-row.php:184
-msgid ""
-"If checked the row won't be visible on the public side of your website. You "
-"can switch it back any time."
+msgid "If checked the row won't be visible on the public side of your website. You can switch it back any time."
 msgstr ""
 
 #: config/./containers/shortcode-vc-row.php:7
@@ -1630,14 +1651,13 @@ msgid "Stretch row and content (no paddings)"
 msgstr ""
 
 #: config/./containers/shortcode-vc-row.php:25
-msgid ""
-"Select stretching options for row and content (Note: stretched may not work "
-"properly if parent container has \"overflow: hidden\" CSS property)."
+msgid "Select stretching options for row and content (Note: stretched may not work properly if parent container has \"overflow: hidden\" CSS property)."
 msgstr ""
 
 #: config/./containers/shortcode-vc-row.php:50
+#, fuzzy
 msgid "Full height row?"
-msgstr ""
+msgstr "縦幅"
 
 #: config/./containers/shortcode-vc-row.php:52
 msgid "If checked row will be set to full height."
@@ -1657,9 +1677,7 @@ msgstr ""
 
 #: config/./containers/shortcode-vc-row.php:177
 #, php-format
-msgid ""
-"Enter row ID (Note: make sure it is unique and valid according to <a href="
-"\"%s\" target=\"_blank\">w3c specification</a>)."
+msgid "Enter row ID (Note: make sure it is unique and valid according to <a href=\"%s\" target=\"_blank\">w3c specification</a>)."
 msgstr ""
 
 #: config/./containers/shortcode-vc-section.php:7
@@ -1688,18 +1706,18 @@ msgid "Stretch section"
 msgstr ""
 
 #: config/./containers/shortcode-vc-section.php:28
+#, fuzzy
 msgid "Stretch section and content"
-msgstr ""
+msgstr "内容:"
 
 #: config/./containers/shortcode-vc-section.php:30
-msgid ""
-"Select stretching options for section and content (Note: stretched may not "
-"work properly if parent container has \"overflow: hidden\" CSS property)."
+msgid "Select stretching options for section and content (Note: stretched may not work properly if parent container has \"overflow: hidden\" CSS property)."
 msgstr ""
 
 #: config/./containers/shortcode-vc-section.php:34
+#, fuzzy
 msgid "Full height section?"
-msgstr ""
+msgstr "縦幅"
 
 #: config/./containers/shortcode-vc-section.php:36
 msgid "If checked section will be set to full height."
@@ -1718,33 +1736,29 @@ msgid "Add parallax type background for section."
 msgstr ""
 
 #: config/./containers/shortcode-vc-section.php:94
-msgid ""
-"Add parallax type background for section (Note: If no image is specified, "
-"parallax will use background image from Design Options)."
+msgid "Add parallax type background for section (Note: If no image is specified, parallax will use background image from Design Options)."
 msgstr ""
 
 #: config/./containers/shortcode-vc-section.php:136
 #: config/./deprecated/shortcode-vc-accordion-tab.php:23
 #: config/./tta/shortcode-vc-tta-section.php:57
+#, fuzzy
 msgid "Section ID"
-msgstr ""
+msgstr "投稿者 ID"
 
 #: config/./containers/shortcode-vc-section.php:138
 #: config/./tta/shortcode-vc-tta-section.php:58
 #, php-format
-msgid ""
-"Enter section ID (Note: make sure it is unique and valid according to <a "
-"href=\"%s\" target=\"_blank\">w3c specification</a>)."
+msgid "Enter section ID (Note: make sure it is unique and valid according to <a href=\"%s\" target=\"_blank\">w3c specification</a>)."
 msgstr ""
 
 #: config/./containers/shortcode-vc-section.php:142
+#, fuzzy
 msgid "Disable section"
-msgstr ""
+msgstr "コメント メディアのアップロードを無効にします。"
 
 #: config/./containers/shortcode-vc-section.php:145
-msgid ""
-"If checked the section won't be visible on the public side of your website. "
-"You can switch it back any time."
+msgid "If checked the section won't be visible on the public side of your website. You can switch it back any time."
 msgstr ""
 
 #: config/./content/shortcode-vc-column-text.php:7
@@ -1756,14 +1770,8 @@ msgid "A block of text with WYSIWYG editor"
 msgstr "WYSIWYGエディタを使用してテキストのブロック"
 
 #: config/./content/shortcode-vc-column-text.php:18
-msgid ""
-"<p>I am text block. Click edit button to change this text. Lorem ipsum dolor "
-"sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec "
-"ullamcorper mattis, pulvinar dapibus leo.</p>"
-msgstr ""
-"<p>私は、テキストブロックです。このテキストを変更するには、[編集]ボタンをク"
-"リックします。ここからはテキストブロックの例文が並びます。テキストを入力する"
-"場合これらを消去して入力してください</p>"
+msgid "<p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>"
+msgstr "<p>私は、テキストブロックです。このテキストを変更するには、[編集]ボタンをクリックします。ここからはテキストブロックの例文が並びます。テキストを入力する場合これらを消去して入力してください</p>"
 
 #: config/./content/shortcode-vc-empty-space.php:7
 msgid "Empty Space"
@@ -1888,16 +1896,19 @@ msgid "Group"
 msgstr "グループ"
 
 #: config/./content/shortcode-vc-flickr.php:52
+#, fuzzy
 msgid "Select photo stream type."
-msgstr ""
+msgstr "タイムラインのタイプを選択"
 
 #: config/./content/shortcode-vc-flickr.php:56
+#, fuzzy
 msgid "Display order"
-msgstr ""
+msgstr "並び順:"
 
 #: config/./content/shortcode-vc-flickr.php:59
+#, fuzzy
 msgid "Latest first"
-msgstr ""
+msgstr "最新の投稿: %s"
 
 #: config/./content/shortcode-vc-flickr.php:60
 #: config/./content/shortcode-vc-posts-slider.php:138
@@ -1949,8 +1960,9 @@ msgstr "ギャラリータイプ選択"
 #: config/./content/shortcode-vc-gallery.php:33
 #: config/./content/shortcode-vc-posts-slider.php:40
 #: config/./deprecated/shortcode-vc-tabs.php:24
+#, fuzzy
 msgid "Auto rotate"
-msgstr ""
+msgstr "タイムライン投稿の自動読み込み"
 
 #: config/./content/shortcode-vc-gallery.php:40
 #: config/./content/shortcode-vc-posts-slider.php:47
@@ -1969,25 +1981,29 @@ msgstr "オートスライドを各X秒を回転させる"
 #: config/./content/shortcode-vc-gallery.php:54
 #: config/./content/shortcode-vc-single-image.php:21
 #: include/./params/vc_grid_item/shortcodes.php:731
+#, fuzzy
 msgid "Image source"
-msgstr ""
+msgstr "ソースファイル"
 
 #: config/./content/shortcode-vc-gallery.php:57
 #: config/./content/shortcode-vc-single-image.php:24
 #: include/./params/vc_grid_item/shortcodes.php:734
+#, fuzzy
 msgid "Media library"
-msgstr ""
+msgstr "メディア"
 
 #: config/./content/shortcode-vc-gallery.php:58
 #: config/./content/shortcode-vc-gallery.php:76
+#, fuzzy
 msgid "External links"
-msgstr ""
+msgstr "リンク"
 
 #: config/./content/shortcode-vc-gallery.php:61
 #: config/./content/shortcode-vc-single-image.php:29
 #: include/./params/vc_grid_item/shortcodes.php:738
+#, fuzzy
 msgid "Select image source."
-msgstr ""
+msgstr "画像を選択"
 
 #: config/./content/shortcode-vc-gallery.php:65
 #: config/./content/shortcode-vc-images-carousel.php:21
@@ -2002,9 +2018,7 @@ msgid "Select images from media library."
 msgstr "メディアライブラリから画像を選択します"
 
 #: config/./content/shortcode-vc-gallery.php:78
-msgid ""
-"Enter external link for each gallery image (Note: divide links with "
-"linebreaks (Enter))."
+msgid "Enter external link for each gallery image (Note: divide links with linebreaks (Enter))."
 msgstr ""
 
 #: config/./content/shortcode-vc-gallery.php:86
@@ -2019,14 +2033,8 @@ msgid "Image size"
 msgstr "画像サイズ"
 
 #: config/./content/shortcode-vc-gallery.php:89
-msgid ""
-"Enter image size. Example: thumbnail, medium, large, full or other sizes "
-"defined by current theme. Alternatively enter image size in pixels: 200x100 "
-"(Width x Height). Leave empty to use \"thumbnail\" size."
-msgstr ""
-"画像サイズを入力します。例：現在のテーマで定義されたサムネイル、中、大規模な"
-"フルまたは他のサイズ。 200x100（幅X高さ）：またはピクセル単位で画像サイズを入"
-"力してください。 \"thumbnail\" サイズを使用する場合は空白のまま。"
+msgid "Enter image size. Example: thumbnail, medium, large, full or other sizes defined by current theme. Alternatively enter image size in pixels: 200x100 (Width x Height). Leave empty to use \"thumbnail\" size."
+msgstr "画像サイズを入力します。例：現在のテーマで定義されたサムネイル、中、大規模なフルまたは他のサイズ。 200x100（幅X高さ）：またはピクセル単位で画像サイズを入力してください。 \"thumbnail\" サイズを使用する場合は空白のまま。"
 
 #: config/./content/shortcode-vc-gallery.php:100
 #: config/./content/shortcode-vc-single-image.php:73
@@ -2036,13 +2044,15 @@ msgstr ""
 #: config/./content/shortcode-vc-gallery.php:108
 #: config/./content/shortcode-vc-images-carousel.php:35
 #: config/./content/shortcode-vc-single-image.php:179
+#, fuzzy
 msgid "On click action"
-msgstr ""
+msgstr "操作"
 
 #: config/./content/shortcode-vc-gallery.php:112
 #: config/./content/shortcode-vc-single-image.php:183
+#, fuzzy
 msgid "Link to large image"
-msgstr ""
+msgstr "フルサイズ画像へのリンク"
 
 #: config/./content/shortcode-vc-gallery.php:113
 #: config/./content/shortcode-vc-images-carousel.php:38
@@ -2057,8 +2067,9 @@ msgstr "カスタムリンクを開く"
 
 #: config/./content/shortcode-vc-gallery.php:116
 #: config/./content/shortcode-vc-single-image.php:188
+#, fuzzy
 msgid "Select action for click action."
-msgstr ""
+msgstr "一括操作を選択"
 
 #: config/./content/shortcode-vc-gallery.php:121
 #: config/./content/shortcode-vc-images-carousel.php:46
@@ -2068,8 +2079,7 @@ msgstr "カスタムリンク"
 
 #: config/./content/shortcode-vc-gallery.php:123
 #: config/./content/shortcode-vc-images-carousel.php:48
-msgid ""
-"Enter links for each slide (Note: divide links with linebreaks (Enter))."
+msgid "Enter links for each slide (Note: divide links with linebreaks (Enter))."
 msgstr ""
 
 #: config/./content/shortcode-vc-gallery.php:131
@@ -2095,10 +2105,7 @@ msgstr "Map 埋め込み iframe"
 
 #: config/./content/shortcode-vc-gmaps.php:24
 #, php-format
-msgid ""
-"Visit %s to create your map (Step by step: 1) Find location 2) Click the cog "
-"symbol in the lower right corner and select \"Share or embed map\" 3) On "
-"modal window select \"Embed map\" 4) Copy iframe code and paste it)."
+msgid "Visit %s to create your map (Step by step: 1) Find location 2) Click the cog symbol in the lower right corner and select \"Share or embed map\" 3) On modal window select \"Embed map\" 4) Copy iframe code and paste it)."
 msgstr ""
 
 #: config/./content/shortcode-vc-gmaps.php:24
@@ -2116,28 +2123,28 @@ msgstr ""
 #: config/./content/shortcode-vc-hoverbox.php:9
 #, fuzzy
 msgid "Primary Title"
-msgstr "投稿タイトル"
+msgstr "タイトル:"
 
 #: config/./content/shortcode-vc-hoverbox.php:42
 #, fuzzy
 msgid "Hover Title"
-msgstr "投稿タイトル"
+msgstr "タイトル:"
 
 #: config/./content/shortcode-vc-hoverbox.php:86
 #, fuzzy
 msgid "Primary title"
-msgstr "ページタイトル"
+msgstr "タイトル:"
 
 #: config/./content/shortcode-vc-hoverbox.php:89
 #: config/./content/shortcode-vc-hoverbox.php:114
 #, fuzzy
 msgid "Hover Box Element"
-msgstr "グリッド要素"
+msgstr "複数選択ボックス"
 
 #: config/./content/shortcode-vc-hoverbox.php:102
 #, fuzzy
 msgid "Primary title alignment"
-msgstr "画像配置"
+msgstr "タイトル:"
 
 #: config/./content/shortcode-vc-hoverbox.php:106
 #, fuzzy
@@ -2147,7 +2154,7 @@ msgstr "テキストの配置を選択"
 #: config/./content/shortcode-vc-hoverbox.php:111
 #, fuzzy
 msgid "Hover title"
-msgstr "フォームタイトル"
+msgstr "タイトル:"
 
 #: config/./content/shortcode-vc-hoverbox.php:115
 #: config/./content/shortcode-vc-hoverbox.php:123
@@ -2162,7 +2169,7 @@ msgstr ""
 #: config/./content/shortcode-vc-hoverbox.php:128
 #, fuzzy
 msgid "Hover title alignment"
-msgstr "整列選択"
+msgstr "タイトル:"
 
 #: config/./content/shortcode-vc-hoverbox.php:133
 #, fuzzy
@@ -2171,22 +2178,18 @@ msgstr "テキストの配置を選択"
 
 #: config/./content/shortcode-vc-hoverbox.php:139
 #, fuzzy
-msgid ""
-"Click edit button to change this text. Lorem ipsum dolor sit amet, "
-"consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, "
-"pulvinar dapibus leo."
-msgstr ""
-"これはプロモーションテキストです。このテキストを変更するには、編集ボタンをク"
-"リックします。"
+msgid "Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr "これはプロモーションテキストです。このテキストを変更するには、編集ボタンをクリックします。"
 
 #: config/./content/shortcode-vc-hoverbox.php:141
+#, fuzzy
 msgid "Hover part text."
-msgstr ""
+msgstr "テキストカラー"
 
 #: config/./content/shortcode-vc-hoverbox.php:154
 #, fuzzy
 msgid "Select block shape."
-msgstr "メッセージボックス形状の選択"
+msgstr "選択"
 
 #: config/./content/shortcode-vc-hoverbox.php:158
 msgid "Background Color"
@@ -2199,7 +2202,7 @@ msgstr ""
 #: config/./content/shortcode-vc-hoverbox.php:200
 #, fuzzy
 msgid "Select block alignment."
-msgstr "ボタン配置選択"
+msgstr "選択"
 
 #: config/./content/shortcode-vc-hoverbox.php:217
 msgid "Reverse blocks"
@@ -2217,7 +2220,7 @@ msgstr "Google+ボタン"
 #: config/./content/shortcode-vc-hoverbox.php:249
 #, fuzzy
 msgid "Hover Box"
-msgstr "ホバー"
+msgstr "テキストボックス"
 
 #: config/./content/shortcode-vc-hoverbox.php:253
 #, fuzzy
@@ -2237,26 +2240,19 @@ msgid "Carousel size"
 msgstr "カルーセルサイズ"
 
 #: config/./content/shortcode-vc-images-carousel.php:31
-msgid ""
-"Enter image size. Example: thumbnail, medium, large, full or other sizes "
-"defined by current theme. Alternatively enter image size in pixels: 200x100 "
-"(Width x Height). Leave empty to use \"thumbnail\" size. If used slides per "
-"view, this will be used to define carousel wrapper size."
-msgstr ""
-"画像サイズを入力します。例：現在のテーマで定義されたサムネイル、中、大規模な"
-"フルまたは他のサイズ。 200x100（幅X高さ）：またはピクセル単位で画像サイズを入"
-"力してください。 \"thumbnail\" サイズを使用する場合は空白のまま。表示毎に使用"
-"スライドする場合、これは、カルーセルラッパーの大きさを定義するために使用され"
-"る。"
+msgid "Enter image size. Example: thumbnail, medium, large, full or other sizes defined by current theme. Alternatively enter image size in pixels: 200x100 (Width x Height). Leave empty to use \"thumbnail\" size. If used slides per view, this will be used to define carousel wrapper size."
+msgstr "画像サイズを入力します。例：現在のテーマで定義されたサムネイル、中、大規模なフルまたは他のサイズ。 200x100（幅X高さ）：またはピクセル単位で画像サイズを入力してください。 \"thumbnail\" サイズを使用する場合は空白のまま。表示毎に使用スライドする場合、これは、カルーセルラッパーの大きさを定義するために使用される。"
 
 #: config/./content/shortcode-vc-images-carousel.php:40
 #: config/./content/shortcode-vc-posts-slider.php:92
+#, fuzzy
 msgid "Open custom links"
-msgstr ""
+msgstr "リンク"
 
 #: config/./content/shortcode-vc-images-carousel.php:42
+#, fuzzy
 msgid "Select action for click event."
-msgstr ""
+msgstr "一括操作を選択"
 
 #: config/./content/shortcode-vc-images-carousel.php:58
 msgid "Select how to open custom links."
@@ -2312,8 +2308,9 @@ msgstr "スライダー自動再生"
 
 #: config/./content/shortcode-vc-images-carousel.php:93
 #: config/./deprecated/shortcode-vc-carousel.php:114
+#, fuzzy
 msgid "Enable autoplay mode."
-msgstr ""
+msgstr "有効化"
 
 #: config/./content/shortcode-vc-images-carousel.php:98
 #: config/./deprecated/shortcode-vc-carousel.php:119
@@ -2357,27 +2354,32 @@ msgid "Line Chart"
 msgstr "折れ線グラフ"
 
 #: config/./content/shortcode-vc-line-chart.php:12
+#, fuzzy
 msgid "Line and Bar charts"
-msgstr ""
+msgstr "複数行テキストエリア"
 
 #: config/./content/shortcode-vc-line-chart.php:23
 #: config/./content/shortcode-vc-progress-bar.php:30
 #: config/./content/shortcode-vc-round-chart.php:23
+#, fuzzy
 msgid "Design"
-msgstr ""
+msgstr "WordPress / BuddyPressテーマデザインと開発"
 
 #: config/./content/shortcode-vc-line-chart.php:26
+#, fuzzy
 msgid "Line"
-msgstr ""
+msgstr "メッセージは送信されませんでした。件名を入力してください。"
 
 #: config/./content/shortcode-vc-line-chart.php:27
+#, fuzzy
 msgid "Bar"
-msgstr ""
+msgstr "管理バーメニューの統合"
 
 #: config/./content/shortcode-vc-line-chart.php:30
 #: config/./content/shortcode-vc-round-chart.php:29
+#, fuzzy
 msgid "Select type of chart."
-msgstr ""
+msgstr "タイムラインのタイプを選択"
 
 #: config/./content/shortcode-vc-line-chart.php:36
 #: config/./content/shortcode-vc-round-chart.php:35
@@ -2386,8 +2388,9 @@ msgstr ""
 
 #: config/./content/shortcode-vc-line-chart.php:49
 #: config/./content/shortcode-vc-round-chart.php:84
+#, fuzzy
 msgid "Show legend?"
-msgstr ""
+msgstr "表示:"
 
 #: config/./content/shortcode-vc-line-chart.php:51
 #: config/./content/shortcode-vc-round-chart.php:86
@@ -2396,8 +2399,9 @@ msgstr ""
 
 #: config/./content/shortcode-vc-line-chart.php:57
 #: config/./content/shortcode-vc-round-chart.php:92
+#, fuzzy
 msgid "Show hover values?"
-msgstr ""
+msgstr "表示:"
 
 #: config/./content/shortcode-vc-line-chart.php:59
 #: config/./content/shortcode-vc-round-chart.php:94
@@ -2421,13 +2425,15 @@ msgstr ""
 
 #: config/./content/shortcode-vc-line-chart.php:76
 #: config/./content/shortcode-vc-round-chart.php:104
+#, fuzzy
 msgid "One"
-msgstr ""
+msgstr "誰もまだ登録していません !"
 
 #: config/./content/shortcode-vc-line-chart.php:81
 #: config/./content/shortcode-vc-round-chart.php:109
+#, fuzzy
 msgid "Two"
-msgstr ""
+msgstr "少なくとも2つのラジオを指定する必要があります。そうでない場合は、代わりにチェックボックスを使用します"
 
 #: config/./content/shortcode-vc-line-chart.php:89
 #: config/./content/shortcode-vc-posts-slider.php:136
@@ -2456,12 +2462,14 @@ msgid "Enter title for chart dataset."
 msgstr ""
 
 #: config/./content/shortcode-vc-line-chart.php:96
+#, fuzzy
 msgid "Y-axis values"
-msgstr ""
+msgstr "Y年n月j日 @ G:i"
 
 #: config/./content/shortcode-vc-line-chart.php:105
+#, fuzzy
 msgid "Select chart color."
-msgstr ""
+msgstr "選択"
 
 #: config/./content/shortcode-vc-line-chart.php:110
 #: config/./content/shortcode-vc-pie.php:54
@@ -2488,8 +2496,9 @@ msgstr "アニメーション"
 
 #: config/./content/shortcode-vc-line-chart.php:122
 #: config/./content/shortcode-vc-round-chart.php:150
+#, fuzzy
 msgid "Select animation style."
-msgstr ""
+msgstr "選択"
 
 #: config/./content/shortcode-vc-message.php:10
 #: config/./content/shortcode-vc-message.php:40
@@ -2544,11 +2553,8 @@ msgid "Message Box Presets"
 msgstr "メッセージボックスの事前定義"
 
 #: config/./content/shortcode-vc-message.php:116
-msgid ""
-"Select predefined message box design or choose \"Custom\" for custom styling."
-msgstr ""
-"事前に定義されたメッセージボックスのデザインを選択するか、カスタムのスタイリ"
-"ングのために \"Custom\" を選択します。"
+msgid "Select predefined message box design or choose \"Custom\" for custom styling."
+msgstr "事前に定義されたメッセージボックスのデザインを選択するか、カスタムのスタイリングのために \"Custom\" を選択します。"
 
 #: config/./content/shortcode-vc-message.php:124
 msgid "Select message box design style."
@@ -2594,8 +2600,9 @@ msgstr "Linecons"
 
 #: config/./content/shortcode-vc-message.php:157
 #: config/./content/vc-icon-element.php:23
+#, fuzzy
 msgid "Mono Social"
-msgstr ""
+msgstr "Social Sync"
 
 #: config/./content/shortcode-vc-message.php:160
 #: config/./content/vc-icon-element.php:28
@@ -2608,9 +2615,7 @@ msgstr "メッセージテキスト"
 
 #: config/./content/shortcode-vc-message.php:287
 msgid "<p>I am message box. Click edit button to change this text.</p>"
-msgstr ""
-"<p>ここはメッセージボックスです。このテキストを変更するには、[編集]ボタンをク"
-"リックします。</p>"
+msgstr "<p>ここはメッセージボックスです。このテキストを変更するには、[編集]ボタンをクリックします。</p>"
 
 #: config/./content/shortcode-vc-pie.php:7
 msgid "Pie Chart"
@@ -2623,21 +2628,21 @@ msgstr "アニメーション円グラフ"
 #: config/./content/shortcode-vc-pie.php:23
 #: config/./content/shortcode-vc-progress-bar.php:48
 #: config/./content/shortcode-vc-round-chart.php:124
+#, fuzzy
 msgid "Value"
-msgstr ""
+msgstr "引数に「値」を指定してください。"
 
 #: config/./content/shortcode-vc-pie.php:25
 msgid "Enter value for graph (Note: choose range from 0 to 100)."
 msgstr ""
 
 #: config/./content/shortcode-vc-pie.php:31
+#, fuzzy
 msgid "Label value"
-msgstr ""
+msgstr "デフォルト値"
 
 #: config/./content/shortcode-vc-pie.php:33
-msgid ""
-"Enter label for pie chart (Note: leaving empty will set value from \"Value\" "
-"field)."
+msgid "Enter label for pie chart (Note: leaving empty will set value from \"Value\" field)."
 msgstr ""
 
 #: config/./content/shortcode-vc-pie.php:38
@@ -2647,9 +2652,7 @@ msgstr "単位"
 
 #: config/./content/shortcode-vc-pie.php:40
 #: config/./content/shortcode-vc-progress-bar.php:100
-msgid ""
-"Enter measurement units (Example: %, px, points, etc. Note: graph value and "
-"units will be appended to graph title)."
+msgid "Enter measurement units (Example: %, px, points, etc. Note: graph value and units will be appended to graph title)."
 msgstr ""
 
 #: config/./content/shortcode-vc-pie.php:47
@@ -2657,8 +2660,9 @@ msgid "Select pie chart color."
 msgstr "円グラフの色を選択"
 
 #: config/./content/shortcode-vc-pie.php:56
+#, fuzzy
 msgid "Select custom color."
-msgstr ""
+msgstr "選択"
 
 #: config/./content/shortcode-vc-posts-slider.php:7
 msgid "Posts Slider"
@@ -2677,13 +2681,12 @@ msgid "Select slider type."
 msgstr "スライダータイプ選択"
 
 #: config/./content/shortcode-vc-posts-slider.php:33
+#, fuzzy
 msgid "Slider count"
-msgstr ""
+msgstr "既定の回数"
 
 #: config/./content/shortcode-vc-posts-slider.php:36
-msgid ""
-"Enter number of slides to display (Note: Enter \"All\" to display all "
-"slides)."
+msgid "Enter number of slides to display (Note: Enter \"All\" to display all slides)."
 msgstr ""
 
 #: config/./content/shortcode-vc-posts-slider.php:53
@@ -2694,8 +2697,9 @@ msgid "Post types"
 msgstr "投稿タイプ"
 
 #: config/./content/shortcode-vc-posts-slider.php:55
+#, fuzzy
 msgid "Select source for slider."
-msgstr ""
+msgstr "選択"
 
 #: config/./content/shortcode-vc-posts-slider.php:59
 #: include/./classes/settings/class-vc-automapper.php:392
@@ -2712,8 +2716,7 @@ msgid "Teaser (Excerpt)"
 msgstr "ティーザー（抜粋）"
 
 #: config/./content/shortcode-vc-posts-slider.php:65
-msgid ""
-"Select source to use for description (Note: some sliders do not support it)."
+msgid "Select source to use for description (Note: some sliders do not support it)."
 msgstr ""
 
 #: config/./content/shortcode-vc-posts-slider.php:76
@@ -2754,8 +2757,7 @@ msgstr "リンクタイプ"
 
 #: config/./content/shortcode-vc-posts-slider.php:106
 msgid "Enter links for each slide here. Divide links with linebreaks (Enter)."
-msgstr ""
-"ここで各スライドのリンクを入力します。改行（Enter）で連携を分割します。"
+msgstr "ここで各スライドのリンクを入力します。改行（Enter）で連携を分割します。"
 
 #: config/./content/shortcode-vc-posts-slider.php:110
 #: config/./deprecated/shortcode-vc-carousel.php:81
@@ -2766,23 +2768,15 @@ msgstr "サムネイルサイズ"
 #: config/./content/shortcode-vc-posts-slider.php:113
 #: config/./deprecated/shortcode-vc-carousel.php:84
 #: config/./deprecated/shortcode-vc-posts-grid.php:128
-msgid ""
-"Enter thumbnail size. Example: thumbnail, medium, large, full or other sizes "
-"defined by current theme. Alternatively enter image size in pixels: 200x100 "
-"(Width x Height) . "
-msgstr ""
-"サムネイルサイズを入力します。例：現在のテーマで定義されたサムネイル、中、大"
-"規模なフルまたは他のサイズ。 200x100（幅X高さ）：またはピクセル単位で画像サイ"
-"ズを入力してください。"
+msgid "Enter thumbnail size. Example: thumbnail, medium, large, full or other sizes defined by current theme. Alternatively enter image size in pixels: 200x100 (Width x Height) . "
+msgstr "サムネイルサイズを入力します。例：現在のテーマで定義されたサムネイル、中、大規模なフルまたは他のサイズ。 200x100（幅X高さ）：またはピクセル単位で画像サイズを入力してください。"
 
 #: config/./content/shortcode-vc-posts-slider.php:117
 msgid "Post/Page IDs"
 msgstr "投稿 / 投稿ID"
 
 #: config/./content/shortcode-vc-posts-slider.php:119
-msgid ""
-"Enter page/posts IDs to display only those records (Note: separate values by "
-"commas (,)). Use this field in conjunction with \"Post types\" field."
+msgid "Enter page/posts IDs to display only those records (Note: separate values by commas (,)). Use this field in conjunction with \"Post types\" field."
 msgstr ""
 
 #: config/./content/shortcode-vc-posts-slider.php:123
@@ -2794,9 +2788,7 @@ msgid "Categories"
 msgstr "カテゴリ"
 
 #: config/./content/shortcode-vc-posts-slider.php:125
-msgid ""
-"Enter categories by names to narrow output (Note: only listed categories "
-"will be displayed, divide categories with linebreak (Enter))."
+msgid "Enter categories by names to narrow output (Note: only listed categories will be displayed, divide categories with linebreak (Enter))."
 msgstr ""
 
 #: config/./content/shortcode-vc-posts-slider.php:129
@@ -2872,8 +2864,9 @@ msgstr "検索された記事をソートする方法を選択します。 %s �
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:788
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:881
 #: include/./params/loop/loop.php:328
+#, fuzzy
 msgid "Sort order"
-msgstr ""
+msgstr "ソート順:"
 
 #: config/./content/shortcode-vc-posts-slider.php:149
 #: config/./grids/class-vc-grids-common.php:303
@@ -2908,7 +2901,7 @@ msgstr ""
 
 #: config/./content/shortcode-vc-progress-bar.php:26
 msgid "Development"
-msgstr ""
+msgstr "開発"
 
 #: config/./content/shortcode-vc-progress-bar.php:34
 msgid "Marketing"
@@ -2943,8 +2936,9 @@ msgid "Select custom single bar background color."
 msgstr ""
 
 #: config/./content/shortcode-vc-progress-bar.php:86
+#, fuzzy
 msgid "Custom text color"
-msgstr ""
+msgstr "テキストカラー"
 
 #: config/./content/shortcode-vc-progress-bar.php:88
 msgid "Select custom single bar text color."
@@ -2955,16 +2949,18 @@ msgid "Select bar background color."
 msgstr "バーの背景色を選択"
 
 #: config/./content/shortcode-vc-progress-bar.php:123
+#, fuzzy
 msgid "Bar custom background color"
-msgstr ""
+msgstr "メール背景色"
 
 #: config/./content/shortcode-vc-progress-bar.php:125
 msgid "Select custom background color for bars."
 msgstr "バーのカスタム背景色を選択"
 
 #: config/./content/shortcode-vc-progress-bar.php:133
+#, fuzzy
 msgid "Bar custom text color"
-msgstr ""
+msgstr "テキストカラー"
 
 #: config/./content/shortcode-vc-progress-bar.php:135
 msgid "Select custom text color for bars."
@@ -2977,8 +2973,9 @@ msgid "Options"
 msgstr "オプション"
 
 #: config/./content/shortcode-vc-progress-bar.php:146
+#, fuzzy
 msgid "Add stripes"
-msgstr ""
+msgstr "メニューに追加"
 
 #: config/./content/shortcode-vc-progress-bar.php:147
 msgid "Add animation (Note: visible only with striped bar)."
@@ -3010,20 +3007,24 @@ msgid "Gap"
 msgstr "間隔"
 
 #: config/./content/shortcode-vc-round-chart.php:56
+#, fuzzy
 msgid "Select gap size."
-msgstr ""
+msgstr "選択"
 
 #: config/./content/shortcode-vc-round-chart.php:61
+#, fuzzy
 msgid "Outline color"
-msgstr ""
+msgstr "ハイライトカラー"
 
 #: config/./content/shortcode-vc-round-chart.php:64
+#, fuzzy
 msgid "Select outline color."
-msgstr ""
+msgstr "選択"
 
 #: config/./content/shortcode-vc-round-chart.php:74
+#, fuzzy
 msgid "Custom outline color"
-msgstr ""
+msgstr "背景色"
 
 #: config/./content/shortcode-vc-round-chart.php:76
 msgid "Select custom outline color."
@@ -3038,8 +3039,9 @@ msgid "Enter value for area."
 msgstr ""
 
 #: config/./content/shortcode-vc-round-chart.php:133
+#, fuzzy
 msgid "Select area color."
-msgstr ""
+msgstr "選択"
 
 #: config/./content/shortcode-vc-round-chart.php:140
 msgid "Select custom area color."
@@ -3056,8 +3058,9 @@ msgstr "水平区切り線"
 #: config/./content/shortcode-vc-separator.php:20
 #: config/./content/shortcode-vc-text-separator.php:85
 #: config/./content/shortcode-vc-zigzag.php:19
+#, fuzzy
 msgid "Select color of separator."
-msgstr ""
+msgstr "選択"
 
 #: config/./content/shortcode-vc-separator.php:32
 #: config/./content/shortcode-vc-text-separator.php:77
@@ -3075,8 +3078,9 @@ msgstr "あなたの要素の境界線の色を選択"
 
 #: config/./content/shortcode-vc-separator.php:49
 #: config/./content/shortcode-vc-text-separator.php:103
+#, fuzzy
 msgid "Separator display style."
-msgstr ""
+msgstr "表示"
 
 #: config/./content/shortcode-vc-separator.php:53
 #: config/./content/shortcode-vc-text-separator.php:107
@@ -3114,25 +3118,25 @@ msgstr "CSSアニメーションでシンプルな画像"
 #: config/./content/shortcode-vc-single-image.php:45
 #: include/./params/vc_grid_item/shortcodes.php:735
 #: include/./params/vc_grid_item/shortcodes.php:753
+#, fuzzy
 msgid "External link"
-msgstr ""
+msgstr "外部ライブラリ"
 
 #: config/./content/shortcode-vc-single-image.php:26
+#, fuzzy
 msgid "Featured Image"
-msgstr ""
+msgstr "おすすめ"
 
 #: config/./content/shortcode-vc-single-image.php:47
 #: include/./params/vc_grid_item/shortcodes.php:755
+#, fuzzy
 msgid "Select external link."
-msgstr ""
+msgstr "選択"
 
 #: config/./content/shortcode-vc-single-image.php:59
 #: include/./params/vc_grid_item/shortcodes.php:47
 #: include/./params/vc_grid_item/shortcodes.php:370
-msgid ""
-"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
-"other sizes defined by theme). Alternatively enter size in pixels (Example: "
-"200x100 (Width x Height))."
+msgid "Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" or other sizes defined by theme). Alternatively enter size in pixels (Example: 200x100 (Width x Height))."
 msgstr ""
 
 #: config/./content/shortcode-vc-single-image.php:81
@@ -3144,12 +3148,14 @@ msgid "Enter text for image caption."
 msgstr ""
 
 #: config/./content/shortcode-vc-single-image.php:91
+#, fuzzy
 msgid "Add caption?"
-msgstr ""
+msgstr "メニューに追加"
 
 #: config/./content/shortcode-vc-single-image.php:93
+#, fuzzy
 msgid "Add image caption."
-msgstr ""
+msgstr "メニューに追加"
 
 #: config/./content/shortcode-vc-single-image.php:105
 #: include/./params/vc_grid_item/shortcodes.php:567
@@ -3174,8 +3180,9 @@ msgstr "画像スタイル"
 #: config/./content/shortcode-vc-single-image.php:133
 #: include/./params/vc_grid_item/shortcodes.php:581
 #: include/./params/vc_grid_item/shortcodes.php:784
+#, fuzzy
 msgid "Select image display style."
-msgstr ""
+msgstr "画像を選択"
 
 #: config/./content/shortcode-vc-single-image.php:141
 #: config/./content/shortcode-vc-single-image.php:161
@@ -3201,9 +3208,7 @@ msgid "Image link"
 msgstr "画像リンク"
 
 #: config/./content/shortcode-vc-single-image.php:195
-msgid ""
-"Enter URL if you want this image to have a link (Note: parameters like "
-"\"mailto:\" are also accepted)."
+msgid "Enter URL if you want this image to have a link (Note: parameters like \"mailto:\" are also accepted)."
 msgstr ""
 
 #: config/./content/shortcode-vc-single-image.php:203
@@ -3219,8 +3224,9 @@ msgid "Horizontal separator line with heading"
 msgstr "見出しの水平区切り線"
 
 #: config/./content/shortcode-vc-text-separator.php:49
+#, fuzzy
 msgid "Add text to separator."
-msgstr ""
+msgstr "メニューに追加"
 
 #: config/./content/shortcode-vc-text-separator.php:59
 msgid "Title position"
@@ -3257,9 +3263,7 @@ msgstr "トグルコンテンツ"
 
 #: config/./content/shortcode-vc-toggle.php:43
 msgid "<p>Toggle content goes here, click edit button to change this text.</p>"
-msgstr ""
-"<p>ここにトグルはコンテンツです。このテキストを変更するには、[編集]ボタンをク"
-"リックします。</p>"
+msgstr "<p>ここにトグルはコンテンツです。このテキストを変更するには、[編集]ボタンをクリックします。</p>"
 
 #: config/./content/shortcode-vc-toggle.php:44
 msgid "Toggle block content."
@@ -3271,17 +3275,20 @@ msgstr ""
 
 #: config/./content/shortcode-vc-toggle.php:55
 #: config/./content/vc-icon-element.php:163
+#, fuzzy
 msgid "Icon color"
-msgstr ""
+msgstr "背景色"
 
 #: config/./content/shortcode-vc-toggle.php:58
 #: config/./content/vc-icon-element.php:166
+#, fuzzy
 msgid "Select icon color."
-msgstr ""
+msgstr "選択"
 
 #: config/./content/shortcode-vc-toggle.php:67
+#, fuzzy
 msgid "Select toggle size"
-msgstr ""
+msgstr "選択"
 
 #: config/./content/shortcode-vc-toggle.php:71
 msgid "Default state"
@@ -3301,9 +3308,7 @@ msgstr "デフォルトで開くに切り替えたい場合は \"Open\" を選�
 
 #: config/./content/shortcode-vc-toggle.php:84
 #, php-format
-msgid ""
-"Enter optional ID. Make sure it is unique, and it is valid as w3c "
-"specification: %s (Must not have spaces)"
+msgid "Enter optional ID. Make sure it is unique, and it is valid as w3c specification: %s (Must not have spaces)"
 msgstr ""
 
 #: config/./content/shortcode-vc-toggle.php:102
@@ -3329,30 +3334,31 @@ msgstr "ビデオリンク"
 
 #: config/./content/shortcode-vc-video.php:25
 #, php-format
-msgid ""
-"Enter link to video (Note: read more about available formats at WordPress <a "
-"href=\"%s\" target=\"_blank\">codex page</a>)."
+msgid "Enter link to video (Note: read more about available formats at WordPress <a href=\"%s\" target=\"_blank\">codex page</a>)."
 msgstr ""
 
 #: config/./content/shortcode-vc-video.php:29
+#, fuzzy
 msgid "Video width"
-msgstr ""
+msgstr "横幅"
 
 #: config/./content/shortcode-vc-video.php:43
 msgid "Select video width (percentage)."
 msgstr ""
 
 #: config/./content/shortcode-vc-video.php:47
+#, fuzzy
 msgid "Video aspect ration"
-msgstr ""
+msgstr "動画"
 
 #: config/./content/shortcode-vc-video.php:54
 msgid "Select video aspect ratio."
 msgstr ""
 
 #: config/./content/shortcode-vc-video.php:60
+#, fuzzy
 msgid "Select video alignment."
-msgstr ""
+msgstr "選択"
 
 #: config/./content/shortcode-vc-zigzag.php:7
 #, fuzzy
@@ -3411,37 +3417,39 @@ msgid "Text with Google fonts"
 msgstr "Googleのフォントを使用したテキスト"
 
 #: config/./content/vc-custom-heading-element.php:17
+#, fuzzy
 msgid "Text source"
-msgstr ""
+msgstr "ソースファイル"
 
 #: config/./content/vc-custom-heading-element.php:20
+#, fuzzy
 msgid "Custom text"
-msgstr ""
+msgstr "カスタム:"
 
 #: config/./content/vc-custom-heading-element.php:21
+#, fuzzy
 msgid "Post or Page Title"
-msgstr ""
+msgstr "ページ %s"
 
 #: config/./content/vc-custom-heading-element.php:24
+#, fuzzy
 msgid "Select text source."
-msgstr ""
+msgstr "選択"
 
 #: config/./content/vc-custom-heading-element.php:31
+#, fuzzy
 msgid "This is custom heading element"
-msgstr ""
+msgstr "カスタムリンク"
 
 #: config/./content/vc-custom-heading-element.php:32
 #, fuzzy
-msgid ""
-"Note: If you are using non-latin characters be sure to activate them under "
-"Settings/WPBakery Page Builder/General Settings."
-msgstr ""
-"あなたは非ラテン文字を使用している場合は設定/ WPBakery Page Builder/一般設定でそれ"
-"らをアクティブにしてください。"
+msgid "Note: If you are using non-latin characters be sure to activate them under Settings/WPBakery Page Builder/General Settings."
+msgstr "あなたは非ラテン文字を使用している場合は設定/ WPBakery Page Builder/一般設定でそれらをアクティブにしてください。"
 
 #: config/./content/vc-custom-heading-element.php:42
+#, fuzzy
 msgid "Add link to custom heading."
-msgstr ""
+msgstr "カスタムリンク"
 
 #: config/./content/vc-custom-heading-element.php:57
 #: include/./params/vc_grid_item/shortcodes.php:94
@@ -3468,8 +3476,9 @@ msgid "Enter line height."
 msgstr "行の高さを入力"
 
 #: config/./content/vc-custom-heading-element.php:61
+#, fuzzy
 msgid "Select heading color."
-msgstr ""
+msgstr "選択"
 
 #: config/./content/vc-custom-heading-element.php:67
 msgid "Use theme default font family?"
@@ -3502,8 +3511,9 @@ msgid "Select custom icon color."
 msgstr "カスタムアイコンの色を選択"
 
 #: config/./content/vc-icon-element.php:181
+#, fuzzy
 msgid "Background shape"
-msgstr ""
+msgstr "背景色"
 
 #: config/./content/vc-icon-element.php:185
 msgid "Circle"
@@ -3526,12 +3536,14 @@ msgid "Select background shape and style for icon."
 msgstr ""
 
 #: config/./content/vc-icon-element.php:200
+#, fuzzy
 msgid "Select background color for icon."
-msgstr ""
+msgstr "メール背景色"
 
 #: config/./content/vc-icon-element.php:209
+#, fuzzy
 msgid "Custom background color"
-msgstr ""
+msgstr "背景色"
 
 #: config/./content/vc-icon-element.php:211
 msgid "Select custom icon background color."
@@ -3550,16 +3562,18 @@ msgid "Add link to icon."
 msgstr "アイコンのリンクを追加"
 
 #: config/./deprecated/shortcode-vc-accordion-tab.php:7
+#, fuzzy
 msgid "Old Section"
-msgstr ""
+msgstr "古い画像を再生成します。"
 
 #: config/./deprecated/shortcode-vc-accordion-tab.php:19
 msgid "Enter accordion section title."
 msgstr ""
 
 #: config/./deprecated/shortcode-vc-accordion.php:7
+#, fuzzy
 msgid "Old Accordion"
-msgstr ""
+msgstr "古い画像を再生成します。"
 
 #: config/./deprecated/shortcode-vc-accordion.php:14
 #: config/./tta/shortcode-vc-tta-accordion.php:16
@@ -3575,9 +3589,7 @@ msgid "Active section"
 msgstr "アクティブセクション"
 
 #: config/./deprecated/shortcode-vc-accordion.php:27
-msgid ""
-"Enter section number to be active on load or enter \"false\" to collapse all "
-"sections."
+msgid "Enter section number to be active on load or enter \"false\" to collapse all sections."
 msgstr ""
 
 #: config/./deprecated/shortcode-vc-accordion.php:31
@@ -3589,13 +3601,12 @@ msgid "If checked, it is allowed to collapse all sections."
 msgstr ""
 
 #: config/./deprecated/shortcode-vc-accordion.php:38
+#, fuzzy
 msgid "Disable keyboard interactions?"
-msgstr ""
+msgstr "コメント メディアのアップロードを無効にします。"
 
 #: config/./deprecated/shortcode-vc-accordion.php:40
-msgid ""
-"If checked, disables keyboard arrow interactions (Keys: Left, Up, Right, "
-"Down, Space)."
+msgid "If checked, disables keyboard arrow interactions (Keys: Left, Up, Right, Down, Space)."
 msgstr ""
 
 #: config/./deprecated/shortcode-vc-accordion.php:55
@@ -3612,8 +3623,9 @@ msgstr "Section 2"
 
 #: config/./deprecated/shortcode-vc-button.php:10
 #: config/./deprecated/shortcode-vc-button2.php:7
+#, fuzzy
 msgid "Old Button"
-msgstr ""
+msgstr "古い画像を再生成します。"
 
 #: config/./deprecated/shortcode-vc-button.php:25
 #: config/./deprecated/shortcode-vc-button2.php:30
@@ -3623,8 +3635,9 @@ msgstr ""
 
 #: config/./deprecated/shortcode-vc-button.php:31
 #: config/./deprecated/shortcode-vc-cta-button.php:37
+#, fuzzy
 msgid "Enter button link."
-msgstr ""
+msgstr "ユーザー名を入力してください。"
 
 #: config/./deprecated/shortcode-vc-button.php:35
 #: config/./deprecated/shortcode-vc-cta-button.php:41
@@ -3653,8 +3666,9 @@ msgid "Select button display style and shape."
 msgstr ""
 
 #: config/./deprecated/shortcode-vc-carousel.php:7
+#, fuzzy
 msgid "Old Post Carousel"
-msgstr ""
+msgstr "投稿"
 
 #: config/./deprecated/shortcode-vc-carousel.php:14
 msgid "Animated carousel with posts"
@@ -3667,8 +3681,7 @@ msgstr "カルーセルコンテンツ"
 #: config/./deprecated/shortcode-vc-carousel.php:34
 #: config/./deprecated/shortcode-vc-posts-grid.php:46
 msgid "Create WordPress loop, to populate content from your site."
-msgstr ""
-"あなたのサイトからコンテンツを取り込むために、WordPressのループを作成します。"
+msgstr "あなたのサイトからコンテンツを取り込むために、WordPressのループを作成します。"
 
 #: config/./deprecated/shortcode-vc-carousel.php:38
 #: config/./deprecated/shortcode-vc-posts-grid.php:65
@@ -3677,12 +3690,8 @@ msgstr "ティザーのレイアウト"
 
 #: config/./deprecated/shortcode-vc-carousel.php:40
 #: config/./deprecated/shortcode-vc-posts-grid.php:67
-msgid ""
-"Control teasers look. Enable blocks and place them in desired order. Note: "
-"This setting can be overrriden on post to post basis."
-msgstr ""
-"ティザーコントロールが見える。ブロックを有効にして、望ましい順序でそれらを配"
-"置。注：この設定は基礎を投稿するには投稿に上書きすることができます。"
+msgid "Control teasers look. Enable blocks and place them in desired order. Note: This setting can be overrriden on post to post basis."
+msgstr "ティザーコントロールが見える。ブロックを有効にして、望ましい順序でそれらを配置。注：この設定は基礎を投稿するには投稿に上書きすることができます。"
 
 #: config/./deprecated/shortcode-vc-carousel.php:45
 #: config/./deprecated/shortcode-vc-posts-grid.php:72
@@ -3722,20 +3731,23 @@ msgid "If \"YES\" part of the next slide will be visible on the right side"
 msgstr "もし \"YES\" の場合は次のスライドの部分は、右側に表示されます"
 
 #: config/./deprecated/shortcode-vc-cta-button.php:10
+#, fuzzy
 msgid "Old Call to Action"
-msgstr ""
+msgstr "古い画像を再生成します。"
 
 #: config/./deprecated/shortcode-vc-cta-button.php:23
 msgid "Click edit button to change this text."
 msgstr "このテキストを変更するには、編集ボタンをクリックします。"
 
 #: config/./deprecated/shortcode-vc-cta-button.php:24
+#, fuzzy
 msgid "Enter text content."
-msgstr ""
+msgstr "プレーンテキストメール本文"
 
 #: config/./deprecated/shortcode-vc-cta-button.php:60
+#, fuzzy
 msgid "Button icon"
-msgstr ""
+msgstr "%s のサイトアイコン"
 
 #: config/./deprecated/shortcode-vc-cta-button.php:74
 #: config/./deprecated/shortcode-vc-cta-button2.php:101
@@ -3755,20 +3767,23 @@ msgid "Select element width (percentage)."
 msgstr ""
 
 #: config/./deprecated/shortcode-vc-cta-button2.php:55
+#, fuzzy
 msgid "Select background color."
-msgstr ""
+msgstr "背景色"
 
 #: config/./deprecated/shortcode-vc-cta-button2.php:67
 msgid "Add link to button (Important: adding link automatically adds button)."
 msgstr ""
 
 #: config/./deprecated/shortcode-vc-cta-button2.php:74
+#, fuzzy
 msgid "Add text on the button."
-msgstr ""
+msgstr "メニューに追加"
 
 #: config/./deprecated/shortcode-vc-posts-grid.php:21
+#, fuzzy
 msgid "Old Posts Grid"
-msgstr ""
+msgstr "カスケードのグリッド レイアウト"
 
 #: config/./deprecated/shortcode-vc-posts-grid.php:26
 msgid "Posts in grid view"
@@ -3793,9 +3808,7 @@ msgstr "表示フィルタ"
 
 #: config/./deprecated/shortcode-vc-posts-grid.php:111
 msgid "Select to add animated category filter to your posts grid."
-msgstr ""
-"あなたの投稿グリッドにアニメーションのカテゴリフィルタを追加する場合に選択し"
-"ます。"
+msgstr "あなたの投稿グリッドにアニメーションのカテゴリフィルタを追加する場合に選択します。"
 
 #: config/./deprecated/shortcode-vc-posts-grid.php:115
 msgid "Layout mode"
@@ -3814,20 +3827,23 @@ msgid "Teaser layout template."
 msgstr "ティーザーレイアウトテンプレート"
 
 #: config/./deprecated/shortcode-vc-tab.php:7
+#, fuzzy
 msgid "Old Tab"
-msgstr ""
+msgstr "古い画像を再生成します。"
 
 #: config/./deprecated/shortcode-vc-tab.php:18
+#, fuzzy
 msgid "Enter title of tab."
-msgstr ""
+msgstr "タイトル:"
 
 #: config/./deprecated/shortcode-vc-tab.php:22
 msgid "Tab ID"
 msgstr "タブID"
 
 #: config/./deprecated/shortcode-vc-tabs.php:7
+#, fuzzy
 msgid "Old Tabs"
-msgstr ""
+msgstr "古い画像を再生成します。"
 
 #: config/./deprecated/shortcode-vc-tabs.php:14
 #: config/./tta/shortcode-vc-tta-tabs.php:16
@@ -3849,8 +3865,9 @@ msgid "Tab 2"
 msgstr "Tab 2"
 
 #: config/./deprecated/shortcode-vc-tour.php:7
+#, fuzzy
 msgid "Old Tour"
-msgstr ""
+msgstr "古い画像を再生成します。"
 
 #: config/./deprecated/shortcode-vc-tour.php:16
 #: config/./tta/shortcode-vc-tta-tour.php:16
@@ -3871,8 +3888,9 @@ msgstr "オートスライドを回転させる"
 #: config/./grids/class-vc-grids-common.php:1055
 #: config/./grids/class-vc-grids-common.php:1068
 #: config/./grids/class-vc-grids-common.php:1081
+#, fuzzy
 msgid "Load More Button"
-msgstr ""
+msgstr "より多くのボタンをロードするか、ページ区切りボタンをロードするかを選択します。"
 
 #: config/./grids/class-vc-grids-common.php:33
 #: include/./classes/shortcodes/paginator/class-vc-pageable.php:55
@@ -3906,12 +3924,8 @@ msgid "Add posts, pages, etc. by title."
 msgstr "タイトルの投稿追加, ページ, 等"
 
 #: config/./grids/class-vc-grids-common.php:147
-msgid ""
-"Build custom query according to <a href=\"http://codex.wordpress.org/"
-"Function_Reference/query_posts\">WordPress Codex</a>."
-msgstr ""
-"<a href=\"http://codex.wordpress.org/Function_Reference/query_posts"
-"\">WordPress Codex</a>に応じてカスタムクエリを構築"
+msgid "Build custom query according to <a href=\"http://codex.wordpress.org/Function_Reference/query_posts\">WordPress Codex</a>."
+msgstr "<a href=\"http://codex.wordpress.org/Function_Reference/query_posts\">WordPress Codex</a>に応じてカスタムクエリを構築"
 
 #: config/./grids/class-vc-grids-common.php:155
 msgid "Narrow data source"
@@ -3926,11 +3940,8 @@ msgid "Total items"
 msgstr "すべての項目"
 
 #: config/./grids/class-vc-grids-common.php:188
-msgid ""
-"Set max limit for items in grid or enter -1 to display all (limited to 1000)."
-msgstr ""
-"グリッド内のアイテムの最大制限値を設定するかすべてを表示するには-1を入力する"
-"（限界は1000）"
+msgid "Set max limit for items in grid or enter -1 to display all (limited to 1000)."
+msgstr "グリッド内のアイテムの最大制限値を設定するかすべてを表示するには-1を入力する（限界は1000）"
 
 #: config/./grids/class-vc-grids-common.php:199
 #: config/./grids/class-vc-grids-common.php:756
@@ -4047,20 +4058,17 @@ msgid "Random order"
 msgstr "順不同"
 
 #: config/./grids/class-vc-grids-common.php:286
-msgid ""
-"Select order type. If \"Meta value\" or \"Meta value Number\" is chosen then "
-"meta key is required."
-msgstr ""
-"タイプ順序選択。もし \"Meta value\" か \"Meta value Number\" はその後選択され"
-"た場合のメタキーが必要です。"
+msgid "Select order type. If \"Meta value\" or \"Meta value Number\" is chosen then meta key is required."
+msgstr "タイプ順序選択。もし \"Meta value\" か \"Meta value Number\" はその後選択された場合のメタキーが必要です。"
 
 #: config/./grids/class-vc-grids-common.php:287
 #: config/./grids/class-vc-grids-common.php:301
 #: config/./grids/class-vc-grids-common.php:321
 #: config/./grids/class-vc-grids-common.php:336
 #: config/./grids/class-vc-grids-common.php:351
+#, fuzzy
 msgid "Data Settings"
-msgstr ""
+msgstr "修復するデータ:"
 
 #: config/./grids/class-vc-grids-common.php:307
 msgid "Select sorting order."
@@ -4112,8 +4120,9 @@ msgid "Select filter source."
 msgstr "選択したフィルタのソース"
 
 #: config/./grids/class-vc-grids-common.php:381
+#, fuzzy
 msgid "Exclude from filter list"
-msgstr ""
+msgstr "タイムラインの絞り込み"
 
 #: config/./grids/class-vc-grids-common.php:399
 msgid "Enter categories, tags won't be shown in the filters list"
@@ -4159,8 +4168,9 @@ msgid "Select filter display style."
 msgstr "フィルタの表示スタイル選択"
 
 #: config/./grids/class-vc-grids-common.php:430
+#, fuzzy
 msgid "Default title"
-msgstr ""
+msgstr "タイトル:"
 
 #: config/./grids/class-vc-grids-common.php:432
 #: include/./templates/editors/partials/add_element_tabs.tpl.php:10
@@ -4474,24 +4484,22 @@ msgstr "グリッド要素テンプレート"
 #: config/./grids/class-vc-grids-common.php:650
 #: config/./grids/class-vc-grids-common.php:1021
 #, php-format
-msgid ""
-"%sCreate new%s template or %smodify selected%s. Predefined templates will be "
-"cloned."
-msgstr ""
-"%s新しく作成するか%s  テンプレートを %s変更%s して選択します。定義済みのテン"
-"プレートは複製されます。"
+msgid "%sCreate new%s template or %smodify selected%s. Predefined templates will be cloned."
+msgstr "%s新しく作成するか%s  テンプレートを %s変更%s して選択します。定義済みのテンプレートは複製されます。"
 
 #: config/./grids/class-vc-grids-common.php:651
 #: config/./grids/class-vc-grids-common.php:1022
+#, fuzzy
 msgid "Item Design"
-msgstr ""
+msgstr "主項目/副項目"
 
 #: config/./grids/class-vc-grids-common.php:660
 #: config/./grids/class-vc-grids-common.php:1089
 #: config/./grids/class-vc-grids-common.php:1122
 #: config/./grids/class-vc-grids-common.php:1171
+#, fuzzy
 msgid "Initial loading animation"
-msgstr ""
+msgstr "メディアの読み込み"
 
 #: config/./grids/class-vc-grids-common.php:669
 #: config/./grids/class-vc-grids-common.php:1098
@@ -4559,8 +4567,9 @@ msgid "Media Grid"
 msgstr "メディアグリッド"
 
 #: config/./grids/shortcode-vc-media-grid.php:14
+#, fuzzy
 msgid "Media grid from Media Library"
-msgstr ""
+msgstr "削除アルバムから選択したメディアを削除します。"
 
 #: config/./lean-map.php:121
 msgid "Same window"
@@ -4896,8 +4905,9 @@ msgid "Social"
 msgstr "ソーシャル"
 
 #: config/./social/shortcode-vc-facebook.php:11
+#, fuzzy
 msgid "Facebook \"Like\" button"
-msgstr ""
+msgstr "Facebookでシェア"
 
 #: config/./social/shortcode-vc-facebook.php:15
 #: config/./social/shortcode-vc-pinterest.php:15
@@ -4905,12 +4915,14 @@ msgid "Button type"
 msgstr "ボタンタイプ"
 
 #: config/./social/shortcode-vc-facebook.php:20
+#, fuzzy
 msgid "Horizontal with count"
-msgstr ""
+msgstr "メンバー総数を修復。"
 
 #: config/./social/shortcode-vc-facebook.php:21
+#, fuzzy
 msgid "Vertical with count"
-msgstr ""
+msgstr "既定の回数"
 
 #: config/./social/shortcode-vc-facebook.php:23
 msgid "Select button type."
@@ -4941,14 +4953,12 @@ msgid "Bubble"
 msgstr "バブル"
 
 #: config/./social/shortcode-vc-googleplus.php:37
+#, fuzzy
 msgid "Select type of annotation."
-msgstr ""
+msgstr "タイムラインのタイプを選択"
 
 #: config/./social/shortcode-vc-googleplus.php:47
-msgid ""
-"Minimum width of 120px to display. If annotation is set to \"inline\", this "
-"parameter sets the width in pixels to use for button and its inline "
-"annotation. Default width is 450px."
+msgid "Minimum width of 120px to display. If annotation is set to \"inline\", this parameter sets the width in pixels to use for button and its inline annotation. Default width is 450px."
 msgstr ""
 
 #: config/./social/shortcode-vc-pinterest.php:7
@@ -4972,45 +4982,52 @@ msgid "Tweetmeme Button"
 msgstr "Tweetmemeのボタン"
 
 #: config/./social/shortcode-vc-tweetmeme.php:11
+#, fuzzy
 msgid "Tweet button"
-msgstr ""
+msgstr "ツイート"
 
 #: config/./social/shortcode-vc-tweetmeme.php:16
 msgid "Choose a button"
 msgstr ""
 
 #: config/./social/shortcode-vc-tweetmeme.php:18
+#, fuzzy
 msgid "Share a link"
-msgstr ""
+msgstr "リンク"
 
 #: config/./social/shortcode-vc-tweetmeme.php:19
 #: include/./templates/shortcodes/vc_tweetmeme.php:20
+#, fuzzy
 msgid "Follow"
-msgstr ""
+msgstr "次のユーザーidがありません。"
 
 #: config/./social/shortcode-vc-tweetmeme.php:20
 msgid "Hashtag"
 msgstr ""
 
 #: config/./social/shortcode-vc-tweetmeme.php:21
+#, fuzzy
 msgid "Mention"
-msgstr ""
+msgstr "@ メンション連携機能"
 
 #: config/./social/shortcode-vc-tweetmeme.php:23
+#, fuzzy
 msgid "Select type of Twitter button."
-msgstr ""
+msgstr "タイムラインのタイプを選択"
 
 #: config/./social/shortcode-vc-tweetmeme.php:29
+#, fuzzy
 msgid "Share url: page URL"
-msgstr ""
+msgstr "ブログの URL"
 
 #: config/./social/shortcode-vc-tweetmeme.php:39
 msgid "Use the current page url to share?"
 msgstr ""
 
 #: config/./social/shortcode-vc-tweetmeme.php:43
+#, fuzzy
 msgid "Share url: custom URL"
-msgstr ""
+msgstr "ブログの URL"
 
 #: config/./social/shortcode-vc-tweetmeme.php:50
 msgid "Enter custom page url which you like to share on twitter?"
@@ -5025,20 +5042,23 @@ msgid "Use the current page title as tweet text?"
 msgstr ""
 
 #: config/./social/shortcode-vc-tweetmeme.php:68
+#, fuzzy
 msgid "Tweet text: custom text"
-msgstr ""
+msgstr "プレーンテキストメール本文"
 
 #: config/./social/shortcode-vc-tweetmeme.php:75
 msgid "Enter the text to be used as a tweet?"
 msgstr ""
 
 #: config/./social/shortcode-vc-tweetmeme.php:79
+#, fuzzy
 msgid "Via @"
-msgstr ""
+msgstr "これらの変更をメールでコミュニティのメンバーに知らせる"
 
 #: config/./social/shortcode-vc-tweetmeme.php:86
+#, fuzzy
 msgid "Enter your Twitter username."
-msgstr ""
+msgstr "ユーザー名を入力してください。"
 
 #: config/./social/shortcode-vc-tweetmeme.php:90
 #: config/./social/shortcode-vc-tweetmeme.php:187
@@ -5049,8 +5069,9 @@ msgid "Recommend @"
 msgstr ""
 
 #: config/./social/shortcode-vc-tweetmeme.php:97
+#, fuzzy
 msgid "Enter the Twitter username to be recommended."
-msgstr ""
+msgstr "ユーザー名を入力してください。"
 
 #: config/./social/shortcode-vc-tweetmeme.php:101
 #: config/./social/shortcode-vc-tweetmeme.php:151
@@ -5058,30 +5079,32 @@ msgid "Hashtag #"
 msgstr ""
 
 #: config/./social/shortcode-vc-tweetmeme.php:108
-msgid ""
-"Add a comma-separated list of hashtags to a Tweet using the hashtags "
-"parameter."
+msgid "Add a comma-separated list of hashtags to a Tweet using the hashtags parameter."
 msgstr ""
 
 #: config/./social/shortcode-vc-tweetmeme.php:114
+#, fuzzy
 msgid "User @"
-msgstr ""
+msgstr "ユーザー"
 
 #: config/./social/shortcode-vc-tweetmeme.php:121
+#, fuzzy
 msgid "Enter username to follow."
-msgstr ""
+msgstr "ユーザー名を入力してください。"
 
 #: config/./social/shortcode-vc-tweetmeme.php:125
+#, fuzzy
 msgid "Show username"
-msgstr ""
+msgstr "ユーザー名"
 
 #: config/./social/shortcode-vc-tweetmeme.php:135
 msgid "Do you want to show username in button?"
 msgstr ""
 
 #: config/./social/shortcode-vc-tweetmeme.php:139
+#, fuzzy
 msgid "Show followers count"
-msgstr ""
+msgstr "既定の回数"
 
 #: config/./social/shortcode-vc-tweetmeme.php:146
 msgid "Do you want to displat the follower count in button?"
@@ -5093,63 +5116,74 @@ msgstr ""
 
 #: config/./social/shortcode-vc-tweetmeme.php:162
 #: config/./social/shortcode-vc-tweetmeme.php:246
+#, fuzzy
 msgid "Tweet text: No default text"
-msgstr ""
+msgstr "プレーンテキストメール本文"
 
 #: config/./social/shortcode-vc-tweetmeme.php:172
+#, fuzzy
 msgid "Set no default text for tweet?"
-msgstr ""
+msgstr "メディアのデフォルトプライバシーを設定する"
 
 #: config/./social/shortcode-vc-tweetmeme.php:176
 #: config/./social/shortcode-vc-tweetmeme.php:260
+#, fuzzy
 msgid "Tweet text: custom"
-msgstr ""
+msgstr "ツイート"
 
 #: config/./social/shortcode-vc-tweetmeme.php:183
+#, fuzzy
 msgid "Set custom text for tweet."
-msgstr ""
+msgstr "Set Custom Thumbnail for Audio/Video"
 
 #: config/./social/shortcode-vc-tweetmeme.php:194
 #: config/./social/shortcode-vc-tweetmeme.php:205
+#, fuzzy
 msgid "Enter username to be recommended."
-msgstr ""
+msgstr "ユーザー名を入力してください。"
 
 #: config/./social/shortcode-vc-tweetmeme.php:209
+#, fuzzy
 msgid "Tweet url: No URL"
-msgstr ""
+msgstr "URL"
 
 #: config/./social/shortcode-vc-tweetmeme.php:219
 msgid "Do you want to set no url to be tweeted?"
 msgstr ""
 
 #: config/./social/shortcode-vc-tweetmeme.php:223
+#, fuzzy
 msgid "Tweet url: custom"
-msgstr ""
+msgstr "ツイート"
 
 #: config/./social/shortcode-vc-tweetmeme.php:230
 msgid "Enter custom url to be used in the tweet."
 msgstr ""
 
 #: config/./social/shortcode-vc-tweetmeme.php:235
+#, fuzzy
 msgid "Tweet to @"
-msgstr ""
+msgstr "ツイート"
 
 #: config/./social/shortcode-vc-tweetmeme.php:242
 msgid "Enter username where you want to send your tweet."
 msgstr ""
 
 #: config/./social/shortcode-vc-tweetmeme.php:256
+#, fuzzy
 msgid "Set no default text of the tweet?"
-msgstr ""
+msgstr "メディアのデフォルトプライバシーを設定する"
 
 #: config/./social/shortcode-vc-tweetmeme.php:267
+#, fuzzy
 msgid "Enter custom text for the tweet."
-msgstr ""
+msgstr "時間のカスタム形式を入力"
 
 #: config/./social/shortcode-vc-tweetmeme.php:278
 #: config/./social/shortcode-vc-tweetmeme.php:289
+#, fuzzy
 msgid "Enter username to recommend."
-msgstr ""
+msgstr "ユーザー名を入力してください。"
 
 #: config/./social/shortcode-vc-tweetmeme.php:294
 msgid "Use large button"
@@ -5164,9 +5198,7 @@ msgid "Opt-out of tailoring Twitter"
 msgstr ""
 
 #: config/./social/shortcode-vc-tweetmeme.php:304
-msgid ""
-"Tailored suggestions make building a great timeline. Would you like to "
-"disable this feature?"
+msgid "Tailored suggestions make building a great timeline. Would you like to disable this feature?"
 msgstr ""
 
 #: config/./social/shortcode-vc-tweetmeme.php:308
@@ -5174,9 +5206,7 @@ msgid "Language"
 msgstr "言語"
 
 #: config/./social/shortcode-vc-tweetmeme.php:341
-msgid ""
-"Select button display language or allow it to be automatically defined by "
-"user preferences."
+msgid "Select button display language or allow it to be automatically defined by user preferences."
 msgstr ""
 
 #: config/./structure/shortcode-vc-raw-html.php:7
@@ -5207,28 +5237,32 @@ msgid "Output raw JavaScript code on your page"
 msgstr ""
 
 #: config/./structure/shortcode-vc-raw-js.php:17
+#, fuzzy
 msgid "JavaScript Code"
-msgstr ""
+msgstr "CSS コードをここにペーストしてください。"
 
 #: config/./structure/shortcode-vc-raw-js.php:20
+#, fuzzy
 msgid "Enter your JavaScript code."
-msgstr ""
+msgstr "CSS コードをここにペーストしてください。"
 
 #: config/./structure/shortcode-vc-widget-sidebar.php:7
 msgid "Widgetised Sidebar"
 msgstr "ウィジェット化サイドバー"
 
 #: config/./structure/shortcode-vc-widget-sidebar.php:12
+#, fuzzy
 msgid "WordPress widgetised sidebar"
-msgstr ""
+msgstr "サイドバーウィジェットエリア"
 
 #: config/./structure/shortcode-vc-widget-sidebar.php:23
 msgid "Sidebar"
 msgstr "サイドバー"
 
 #: config/./structure/shortcode-vc-widget-sidebar.php:25
+#, fuzzy
 msgid "Select widget area to display."
-msgstr ""
+msgstr "フッターウィジェットエリア 2"
 
 #: config/./templates.php:13
 msgid "Landing Page"
@@ -5411,28 +5445,33 @@ msgid "Articles with headings"
 msgstr ""
 
 #: config/./templates.php:476
+#, fuzzy
 msgid "Call to Action section"
-msgstr ""
+msgstr "操作"
 
 #: config/./templates.php:488
 msgid "Charts section"
 msgstr ""
 
 #: config/./templates.php:506
+#, fuzzy
 msgid "Chess Grid"
-msgstr ""
+msgstr "カスケードのグリッド レイアウト"
 
 #: config/./templates.php:528
+#, fuzzy
 msgid "Features and articles"
-msgstr ""
+msgstr "機能"
 
 #: config/./templates.php:570
+#, fuzzy
 msgid "Features and charts"
-msgstr ""
+msgstr "機能"
 
 #: config/./templates.php:604
+#, fuzzy
 msgid "Features with video parallax"
-msgstr ""
+msgstr "動画"
 
 #: config/./templates.php:626
 msgid "Features with full width promo"
@@ -5447,48 +5486,57 @@ msgid "Full height with transparent block"
 msgstr ""
 
 #: config/./templates.php:692
+#, fuzzy
 msgid "Full height parallax"
-msgstr ""
+msgstr "縦幅"
 
 #: config/./templates.php:702
+#, fuzzy
 msgid "Header section with features"
-msgstr ""
+msgstr "ヘッダー"
 
 #: config/./templates.php:733
 msgid "Helps with icons"
 msgstr ""
 
 #: config/./templates.php:743
+#, fuzzy
 msgid "Plain articles"
-msgstr ""
+msgstr "プレーンテキストメール本文"
 
 #: config/./templates.php:757
+#, fuzzy
 msgid "Post portfolio"
-msgstr ""
+msgstr "投稿先"
 
 #: config/./templates.php:767
 msgid "Product introduction"
 msgstr ""
 
 #: config/./templates.php:793
+#, fuzzy
 msgid "Services with block buttons"
-msgstr ""
+msgstr "ラジオボタン"
 
 #: config/./templates.php:815
+#, fuzzy
 msgid "Tabs with features"
-msgstr ""
+msgstr "機能"
 
 #: config/./templates.php:837
+#, fuzzy
 msgid "Video section"
-msgstr ""
+msgstr "動画"
 
 #: config/./templates.php:851
+#, fuzzy
 msgid "Video promo"
-msgstr ""
+msgstr "動画"
 
 #: config/./templates.php:861
+#, fuzzy
 msgid "Equal Feature List"
-msgstr ""
+msgstr "新しい機能要求を送信する"
 
 #: config/./templates.php:871
 msgid "Parallax Introduction"
@@ -5499,36 +5547,44 @@ msgid "Three Informative Blocks"
 msgstr ""
 
 #: config/./templates.php:892
+#, fuzzy
 msgid "Description Articles"
-msgstr ""
+msgstr "説明:"
 
 #: config/./templates.php:902
+#, fuzzy
 msgid "Full Height Features"
-msgstr ""
+msgstr "機能"
 
 #: config/./templates.php:912
+#, fuzzy
 msgid "Business Description"
-msgstr ""
+msgstr "説明:"
 
 #: config/./templates.php:922
+#, fuzzy
 msgid "Article Hero Image"
-msgstr ""
+msgstr "画像切り抜き"
 
 #: config/./templates.php:932
+#, fuzzy
 msgid "My Team Members"
-msgstr ""
+msgstr "アカウント"
 
 #: config/./templates.php:942
+#, fuzzy
 msgid "Hero Image With Description"
-msgstr ""
+msgstr "画像"
 
 #: config/./templates.php:952
+#, fuzzy
 msgid "Description with Image on Background"
-msgstr ""
+msgstr "説明"
 
 #: config/./templates.php:962
+#, fuzzy
 msgid "Three Image with Article"
-msgstr ""
+msgstr "画像切り抜き"
 
 #: config/./tta/shortcode-vc-tta-accordion.php:7
 msgid "Accordion"
@@ -5539,18 +5595,21 @@ msgid "Select accordion display style."
 msgstr ""
 
 #: config/./tta/shortcode-vc-tta-accordion.php:45
+#, fuzzy
 msgid "Select accordion shape."
-msgstr ""
+msgstr "選択"
 
 #: config/./tta/shortcode-vc-tta-accordion.php:53
+#, fuzzy
 msgid "Select accordion color."
-msgstr ""
+msgstr "選択"
 
 #: config/./tta/shortcode-vc-tta-accordion.php:59
 #: config/./tta/shortcode-vc-tta-tabs.php:59
 #: config/./tta/shortcode-vc-tta-tour.php:59
+#, fuzzy
 msgid "Do not fill content area?"
-msgstr ""
+msgstr "このコンテンツへアクセスする権限がありません。"
 
 #: config/./tta/shortcode-vc-tta-accordion.php:60
 #: config/./tta/shortcode-vc-tta-tabs.php:60
@@ -5565,12 +5624,14 @@ msgid "Spacing"
 msgstr ""
 
 #: config/./tta/shortcode-vc-tta-accordion.php:80
+#, fuzzy
 msgid "Select accordion spacing."
-msgstr ""
+msgstr "選択"
 
 #: config/./tta/shortcode-vc-tta-accordion.php:100
+#, fuzzy
 msgid "Select accordion gap."
-msgstr ""
+msgstr "選択"
 
 #: config/./tta/shortcode-vc-tta-accordion.php:111
 msgid "Select accordion section title alignment."
@@ -5584,13 +5645,13 @@ msgid "Autoplay"
 msgstr ""
 
 #: config/./tta/shortcode-vc-tta-accordion.php:132
-msgid ""
-"Select auto rotate for accordion in seconds (Note: disabled by default)."
+msgid "Select auto rotate for accordion in seconds (Note: disabled by default)."
 msgstr ""
 
 #: config/./tta/shortcode-vc-tta-accordion.php:137
+#, fuzzy
 msgid "Allow collapse all?"
-msgstr ""
+msgstr "すべて"
 
 #: config/./tta/shortcode-vc-tta-accordion.php:138
 msgid "Allow collapse all accordion sections."
@@ -5626,9 +5687,7 @@ msgstr ""
 #: config/./tta/shortcode-vc-tta-pageable.php:55
 #: config/./tta/shortcode-vc-tta-tabs.php:150
 #: config/./tta/shortcode-vc-tta-tour.php:164
-msgid ""
-"Enter active section number (Note: to have all sections closed on initial "
-"load enter non-existing number)."
+msgid "Enter active section number (Note: to have all sections closed on initial load enter non-existing number)."
 msgstr ""
 
 #: config/./tta/shortcode-vc-tta-accordion.php:187
@@ -5636,33 +5695,32 @@ msgstr ""
 #: config/./tta/shortcode-vc-tta-section.php:65
 #: config/./tta/shortcode-vc-tta-tabs.php:190
 #: config/./tta/shortcode-vc-tta-tour.php:204
-msgid ""
-"If you wish to style particular content element differently, then use this "
-"field to add a class name and then refer to it in your css file."
-msgstr ""
-"あなたが異なる特定のコンテンツ要素のスタイルを希望する場合は、クラス名を追加"
-"するには、このフィールドを使用して、あなたのCSSファイルでそれを参照してくださ"
-"い。"
+msgid "If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file."
+msgstr "あなたが異なる特定のコンテンツ要素のスタイルを希望する場合は、クラス名を追加するには、このフィールドを使用して、あなたのCSSファイルでそれを参照してください。"
 
 #: config/./tta/shortcode-vc-tta-accordion.php:206
+#, fuzzy
 msgid "Add Section"
-msgstr ""
+msgstr "メニューに追加"
 
 #: config/./tta/shortcode-vc-tta-pageable.php:7
+#, fuzzy
 msgid "Pageable Container"
-msgstr ""
+msgstr "カスタム rtMedia CSS のコンテナー"
 
 #: config/./tta/shortcode-vc-tta-pageable.php:16
+#, fuzzy
 msgid "Pageable content container"
-msgstr ""
+msgstr "カスタム rtMedia CSS のコンテナー"
 
 #: config/./tta/shortcode-vc-tta-pageable.php:48
 msgid "Select auto rotate for pageable in seconds (Note: disabled by default)."
 msgstr ""
 
 #: config/./tta/shortcode-vc-tta-pageable.php:93
+#, fuzzy
 msgid "Pagination position"
-msgstr ""
+msgstr "ページネーション"
 
 #: config/./tta/shortcode-vc-tta-pageable.php:94
 msgid "Select pageable navigation position."
@@ -5673,20 +5731,24 @@ msgid "Add icon next to section title."
 msgstr ""
 
 #: config/./tta/shortcode-vc-tta-section.php:22
+#, fuzzy
 msgid "Before title"
-msgstr ""
+msgstr "タイトル:"
 
 #: config/./tta/shortcode-vc-tta-section.php:23
+#, fuzzy
 msgid "After title"
-msgstr ""
+msgstr "タイトル:"
 
 #: config/./tta/shortcode-vc-tta-section.php:29
+#, fuzzy
 msgid "Icon position"
-msgstr ""
+msgstr "%s のサイトアイコン"
 
 #: config/./tta/shortcode-vc-tta-section.php:30
+#, fuzzy
 msgid "Select icon position."
-msgstr ""
+msgstr "選択"
 
 #: config/./tta/shortcode-vc-tta-section.php:49
 msgid "Enter section title (Note: you can leave it empty)."
@@ -5705,20 +5767,24 @@ msgid "Select tabs display style."
 msgstr ""
 
 #: config/./tta/shortcode-vc-tta-tabs.php:45
+#, fuzzy
 msgid "Select tabs shape."
-msgstr ""
+msgstr "選択"
 
 #: config/./tta/shortcode-vc-tta-tabs.php:51
+#, fuzzy
 msgid "Select tabs color."
-msgstr ""
+msgstr "選択"
 
 #: config/./tta/shortcode-vc-tta-tabs.php:80
+#, fuzzy
 msgid "Select tabs spacing."
-msgstr ""
+msgstr "選択"
 
 #: config/./tta/shortcode-vc-tta-tabs.php:101
+#, fuzzy
 msgid "Select tabs gap."
-msgstr ""
+msgstr "選択"
 
 #: config/./tta/shortcode-vc-tta-tabs.php:111
 msgid "Select tabs navigation position."
@@ -5748,20 +5814,24 @@ msgid "Select tour display style."
 msgstr ""
 
 #: config/./tta/shortcode-vc-tta-tour.php:45
+#, fuzzy
 msgid "Select tour shape."
-msgstr ""
+msgstr "選択"
 
 #: config/./tta/shortcode-vc-tta-tour.php:51
+#, fuzzy
 msgid "Select tour color."
-msgstr ""
+msgstr "選択"
 
 #: config/./tta/shortcode-vc-tta-tour.php:80
+#, fuzzy
 msgid "Select tour spacing."
-msgstr ""
+msgstr "選択"
 
 #: config/./tta/shortcode-vc-tta-tour.php:101
+#, fuzzy
 msgid "Select tour gap."
-msgstr ""
+msgstr "選択"
 
 #: config/./tta/shortcode-vc-tta-tour.php:111
 msgid "Select tour navigation position."
@@ -5772,12 +5842,14 @@ msgid "Select tour section title alignment."
 msgstr ""
 
 #: config/./tta/shortcode-vc-tta-tour.php:128
+#, fuzzy
 msgid "Auto"
-msgstr ""
+msgstr "このトピックに返信すると自動的に参加することになります。"
 
 #: config/./tta/shortcode-vc-tta-tour.php:135
+#, fuzzy
 msgid "Navigation width"
-msgstr ""
+msgstr "横幅"
 
 #: config/./tta/shortcode-vc-tta-tour.php:136
 msgid "Select tour navigation width."
@@ -5824,16 +5896,14 @@ msgstr "あなたのサイトの投稿の月別アーカイブ"
 #: config/./wp/shortcode-vc-wp-search.php:19
 #: config/./wp/shortcode-vc-wp-tagcloud.php:33
 #: config/./wp/shortcode-vc-wp-text.php:19
-msgid ""
-"What text use as a widget title. Leave blank to use default widget title."
-msgstr ""
-"何をテキストウィジェットのタイトルとして使用しますか？デフォルトのウィジェッ"
-"トのタイトルを使用する場合は空白のまま。"
+msgid "What text use as a widget title. Leave blank to use default widget title."
+msgstr "何をテキストウィジェットのタイトルとして使用しますか？デフォルトのウィジェットのタイトルを使用する場合は空白のまま。"
 
 #: config/./wp/shortcode-vc-wp-archives.php:24
 #: config/./wp/shortcode-vc-wp-categories.php:24
+#, fuzzy
 msgid "Display options"
-msgstr ""
+msgstr "設定"
 
 #: config/./wp/shortcode-vc-wp-archives.php:28
 #: config/./wp/shortcode-vc-wp-categories.php:28
@@ -5870,24 +5940,20 @@ msgstr "カスタムメニュー"
 
 #: config/./wp/shortcode-vc-wp-custommenu.php:25
 msgid "Use this widget to add one of your custom menus as a widget"
-msgstr ""
-"ウィジェットとしてカスタムメニューの1つを追加するにはこのウィジェットを使用"
+msgstr "ウィジェットとしてカスタムメニューの1つを追加するにはこのウィジェットを使用"
 
 #: config/./wp/shortcode-vc-wp-custommenu.php:35
 msgid "Menu"
 msgstr "メニュー"
 
 #: config/./wp/shortcode-vc-wp-custommenu.php:38
-msgid ""
-"Custom menus not found. Please visit <b>Appearance > Menus</b> page to "
-"create new menu."
-msgstr ""
-"カスタムメニューが見つかりません。<b>外観 > メニュー</b>をご覧ください。ペー"
-"ジに新しいメニューを作成します。"
+msgid "Custom menus not found. Please visit <b>Appearance > Menus</b> page to create new menu."
+msgstr "カスタムメニューが見つかりません。<b>外観 > メニュー</b>をご覧ください。ページに新しいメニューを作成します。"
 
 #: config/./wp/shortcode-vc-wp-custommenu.php:38
+#, fuzzy
 msgid "Select menu to display."
-msgstr ""
+msgstr "選択"
 
 #: config/./wp/shortcode-vc-wp-links.php:7
 msgid "All Links"
@@ -5986,8 +6052,9 @@ msgid "The most recent posts on your site"
 msgstr "あなたのサイトの最新の投稿"
 
 #: config/./wp/shortcode-vc-wp-posts.php:24
+#, fuzzy
 msgid "Number of posts"
-msgstr ""
+msgstr "数字"
 
 #: config/./wp/shortcode-vc-wp-posts.php:25
 msgid "Enter number of posts to display."
@@ -5998,8 +6065,9 @@ msgid "Display post date?"
 msgstr "掲載日付？"
 
 #: config/./wp/shortcode-vc-wp-posts.php:35
+#, fuzzy
 msgid "If checked, date will be displayed."
-msgstr ""
+msgstr "日付と時刻のフォーマットのドキュメント"
 
 #: config/./wp/shortcode-vc-wp-recentcomments.php:7
 #: config/./wp/shortcode-vc-wp-recentcomments.php:20
@@ -6011,8 +6079,9 @@ msgid "The most recent comments"
 msgstr "もっとも最近のコメント"
 
 #: config/./wp/shortcode-vc-wp-recentcomments.php:25
+#, fuzzy
 msgid "Enter number of comments to display."
-msgstr ""
+msgstr "コメントを見るにはパスワードを入力してください。"
 
 #: config/./wp/shortcode-vc-wp-rss.php:7
 msgid "RSS"
@@ -6043,8 +6112,9 @@ msgid "Select how many items to display."
 msgstr ""
 
 #: config/./wp/shortcode-vc-wp-rss.php:63
+#, fuzzy
 msgid "Item content"
-msgstr ""
+msgstr "内容:"
 
 #: config/./wp/shortcode-vc-wp-rss.php:64
 msgid "Display item author if available?"
@@ -6093,8 +6163,9 @@ msgid "Arbitrary text or HTML"
 msgstr "任意のテキストまたはHTML"
 
 #: include/./autoload/post-type-default-template.php:64
+#, fuzzy
 msgid "Default template for post types"
-msgstr ""
+msgstr "投稿タイプアクティビティ"
 
 #: include/./autoload/post-type-default-template.php:158
 msgid "Invalid template or post type."
@@ -6118,47 +6189,31 @@ msgstr "ここでスタート！"
 
 #: include/./autoload/vc-grid-item-editor.php:174
 msgid "Start easy - use predefined template as a starting point and modify it."
-msgstr ""
-"簡単スタート - 出発点としてあらかじめ定義されたテンプレートを使用し、それを修"
-"正する。"
+msgstr "簡単スタート - 出発点としてあらかじめ定義されたテンプレートを使用し、それを修正する。"
 
 #: include/./autoload/vc-grid-item-editor.php:184
 msgid "Use Animations"
 msgstr "使用アニメーション"
 
 #: include/./autoload/vc-grid-item-editor.php:184
-msgid ""
-"Select animation preset for grid element. \"Hover\" state will be added next "
-"to the \"Normal\" state tab."
-msgstr ""
-"グリッド要素を選択アニメーションプリセット。 \"Hover\"の状態は\"Normal\" の状"
-"態タブの隣に追加されます。"
+msgid "Select animation preset for grid element. \"Hover\" state will be added next to the \"Normal\" state tab."
+msgstr "グリッド要素を選択アニメーションプリセット。 \"Hover\"の状態は\"Normal\" の状態タブの隣に追加されます。"
 
 #: include/./autoload/vc-grid-item-editor.php:194
 msgid "Style Design Options"
 msgstr "デザインオプションスタイル"
 
 #: include/./autoload/vc-grid-item-editor.php:194
-msgid ""
-"Edit \"Normal\" state to set \"Featured image\" as a background, control "
-"zone sizing proportions and other design options (Height mode: Select "
-"\"Original\" to scale image without cropping)."
-msgstr ""
-"編集は \"Normal\" の状態が背景, コントロールゾーンのサイジング割合およびその"
-"他のデザインオプションとして \"Featured image\" を設定する（高さモード：トリ"
-"ミングなしで画像を拡大縮小する \"Original\" を選択）"
+msgid "Edit \"Normal\" state to set \"Featured image\" as a background, control zone sizing proportions and other design options (Height mode: Select \"Original\" to scale image without cropping)."
+msgstr "編集は \"Normal\" の状態が背景, コントロールゾーンのサイジング割合およびその他のデザインオプションとして \"Featured image\" を設定する（高さモード：トリミングなしで画像を拡大縮小する \"Original\" を選択）"
 
 #: include/./autoload/vc-grid-item-editor.php:204
 msgid "Extend Element"
 msgstr "要素を拡張"
 
 #: include/./autoload/vc-grid-item-editor.php:204
-msgid ""
-"Additional content zone can be added to grid element edges (Note: This zone "
-"can not be animated)."
-msgstr ""
-"追加コンテンツのゾーンは、グリッド要素の端に追加することができる（注：この"
-"ゾーンはアニメーション化することはできません）"
+msgid "Additional content zone can be added to grid element edges (Note: This zone can not be animated)."
+msgstr "追加コンテンツのゾーンは、グリッド要素の端に追加することができる（注：このゾーンはアニメーション化することはできません）"
 
 #: include/./autoload/vc-grid-item-editor.php:214
 msgid "Watch Video Tutorial"
@@ -6166,8 +6221,7 @@ msgstr "チュートリアル動画を見る"
 
 #: include/./autoload/vc-grid-item-editor.php:214
 msgid "Have a look how easy it is to work with grid element builder."
-msgstr ""
-"それがグリッド要素ビルダーで作業することがいかに簡単であるかを見てください。"
+msgstr "それがグリッド要素ビルダーで作業することがいかに簡単であるかを見てください。"
 
 #: include/./autoload/vc-image-filters.php:16
 msgid "Antique"
@@ -6254,35 +6308,39 @@ msgid "Washed"
 msgstr ""
 
 #: include/./autoload/vc-image-filters.php:66
+#, fuzzy
 msgid "Image filter"
-msgstr ""
+msgstr "画像"
 
 #: include/./autoload/vc-image-filters.php:361
+#, fuzzy
 msgid "Filter:"
-msgstr ""
+msgstr "絞り込み検索"
 
 #: include/./autoload/vc-pages/page-design-options.php:40
+#, fuzzy
 msgid "Important notice"
-msgstr ""
+msgstr "重要"
 
 #: include/./autoload/vc-pages/page-design-options.php:42
 #: include/./autoload/vc-pages/page-design-options.php:45
-msgid ""
-"You have an outdated version of WPBakery Page Builder Design Options. It is "
-"required to review and save it."
+msgid "You have an outdated version of WPBakery Page Builder Design Options. It is required to review and save it."
 msgstr ""
 
 #: include/./autoload/vc-pages/page-design-options.php:56
+#, fuzzy
 msgid "Open Design Options"
-msgstr ""
+msgstr "WordPress / BuddyPressテーマデザインと開発"
 
 #: include/./autoload/vc-pages/page-role-manager.php:12
+#, fuzzy
 msgid "Role Manager"
-msgstr ""
+msgstr "コミュニティの権限"
 
 #: include/./autoload/vc-pages/page-role-manager.php:17
+#, fuzzy
 msgid "Roles Manager"
-msgstr ""
+msgstr "権限コミュニティ"
 
 #: include/./autoload/vc-pages/pages.php:60
 #: include/./autoload/vc-pages/pages.php:78
@@ -6290,22 +6348,25 @@ msgstr ""
 #: include/./classes/editors/class-vc-backend-editor.php:81
 #: include/./classes/editors/navbar/class-vc-navbar.php:93
 #: include/./classes/editors/navbar/class-vc-navbar.php:95
+#, fuzzy
 msgid "WPBakery Page Builder"
-msgstr ""
+msgstr "ページ %s"
 
 #: include/./autoload/vc-pages/welcome-screen.php:38
 #: include/./classes/core/class-vc-base.php:630
 msgid "About"
-msgstr ""
+msgstr "紹介"
 
 #: include/./autoload/vc-pages/welcome-screen.php:92
+#, fuzzy
 msgid "What's New"
-msgstr ""
+msgstr "%s さん、今なにをしてますか？"
 
 #: include/./autoload/vc-pages/welcome-screen.php:94
 #: include/./templates/pages/vc-welcome/vc-resources.php:9
+#, fuzzy
 msgid "Resources"
-msgstr ""
+msgstr "しかし、多くの不必要なファイルとデータベーステーブルが依然としてあなたのリソースを浪費しています。 すべてがうまくいけば、このデータを整理することができます。"
 
 #: include/./autoload/vc-pointers-backend-editor.php:29
 msgid "Welcome to WPBakery Page Builder"
@@ -6317,13 +6378,15 @@ msgstr ""
 
 #: include/./autoload/vc-pointers-backend-editor.php:43
 #: include/./autoload/vc-pointers-frontend-editor.php:25
+#, fuzzy
 msgid "Add Elements"
-msgstr ""
+msgstr "メニューに追加"
 
 #: include/./autoload/vc-pointers-backend-editor.php:44
 #: include/./autoload/vc-pointers-frontend-editor.php:26
+#, fuzzy
 msgid "Add new element or start with a template."
-msgstr ""
+msgstr "新しいメンバーを追加するには、ユーザー名を入力してください。"
 
 #: include/./autoload/vc-pointers-backend-editor.php:59
 #: include/./autoload/vc-pointers-frontend-editor.php:40
@@ -6332,15 +6395,14 @@ msgstr ""
 
 #: include/./autoload/vc-pointers-backend-editor.php:60
 #: include/./autoload/vc-pointers-frontend-editor.php:41
-msgid ""
-"This is a row container. Divide it into columns and style it. You can add "
-"elements into columns."
+msgid "This is a row container. Divide it into columns and style it. You can add elements into columns."
 msgstr ""
 
 #: include/./autoload/vc-pointers-backend-editor.php:75
 #: include/./autoload/vc-pointers-frontend-editor.php:56
+#, fuzzy
 msgid "Control Elements"
-msgstr ""
+msgstr "アルバム作成コントロール"
 
 #: include/./autoload/vc-pointers-backend-editor.php:76
 #: include/./autoload/vc-pointers-frontend-editor.php:57
@@ -6350,8 +6412,7 @@ msgstr ""
 #: include/./autoload/vc-pointers-backend-editor.php:77
 #: include/./autoload/vc-pointers-frontend-editor.php:58
 #, php-format
-msgid ""
-"P.S. Learn more at our <a href=\"%s\" target=\"_blank\">Knowledge Base</a>."
+msgid "P.S. Learn more at our <a href=\"%s\" target=\"_blank\">Knowledge Base</a>."
 msgstr ""
 
 #: include/./autoload/vendors/gravity_forms.php:21
@@ -6407,12 +6468,8 @@ msgid "Tab Index"
 msgstr "タブインデックス"
 
 #: include/./autoload/vendors/gravity_forms.php:96
-msgid ""
-"(Optional) Specify the starting tab index for the fields of this form. Leave "
-"blank if you're not sure what this is."
-msgstr ""
-"(省略可能) このフォームのフィールドの開始タブインデックスを指定します。あなた"
-"はこれが何であるかわからない場合は空白のままにしてくさだい。"
+msgid "(Optional) Specify the starting tab index for the fields of this form. Leave blank if you're not sure what this is."
+msgstr "(省略可能) このフォームのフィールドの開始タブインデックスを指定します。あなたはこれが何であるかわからない場合は空白のままにしてくさだい。"
 
 #: include/./classes/core/class-vc-base.php:626
 #: include/./templates/pages/vc-settings/index.php:7
@@ -6465,17 +6522,12 @@ msgid "Enter template name you want to save."
 msgstr ""
 
 #: include/./classes/core/class-vc-base.php:766
-msgid ""
-"Confirm deleting \"{template_name}\" template, press Cancel to leave. This "
-"action cannot be undone."
-msgstr ""
-"\"{template_name}\" テンプレートの削除の確認,  削除しない場合はキャンセルキー"
-"を押す。辞める場合はそのままに。このアクションは元に戻すことはできません。"
+msgid "Confirm deleting \"{template_name}\" template, press Cancel to leave. This action cannot be undone."
+msgstr "\"{template_name}\" テンプレートの削除の確認,  削除しない場合はキャンセルキーを押す。辞める場合はそのままに。このアクションは元に戻すことはできません。"
 
 #: include/./classes/core/class-vc-base.php:767
 msgid "Press OK to delete section, Cancel to leave"
-msgstr ""
-"セクションを削除するにはOKキーを押す。キャンセルの場合はそのままにする。"
+msgstr "セクションを削除するにはOKキーを押す。キャンセルの場合はそのままにする。"
 
 #: include/./classes/core/class-vc-base.php:768
 msgid "Drag and drop me in the column"
@@ -6483,9 +6535,7 @@ msgstr "カラム内でドラッグ＆ドロップする"
 
 #: include/./classes/core/class-vc-base.php:769
 msgid "Press OK to delete \"{tab_name}\" tab, Cancel to leave"
-msgstr ""
-"タブはOKを押して削除する \"{tab_name}\" 、 そのままにするにはキャンセルを押"
-"す。"
+msgstr "タブはOKを押して削除する \"{tab_name}\" 、 そのままにするにはキャンセルを押す。"
 
 #: include/./classes/core/class-vc-base.php:770
 #: include/./classes/shortcodes/vc-tour.php:8
@@ -6498,9 +6548,7 @@ msgstr "新しいタブのタイトルを入力してください"
 
 #: include/./classes/core/class-vc-base.php:774
 msgid "Press OK to delete \"{tab_name}\" section, Cancel to leave"
-msgstr ""
-"セクションはOKを押して削除する \"{tab_name}\"。そのままにするにはキャンセルを"
-"押す。"
+msgstr "セクションはOKを押して削除する \"{tab_name}\"。そのままにするにはキャンセルを押す。"
 
 #: include/./classes/core/class-vc-base.php:776
 msgid "Please enter new section title"
@@ -6511,12 +6559,8 @@ msgid "Error. Please try again."
 msgstr "エラーが発生しました。もう一度やり直してください。"
 
 #: include/./classes/core/class-vc-base.php:778
-msgid ""
-"If you close this window all shortcode settings will be lost. Close this "
-"window?"
-msgstr ""
-"このウィンドウを閉じると、すべてのショートコードの設定が失われます。このウィ"
-"ンドウを閉じますか？"
+msgid "If you close this window all shortcode settings will be lost. Close this window?"
+msgstr "このウィンドウを閉じると、すべてのショートコードの設定が失われます。このウィンドウを閉じますか？"
 
 #: include/./classes/core/class-vc-base.php:779
 msgid "Select element type"
@@ -6555,8 +6599,9 @@ msgid "Loop settings"
 msgstr "ループ設定"
 
 #: include/./classes/core/class-vc-base.php:789
+#, fuzzy
 msgid "Custom row layout"
-msgstr ""
+msgstr "カスタム:"
 
 #: include/./classes/core/class-vc-base.php:790
 msgid "Wrong row layout format! Example: 1/2 + 1/2 or span6 + span6."
@@ -6588,17 +6633,16 @@ msgid "Guides OFF"
 msgstr "ガイドOFF"
 
 #: include/./classes/core/class-vc-base.php:797
+#, fuzzy
 msgid "New template successfully saved."
-msgstr ""
+msgstr "コミュニティを保存しました。"
 
 #: include/./classes/core/class-vc-base.php:798
 msgid "Template added to the page."
 msgstr "テンプレートがページに追加"
 
 #: include/./classes/core/class-vc-base.php:799
-msgid ""
-"Template added to the page. Template has ID attributes, make sure that they "
-"are not used more than once on the same page."
+msgid "Template added to the page. Template has ID attributes, make sure that they are not used more than once on the same page."
 msgstr ""
 
 #: include/./classes/core/class-vc-base.php:800
@@ -6610,8 +6654,9 @@ msgid "Template is empty: There is no content to be saved as a template."
 msgstr ""
 
 #: include/./classes/core/class-vc-base.php:802
+#, fuzzy
 msgid "Error while saving template."
-msgstr ""
+msgstr "プロフィールの更新中にエラーが発生しました。"
 
 #: include/./classes/core/class-vc-base.php:803
 msgid "Page settings updated!"
@@ -6637,12 +6682,8 @@ msgstr "%s 削除!"
 
 #: include/./classes/core/class-vc-base.php:808
 #, php-format
-msgid ""
-"%s cloned. <a href=\"#\" class=\"vc_edit-cloned\" data-model-id=\"%s\">Edit "
-"now?</a>"
-msgstr ""
-"%s 複製。 <a href=\"#\" class=\"vc_edit-cloned\" data-model-id=\"%s\">今すぐ"
-"編集？</a>"
+msgid "%s cloned. <a href=\"#\" class=\"vc_edit-cloned\" data-model-id=\"%s\">Edit now?</a>"
+msgstr "%s 複製。 <a href=\"#\" class=\"vc_edit-cloned\" data-model-id=\"%s\">今すぐ編集？</a>"
 
 #: include/./classes/core/class-vc-base.php:809
 msgid "Loading Google Font failed"
@@ -6658,21 +6699,21 @@ msgstr "Googleフォントをロードできません"
 
 #: include/./classes/core/class-vc-base.php:812
 msgid "no title"
-msgstr ""
+msgstr "タイトルなし"
 
 #: include/./classes/core/class-vc-base.php:813
-msgid ""
-"Error while applying filter to the image. Check your server and memory "
-"settings."
+msgid "Error while applying filter to the image. Check your server and memory settings."
 msgstr ""
 
 #: include/./classes/core/class-vc-base.php:814
+#, fuzzy
 msgid "Saved!"
-msgstr ""
+msgstr "コミュニティを保存しました。"
 
 #: include/./classes/core/class-vc-base.php:815
+#, fuzzy
 msgid "Failed to Save!"
-msgstr ""
+msgstr "問題があるようです。"
 
 #: include/./classes/core/class-vc-base.php:816
 msgid "You are about to delete this preset. This action can not be undone."
@@ -6691,13 +6732,14 @@ msgid "Update"
 msgstr "更新"
 
 #: include/./classes/core/class-vc-base.php:819
+#, fuzzy
 msgid "Failed to download template"
-msgstr ""
+msgstr "テンプレートパック"
 
 #: include/./classes/core/class-vc-base.php:820
 #, fuzzy
 msgid "Element successfully removed."
-msgstr "テンプレートが正常に削除"
+msgstr "ユーザーのブロックを解除しました"
 
 #: include/./classes/core/class-vc-shared-library.php:328
 msgid "Pink"
@@ -6768,13 +6810,13 @@ msgstr "'%s' はショートコードの間違った属性。属性 'param_name'
 #: include/./classes/core/class-wpb-map.php:654
 #, php-format
 msgid "Wrong setting_name for shortcode:%s. Base can't be modified."
-msgstr ""
-"ショートコードの間違った setting_name:%s 基本を変更することはできません。"
+msgstr "ショートコードの間違った setting_name:%s 基本を変更することはできません。"
 
 #: include/./classes/core/shared-templates/class-vc-shared-templates.php:252
 #: include/./templates/editors/popups/shared-templates/category.tpl.php:120
+#, fuzzy
 msgid "Template library"
-msgstr ""
+msgstr "テンプレートパック"
 
 #: include/./classes/core/shared-templates/importer/parsers.php:49
 #: include/./classes/core/shared-templates/importer/parsers.php:80
@@ -6783,17 +6825,14 @@ msgid "There was an error when reading this WXR file"
 msgstr ""
 
 #: include/./classes/core/shared-templates/importer/parsers.php:50
-msgid ""
-"Details are shown above. The importer will now try again with a different "
-"parser..."
+msgid "Details are shown above. The importer will now try again with a different parser..."
 msgstr ""
 
 #: include/./classes/core/shared-templates/importer/parsers.php:93
 #: include/./classes/core/shared-templates/importer/parsers.php:99
 #: include/./classes/core/shared-templates/importer/parsers.php:360
 #: include/./classes/core/shared-templates/importer/parsers.php:576
-msgid ""
-"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
 msgstr ""
 
 #: include/./classes/core/shared-templates/importer/wordpress-importer.php:93
@@ -6801,34 +6840,34 @@ msgstr ""
 #: include/./classes/core/shared-templates/importer/wordpress-importer.php:147
 #: include/./classes/core/shared-templates/importer/wordpress-importer.php:152
 #: include/./classes/core/shared-templates/importer/wordpress-importer.php:162
+#, fuzzy
 msgid "Sorry, there has been an error."
-msgstr ""
+msgstr "コミュニティを更新しました。"
 
 #: include/./classes/core/shared-templates/importer/wordpress-importer.php:94
+#, fuzzy
 msgid "The file does not exist, please try again."
-msgstr ""
+msgstr "メディアファイルの添付ファイルを作成中にエラーが発生しました。もう一度お試しください"
 
 #: include/./classes/core/shared-templates/importer/wordpress-importer.php:153
 #, php-format
-msgid ""
-"The export file could not be found at <code>%s</code>. It is likely that "
-"this was caused by a permissions problem."
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
 msgstr ""
 
 #: include/./classes/core/shared-templates/importer/wordpress-importer.php:172
 #, php-format
-msgid ""
-"This WXR file (version %s) may not be supported by this version of the "
-"importer. Please consider updating."
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
 msgstr ""
 
 #: include/./classes/core/shared-templates/importer/wordpress-importer.php:338
+#, fuzzy
 msgid "Fetching attachments is not enabled"
-msgstr ""
+msgstr "bbPress Attachments"
 
 #: include/./classes/core/shared-templates/importer/wordpress-importer.php:354
+#, fuzzy
 msgid "Invalid file type"
-msgstr ""
+msgstr "無効なファイルの文字列"
 
 #: include/./classes/core/shared-templates/importer/wordpress-importer.php:436
 msgid "Remote server did not respond"
@@ -6840,12 +6879,14 @@ msgid "Remote server returned error response %1$d %2$s"
 msgstr ""
 
 #: include/./classes/core/shared-templates/importer/wordpress-importer.php:451
+#, fuzzy
 msgid "Remote file is incorrect size"
-msgstr ""
+msgstr "最大ファイルサイズ制限："
 
 #: include/./classes/core/shared-templates/importer/wordpress-importer.php:457
+#, fuzzy
 msgid "Zero size file downloaded"
-msgstr ""
+msgstr "最大ファイルサイズ制限："
 
 #: include/./classes/core/shared-templates/importer/wordpress-importer.php:464
 #, php-format
@@ -6881,8 +6922,9 @@ msgstr "（タイトルなし）"
 #: include/./classes/editors/class-vc-frontend-editor.php:483
 #: include/./classes/editors/class-vc-frontend-editor.php:498
 #: include/./classes/editors/class-vc-frontend-editor.php:535
+#, fuzzy
 msgid "Edit with WPBakery Page Builder"
-msgstr ""
+msgstr "このページを編集する。"
 
 #: include/./classes/editors/navbar/class-vc-navbar-frontend.php:44
 msgid "Toggle editor's guides"
@@ -6921,8 +6963,9 @@ msgid "Cancel all changes and return to WP dashboard"
 msgstr "すべての変更をキャンセルしWPのダッシュボードに戻る"
 
 #: include/./classes/editors/navbar/class-vc-navbar-frontend.php:130
+#, fuzzy
 msgid "Save Draft"
-msgstr ""
+msgstr "保存"
 
 #: include/./classes/editors/navbar/class-vc-navbar-frontend.php:134
 msgid "Save as Pending"
@@ -6953,12 +6996,14 @@ msgid "CSS"
 msgstr "CSS"
 
 #: include/./classes/editors/navbar/class-vc-navbar.php:120
+#, fuzzy
 msgid "Full screen"
-msgstr ""
+msgstr "フルサイズ: %sピクセル"
 
 #: include/./classes/editors/navbar/class-vc-navbar.php:129
+#, fuzzy
 msgid "Exit full screen"
-msgstr ""
+msgstr "フルサイズ: %sピクセル"
 
 #: include/./classes/editors/navbar/class-vc-navbar.php:145
 msgid "Add new element"
@@ -6995,8 +7040,9 @@ msgid "Template name"
 msgstr "テンプレート名"
 
 #: include/./classes/editors/popups/class-vc-templates-panel-editor.php:100
+#, fuzzy
 msgid "Save Template"
-msgstr ""
+msgstr "テンプレートパック"
 
 #: include/./classes/editors/popups/class-vc-templates-panel-editor.php:103
 msgid "Save layout and reuse it on different sections of this site."
@@ -7007,16 +7053,18 @@ msgstr ""
 #: include/./params/vc_grid_item/editor/popups/class-vc-templates-editor-grid-item.php:85
 #: include/./params/vc_grid_item/editor/popups/class-vc-templates-editor-grid-item.php:86
 #: include/./templates/editors/popups/shared-templates/category.tpl.php:155
+#, fuzzy
 msgid "Preview template"
-msgstr ""
+msgstr "テンプレートパック"
 
 #: include/./classes/editors/popups/class-vc-templates-panel-editor.php:189
 #: include/./classes/editors/popups/class-vc-templates-panel-editor.php:233
 #: include/./templates/editors/partials/vc_welcome_block.tpl.php:63
 #: include/./templates/editors/popups/shared-templates/category.tpl.php:141
 #: include/./templates/editors/popups/shared-templates/category.tpl.php:143
+#, fuzzy
 msgid "Add template"
-msgstr ""
+msgstr "メニューに追加"
 
 #: include/./classes/editors/popups/class-vc-templates-panel-editor.php:192
 #: include/./templates/editors/popups/shared-templates/category.tpl.php:149
@@ -7048,36 +7096,33 @@ msgid "No title"
 msgstr "タイトルなし"
 
 #: include/./classes/settings/class-vc-automapper.php:191
+#, fuzzy
 msgid "Shortcode Mapper"
-msgstr ""
+msgstr "Shortcode Generator"
 
 #: include/./classes/settings/class-vc-automapper.php:217
 #, fuzzy
-msgid ""
-"WPBakery Page Builder Shortcode Mapper adds custom 3rd party vendors "
-"shortcodes to the list of WPBakery Page Builder content elements menu (Note: "
-"to map shortcode it needs to be installed on site)."
-msgstr ""
-"お使いのカスタムまたはサードパーティは、WPBakery Page Builderの要素メニューの一覧に"
-"ショートコードのベンダーに追加するために、WPBakery Page Builderのショートコードマッ"
-"パーを使用してください。ショートコードを登録するためには、それをWordPressのサ"
-"イトにインストールする必要があります。"
+msgid "WPBakery Page Builder Shortcode Mapper adds custom 3rd party vendors shortcodes to the list of WPBakery Page Builder content elements menu (Note: to map shortcode it needs to be installed on site)."
+msgstr "お使いのカスタムまたはサードパーティは、WPBakery Page Builderの要素メニューの一覧にショートコードのベンダーに追加するために、WPBakery Page Builderのショートコードマッパーを使用してください。ショートコードを登録するためには、それをWordPressのサイトにインストールする必要があります。"
 
 #: include/./classes/settings/class-vc-automapper.php:221
+#, fuzzy
 msgid "Map Shortcode"
-msgstr ""
+msgstr "Shortcode Generator"
 
 #: include/./classes/settings/class-vc-automapper.php:244
+#, fuzzy
 msgid "Shortcode string"
-msgstr ""
+msgstr "無効なファイルの文字列"
 
 #: include/./classes/settings/class-vc-automapper.php:249
 msgid "Please enter valid shortcode"
 msgstr "有効なショートコードを入力してください。"
 
 #: include/./classes/settings/class-vc-automapper.php:254
+#, fuzzy
 msgid "Parse Shortcode"
-msgstr ""
+msgstr "Shortcode Generator"
 
 #: include/./classes/settings/class-vc-automapper.php:255
 #: include/./classes/settings/class-vc-automapper.php:318
@@ -7085,18 +7130,18 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 #: include/./classes/settings/class-vc-automapper.php:259
-msgid ""
-"Enter valid shortcode (Example: [my_shortcode first_param=\"first_param_value"
-"\"]My shortcode content[/my_shortcode])."
+msgid "Enter valid shortcode (Example: [my_shortcode first_param=\"first_param_value\"]My shortcode content[/my_shortcode])."
 msgstr ""
 
 #: include/./classes/settings/class-vc-automapper.php:267
+#, fuzzy
 msgid "Add"
-msgstr ""
+msgstr "メニューに追加"
 
 #: include/./classes/settings/class-vc-automapper.php:284
+#, fuzzy
 msgid "General Information"
-msgstr ""
+msgstr "一般"
 
 #: include/./classes/settings/class-vc-automapper.php:287
 msgid "Tag:"
@@ -7119,12 +7164,14 @@ msgid "Include content param into shortcode"
 msgstr "ショートコードへのコンテンツパラメータをインクルード"
 
 #: include/./classes/settings/class-vc-automapper.php:309
+#, fuzzy
 msgid "Shortcode Parameters"
-msgstr ""
+msgstr "Shortcode Generator"
 
 #: include/./classes/settings/class-vc-automapper.php:311
+#, fuzzy
 msgid "Add Param"
-msgstr ""
+msgstr "メニューに追加"
 
 #: include/./classes/settings/class-vc-automapper.php:317
 #: include/./classes/settings/class-vc-settings.php:446
@@ -7151,8 +7198,9 @@ msgstr "行をドラッグして順序を変更する"
 
 #: include/./classes/settings/class-vc-automapper.php:328
 #: include/./templates/params/param_group/inner_content.tpl.php:10
+#, fuzzy
 msgid "Delete this param"
-msgstr ""
+msgstr "削除"
 
 #: include/./classes/settings/class-vc-automapper.php:336
 msgid "Param name"
@@ -7164,8 +7212,9 @@ msgid "Required value"
 msgstr "必須値"
 
 #: include/./classes/settings/class-vc-automapper.php:345
+#, fuzzy
 msgid "Use only letters, numbers and underscore."
-msgstr ""
+msgstr "ユーザー名には半角英数字、. (コンマ)、- (ハイフン)、@のみを含められます。"
 
 #: include/./classes/settings/class-vc-automapper.php:351
 msgid "Please use only letters, numbers and underscore."
@@ -7200,8 +7249,9 @@ msgid "Textarea HTML"
 msgstr "テキストエリアHTML"
 
 #: include/./classes/settings/class-vc-automapper.php:379
+#, fuzzy
 msgid "Hidden"
-msgstr ""
+msgstr "非表示"
 
 #: include/./classes/settings/class-vc-automapper.php:383
 msgid "Field type for shortcode edit form."
@@ -7212,13 +7262,13 @@ msgid "Default value"
 msgstr "デフォルト値"
 
 #: include/./classes/settings/class-vc-automapper.php:389
-msgid ""
-"Default value or list of values for dropdown type (Note: separate by comma)."
+msgid "Default value or list of values for dropdown type (Note: separate by comma)."
 msgstr ""
 
 #: include/./classes/settings/class-vc-automapper.php:399
+#, fuzzy
 msgid "Enter description for parameter."
-msgstr ""
+msgstr "説明:"
 
 #: include/./classes/settings/class-vc-license.php:108
 msgid "WPBakery Page Builder successfully activated."
@@ -7242,24 +7292,24 @@ msgid "Something went wrong. Please contact us for support."
 msgstr ""
 
 #: include/./classes/settings/class-vc-license.php:218
+#, fuzzy
 msgid "Invalid license key"
-msgstr ""
+msgstr "これは、%sの無効なライセンスキーのようです。"
 
 #: include/./classes/settings/class-vc-license.php:421
 #, php-format
-msgid ""
-"Hola! Would you like to receive automatic updates and unlock premium "
-"support? Please <a href=\"%s\">activate your copy</a> of WPBakery Page "
-"Builder."
+msgid "Hola! Would you like to receive automatic updates and unlock premium support? Please <a href=\"%s\">activate your copy</a> of WPBakery Page Builder."
 msgstr ""
 
 #: include/./classes/settings/class-vc-license.php:421
+#, fuzzy
 msgid "Dismiss this notice."
-msgstr ""
+msgstr "この通知を非表示"
 
 #: include/./classes/settings/class-vc-roles.php:113
+#, fuzzy
 msgid "Roles settings successfully saved."
-msgstr ""
+msgstr "設定が正常に保存されました！"
 
 #: include/./classes/settings/class-vc-settings.php:119
 msgid "General Settings"
@@ -7343,20 +7393,21 @@ msgid "Are you sure you want to reset to defaults?"
 msgstr "デフォルトにリセットしてもよろしいていますか？"
 
 #: include/./classes/settings/class-vc-settings.php:445
+#, fuzzy
 msgid "Saving..."
-msgstr ""
+msgstr "コミュニティ説明の保存中にエラーが発生しました。もう一度お試しください。"
 
 #: include/./classes/settings/class-vc-settings.php:447
+#, fuzzy
 msgid "Design Options successfully saved."
-msgstr ""
+msgstr "コミュニティを保存しました。"
 
 #: include/./classes/settings/class-vc-settings.php:448
 msgid "Design Options could not be saved"
 msgstr ""
 
 #: include/./classes/settings/class-vc-settings.php:449
-msgid ""
-"Problem with AJAX request execution, check internet connection and try again."
+msgid "Problem with AJAX request execution, check internet connection and try again."
 msgstr ""
 
 #: include/./classes/settings/class-vc-settings.php:450
@@ -7393,16 +7444,12 @@ msgstr "ショートコード更新！"
 
 #: include/./classes/settings/class-vc-settings.php:458
 msgid "Content param can not be added manually, please use checkbox."
-msgstr ""
-"コンテンツパラメータを手動でチェックボックスを使用して追加することはできませ"
-"ん。"
+msgstr "コンテンツパラメータを手動でチェックボックスを使用して追加することはできません。"
 
 #: include/./classes/settings/class-vc-settings.php:459
 #, php-format
 msgid "Param %s already exists. Param names must be unique."
-msgstr ""
-"パラメータ %s はすでに存在しています。 パラメータ名は一意である必要がありま"
-"す。"
+msgstr "パラメータ %s はすでに存在しています。 パラメータ名は一意である必要があります。"
 
 #: include/./classes/settings/class-vc-settings.php:460
 msgid "Please use only letters, numbers and underscore for param name"
@@ -7417,9 +7464,7 @@ msgid "Add custom CSS code to the plugin without modifying files."
 msgstr ""
 
 #: include/./classes/settings/class-vc-settings.php:493
-msgid ""
-"Disable content elements from \"stacking\" one on top other on small media "
-"screens (Example: mobile devices)."
+msgid "Disable content elements from \"stacking\" one on top other on small media screens (Example: mobile devices)."
 msgstr ""
 
 #: include/./classes/settings/class-vc-settings.php:517
@@ -7431,39 +7476,25 @@ msgid "Enable"
 msgstr "有効にする"
 
 #: include/./classes/settings/class-vc-settings.php:602
-msgid ""
-"Enable the use of custom design options (Note: when checked - custom css "
-"file will be used)."
+msgid "Enable the use of custom design options (Note: when checked - custom css file will be used)."
 msgstr ""
 
 #: include/./classes/settings/class-vc-settings.php:622
-msgid ""
-"Change default vertical spacing between content elements (Example: 20px)."
+msgid "Change default vertical spacing between content elements (Example: 20px)."
 msgstr ""
 
 #: include/./classes/settings/class-vc-settings.php:632
-msgid ""
-"Change default horizontal spacing between columns, enter new value in pixels."
+msgid "Change default horizontal spacing between columns, enter new value in pixels."
 msgstr ""
 
 #: include/./classes/settings/class-vc-settings.php:642
-msgid ""
-"By default content elements \"stack\" one on top other when screen size is "
-"smaller than 768px. Change the value to change \"stacking\" size."
+msgid "By default content elements \"stack\" one on top other when screen size is smaller than 768px. Change the value to change \"stacking\" size."
 msgstr ""
 
 #: include/./classes/settings/class-vc-settings.php:671
 #, fuzzy
-msgid ""
-"Here you can tweak default WPBakery Page Builder content elements visual "
-"appearance. By default WPBakery Page Builder is using neutral light-grey "
-"theme. Changing \"Main accent color\" will affect all content elements if no "
-"specific \"content block\" related color is set."
-msgstr ""
-"ここではWPBakery Page Builderのコンテンツ要素を視覚的な外観をデフォルト微調整するこ"
-"とができます。既定のWPBakery Page Builderでニュートラルライトグレーのテーマを使用し"
-"ています。具体的な \"content block\" に関連する色が設定されていない場合"
-"は、\"Main accent color\" を変更するとすべてのコンテンツ要素に影響します。"
+msgid "Here you can tweak default WPBakery Page Builder content elements visual appearance. By default WPBakery Page Builder is using neutral light-grey theme. Changing \"Main accent color\" will affect all content elements if no specific \"content block\" related color is set."
+msgstr "ここではWPBakery Page Builderのコンテンツ要素を視覚的な外観をデフォルト微調整することができます。既定のWPBakery Page Builderでニュートラルライトグレーのテーマを使用しています。具体的な \"content block\" に関連する色が設定されていない場合は、\"Main accent color\" を変更するとすべてのコンテンツ要素に影響します。"
 
 #: include/./classes/settings/class-vc-settings.php:748
 msgid "Invalid Margin value."
@@ -7478,10 +7509,8 @@ msgid "Invalid \"Responsive max\" value."
 msgstr "\"Responsive max\" の無効な値"
 
 #: include/./classes/settings/class-vc-settings.php:858
-msgid ""
-"Something went wrong: js_composer_front_custom.css could not be created."
-msgstr ""
-"何かが間違っていた：js_composer_front_custom.cssが作成できませんでした。"
+msgid "Something went wrong: js_composer_front_custom.css could not be created."
+msgstr "何かが間違っていた：js_composer_front_custom.cssが作成できませんでした。"
 
 #: include/./classes/settings/class-vc-settings.php:860
 msgid "js_composer_front_custom.css could not be created. Connection error."
@@ -7489,12 +7518,8 @@ msgstr "js_composer_front_custom.cssを作成できませんでした。接続�
 
 #: include/./classes/settings/class-vc-settings.php:862
 #, php-format
-msgid ""
-"js_composer_front_custom.css could not be created. Cannot write custom css "
-"to \"%s\"."
-msgstr ""
-"js_composer_front_custom.cssを作成できませんでした。\"%s\"のためのカスタムCSS"
-"を書き込むことができません。"
+msgid "js_composer_front_custom.css could not be created. Cannot write custom css to \"%s\"."
+msgstr "js_composer_front_custom.cssを作成できませんでした。\"%s\"のためのカスタムCSSを書き込むことができません。"
 
 #: include/./classes/settings/class-vc-settings.php:864
 msgid "js_composer_front_custom.css could not be created. Problem with access."
@@ -7510,8 +7535,7 @@ msgstr "custom.cssはを作成できませんでした。接続エラー。"
 
 #: include/./classes/settings/class-vc-settings.php:906
 msgid "custom.css could not be created. Cannot write custom css to \""
-msgstr ""
-"custom.cssはを作成できませんでした。カスタムCSS書き込むことができません \""
+msgstr "custom.cssはを作成できませんでした。カスタムCSS書き込むことができません \""
 
 #: include/./classes/settings/class-vc-settings.php:908
 msgid "custom.css could not be created. Problem with access."
@@ -7551,12 +7575,8 @@ msgstr "1つ、2つまたは3つ？"
 
 #: include/./classes/shortcodes/shortcodes.php:477
 #, php-format
-msgid ""
-"Template file is missing for `%s` shortcode. Make sure you have `%s` file in "
-"your theme folder."
-msgstr ""
-"テンプレートファイルは、 `%s` のショートコードのために欠落しています。あなた"
-"のテーマフォルダ内の `%s` ファイルがあることを確認してください。"
+msgid "Template file is missing for `%s` shortcode. Make sure you have `%s` file in your theme folder."
+msgstr "テンプレートファイルは、 `%s` のショートコードのために欠落しています。あなたのテーマフォルダ内の `%s` ファイルがあることを確認してください。"
 
 #: include/./classes/shortcodes/shortcodes.php:731
 #: include/./templates/editors/partials/backend_controls.tpl.php:27
@@ -7665,8 +7685,9 @@ msgid "Add images"
 msgstr "画像追加"
 
 #: include/./classes/shortcodes/vc-gitem-animated-block.php:30
+#, fuzzy
 msgid "Single block (no animation)"
-msgstr ""
+msgstr "シングルメディアビュー"
 
 #: include/./classes/shortcodes/vc-gitem-animated-block.php:31
 msgid "Double block (no animation)"
@@ -7725,8 +7746,9 @@ msgid "Go bottom"
 msgstr "下へ"
 
 #: include/./classes/shortcodes/vc-gitem.php:86
+#, fuzzy
 msgid "Add to this grid item"
-msgstr ""
+msgstr "メニューに追加"
 
 #: include/./classes/shortcodes/vc-gitem.php:92
 msgid "Edit this grid item"
@@ -7785,12 +7807,8 @@ msgid "Error! Can't connect to filesystem"
 msgstr "エラー！ファイルシステムに接続できません"
 
 #: include/./classes/updaters/class-vc-updater.php:130
-msgid ""
-"To receive automatic updates license activation is required. Please visit <a "
-"href=\""
-msgstr ""
-"ライセンスアクティベーションが必要な場合の自動アップデータを取得する。<a "
-"href=\""
+msgid "To receive automatic updates license activation is required. Please visit <a href=\""
+msgstr "ライセンスアクティベーションが必要な場合の自動アップデータを取得する。<a href=\""
 
 #: include/./classes/updaters/class-vc-updater.php:130
 #: include/./classes/updaters/class-vc-updating-manager.php:174
@@ -7798,29 +7816,28 @@ msgid "Got WPBakery Page Builder in theme?"
 msgstr ""
 
 #: include/./classes/updaters/class-vc-updater.php:133
+#, fuzzy
 msgid "Getting download link..."
-msgstr ""
+msgstr "Direct Download Link"
 
 #: include/./classes/updaters/class-vc-updater.php:139
+#, fuzzy
 msgid "Download link could not be retrieved"
-msgstr ""
+msgstr "Direct Download Link"
 
 #: include/./classes/updaters/class-vc-updater.php:146
 msgid "Downloading package..."
 msgstr ""
 
 #: include/./classes/updaters/class-vc-updating-manager.php:172
+#, fuzzy
 msgid "settings"
-msgstr ""
+msgstr "設定"
 
 #: include/./classes/updaters/class-vc-updating-manager.php:174
 #, fuzzy, php-format
-msgid ""
-"To receive automatic updates license activation is required. Please visit %s "
-"to activate your WPBakery Page Builder."
-msgstr ""
-"ライセンスアクティベーションが必要な場合の自動アップデータを取得する。<a "
-"href=\""
+msgid "To receive automatic updates license activation is required. Please visit %s to activate your WPBakery Page Builder."
+msgstr "ライセンスアクティベーションが必要な場合の自動アップデータを取得する。<a href=\""
 
 #: include/./classes/vendors/plugins/acf/grid-item-shortcodes.php:18
 #: include/./classes/vendors/plugins/acf/shortcode.php:18
@@ -7924,8 +7941,9 @@ msgid "Choose previously created contact form from the drop down list."
 msgstr "ドロップダウンリストから以前に作成したコンタクトフォームを選択します。"
 
 #: include/./classes/vendors/plugins/class-vc-vendor-contact-form7.php:69
+#, fuzzy
 msgid "Search title"
-msgstr ""
+msgstr "タイトル:"
 
 #: include/./classes/vendors/plugins/class-vc-vendor-contact-form7.php:72
 msgid "Enter optional title to search if no ID selected or cannot find by ID."
@@ -8044,12 +8062,8 @@ msgid "Order count"
 msgstr "申し込み数"
 
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:190
-msgid ""
-"You can specify the number or order to show, it's set by default to 15 (use "
-"-1 to display all orders.)"
-msgstr ""
-"あなたが数字または表示する順序を指定でき、それは15をデフォルトで設定（-1を使"
-"用するとすべての申し込みを表示）"
+msgid "You can specify the number or order to show, it's set by default to 15 (use -1 to display all orders.)"
+msgstr "あなたが数字または表示する順序を指定でき、それは15をデフォルトで設定（-1を使用するとすべての申し込みを表示）"
 
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:208
 msgid "Recent products"
@@ -8072,10 +8086,8 @@ msgstr "ページ毎"
 
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:220
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:272
-msgid ""
-"The \"per_page\" shortcode determines how many products to show on the page"
-msgstr ""
-"\"per_page\" のショートコードはページにいくつもの製品を表示する方法を決定する"
+msgid "The \"per_page\" shortcode determines how many products to show on the page"
+msgstr "\"per_page\" のショートコードはページにいくつもの製品を表示する方法を決定する"
 
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:224
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:276
@@ -8092,9 +8104,7 @@ msgstr "カラム"
 
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:228
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:280
-msgid ""
-"The columns attribute controls how many columns wide the products should be "
-"before wrapping."
+msgid "The columns attribute controls how many columns wide the products should be before wrapping."
 msgstr "カラムは製品はラッピング前にどうあるべきか多くの列が広い制御します。"
 
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:236
@@ -8168,8 +8178,7 @@ msgstr "検索された製品をソートする方法を選択します。%s の
 
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:362
 #, php-format
-msgid ""
-"Designates the ascending or descending order. More at %s. Default by ASC"
+msgid "Designates the ascending or descending order. More at %s. Default by ASC"
 msgstr "昇順または降順を指定します。 %s の詳細。ASCがデフォルト"
 
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:375
@@ -8313,12 +8322,8 @@ msgid "List related products"
 msgstr "関連製品一覧"
 
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:861
-msgid ""
-"Please note: the \"per_page\" shortcode argument will determine how many "
-"products are shown on a page. This will not add pagination to the shortcode. "
-msgstr ""
-"ご注意：\"per_page\" ショートコード引数がページに表示されるいくつかの製品を決"
-"定します。これはショートコードを改ページを追加しません。"
+msgid "Please note: the \"per_page\" shortcode argument will determine how many products are shown on a page. This will not add pagination to the shortcode. "
+msgstr "ご注意：\"per_page\" ショートコード引数がページに表示されるいくつかの製品を決定します。これはショートコードを改ページを追加しません。"
 
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1239
 #: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1275
@@ -8437,8 +8442,9 @@ msgid "Customer API"
 msgstr "顧客API"
 
 #: include/./classes/vendors/plugins/woocommerce/grid-item-filters.php:16
+#, fuzzy
 msgid "WooCommerce add to card link"
-msgstr ""
+msgstr "フッターにrtMediaへのリンクを追加する"
 
 #: include/./classes/vendors/plugins/woocommerce/grid-item-shortcodes.php:8
 msgid "WooCommerce field"
@@ -8526,9 +8532,7 @@ msgid "Appear from center"
 msgstr "中心から現れる"
 
 #: include/./helpers/helpers_api.php:511
-msgid ""
-"Select type of animation for element to be animated when it \"enters\" the "
-"browsers viewport (Note: works only in modern browsers)."
+msgid "Select type of animation for element to be animated when it \"enters\" the browsers viewport (Note: works only in modern browsers)."
 msgstr ""
 
 #: include/./params/animation_style/animation_style.php:45
@@ -8888,8 +8892,9 @@ msgid "Animate it"
 msgstr "アニメーション開始"
 
 #: include/./params/autocomplete/autocomplete.php:79
+#, fuzzy
 msgid "Click here and start typing..."
-msgstr ""
+msgstr "新しいメンバーを追加するには、ユーザー名を入力してください。"
 
 #: include/./params/column_offset/column_offset.php:90
 msgid "Default value from width attribute"
@@ -8989,12 +8994,14 @@ msgid "Build query"
 msgstr "クエリの構築"
 
 #: include/./params/loop/loop.php:326
+#, fuzzy
 msgid "Post count"
-msgstr ""
+msgstr "既定の回数"
 
 #: include/./params/loop/loop.php:334
+#, fuzzy
 msgid "Individual posts/pages"
-msgstr ""
+msgstr "固定ページ"
 
 #: include/./params/options/options.php:16
 msgid "Manage options"
@@ -9044,17 +9051,12 @@ msgid "Enable custom teaser"
 msgstr "カスタムティザーを有効にする"
 
 #: include/./params/sorted_list/sorted_list.php:107
-msgid ""
-"Customize teaser block design to overwrite default settings used in "
-"\"Carousel\" content element."
+msgid "Customize teaser block design to overwrite default settings used in \"Carousel\" content element."
 msgstr ""
 
 #: include/./params/textarea_html/textarea_html.php:24
 #, php-format
-msgid ""
-"Field type is changed from \"textarea_html\" to \"textarea\", because it is "
-"already used by %s field. Textarea_html field's type can be used only once "
-"per shortcode."
+msgid "Field type is changed from \"textarea_html\" to \"textarea\", because it is already used by %s field. Textarea_html field's type can be used only once per shortcode."
 msgstr ""
 
 #: include/./params/vc_grid_element/vc_grid_element.php:63
@@ -9066,51 +9068,55 @@ msgid "Drag to reorder"
 msgstr "ドラッグで順序を変更する"
 
 #: include/./params/vc_grid_item/editor/class-vc-grid-item-editor.php:97
+#, fuzzy
 msgid "Add Grid template"
-msgstr ""
+msgstr "メニューに追加"
 
 #: include/./params/vc_grid_item/editor/class-vc-grid-item-editor.php:98
 #: include/./params/vc_grid_item/editor/class-vc-grid-item-editor.php:137
 #: include/./templates/pages/partials/vc-roles-parts/_grid_builder.tpl.php:14
 #: include/./templates/pages/partials/vc-roles-parts/_grid_builder.tpl.php:15
+#, fuzzy
 msgid "Grid Builder"
-msgstr ""
+msgstr "カスケードのグリッド レイアウト"
 
 #: include/./params/vc_grid_item/editor/class-vc-grid-item-editor.php:99
+#, fuzzy
 msgid "Grid template"
-msgstr ""
+msgstr "テンプレートパック"
 
 #: include/./params/vc_grid_item/editor/class-vc-grid-item-editor.php:100
+#, fuzzy
 msgid "Edit Grid template"
-msgstr ""
+msgstr "編集"
 
 #: include/./params/vc_grid_item/editor/class-vc-grid-item-editor.php:101
+#, fuzzy
 msgid "View Grid template"
-msgstr ""
+msgstr "テンプレートパック"
 
 #: include/./params/vc_grid_item/editor/class-vc-grid-item-editor.php:102
+#, fuzzy
 msgid "Search Grid templates"
-msgstr ""
+msgstr "&#8220;%s&#8221; の検索結果"
 
 #: include/./params/vc_grid_item/editor/class-vc-grid-item-editor.php:103
+#, fuzzy
 msgid "No Grid templates found"
-msgstr ""
+msgstr "カスケードのグリッド レイアウト"
 
 #: include/./params/vc_grid_item/editor/class-vc-grid-item-editor.php:104
+#, fuzzy
 msgid "No Grid templates found in Trash"
-msgstr ""
+msgstr "ゴミ箱にメールが見つかりません"
 
 #: include/./params/vc_grid_item/editor/class-vc-grid-item-editor.php:221
 msgid "Builder"
 msgstr "ビルダー"
 
 #: include/./params/vc_grid_item/editor/class-vc-grid-item-editor.php:222
-msgid ""
-"If you add this template, all your current changes will be removed. Are you "
-"sure you want to add template?"
-msgstr ""
-"このテンプレートを追加した場合にすべての現在の変更が削除されます。テンプレー"
-"トを追加してもよろしいでしょ？"
+msgid "If you add this template, all your current changes will be removed. Are you sure you want to add template?"
+msgstr "このテンプレートを追加した場合にすべての現在の変更が削除されます。テンプレートを追加してもよろしいでしょ？"
 
 #: include/./params/vc_grid_item/editor/class-vc-grid-item-preview.php:112
 msgid "Post title"
@@ -9118,28 +9124,26 @@ msgstr "投稿タイトル"
 
 #: include/./params/vc_grid_item/editor/class-vc-grid-item-preview.php:113
 #: include/./params/vc_grid_item/editor/class-vc-grid-item-preview.php:114
-msgid ""
-"The WordPress Excerpt is an optional summary or description of a post; in "
-"short, a post summary."
-msgstr ""
-"WordPressの抜粋はオプションの要約または投稿の記述である。要するに投稿の要約。"
+msgid "The WordPress Excerpt is an optional summary or description of a post; in short, a post summary."
+msgstr "WordPressの抜粋はオプションの要約または投稿の記述である。要するに投稿の要約。"
 
 #: include/./params/vc_grid_item/editor/navbar/class-vc-navbar-grid-item.php:38
 msgid "Grid element settings"
 msgstr "グリッド要素の設定"
 
 #: include/./params/vc_grid_item/editor/navbar/class-vc-navbar-grid-item.php:58
-#, php-format
+#, fuzzy, php-format
 msgid "%s/12 width"
-msgstr ""
+msgstr "横幅"
 
 #: include/./params/vc_grid_item/editor/popups/class-vc-templates-editor-grid-item.php:147
 msgid "Grid Templates"
 msgstr "グリッドテンプレート"
 
 #: include/./params/vc_grid_item/editor/popups/class-vc-templates-editor-grid-item.php:166
+#, fuzzy
 msgid "Custom Grid Templates"
-msgstr ""
+msgstr "カスケードのグリッド レイアウト"
 
 #: include/./params/vc_grid_item/shortcodes.php:11
 #: include/./params/vc_grid_item/shortcodes.php:455
@@ -9152,8 +9156,9 @@ msgid "Post link"
 msgstr "投稿リンク"
 
 #: include/./params/vc_grid_item/shortcodes.php:16
+#, fuzzy
 msgid "Post author"
-msgstr ""
+msgstr "投稿者"
 
 #: include/./params/vc_grid_item/shortcodes.php:17
 msgid "Large image"
@@ -9182,9 +9187,7 @@ msgstr "背景に注目の画像を使用しますか？"
 
 #: include/./params/vc_grid_item/shortcodes.php:40
 #: include/./params/vc_grid_item/shortcodes.php:363
-msgid ""
-"Note: Featured image overwrites background image and color from \"Design "
-"Options\"."
+msgid "Note: Featured image overwrites background image and color from \"Design Options\"."
 msgstr ""
 
 #: include/./params/vc_grid_item/shortcodes.php:104
@@ -9206,8 +9209,9 @@ msgid "Yes font family from the theme."
 msgstr ""
 
 #: include/./params/vc_grid_item/shortcodes.php:164
+#, fuzzy
 msgid "Grid Item"
-msgstr ""
+msgstr "カスケードのグリッド レイアウト"
 
 #: include/./params/vc_grid_item/shortcodes.php:171
 msgid "Main grid item"
@@ -9234,12 +9238,8 @@ msgid "Original"
 msgstr "オプション"
 
 #: include/./params/vc_grid_item/shortcodes.php:248
-msgid ""
-"Sizing proportions for height and width. Select \"Original\" to scale image "
-"without cropping."
-msgstr ""
-"高さと幅のための比率をサイジング。トリミングなしで画像を拡大縮小を \"Original"
-"\"  を選択します。"
+msgid "Sizing proportions for height and width. Select \"Original\" to scale image without cropping."
+msgstr "高さと幅のための比率をサイジング。トリミングなしで画像を拡大縮小を \"Original\"  を選択します。"
 
 #: include/./params/vc_grid_item/shortcodes.php:258
 msgid "Enter custom height."
@@ -9280,48 +9280,58 @@ msgid "Excerpt or manual excerpt"
 msgstr "抜粋または手動抜粋"
 
 #: include/./params/vc_grid_item/shortcodes.php:447
+#, fuzzy
 msgid "Post Author"
-msgstr ""
+msgstr "投稿者"
 
 #: include/./params/vc_grid_item/shortcodes.php:451
+#, fuzzy
 msgid "Author of current post"
-msgstr ""
+msgstr "投稿者"
 
 #: include/./params/vc_grid_item/shortcodes.php:458
+#, fuzzy
 msgid "Add link to author?"
-msgstr ""
+msgstr "メニューに追加"
 
 #: include/./params/vc_grid_item/shortcodes.php:477
+#, fuzzy
 msgid "Post Categories"
-msgstr ""
+msgstr "投稿先"
 
 #: include/./params/vc_grid_item/shortcodes.php:481
+#, fuzzy
 msgid "Categories of current post"
-msgstr ""
+msgstr "現在の条件に該当するコミュニティはありません。"
 
 #: include/./params/vc_grid_item/shortcodes.php:488
+#, fuzzy
 msgid "Add link to category?"
-msgstr ""
+msgstr "メニューに追加"
 
 #: include/./params/vc_grid_item/shortcodes.php:496
+#, fuzzy
 msgid "Comma"
-msgstr ""
+msgstr "ユーザーログインの一覧を半角カンマ区切りで入力してください。"
 
 #: include/./params/vc_grid_item/shortcodes.php:503
 msgid "Select category display style."
 msgstr ""
 
 #: include/./params/vc_grid_item/shortcodes.php:516
+#, fuzzy
 msgid "Select category color."
-msgstr ""
+msgstr "カテゴリー"
 
 #: include/./params/vc_grid_item/shortcodes.php:520
+#, fuzzy
 msgid "Category size"
-msgstr ""
+msgstr "カテゴリー"
 
 #: include/./params/vc_grid_item/shortcodes.php:524
+#, fuzzy
 msgid "Select category size."
-msgstr ""
+msgstr "カテゴリー"
 
 #: include/./params/vc_grid_item/shortcodes.php:542
 msgid "Post Image"
@@ -9333,11 +9343,7 @@ msgstr "注目の画像"
 
 #: include/./params/vc_grid_item/shortcodes.php:563
 #: include/./params/vc_grid_item/shortcodes.php:766
-msgid ""
-"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
-"other sizes defined by theme). Alternatively enter size in pixels (Example: "
-"200x100 (Width x Height)). Leave parameter empty to use \"thumbnail\" by "
-"default."
+msgid "Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" or other sizes defined by theme). Alternatively enter size in pixels (Example: 200x100 (Width x Height)). Leave parameter empty to use \"thumbnail\" by default."
 msgstr ""
 
 #: include/./params/vc_grid_item/shortcodes.php:618
@@ -9349,8 +9355,9 @@ msgid "Post publish date"
 msgstr "投稿は日付を公表"
 
 #: include/./params/vc_grid_item/shortcodes.php:634
+#, fuzzy
 msgid "Custom Field"
-msgstr ""
+msgstr "カスタム:"
 
 #: include/./params/vc_grid_item/shortcodes.php:638
 #: include/./templates/pages/partials/vc-roles-parts/_shortcodes.tpl.php:35
@@ -9429,8 +9436,9 @@ msgid "Basic grid: Slide from top"
 msgstr "基本グリッド: スライドを上へ"
 
 #: include/./params/vc_grid_item/templates.php:45
+#, fuzzy
 msgid "READ MORE"
-msgstr ""
+msgstr "詳細を見る"
 
 #: include/./params/vc_grid_item/templates.php:48
 msgid "Masonry grid: Default"
@@ -9571,22 +9579,24 @@ msgid "Crunching..."
 msgstr "クランチ..."
 
 #: include/./templates/editors/partials/add_element_search.tpl.php:11
+#, fuzzy
 msgid "Search element by name"
-msgstr ""
+msgstr "&#8220;%s&#8221; の検索結果"
 
 #: include/./templates/editors/partials/add_element_tabs.tpl.php:19
 msgid "Other"
 msgstr "その他"
 
 #: include/./templates/editors/partials/add_element_tabs.tpl.php:27
+#, fuzzy
 msgid "Deprecated"
-msgstr ""
+msgstr "廃止された %s。%s を使用してください。"
 
 #: include/./templates/editors/partials/add_element_tabs.tpl.php:30
 #: include/./templates/editors/popups/vc_ui-panel-preset.tpl.php:10
 #, fuzzy
 msgid "My Elements"
-msgstr "要素"
+msgstr "アカウント"
 
 #: include/./templates/editors/partials/backend_controls.tpl.php:16
 #: include/./templates/editors/partials/frontend_controls.tpl.php:13
@@ -9650,12 +9660,12 @@ msgstr "新しい %s を追加"
 #: include/./templates/editors/partials/prompt-presets.tpl.php:14
 #, fuzzy
 msgid "Element Title"
-msgstr "要素横幅"
+msgstr "タイトル:"
 
 #: include/./templates/editors/partials/prompt-presets.tpl.php:23
 #, fuzzy
 msgid "Enter element title."
-msgstr "フォントサイズを入力"
+msgstr "タイトル:"
 
 #: include/./templates/editors/partials/prompt-presets.tpl.php:29
 #: include/./templates/editors/partials/prompt-templates.tpl.php:29
@@ -9665,34 +9675,39 @@ msgid "Save changes"
 msgstr "変更保存"
 
 #: include/./templates/editors/partials/prompt-templates.tpl.php:14
+#, fuzzy
 msgid "Template Title"
-msgstr ""
+msgstr "タイトル:"
 
 #: include/./templates/editors/partials/prompt-templates.tpl.php:23
 msgid "Enter element template title."
 msgstr ""
 
 #: include/./templates/editors/partials/settings_presets_popup.tpl.php:15
+#, fuzzy
 msgid "Save as template"
-msgstr ""
+msgstr "テンプレートパック"
 
 #: include/./templates/editors/partials/settings_presets_popup.tpl.php:24
 #, fuzzy
 msgid "Save as Element"
-msgstr "保留中として保存"
+msgstr "保存"
 
 #: include/./templates/editors/partials/settings_presets_popup.tpl.php:35
+#, fuzzy
 msgid "Untitled"
-msgstr ""
+msgstr "無題のアルバム"
 
 #: include/./templates/editors/partials/templates_search.tpl.php:11
 #: include/./templates/editors/popups/shared-templates/category.tpl.php:42
+#, fuzzy
 msgid "Search template by name"
-msgstr ""
+msgstr "&#8220;%s&#8221; の検索結果"
 
 #: include/./templates/editors/partials/vc_ui-settings-dropdown.tpl.php:10
+#, fuzzy
 msgid "Element Settings"
-msgstr ""
+msgstr "設定"
 
 #: include/./templates/editors/partials/vc_welcome_block.tpl.php:23
 msgid "You have blank page <br> Start adding content or templates"
@@ -9714,8 +9729,9 @@ msgid "Add text block"
 msgstr "テキストブロックを追加"
 
 #: include/./templates/editors/partials/vc_welcome_block.tpl.php:52
+#, fuzzy
 msgid "Add Text Block"
-msgstr ""
+msgstr "メニューに追加"
 
 #: include/./templates/editors/partials/vc_welcome_block.tpl.php:84
 msgid "knowledge base"
@@ -9746,40 +9762,36 @@ msgid "Activate WPBakery Page Builder"
 msgstr ""
 
 #: include/./templates/editors/popups/shared-templates/category.tpl.php:33
-msgid ""
-"WPBakery Page Builder Template Library downloads are available for activated"
-"\tversions only. Activate WPBakery Page Builder direct license to access "
-"Template Library and receive other benefits."
+msgid "WPBakery Page Builder Template Library downloads are available for activated\tversions only. Activate WPBakery Page Builder direct license to access Template Library and receive other benefits."
 msgstr ""
 
 #: include/./templates/editors/popups/shared-templates/category.tpl.php:35
-#, fuzzy
 msgid "Activate License"
-msgstr "ライセンスをアクティブ化"
+msgstr "ライセンスを有効化"
 
 #: include/./templates/editors/popups/shared-templates/category.tpl.php:69
+#, fuzzy
 msgid "Download Template"
-msgstr ""
+msgstr "テンプレートパック"
 
 #: include/./templates/editors/popups/shared-templates/category.tpl.php:81
+#, fuzzy
 msgid "Downloading template ... please wait!"
-msgstr ""
+msgstr "カメラにアクセスしています。しばらくお待ちください。"
 
 #: include/./templates/editors/popups/shared-templates/category.tpl.php:82
-msgid ""
-"Don't close this window until download is complete - you will\n"
+msgid "Don't close this window until download is complete - you will\n"
 "\t\t\t\tbe redirected back to Template Library automatically."
 msgstr ""
 
 #: include/./templates/editors/popups/shared-templates/category.tpl.php:108
+#, fuzzy
 msgid "Download Templates"
-msgstr ""
+msgstr "デバッグ情報をダウンロードします。"
 
 #: include/./templates/editors/popups/shared-templates/category.tpl.php:109
-msgid ""
-"Access WPBakery Page Builder Template Library for unique layout\n"
-"\t\ttemplates. Download chosen templates and discover new layouts with "
-"regular template\n"
+msgid "Access WPBakery Page Builder Template Library for unique layout\n"
+"\t\ttemplates. Download chosen templates and discover new layouts with regular template\n"
 "\t\tupdates from WPBakery Page Builder team."
 msgstr ""
 
@@ -9788,22 +9800,17 @@ msgid "Access Library"
 msgstr ""
 
 #: include/./templates/editors/popups/vc_ui-panel-add-element.tpl.php:25
-msgid ""
-"Elements within this list are deprecated and are no longer supported in "
-"newer versions of WPBakery Page Builder."
+msgid "Elements within this list are deprecated and are no longer supported in newer versions of WPBakery Page Builder."
 msgstr ""
 
 #: include/./templates/editors/popups/vc_ui-panel-add-element.tpl.php:32
-msgid ""
-"Your user role have restricted access to content elements. If required, "
-"contact your site administrator to change WPBakery Page Builder Role Manager "
-"settings for your user role."
+msgid "Your user role have restricted access to content elements. If required, contact your site administrator to change WPBakery Page Builder Role Manager settings for your user role."
 msgstr ""
 
 #: include/./templates/editors/popups/vc_ui-panel-add-element.tpl.php:40
 #, fuzzy
 msgid "Manage elements"
-msgstr "新しい要素を追加"
+msgstr "管理"
 
 #: include/./templates/editors/popups/vc_ui-panel-post-settings.tpl.php:9
 msgid "Page Settings"
@@ -9815,9 +9822,7 @@ msgstr "ページのタイトルを入力してください"
 
 #: include/./templates/editors/popups/vc_ui-panel-post-settings.tpl.php:24
 #, php-format
-msgid ""
-"Change title of the current %s (Note: changes may not be displayed in a "
-"preview, but will take effect after saving page)."
+msgid "Change title of the current %s (Note: changes may not be displayed in a preview, but will take effect after saving page)."
 msgstr ""
 
 #: include/./templates/editors/popups/vc_ui-panel-post-settings.tpl.php:28
@@ -9825,23 +9830,23 @@ msgid "Custom CSS settings"
 msgstr "カスタムCSS設定"
 
 #: include/./templates/editors/popups/vc_ui-panel-post-settings.tpl.php:32
-msgid ""
-"Enter custom CSS (Note: it will be outputted only on this particular page)."
+msgid "Enter custom CSS (Note: it will be outputted only on this particular page)."
 msgstr ""
 
 #: include/./templates/editors/popups/vc_ui-panel-preset.tpl.php:22
 #, fuzzy
 msgid "Manage My Elements"
-msgstr "要素"
+msgstr "アカウント"
 
 #: include/./templates/editors/popups/vc_ui-panel-preset.tpl.php:23
+#, fuzzy
 msgid "Remove existing elements"
-msgstr ""
+msgstr "削除"
 
 #: include/./templates/editors/popups/vc_ui-panel-preset.tpl.php:32
 #, fuzzy
 msgid "Delete element"
-msgstr "要素タグ選択"
+msgstr "削除"
 
 #: include/./templates/editors/popups/vc_ui-panel-row-layout.tpl.php:9
 msgid "Row Layout"
@@ -9860,16 +9865,13 @@ msgid "Enter custom layout for your row"
 msgstr "あなたの行のためにカスタムレイアウトを入力してください"
 
 #: include/./templates/editors/popups/vc_ui-panel-row-layout.tpl.php:34
-msgid ""
-"Change particular row layout manually by specifying number of columns and "
-"their size value."
-msgstr ""
-"手動で列の数とそれらのサイズの値を指定することで、特定の行のレイアウトを変更"
-"します。"
+msgid "Change particular row layout manually by specifying number of columns and their size value."
+msgstr "手動で列の数とそれらのサイズの値を指定することで、特定の行のレイアウトを変更します。"
 
 #: include/./templates/pages/partials/vc-roles-parts/_backend_editor.tpl.php:12
+#, fuzzy
 msgid "Disable Classic editor"
-msgstr ""
+msgstr "コメント メディアのアップロードを無効にします。"
 
 #: include/./templates/pages/partials/vc-roles-parts/_backend_editor.tpl.php:15
 #: include/./templates/pages/partials/vc-roles-parts/_dragndrop.tpl.php:11
@@ -9877,11 +9879,12 @@ msgstr ""
 #: include/./templates/pages/partials/vc-roles-parts/_grid_builder.tpl.php:11
 #: include/./templates/pages/partials/vc-roles-parts/_post_settings.tpl.php:11
 msgid "Enabled"
-msgstr ""
+msgstr "有効"
 
 #: include/./templates/pages/partials/vc-roles-parts/_backend_editor.tpl.php:16
+#, fuzzy
 msgid "Enabled and default"
-msgstr ""
+msgstr "有効"
 
 #: include/./templates/pages/partials/vc-roles-parts/_backend_editor.tpl.php:17
 #: include/./templates/pages/partials/vc-roles-parts/_dragndrop.tpl.php:12
@@ -9893,7 +9896,7 @@ msgstr ""
 #: include/./templates/pages/partials/vc-roles-parts/_settings.tpl.php:19
 #: include/./templates/pages/partials/vc-roles-parts/_templates.tpl.php:13
 msgid "Disabled"
-msgstr ""
+msgstr "無効"
 
 #: include/./templates/pages/partials/vc-roles-parts/_backend_editor.tpl.php:19
 #: include/./templates/pages/partials/vc-roles-parts/_backend_editor.tpl.php:20
@@ -9901,8 +9904,9 @@ msgid "Backend editor"
 msgstr "バックエンドエディタ"
 
 #: include/./templates/pages/partials/vc-roles-parts/_dragndrop.tpl.php:14
+#, fuzzy
 msgid "Drag and Drop"
-msgstr ""
+msgstr "タイムラインタイトルとコンテンツ用にある2つの大きな編集エリア位置は固定ですが、その他のボックスはすべてドラッグ & ドロップで位置を変更したり、タイトルバーをクリックして拡大・縮小できます。表示設定タブを使って主項目・副項目、リンク、タイプ、投稿者 ID などのボックスを表示したり、この画面のレイアウトを1または2カラムに選択できます。"
 
 #: include/./templates/pages/partials/vc-roles-parts/_dragndrop.tpl.php:15
 msgid "Control access rights to drag and drop functionality within the editor."
@@ -9918,44 +9922,39 @@ msgid "Control user access to Grid Builder and Grid Builder Elements."
 msgstr ""
 
 #: include/./templates/pages/partials/vc-roles-parts/_post_settings.tpl.php:15
-msgid ""
-"Control access to WPBakery Page Builder page settings. Note: Disable page "
-"settings to restrict editing of Custom CSS through page."
+msgid "Control access to WPBakery Page Builder page settings. Note: Disable page settings to restrict editing of Custom CSS through page."
 msgstr ""
 
 #: include/./templates/pages/partials/vc-roles-parts/_post_types.tpl.php:14
+#, fuzzy
 msgid "Pages only"
-msgstr ""
+msgstr "固定ページ"
 
 #: include/./templates/pages/partials/vc-roles-parts/_post_types.tpl.php:20
-msgid ""
-"Enable WPBakery Page Builder for pages, posts and custom post types. Note: "
-"By default WPBakery Page Builder is available for pages only."
+msgid "Enable WPBakery Page Builder for pages, posts and custom post types. Note: By default WPBakery Page Builder is available for pages only."
 msgstr ""
 
 #: include/./templates/pages/partials/vc-roles-parts/_presets.tpl.php:12
+#, fuzzy
 msgid "Apply presets only"
-msgstr ""
+msgstr "適用"
 
 #: include/./templates/pages/partials/vc-roles-parts/_presets.tpl.php:15
 msgid "Element Presets"
 msgstr ""
 
 #: include/./templates/pages/partials/vc-roles-parts/_presets.tpl.php:16
-msgid ""
-"Control access rights to element presets in element edit form. Note: \"Apply "
-"presets only\" restricts users from saving new presets and deleting existing."
+msgid "Control access rights to element presets in element edit form. Note: \"Apply presets only\" restricts users from saving new presets and deleting existing."
 msgstr ""
 
 #: include/./templates/pages/partials/vc-roles-parts/_settings.tpl.php:21
 #: include/./templates/pages/partials/vc-roles-parts/_settings.tpl.php:22
+#, fuzzy
 msgid "Settings options"
-msgstr ""
+msgstr "設定"
 
 #: include/./templates/pages/partials/vc-roles-parts/_settings.tpl.php:23
-msgid ""
-"Control access rights to WPBakery Page Builder admin settings tabs (e.g. "
-"General Settings, Shortcode Mapper, ...)"
+msgid "Control access rights to WPBakery Page Builder admin settings tabs (e.g. General Settings, Shortcode Mapper, ...)"
 msgstr ""
 
 #: include/./templates/pages/partials/vc-roles-parts/_shortcodes.tpl.php:29
@@ -9963,43 +9962,39 @@ msgid "Element"
 msgstr ""
 
 #: include/./templates/pages/partials/vc-roles-parts/_shortcodes.tpl.php:32
+#, fuzzy
 msgid "Edit only"
-msgstr ""
+msgstr "編集"
 
 #: include/./templates/pages/partials/vc-roles-parts/_shortcodes.tpl.php:37
 msgid "Control user access to content elements."
 msgstr ""
 
 #: include/./templates/pages/partials/vc-roles-parts/_templates.tpl.php:12
+#, fuzzy
 msgid "Apply templates only"
-msgstr ""
+msgstr "適用"
 
 #: include/./templates/pages/partials/vc-roles-parts/_templates.tpl.php:16
-msgid ""
-"Control access rights to templates and predefined templates. Note: \"Apply "
-"templates only\" restricts users from saving new templates and deleting "
-"existing."
+msgid "Control access rights to templates and predefined templates. Note: \"Apply templates only\" restricts users from saving new templates and deleting existing."
 msgstr ""
 
 #: include/./templates/pages/vc-settings/default-template-post-type.tpl.php:14
+#, fuzzy
 msgid "Post type"
-msgstr ""
+msgstr "投稿"
 
 #: include/./templates/pages/vc-settings/default-template-post-type.tpl.php:15
+#, fuzzy
 msgid "Template"
-msgstr ""
+msgstr "利用可能なテンプレートパッケージはありません。"
 
 #: include/./templates/pages/vc-settings/tab-vc-roles.php:15
-msgid ""
-"Control user group role access to the features and options of WPBakery Page "
-"Builder - manage WordPress default and custom roles."
+msgid "Control user group role access to the features and options of WPBakery Page Builder - manage WordPress default and custom roles."
 msgstr ""
 
 #: include/./templates/pages/vc-settings/tab.php:22
-msgid ""
-"It is optional to activate license on localhost development environment. You "
-"can still activate license on localhost to receive plugin updates and get "
-"access to template library."
+msgid "It is optional to activate license on localhost development environment. You can still activate license on localhost to receive plugin updates and get access to template library."
 msgstr ""
 
 #: include/./templates/pages/vc-settings/tab.php:41
@@ -10007,29 +10002,25 @@ msgid "Guide tours"
 msgstr ""
 
 #: include/./templates/pages/vc-settings/tab.php:45
+#, fuzzy
 msgid "Done"
-msgstr ""
+msgstr "<p>完了しました。設定を WordPress インストール Root の <code>bb-config.php</code> ファイルに保存しています。</p>"
 
 #: include/./templates/pages/vc-settings/tab.php:45
 msgid "Reset"
-msgstr ""
+msgstr "リセット"
 
 #: include/./templates/pages/vc-settings/tab.php:48
-msgid ""
-"Guide tours are shown in VC editors to help you to start working with "
-"editors. You can see them again by clicking button above."
+msgid "Guide tours are shown in VC editors to help you to start working with editors. You can see them again by clicking button above."
 msgstr ""
 
 #: include/./templates/pages/vc-settings/tab.php:71
+#, fuzzy
 msgid "Restore Default"
-msgstr ""
+msgstr "デフォルトの公開設定"
 
 #: include/./templates/pages/vc-settings/tab.php:80
-msgid ""
-"You have activated WPBakery Page Builder version which allows you to access "
-"all the customer benefits. Thank you for choosing WPBakery Page Builder as "
-"your page builder. If you do not wish to use WPBakery Page Builder on this "
-"WordPress site you can deactivate your license below."
+msgid "You have activated WPBakery Page Builder version which allows you to access all the customer benefits. Thank you for choosing WPBakery Page Builder as your page builder. If you do not wish to use WPBakery Page Builder on this WordPress site you can deactivate your license below."
 msgstr ""
 
 #: include/./templates/pages/vc-settings/tab.php:91
@@ -10037,19 +10028,12 @@ msgid "Deactivate WPBakery Page Builder"
 msgstr ""
 
 #: include/./templates/pages/vc-settings/tab.php:101
-msgid ""
-"In order to receive all benefits of WPBakery Page Builder, you need to "
-"activate your copy of the plugin. By activating WPBakery Page Builder "
-"license you will unlock premium options - <strong>direct plugin updates</"
-"strong>, access to <strong>template library</strong> and <strong>official "
-"support.</strong>"
+msgid "In order to receive all benefits of WPBakery Page Builder, you need to activate your copy of the plugin. By activating WPBakery Page Builder license you will unlock premium options - <strong>direct plugin updates</strong>, access to <strong>template library</strong> and <strong>official support.</strong>"
 msgstr ""
 
 #: include/./templates/pages/vc-settings/tab.php:120
 #, php-format
-msgid ""
-"Don't have direct license yet? <a href=\"%s\" target=\"_blank\">Purchase "
-"WPBakery Page Builder license</a>."
+msgid "Don't have direct license yet? <a href=\"%s\" target=\"_blank\">Purchase WPBakery Page Builder license</a>."
 msgstr ""
 
 #: include/./templates/pages/vc-welcome/index.php:8
@@ -10058,15 +10042,13 @@ msgid "Welcome to WPBakery Page Builder %s"
 msgstr ""
 
 #: include/./templates/pages/vc-welcome/index.php:11
-msgid ""
-"Congratulations! You are about to use most powerful time saver for WordPress "
-"ever - page builder plugin with Frontend and Backend editors by WPBakery."
+msgid "Congratulations! You are about to use most powerful time saver for WordPress ever - page builder plugin with Frontend and Backend editors by WPBakery."
 msgstr ""
 
 #: include/./templates/pages/vc-welcome/index.php:14
-#, php-format
+#, fuzzy, php-format
 msgid "Version %s"
-msgstr ""
+msgstr "現在の PHP バージョンは %s ですが、BuddyPress 2.8 を利用するには 5.3以上が必要です。"
 
 #: include/./templates/pages/vc-welcome/vc-faq.php:7
 msgid "New to WPBakery Page Builder or Looking for More Information?"
@@ -10074,11 +10056,7 @@ msgstr ""
 
 #: include/./templates/pages/vc-welcome/vc-faq.php:9
 #, php-format
-msgid ""
-"WPBakery has complete documentation available at our knowledge base: <a "
-"target=\"_blank\" href=\"%s\">kb.wpbakery.com</a> which covers everything "
-"related to WPBakery Page Builder starting from Installation and up to more "
-"advanced features based on our Inner API."
+msgid "WPBakery has complete documentation available at our knowledge base: <a target=\"_blank\" href=\"%s\">kb.wpbakery.com</a> which covers everything related to WPBakery Page Builder starting from Installation and up to more advanced features based on our Inner API."
 msgstr ""
 
 #: include/./templates/pages/vc-welcome/vc-faq.php:100
@@ -10086,32 +10064,22 @@ msgid "Visit Knowledge Base for more information"
 msgstr ""
 
 #: include/./templates/pages/vc-welcome/vc-resources.php:11
-msgid ""
-"There are several resources available to WPBakery Page Builder users to help "
-"you to get around plugin:"
+msgid "There are several resources available to WPBakery Page Builder users to help you to get around plugin:"
 msgstr ""
 
 #: include/./templates/pages/vc-welcome/vc-resources.php:26
+#, fuzzy
 msgid "Official Support"
-msgstr ""
+msgstr "サポート"
 
 #: include/./templates/pages/vc-welcome/vc-resources.php:28
 #, php-format
-msgid ""
-"To get your support related question answered in the fastest timing, please "
-"head over to our <a href=\"%s\" target=\"_blank\">support page</a> and open "
-"Support ticket. To open a support ticket you should have a valid support "
-"subscription in case if your support has expired you can <a href=\"%s\" "
-"target=\"_blank\">purchase support extension</a> on CodeCanyon."
+msgid "To get your support related question answered in the fastest timing, please head over to our <a href=\"%s\" target=\"_blank\">support page</a> and open Support ticket. To open a support ticket you should have a valid support subscription in case if your support has expired you can <a href=\"%s\" target=\"_blank\">purchase support extension</a> on CodeCanyon."
 msgstr ""
 
 #: include/./templates/pages/vc-welcome/vc-resources.php:30
 #, php-format
-msgid ""
-"Before applying for support please make sure you understand the rules of "
-"support and go through all steps described and listed in <a href=\"%s\" "
-"target=\"_blank\">Support Policy</a> in order to get your issues solved as "
-"soon as possible."
+msgid "Before applying for support please make sure you understand the rules of support and go through all steps described and listed in <a href=\"%s\" target=\"_blank\">Support Policy</a> in order to get your issues solved as soon as possible."
 msgstr ""
 
 #: include/./templates/pages/vc-welcome/vc-welcome.php:11
@@ -10119,10 +10087,7 @@ msgid "New Interface, Native Colors"
 msgstr ""
 
 #: include/./templates/pages/vc-welcome/vc-welcome.php:13
-msgid ""
-"A new slim interface of WPBakery Page Builder with native WordPress colors "
-"will become your best companion. Enjoy editing your website hassle free via "
-"desktop or mobile."
+msgid "A new slim interface of WPBakery Page Builder with native WordPress colors will become your best companion. Enjoy editing your website hassle free via desktop or mobile."
 msgstr ""
 
 #: include/./templates/pages/vc-welcome/vc-welcome.php:21
@@ -10130,28 +10095,24 @@ msgid "Native Colors"
 msgstr ""
 
 #: include/./templates/pages/vc-welcome/vc-welcome.php:23
-msgid ""
-"Default WordPress colors will blend your WordPress and page builder "
-"experience in no time."
+msgid "Default WordPress colors will blend your WordPress and page builder experience in no time."
 msgstr ""
 
 #: include/./templates/pages/vc-welcome/vc-welcome.php:28
 #, fuzzy
 #| msgid "Icon"
 msgid "New Icons"
-msgstr "アイコン"
+msgstr "新しい通知はありません。"
 
 #: include/./templates/pages/vc-welcome/vc-welcome.php:30
-msgid ""
-"Simple and beautiful SVG icons for all our content elements and controls "
-"tailored for mobile devices."
+msgid "Simple and beautiful SVG icons for all our content elements and controls tailored for mobile devices."
 msgstr ""
 
 #: include/./templates/pages/vc-welcome/vc-welcome.php:35
 #, fuzzy
 #| msgid "Icon library"
 msgid "Icon Library Updates"
-msgstr "アイコンライブラリ"
+msgstr "%s のサイトアイコン"
 
 #: include/./templates/pages/vc-welcome/vc-welcome.php:37
 msgid "Add even more icons to your website with our updated icon libraries."
@@ -10159,14 +10120,8 @@ msgstr ""
 
 #: include/./templates/params/column_offset/template.tpl.php:21
 #, fuzzy, php-format
-msgid ""
-"Responsive design settings are currently disabled. You can enable them in "
-"WPBakery Page Builder <a href=\"%s\">settings page</a> by unchecking "
-"\"Disable responsive content elements\"."
-msgstr ""
-"レスポンシブデザインの設定は現在無効になっています。あなたがこのチェックを外"
-"すことでWPBakery Page Builderの<a href=\"%s\">設定ページ</a>で\"Disable responsive "
-"content elements\"からそれらを有効にすることができます "
+msgid "Responsive design settings are currently disabled. You can enable them in WPBakery Page Builder <a href=\"%s\">settings page</a> by unchecking \"Disable responsive content elements\"."
+msgstr "レスポンシブデザインの設定は現在無効になっています。あなたがこのチェックを外すことでWPBakery Page Builderの<a href=\"%s\">設定ページ</a>で\"Disable responsive content elements\"からそれらを有効にすることができます "
 
 #: include/./templates/params/column_offset/template.tpl.php:31
 msgid "Device"
@@ -10193,9 +10148,9 @@ msgid "Grumpy wizards make toxic brew for the evil Queen and Jack."
 msgstr "気難しいウィザードは、悪の女王とジャックのために有毒な醸造を作る。"
 
 #: include/./templates/params/vc_grid_item/attributes/post_categories.php:28
-#, php-format
+#, fuzzy, php-format
 msgid "View all posts in %s"
-msgstr ""
+msgstr "すべてのアクションを表示"
 
 #: include/./templates/shortcodes/vc_accordion_tab.php:26
 msgid "Empty section. Edit page to add content here."
@@ -10223,8 +10178,9 @@ msgid "Next tab"
 msgstr "次のタブ"
 
 #: include/./templates/shortcodes/vc_tweetmeme.php:24
+#, fuzzy
 msgid "Tweet to"
-msgstr ""
+msgstr "ツイート"
 
 #: include/./templates/shortcodes/vc_tweetmeme.php:29
 #: include/./templates/shortcodes/vc_tweetmeme.php:33

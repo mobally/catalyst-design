@@ -15,7 +15,7 @@
 
 				<?php else : ?>
 
-					<?php printf( __( '%s と you のやりとり', 'buddypress' ), bp_get_the_thread_recipients() ); ?>
+					<?php printf( __( 'Conversation between %s and you.', 'buddypress' ), bp_get_the_thread_recipients() ); ?>
 
 				<?php endif; ?>
 

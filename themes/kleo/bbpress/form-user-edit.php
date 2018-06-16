@@ -95,7 +95,7 @@
 		<?php do_action( 'bbp_user_edit_before_account' ); ?>
 
 		<div>
-			<label for="user_login"><?php _e( 'Username', 'bbpress' ); ?></label>
+			<label for="user_login"><?php _e( 'ユーザーネーム', 'bbpress' ); ?></label>
 			<input type="text" name="user_login" id="user_login" value="<?php bbp_displayed_user_field( 'user_login', 'edit' ); ?>" disabled="disabled" class="regular-text" tabindex="<?php bbp_tab_index(); ?>" />
 		</div>
 

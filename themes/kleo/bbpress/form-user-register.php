@@ -20,7 +20,7 @@
 		</div>
 
 		<div class="bbp-username">
-			<label for="user_login"><?php _e( 'Username', 'bbpress' ); ?>: </label>
+			<label for="user_login"><?php _e( 'ユーザーネーム', 'bbpress' ); ?>: </label>
 			<input type="text" name="user_login" value="<?php bbp_sanitize_val( 'user_login' ); ?>" size="20" id="user_login" tabindex="<?php bbp_tab_index(); ?>" />
 		</div>
 

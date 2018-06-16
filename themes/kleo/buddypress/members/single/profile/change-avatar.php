@@ -51,7 +51,7 @@ do_action( 'bp_before_profile_avatar_upload_content' ); ?>
 
                 <div class="col-sm-6">
                 <?php if ( bp_get_user_has_avatar() ) : ?>
-                    <p><?php _e( "If you'd like to delete your current profile photo but not upload a new one, please use the delete profile photo button.", 'buddypress' ); ?></p>
+                    <p><?php _e( "カバー写真を上書きせず削除したい場合は下記のボタンをクリックしてください", 'buddypress' ); ?></p>
                     <p><a class="button edit" href="<?php bp_avatar_delete_link(); ?>"><?php _e( 'Delete My Profile Photo', 'buddypress' ); ?></a></p>
                 <?php endif; ?>
                 </div>

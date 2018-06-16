@@ -86,7 +86,7 @@
 
 						<h4><?php _e( 'Account Details', 'buddypress' ); ?></h4>
 
-						<label for="signup_username"><?php _e( 'Username', 'buddypress' ); ?> <?php _e( '(required)', 'buddypress' ); ?></label>
+						<label for="signup_username"><?php _e( 'ユーザーネーム', 'buddypress' ); ?> <?php _e( '(required)', 'buddypress' ); ?></label>
 						<?php
 
 						/**
