@@ -116,9 +116,12 @@ header
                         .navbar-nav {
                             .menu-item {
                                 a {
-                                    margin: 0 20px;
+                                    margin: 0 13px;
                                     font-size: 1.3rem;
                                     transition: .1s;
+                                    @include lg {
+                                        margin: 0 6px;
+                                    }
                                     @include md {
                                         margin: 0;
                                     padding: 20px 0;
@@ -130,10 +133,10 @@ header
                                     }
                                     &.btn-see-through {
                                      margin-right: 0;  
-                                        margin-top: 10px;
-                                        margin-bottom: 10px;
-                                        padding-top: 16px;
-                                        padding-bottom: 16px;
+                                        padding: 8px 24px;
+                                        @include lg {
+                                            padding: 8px 14px; 
+                                        }
                                         @include md {
                                             margin-bottom: 0;
                                         }
@@ -142,6 +145,10 @@ header
                                         color: $info;
                                         border: 1px solid $info;
                                         background-color: $white;
+                                        padding: 8px 24px;
+                                        @include lg {
+                                            padding: 8px 14px; 
+                                        }
                                         &:hover {
                                             background-color: $info;
                                             color: $white;
@@ -151,8 +158,10 @@ header
                                         }
                                     }
                                     &.btn-highlight {
-                                        margin-top: 10px;
-                                        margin-bottom: 10px;
+                                        padding: 8px 24px;
+                                        @include lg {
+                                            padding: 8px 14px; 
+                                        }
                                         &:hover {
                                             background-color: $info-dark !important;
                                         }
@@ -287,7 +296,7 @@ buddypress
     }
     #groups-list {
         a.group-button {
-            padding: 4px 10px;
+            padding: 0 10px;
             transition: .1s;
             &:hover {
                 color: $info;
@@ -386,6 +395,20 @@ buddypress
             }
         }
     }
+    .activity-list .activity-avatar {
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: -3px;
+        @include sm {
+         margin-left: 0;   
+        }
+    }
+    @include sm {
+        .activity-header {
+            margin: 0 20px 20px 60px !important;
+    }
+}
 }
 
 

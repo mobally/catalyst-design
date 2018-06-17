@@ -8,7 +8,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gulp-sourcemaps": "^2.6.4"
+    "gulp-sourcemaps": "^2.6.4",
+    "node-sass": "^4.9.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
